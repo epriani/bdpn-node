@@ -65,5 +65,12 @@ define(['express','db'], function (express, db) {
 	    res.render('terms/index',{});
 	});
 
+	app.get('/project'       , function(req, res){ res.render('static/project')       });
+	app.get('/collaborators' , function(req, res){ res.render('static/collaborators') });
+	app.get('/collaborate'   , function(req, res){ res.render('static/collaborate')   });
+	app.get('/contact'       , function(req, res){ res.render('static/contact')       });
+	app.get('/documentation' , function(req, res){ res.render('static/documentation') });
+	app.get('/criteria'      , function(req, res){ res.render('static/criteria')      });
+
 	return app;
 });
