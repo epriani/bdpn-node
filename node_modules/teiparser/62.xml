@@ -1,0 +1,358 @@
+<?xml version="1.0"?>
+<TEI xml="http://www.tei-c.org/ns/1.0" xmlns:rng="http:relaxng.org/ns/structure/1.0" xml:lang="es">
+<schemaSpec ident="TEI-minimal" start="TEI">
+ <moduleRef key="tei"/>
+ <moduleRef key="header"/>
+ <moduleRef key="core"/>
+ <moduleRef key="textstructure"/>
+ <moduleRef key="namesdates"/>
+</schemaSpec>
+
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+   <title>ESPECULACION ASTROLOGICA, Y PHYSICA DE LA NATURALEZA DE LOS COMETAS, Y JUIZIO DEL QUE ESTE Año de 1682 Se vè en todo el Mundo</title>
+   <author>Gaspar Juan Evelino</author>
+  </titleStmt>
+  <publicationStmt>
+<publisher>Universidad Nacional Autónoma de México. Facultad de Filosofía y Letras</publisher>   
+<distributor>Biblioteca Digital del Pensamiento Novohispano</distributor>
+  </publicationStmt>
+  <sourceDesc>
+   <bibl>ESPECULACION
+ASTROLOGICA, Y PHYSICA DE LA NATURALEZA DE LOS COMETAS, Y JUIZIO DEL QUE ESTE A de 1682 Se vè en todo el Mundo
+       Por Gaspar Juan Evelino (Por la Viuda de Bernardo Calderon, 1682.)</bibl>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
+
+<text>
+
+<div>
+<front> 
+
+<docTitle>ESPECULACION
+ASTROLOGICA,
+Y PHYSICA  DE LA NATURALEZA DE LOS
+COMETAS,
+
+Y
+
+JUIZIO DEL QUE ESTE
+Año de <date>1682</date> 
+Se vè en todo el Mundo.</docTitle>
+Por <name type="person">Gaspar Juan Evelino</name>,
+Mathematico.
+<abbr>M.M.S.D.C.C.</abbr>
+
+<docImprint>CON LICENCIA
+En Mexico: Por la <name type="person">Viuda de Bernardo Calderon</name>,
+en la <addres>calle de San Agustin</addres>, <docDate>Año de 1682</docDate>.
+</docImprint>
+</front> 
+	</div>
+<body>
+<div>
+<pb>folio 1 vuelta</pb>
+
+
+<p>
+Question ha sido muy ventilada entre los observado-
+res Astronomos si todos los cometas son <term type="Astro" reg="Elementar">elementares</term>,
+esto es <term type="Astro" reg="Sublunar">sublunares</term>, ò inferiores â la Luna. ò si son
+<term type="Astro" reg="Celeste">celestes</term>, esto es superiores, ê independientes de toda materia de
+los elementos, question digo de toda consequencia porque de su
+decision depende el juizio de sus effectos naturales si son <term type="Astro" reg="Elementar">elemen-
+tares</term>, ò sobrenaturales, si son celestes, y formados en aquel al-
+tissimo ethere por sola la disposicion divina sin intervension de
+las segundas causas, y aunque en esto se ha exercitado mucho la
+industria humana con exactissimas observaciones de los mas in-
+signes cometas en todos tiempos con todo no se le â podido dar
+definitiva sentencia con exclusion del sentir contrario, por quan-
+to consta por las subtilissimas observaciones de sus <term type="Astron" reg="Paralaje">paralaxes</term>,
+que algunos ha avido superiores á la Luna, y otros inferiores, co-
+mo el del año del Señor de <date type="comet">396</date>. del qual afirma <name type="person" reg="Hipona (de), San Agustín">San Agustin</name> <q reg="inficionaba a Constantinopla con hedor de azufre">in-
+ficiònaba â <name type="place">Constantinopla</name>, con hedor de azufre</q>, y con mas evi-
+dencia el del año de <date type="comet">1450</date>. que aseguran las observaciones haver
+eclypsado à la Luna.
+ Para cuya inteligencia es de notar, que los vapores, y exala-
+ciones de los elementos tierra, agua, fuego, y ayre, no llegan,
+quantos menos passan del Cielo, por donde gira la Luna, y conse-
+cutivamente en los Cielos superiores no ay causa, ni materia pa-
+ra producirlos naturalmente, con que solo alli se forman por la
+disposicion divina, como portentos sobre naturales, pregones
+de su ira, y amenasas de su vengança, y assi solo de los inferiores
+discurre el <term type="Astro" reg="Juicio Astrológico">juizio Astrologico</term> en quanto â sus influencias, y efec-
+tos naturales.
+ De su forma segun consta por las succesivas historias, y lo que
+han escrito los Astrologos, y Philosophos se han observado siem-
+pre varias especies, y diferencias, por que unos aparecieron con
+<term type="Astro" reg="Cauda">caudas</term>, ò colas excesivas, como fue el passado de <date type="comet">1681</date>. otros ca-
+belludos, ò melenudos que llaman <term type="Astro" reg="Crinito">crinitos</term>, otros con mucho
+menor efluviò, que dizen <term type="Astro" reg="Barbato">Barbatos</term>, otros en forma de flecha, es-
+pada, escoba (como es el presente) hacha encendida, y lança, que
+siempre han sido los mas fatales.
+ En cuanto á la materia segun la distincion ya alegada, con-
+vengo en que el <term type="Astro">Cometa Celeste</term>, lo produce <name type="god">Dios</name> sobrenatural-
+mente
+</p>
+</div>
+
+<div>
+<pb>folio 2 frente</pb>
+
+
+<p>
+mente de substancia <term type="Astro" reg="Eter">etherea</term>, y de la naturaleza de los Cielos, co-
+mo obra de sus maravillas, y prodigio de su omnipotencia. Pero
+del <term type="Astro">Cometa sublunar</term> siempre ubo varias, y subtilissimas opi-
+niones; unas que se forman de la junta de muchas estrellas con-
+currentes en <term type="Astron" reg="Conjunción">conjunció</term>: otras de Planetas altissimos, é invisibles
+que haziendo sus giros, y estando en el <term type="Astron" reg="Perigeo">perigeo</term> de sus <term type="Astron">Epiciclos</term>
+se hazian patentes â la vista en ciertos tiempos: otras que nubes
+sublimes ilustradas por los rayos del Sol, pero â todas se les opo-
+ne la notoriedad de la experiencia en contrario por que si fuera
+el <term type="Astron" reg="Cometa">cometa</term> una junta de estrellas todos los <term type="Astro">Cometas</term> avian de ser
+Celestes lo qual se opone â las observaciones, ademas que las es-
+trellas fixas no mudan distancias entre si, ni durara esta <term type="Astro" reg="Conjunción">Conjun-
+cion</term> tanto tiempo como el que han gastado algunos <term type="Astro" reg="Cometa">Cometas</term>
+que seis meses enteros aparecieron visibles, ni es Planeta, por
+que haziendo sus giros, y estando en su apogeo, apareciera como
+estrella de quinta, y sexta magnitud creciendo su forma con la
+proporcion de sus movimientos, y cercania al <term type="Astron" reg="Perigeo">Perigeo</term>, menos
+puede ser nube alumbrada del Sol, por que no durara tanto
+tiempo, ni se viera en una misma forma en regiones remotas, y
+differentes, y assi â mi sentir (con <name type="person" reg="Aristóteles">Aristoteles</name>, y otros algunos
+modernos) la desicion mas probable, y assentada, es, que el <term type="Astro" reg="Cometa">Co-
+meta</term> es un cuerpo diafano, y real lebantado muchos millares de
+leguas mas alla que la <term type="Astro" reg="Suprema Región del Aire">suprema Region del ayre</term>, y <q>formado no
+del sudor humano, como dizen que ha avido quien lo diga aunque
+no lo creo, sino de la tierra, y en primer lugar de las del mar en-
+cendidas ó alumbradas por el fuego del Sol, que es el que le for-
+ma la cola, la qual no es llama sino rayos del mismo Sol</q>, hechados
+por la cabeça diaphana del mismo Cometa, porque no solo segun
+este <name type="person" reg="Aristóteles">Philosopho</name>, sino assi mismo consta por la experiencia que
+el agua marina tiene no se que genero de gordura azeytosa, y sa-
+litrada, cuyos vapores gruessos, suben continuamente azia lo
+mas superior, y la tierra en innumerables partes, abunda de va-
+pores azufrados, y minerales, de los quales siempre se exalan no
+solo espiritus calidos, y secos sino tambien otros salitrados, y a-
+zeytosos. que juntados en una masa forman un cuerpo capaz de
+ser encendido, ò alumbrado del Sol, del qual resulta el <term type="Astron">Cometa</term>,
+y no faltando como no faltan, argumentos contra esta doctrina lo
+mas cierto es que se forman de causas ocultas, y que no sabemos.
+El
+</p>
+</div>
+
+
+<div>
+
+<pb>folio 2 vuelta</pb>
+ 
+<p> 
+El tiempo de su duracion es vario, y depende de la cantidad
+destas exalaciones, que si es mucha aparecera mas tiempo el <term type="Astron" reg="Cometa">Co-
+meta</term>, y si es poca menos; de manera, que los que duran mas tiem-
+po se fomentan con materia mas abundante, y de las observacio-
+nes, consta que el <term type="Astron">Cometa</term> que menos ha durado, ha tenido siete
+dias de vida, y el que mas, mas de seis meses, y consiguientemen-
+te, como el tiempo de su aparicion, depende de la cantidad de la
+materia, assi el de sus effectos naturales del mismo tiempo de su
+aparicion.
+ Su causa efficiente (aunque desto han dicho mucho los Au-
+thores) casi siempre es algun congreso, ó radiacion notable de
+los Planetas, que con la efficacia de sus rayos levantan los espiri-
+tus, y vapores de que se forma, y como las <term type="Astro" reg="Conjunción Magna">Conjunciones mag-
+nas</term>, sean de tanta eficacia, y actividad, de ordinario son causado-
+ras de algun <term type="Astron" reg="Cometa">cometa</term> como ha sucedido en la <term type="Astro" reg="Conjunción Magna">Conjuncion magna</term>
+de  aqueste <date reg="1682">año</date>. Pero no puedo passar adelante, sin admirarme de
+la certeza con que <abbr>D.</abbr> <name type="person" reg="Sigüenza y Góngora, Carlos">Carlos de Siguença, y Gongora</name>, Professor
+Regio de Mathematicas en la <name type= "inst">Mexicana Academia</name>, de quien co-
+mo de persona consumadissima en estas ciencias se habla en mu-
+chas partes de la <place>Europa</place>, con veneracion, y respecto, previno
+este <term type="Astron">Cometa</term>, desde el <date reg="1681">año passado</date>, diziendo palabras formales
+en el <refTitle>Lunario</refTitle> de este: <q>el que aparecerâ alguna estrella, ô Phenome-
+no Celeste, tengolo por tan cierto quanto es aproposito el lugar de la
+<term type="Astro" reg="Conjunción Magna">Conjuncion (magna)</term> para que alli se vea, y si no alli, campo ay bastan-
+te en el Cielo para manifestarlo, y esto, no es pronosticarlo â bulto sino
+con mucho mas fundamento del que se puede pensar, y que omito aqui
+el dezir <abbr>&c.</abbr></q> y si este fundamento, cuya especificacion callo el
+muy erudito <name type="person" reg="Sigüenza y Góngora, Carlos">Mathematico</name> no fue otro sino la <term type="Astro" reg="Conjunción">Conjuncion</term> de <name type="planet" reg="Saturno">Sa-
+turno</name>, y <name type="planet" reg="Júpiter">Jupiter</name>, que està sucediendo, como es posible creer, que
+de todo su coraçon, y sin sentir en su conciencia lo contrario, es-
+criviò contra los <term type="Astron" reg="Cometa">Cometas</term>, un <refTitle reg="Manifiesto Filosófico contra los cometas despojados del imperio que tenían sobre los tímidos">Manifiesto philosophico</refTitle> que an-
+da en manos de todos, quando de lo que escribe en este <refTitle>Lunario</refTitle>,
+y de lo que afirmò al fin de su <refTitle reg="Manifiesto Filosófico contra los cometas despojados del imperio que tenían sobre los tímidos">Manifiesto</refTitle>, combiene á saber que
+el mayor crecimiento del Cometa del año de <date type="comet">1681</date>. fue estando
+en <name type="zodiac" reg="Capricornio">Capricorno</name>, signo predominante en la <name type= "place" reg="Nueva España">Nueva-España</name> dá â
+entender, que conoció muy bien las enfermedades, y otros ma-
+los sucessos que en ella se han experimentado de que despues hablarè.
+Su
+</p>
+	</div>
+
+
+<div>
+<pb>folio 3 frente</pb>
+
+<p>
+Su naturaleza es varia, por serlo la de los Planetas cuyas espe-
+cies, y colores imitan, y la de los signos en que aparecen, pero
+de ellas nace el juizio de sus influencias, y efectos naturales, y
+aunque este ha sido el blanco de la curiosidad humana, fue siem-
+pre reputada por dificultosissima su comprehension como de ma-
+teria tan desproporcionada al orden de la naturalesa, y por esso
+enemiga de sus leyes, y solo regular en la irregularidad de sus
+movimientos, atribuyendola con mas fundamento â las maravi-
+llas del <name type="god" reg="Dios">Señor</name>, y â su incomprehensible, y <name type="CathDiv">divina providencia</name>, y
+assi à lo mas que puede llegar el juizio, es, á una mera conje-
+tura fundada en la experiencia delo que en la sucesion de los tiem-
+pos antiguos, y modernos en todas apariciones de <term type="Astron" reg="Cometa">cometas</term>, siem-
+pre por la mayor parte se ha visto suceder, cuya fuerza fuera mas
+valida si huviera avido muchos <term type="Astron" reg="Cometa">Cometas</term> en forma, duracion, y
+naturaleza semejantes. Pero con todo <name type="person" reg="Ptolomeo, Claudio">Ptolomeo</name>, <name type="person" reg="Austria (de), Leopoldo">Leopoldo de
+Austria</name>, y <name type="person" reg="Guintini, Francesco">Juntino</name> dizen lo siguiente de sus efectos.
+ <q>Si el cometa es <term type="Astro">Saturnino</term>, esto es, de la naturaleza de <name type="planet" reg="Saturno">Satur-
+no</name> que es planeta de luz aplomada, palida, triste, nebulosa, frio,
+y seco, contrario al calor natural, enemigo del genero humano,
+é infortuna mayor, indica naturalmente â aquel en cuyo <term type="Astro" reg="Horóscopo">horosco-
+po</term> del nacimiento apareciere, enfermedades melancolicas, y lar-
+gas, y en el Ascendente del año, pestilencias, hambre, langosta, y
+pobreça, y en los hombres predominados del imperio de <name type="planet" reg="Saturno">Satur-
+no</name>, engendra austeridades, embidias, disenciones, avaricias, tris-
+tezas, enemistades, obstinaciones, y maldades.   Si es <term type="Astro">Jovial</term>, de
+naturaleza de <name type="planet" reg="Júpiter">Jupiter</name>, plateado, y reluciente, fertilidad, pero ma-
+les de costado, pulmonias, colicas, letargos, y muertes supitas.
+Si es <term type="Astro">Marcial</term>, encendido, y en forma de hasta significa natural-
+mente efectos de cosas calidas como vientos, temblores de tier-
+ra, tormentas, rayos, fluxos de vientre, calenturas agudissimas,
+y colericas sediciones, y guerras. Si <term type="Astro">Solar</term>, esto es, dorado imi-
+tador del Sol, muertes de Principes, levantamientos, mudança de
+estados, calores, y sequedades. Si <term type="Astro" reg="Venéreo">Venereo</term>, azul, y subrutilo
+amenaza à los riñones, á la madre, á los genitales, al estomago,
+<term type="Med" reg="Hidropesía">hidropesia</term>, <term type="Med" reg="Apoplejía">aplopexia</term>, mudanza de leyes. Si <term type="Astro">Mercurial</term>, <term type="Med" reg="Epilepsia">epilep-
+sias</term>, achaques freneticos, letargos, hambre, y peste. Si <term type="Astro">Lunar</term>,
+amenaza al mugerio con esterilidades, enfermedades humedas,
+y</q>
+</p>
+
+</div>
+
+
+<div>
+<pb>folio 3 vuelta</pb>
+
+<p>
+<q>y guerras ligeras</q>. Que esto sea verdad, se comprueba con el Co-
+meta passado de <date type="comet">1681</date>. pues haviendo sido de naturaleza de <name type="planet" reg="Júpiter">Jupi-
+ter</name>, bastantemente se han reconocido sus effectos en la casi peste
+que se ha experimentado en estas partes de dolores de costado, pul-
+monias, y colicas, como yo lo previne, y se viò suceder en <name type="place">Ciudad
+de la Habana</name>, donde asistia yo entonces, como tambien los temblores
+que han horrorisado à esta <name reg="Ciudad de México" type="place">Ciudad de Mexico</name>: no solo por lo que
+tuvo de <term type="Astro">Marcial</term>. sino por haver sido su mayor crecimiento en <name type="zodiac" reg="Capricornio">Ca-
+pricornio</name>, como lo advirtiò Don <name type="person" reg="Sigüenza y Góngora, Carlos">Carlos de Siguença</name>.
+ El Cometa presente assi por su color, como por el lugar don-
+de tuvo principio, es de naturaleza <term type="Astro" reg="Venéreo">Venerea</term>, y <term type="Astro">Mercurial</term>, con
+que naturalmente significa, lo que tengo dicho de los desta espe-
+cie, y por que en su principio fue <name type="place">Oriental</name>, segun <name type="person" reg="Ptolomeo, Claudio">Ptolomeo</name>, sus
+effectos se veran dentro de breve tiempo, los quales seran sospe-
+chosos por averse heho Occidental, y verse al principio de la
+noche, y como quiera que se encendio encima de los Reynos de
+<name reg="California" type="place">California</name>, <name type="place">China</name>, y <name type="place" reg="Japón">Japon</name> alli se experimentaran guerras, con
+destruccion, y muerte muchos Reyes, y las guerras seran de es-
+trangeros, con invaciones, y asaltos repentinos, y algo de lo mis-
+mo se participará en las <name type="place">Regiones Septentrionales de Europa</name>, co-
+mo <name type="place">Inglaterra</name>, <name type="place" reg="Holanda" >Olanda</name>, y <name type="place">Alemania</name>, en cuyos mares, y aun en los
+nuestros sucederan naufragios horrendos, y tormentas desechas,
+y lastimosas, y por lo que toca á estas partes, no seran los años
+venideros, tan fertiles como el presente. Las mudanças de Reli-
+gion, ha de querer <name type="god">Dios</name> Nuestro Señor, se verifiquen especial-
+mente en el <name type="place" reg="Japón">Japon</name>, por haverse principiado este Cometa, junto
+à la <name type="constelation">Ursa mayor</name>, y tener esta imagen, influxo sobre aquel Reyno,
+y puede ser que intente su Emperador tener comunicacion, y
+trato con <name type="place">Nueva España</name>, por venir el Cometa, de ellos para
+nosotros; no faltaran guerras en la <name type="place">Europa</name>, y temblores en esta
+tierra à todo lo qual ayuda con gran fuerza la <term type="Astro" reg="Conjunción Magna"> Conjunció, magna</term>
+de este año, y el siguiente. Lo que yo ruego á los Señores Es-
+pañoles, es, que no dexen de la mano la Conquista de la <name type="place" reg="California">Califor-
+nia</name>, por que ahora el Cielo les ayuda, y en lo de adelante, <name type="god" reg="Dios">Dios</name>
+sabe lo que serà, y es lastima que alli se pierdan tantas Almas; de
+el <name type="place" reg="Nuevo México">Nuevo-Mexico</name> no hablo, malo lo veo.
+ Esta es segun <name type="person" reg="Ptolomeo, Claudio">Ptolomeo</name>, y <name type="person" reg="Guintini, Francesco">Juntino</name>, la conjetura, y juizio en
+quan-
+</p>
+
+</div>
+
+<div>
+<pb>folio 4 frente</pb>
+
+<p>
+quanto â las <term type="Astro" reg="Inclinación">inclinaciones</term>, y effectos naturales, deste <term type="Astron" reg="Cometa">Cometa</term>, de
+la <term type="Astro" reg="Inclinación">inclinacion</term> digo, de su naturaleza, no de necessidad de su ope-
+racion, por que la libertad de nuestro <term type="Theolo" reg="Albedrío">alvedrio</term> de ordinario frus-
+tra las <term type="Astro" reg="Inclinación">inclinaciones</term>, y significados de las estrellas falsificandose
+por esso las predicciones astrologicas, y esto es lo que alcança mi
+corta capacidad en materia tan sublime, y dudosa, y en que aunque
+salga verdadero el juizio, siempre es malo el acierto, por lo que
+tiene de malo, pero lo cierto es, que ò sean los <term type="Astro" reg="Cometa">Cometas</term> <term type="Astro" reg="Celeste">celes-
+tes</term>, ò <term type="Astro" reg="Sublunar">sublunares</term>, casi siempre han sido preambulos, y causas se-
+gundas, aunque no physicas de mudanças notables en las cosas
+<term type="Astro" reg="Sublunar">sublunares</term>, los quales forma la providencia de <name type="god">Dios</name> milagrosa-
+mente, ó consiente se formen, de causas naturales, valiendose
+dellos para escarmiento saludable, y anuncios de su ira, y cercano
+castigo, no por que sea indubitablemente cierta su execucion, sino
+para que como sucedió â la <name type="place" reg="Ciudad de Nínive">Ciudad de Ninive</name>, y à <name type="person" reg="Ezequías">Ezequias</name> Rey de
+<name reg="Israel" type="place">Isrrael</name> cuya vida alargò <name type="god" reg="Dios">Dios</name> por quinze años, movido de su pe-
+nitencia, no obstante el decreto que le annunciò el <name type="person" reg="Isaías">Propheta</name> con-
+virtiendonos à su Divina Magestad, por la contemplacion de tan
+terribles indicios los commute en misericordia, y en esta aten-
+cion llama á los <term type="Astron" reg="Cometa">Cometas</term> <name type="person" reg="Hipona (de), San Agustín">San Agustin</name>: <q>misericordia de <name type="god">Dios</name>, y
+no rigor</q>, y <name type="person">Tertuliano</name>: <q>Prophetas, lenguas, y pregones celestes</q>
+para que nos reconciliemos con su Divina Magestad, y por ulti-
+mo digo, que querer particularizar en estos Pronosticos (como
+otros hazen) à singulares personas, mencionando sujetos, y di-
+ciendo de sus muertes, es cosa vana, ridicula, y afectada, y sin fun-
+damento; sino es que sea por la gracia de el <term type="Theolo" reg="Espíritu Profético">espiritu Prophetico</term>:
+porque la inteligencia de tan arcanos, y escondidos prodigios la
+tiene <name type="god">Dios</name> reservada en los secretos tesoros de su infinita Sabi-
+duria. Y en todo lo que he dicho, me sujeto en todo à mejor pa-
+recer, y à la censura de la <name type="inst" reg="Santa Iglesia Católica Apostólica Romana">Santa Iglesia Catholica Apostolica Ro-
+mana</name>, que consiente estos <term type="Astro" reg="Juicio Astrológico">juizios Astrologicos</term>, con reservacion
+del libre <term type="Theolo" reg="Albedrío">alvedrio</term>, remitiendolo todo á la soberania suprema de
+<name type="god">Dios</name>, à cuyo querer obedecen los Elementos, se rinde la Natu-
+raleza, los Mares se apartan, y se estremecen los Cielos, Sol, y
+Astros, mudan sus influencias, y cursos naturales. Y supuesto que
+su Divina magestad nos los representa en forma de Flechas, Es-
+padas, Lanças, Luzes, y Achas encendidas, en lugar de horrores
+serà
+</p>
+</div>
+
+
+<div>
+<pb>folio 4 vuelta</pb>
+
+<p>
+serà servido sean señales de misericordia, para que los que nos
+parecen pregoneros de su ira, sean, con <name type="person" reg="Hipona (de), San Agustín">San Agustin</name>, anuncios
+de su piedad; con <name type="person">Tertuliano</name> Prophetas de reconciliación, y len
+guas del <name type="god" reg="CathDiv">Espiritu Santo</name>, sean Flechas del Amor divino, Espadas
+y Lanças de fortaleza en los trabajos, luzes desvanecedoras de [...]
+las tinieblas del pecado, y <term type="Astro" reg="arcoíris">Arco Iris</term>, como los que puso en
+el Cielo, en señal de reconciliacion con el genero
+humano.
+</p>
+
+
+<foreign lang="Lat">Laus Deo</foreign>
+.
+
+<abbr>M. N. E. E. L. P. P.</abbr>
+</div>
+
+</body>
+</text>
+</TEI>

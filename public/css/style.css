@@ -1,0 +1,949 @@
+/******************************************************
+Name: Biblioteca Digital del Pensamiento Novohispano
+Version: 2.0
+Author: Sandra Bermúdez @ bulabe.com
+URL: http://www.bdpn.unam.mx
+/******************************************************/
+
+*, html, body, div, span, h1, h2, h3, h4, h5, h6, p, img, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, table, caption, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+ 
+/**/
+
+body {
+	text-align: center;
+	background-color: #efeeec;
+	background-image: url('../images/unam_bdpn_bgd_body.jpg');
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 21px;
+}
+
+h1 {
+	font-family: 'Lancelot', cursive;
+	color: #8e121c;
+	font-weight: 400;
+	font-size: 41px;
+}
+
+h3 {
+	font-family: 'Lancelot', cursive;
+	color: #000;
+	font-weight: 400;
+	font-size: 24px;
+	margin: 15px 0 10px 0;
+}
+
+p {
+	color: #212121;
+	margin-bottom: 12px;
+}
+
+img {
+	border: none;
+}
+
+strong {
+	font-weight: 500;
+}
+
+a, a:link, a:visited, a:active {
+	color: #00254b;
+}
+
+a:hover {
+	color: #8e121c;
+}
+
+ul {
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+li a:link, li a:visited, li a:active {
+	color: #00254b;
+	padding: 2px;
+}
+
+li a:hover {
+	text-decoration: none;	
+}
+
+dt {
+	color: #00254b;
+    font-family: 'Lancelot',cursive;
+    font-size: 21px;
+    margin: 16px 0 8px 0;
+}
+
+dd {
+	padding-left: 18px;
+}
+
+/**/
+/*LAYOUT*/
+
+div#container {
+	width: 1060px;
+	margin: 0 auto 20px auto;
+	padding: 0 20px;
+	text-align: left;
+}
+
+div#header {
+	background-image: url('../images/unam_bdpn_bgd_header.jpg');
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 190px;
+	text-align: left;
+}
+
+div.headerint {
+	background-image: url('../images/unam_bdpn_unam.png');
+	background-repeat: no-repeat;
+	background-position: 960px 6px;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+div.int {
+	width: 900px;
+	margin: 0 auto;
+}
+
+div.media {
+	width: 520px;
+}
+
+div.doscolumnas {
+	width: 480px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.float {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+div#footer {
+	width: 100%;
+	background-image: url('../images/unam_bdpn_bgd_footer.png');
+	padding: 10px 0 40px 0;
+	border-top: 3px solid #542615;
+}
+
+.marginright30 {
+	margin-right: 30px;
+}
+
+.marginright20 {
+	margin-right: 20px;
+}
+
+.margintop15 {
+	margin-top: 15px;
+}
+
+.margintop25 {
+	margin-top: 25px;
+}
+
+.marginleft530 {
+	margin-left: 530px;
+}
+
+div.home h2 {
+	font-family: 'Lancelot', cursive;
+	color: #1B2E48;
+    font-size:22px;
+    margin: 12px 0;
+    font-weight: 400;
+}
+
+h1.seccion {
+	font-size: 32px;
+	margin: 10px 0 20px 0;
+}
+
+/**********/
+/* HEADER */
+
+img.logo {
+	margin-top: 6px;
+	margin-right: 8px;
+}
+
+h1#title {
+	font-family: 'Lancelot', cursive;
+	font-size: 36px;
+	font-weight: 300;
+	padding-top: 20px;
+	text-shadow: 1px 1px 1px #fff;
+	width: 680px;
+	margin-left: 180px;
+}
+
+h1#title a:link, h1#title a:visited, h1#title a:active {
+	color: #000;
+	text-decoration: none;
+}
+
+h1#title a:hover {
+	color: #8e121c;
+}
+
+h2#unam {
+	color: #000;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: right;
+	font-weight: 400;
+	text-shadow: 1px 1px 1px #fff;
+	margin: 14px 180px 18px 0;
+}
+
+img#logounam {
+	position: relative;
+
+}
+
+div#busqueda {
+	width: 275px;
+	float: right;
+	margin-right: 35px;
+	margin-top: 36px;
+}
+
+div#busqueda input {
+	background-image: url('../images/unam_bdpn_bgd_search_input.png');
+	background-repeat: no-repeat;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	padding: 8px;
+	width: 180px;
+	float: left;
+	height: 24px;
+}
+
+div#busqueda input#submit {
+	background-image: url('../images/unam_bdpn_bgd_search_submit.png');
+	background-repeat: repeat;
+	float: left;
+	display: block;
+	width: 82px;
+	height: 40px;
+	text-align: left;
+	color: #000;
+	font-weight: 400;
+	margin-left: -10px;
+}
+
+div#busqueda input#submit:hover {
+	color: #8E121C;	
+}
+
+/**************/
+/*  MAIN MENU */
+
+ul#main {
+	list-style-type: none;
+	width:780px;
+	margin-top: -40px;
+	margin-left: 190px;
+}
+
+ul#main li {
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+ul#main li a:link, ul#main li a:visited, ul#main li a:active {
+	display: block;
+	height: 116px;
+	width: 116px;
+	float: left;
+	line-height: 112px;
+	color: #fff;
+	text-decoration: none;
+	background-image: url('../images/unam_bdpn_bgd_menu.png');
+	background-repeat: no-repeat;
+}
+
+ul#main li.ob a:link, ul#main li.ob a:visited, ul#main li.ob a:active {
+	background-position: 0  0;
+}
+
+ul#main li.au a:link, ul#main li.au a:visited, ul#main li.au a:active {
+	background-position: -120px 0;
+}
+
+ul#main li.co a:link, ul#main li.co a:visited, ul#main li.co a:active {
+	background-position: -241px 0;
+}
+
+ul#main li.in a:link, ul#main li.in a:visited, ul#main li.in a:active {
+	background-position: -365px 0;
+}
+
+ul#main li.ob a:hover,
+ul#main li.au a:hover,
+ul#main li.co a:hover,
+ul#main li.in a:hover {
+	background-color: transparent;
+}
+
+ul#main li.ob a:hover {
+	background-position: 0 -120px;
+}
+
+ul#main li.au a:hover {
+	background-position: -120px -120px;
+}
+
+ul#main li.co a:hover {
+	background-position: -241px -120px;
+}
+
+ul#main li.in a:hover {
+	background-position: -365px -120px;
+}
+
+/*************/
+/* CONTAINER */
+
+div.foliaje {
+	width: 480px;
+	margin: 0 auto;
+	margin-top: -30px;
+	font-family: 'Lancelot', cursive;
+	color: #8e121c;
+	font-weight: 400;
+	font-size: 22px;
+	text-align: center;
+}
+
+div#folios img {
+	margin: 14px 0;
+}
+
+div#folios span.fol {
+	margin: 0 22px;
+}
+
+div#folios a.folink:link, div#folios a.folink:active, div#folios a.folink:visited {
+	color: #000;
+}
+
+div#folios a.folink:hover {
+	color: #8e121c;
+}
+
+img.facsimil {
+	border: 1px solid #D3CFCC;
+	margin: 12px 0;
+}
+
+div.bloque, div.spacer {
+	clear: both;
+	padding-top: 18px;
+}
+
+div.texto, p.texto {
+	color: #000;
+	font-size: 18px;
+	line-height: 28px;
+	width: 470px;
+	float: left;
+}
+
+span.numeralia {
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-image: url('../images/unam_bdpn_bgd_num.png');
+	background-repeat: no-repeat;
+	color: #000;
+	text-shadow: 1px 1px 1px #fff;
+	text-align: center;
+	line-height: 40px;
+	font-size: 17px;
+	font-weight: 400;
+	float: left;
+	margin-right: 8px;
+}
+
+/**********/
+/* BLOCK */
+
+div.block {
+	display: block;
+	width: 300px;
+	/* height: 120px; */
+	background-color: #e6e3de;
+	border: 1px solid #d3cfcc;
+	padding: 10px 10px;
+	border-radius: 12px 12px;
+	margin: 6px;
+}
+
+div.block:hover {
+	background-image: url('../images/unam_bdpn_bgd_block.jpg');
+	background-position: 0 -217px;
+}
+
+div.block h1 {
+	font-family: 'Lancelot', cursive;
+	color: #8e121c;
+	font-weight: 400;
+	/* font-size: 22px;*/
+	font-size:16px;
+	line-height: 24px;
+}
+
+div.block h1 a:link, div.block h1 a:visited, div.block h1 a:active {
+	color: #8e121c;	
+}
+
+div.block h1 a:hover {
+	color: #000;
+}
+
+div.block h2 {
+	font-family: 'Lancelot', cursive;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 21px;
+	display: inline;
+	margin: 10px 0 6px 0;
+	display: block;
+}
+
+div.block h2 a:link, div.block h2 a:visited, div.block h2 a:active {
+	color: #000;
+}
+
+div.block h2 a:hover {
+	color: #8e121c;	
+}
+
+/**********/
+/* HOME */
+
+div.atenea {
+	background-image: url('../images/unam_bdpn_atenea.png');
+	background-repeat: no-repeat;
+	background-position: 850px 40px;
+}
+
+div.home {
+	width: 330px;
+	float: left;
+}
+
+div.home h1.label {
+	color: #1b2e48;
+	font-size: 32px;
+	padding-left: 18px;
+	margin-bottom: 8px;
+}
+
+p.description {
+	display: block;
+	width: 500px;
+	float: left;
+	font-size: 16px;
+	margin-bottom: 41px;
+	line-height: 21px;
+	padding-top: 10px;
+}
+
+img.homeimg {
+	float: left;
+	margin-right: 8px;
+	border-radius: 12px 12px;
+	border: 1px solid #d3cfcc;
+	margin: 0 25px 25px 8px;
+}
+
+/**/
+/* DOCUMENTACIÓN */
+
+dl#documentacion ul {
+	list-style-type: none;
+	padding-left: 30px;
+}
+
+dl#documentacion ol {
+	list-style-position: inside;
+	padding-left: 30px;
+}
+
+dl.accordion {
+	
+}
+
+dl.accordion dt {
+	margin: 6px 0;
+}
+
+dl.accordion dt a:link, dl.accordion dt a:visited, dl.accordion dt a:active {
+	font-family: 'Lato',sans-serif;
+	font-size: 18px;
+	color: #1B2E48;
+	text-decoration: underline;
+}
+
+dl.accordion dt a:hover {
+	color: #8E121C;
+}
+
+dl.accordion dd {
+	margin-left: 36px;
+	padding-left: 12px;
+	
+}
+
+li.term_odd {
+	background-color: #E6E3DE;
+	padding: 12px;
+	border-top: 1px solid #D3CFCC;
+	border-bottom: 1px solid #D3CFCC;
+}	
+
+/**/
+/* CONTACTO */
+
+form#contacto label {
+	display: block;
+	width: 160px;
+	text-align: right;
+	margin: 0 8px 0 0;
+	float: left;
+	padding-top: 5px;
+}
+
+form#contacto input, form#contacto textarea {
+	padding: 6px;
+	font-family: 'Lato',sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	border-radius: 6px;
+	width: 420px;	
+	background-color: #E6E3DE;
+    border: 1px solid #D3CFCC;
+    margin-bottom: 14px;
+}
+
+form#contacto input:focus, form#contacto textarea:focus {
+	background-image: url('../images/unam_bdpn_bgd_block.jpg');
+	background-position: 0 -217px;
+}
+
+/**/
+/* ÍNDICES */
+
+div#sidebar {
+	width: 280px;
+	float: left;
+}
+
+div#colright {
+	width: 750px;
+	float: left;
+	margin-top: 10px;
+}
+
+div#colright p {
+	font-size: 16px;
+	line-height: 18px;
+}
+
+div#colright p.indices {
+	font-size: 18px;
+	line-height: 24px;
+	width: 600px;
+	margin-bottom: 18px;
+}
+
+div#colright img.indices {
+	margin: 24px 0 12px 160px;;
+}
+
+h1#indices {
+	padding-top: 5px;
+	margin-bottom: 20px;
+}
+
+span.term {
+	color: #1B2E48;
+	font-size: 32px;
+}
+
+span.termred {
+	color: #8E121C;
+	font-size: 32px;
+}
+
+ul#indices {
+	list-style-type: none;	
+	font-family: 'Lancelot',cursive;
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+ul#indices li {
+	position: relative;	
+	line-height: 22px;
+	margin-right: 8px;
+}
+
+ul#indices li a {
+	color: #1B2E48;
+}
+
+ul#indices li a:hover {
+	color: #8E121C;
+}
+
+ul.dropdown {
+	position: absolute;
+	top: 0;
+	left: 120px;
+	z-index: 999;
+	display: none;
+}
+
+ul.dropdown li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	
+}
+
+ul.dropdown li a {
+	display: block;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 400;
+	font-family: 'Lato',sans-serif;
+}
+
+ul#indices ul.dropdown li a:link, ul#indices ul.dropdown li a:visited, ul#indices ul.dropdown li a:active {
+	color: #5f5146;
+}
+
+ul#indices ul.dropdown li a:hover {
+	color: #8E121C;
+}
+
+ul.capital {
+	display: block;
+	width: 220px;
+	float: left;
+	margin: 6px;
+	margin-bottom: 25px;
+}
+
+span.label {
+	color: #8E121C;
+    font-family: 'Lancelot',cursive;
+    font-size: 36px;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    display: block;
+    margin-bottom: 18px;
+}
+
+ul.capital li {
+	line-height: 12px;
+}
+
+ul.capital li a:link, ul.capital li a:visited, ul.capital li a:active {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    padding: 0;
+}
+
+ul.capital li a:hover {
+	color: #8E121C;	
+}
+
+span.highlight {
+	font-family: 'Lancelot', cursive;
+    color: #8E121C;
+    font-size: 24px;
+}
+
+/**/
+/* WIDGET */
+
+div#widget {
+
+}
+
+div#widget ul#options {
+	list-style-type: none;
+	display: block;
+	width: 512px;
+	height: 56px;
+	background-image: url('../images/unam_bdpn_bgd_divwidget.gif');
+}
+
+div#widget ul#options li a:link,
+div#widget ul#options li a:visited,
+div#widget ul#options li a:active {
+	display: block;
+	width: 98px;
+	font-family: 'Lancelot', cursive;
+	font-weight: 300;
+	color: #000;
+	line-height: 64px;
+	text-align: center;
+	float: left;
+	font-size: 19px;
+}
+
+div#widget ul#options li a:hover {
+	color: #8e121c;
+}
+
+div#widget div.valores ul {
+	list-style-type: none;
+}
+
+div#widget div.valores ul li {
+	margin: 0;
+}
+
+div#widget div.valores ul li.term-odd a:link, 
+div#widget div.valores ul li.term-odd a:visited, 
+div#widget div.valores ul li.term-odd a:active,
+div#widget div.valores ul li.term-even a:link, 
+div#widget div.valores ul li.term-even a:visited, 
+div#widget div.valores ul li.term-even a:active {
+	display: block;
+	width: 492px;
+	background-color: #E6E3DE;
+    border-bottom: 1px solid #D3CFCC;
+   	font-size: 14px;
+   	color: #000;
+   	font-weight: 400;
+   	padding: 6px 0 6px 18px;
+}
+
+div#widget div.valores ul li.term-odd a:link, 
+div#widget div.valores ul li.term-odd a:visited, 
+div#widget div.valores ul li.term-odd a:active {
+	background-color: #E6E3DE;
+}
+
+div#widget div.valores ul li.term-even a:link, 
+div#widget div.valores ul li.term-even a:visited, 
+div#widget div.valores ul li.term-even a:active {
+	background-image: url('../images/unam_bdpn_bgd_block.jpg');
+	background-position: 0 -217px;
+}
+
+div#widget div.valores ul li.term-odd a:hover,
+div#widget div.valores ul li.term-even a:hover {
+	color: #8E121C;
+}
+
+/**/
+
+a.top:link, a.top:visited, a.top:active {
+	background-image: url('../images/unam_bdpn_bgd_top.png');
+	display: block;
+	width: 90px;
+	height: 90px;
+	margin-top: 20px;
+	margin-left: 486px;
+	color: #000;
+	text-align: center;
+	line-height: 80px;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+a.top:hover {
+	color: #8E121C;
+}
+
+/***********/
+/*  FOOTER */
+
+h2.isbn {
+	margin: 0 0 10px -80px;
+	font-weight: 400;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+div#logos {
+	width: 300px;
+	margin: 10px auto 10px auto;
+}
+
+div#logos img {
+	margin: 0 20px;
+}
+
+ul#creditos {
+	list-style-type: none;
+	margin-left: 50px;
+}
+
+ul#creditos li a:link, ul#creditos li a:active, ul#creditos li a:visited {
+	text-shadow: none;
+	float: left;
+	color: #303030;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+ul#creditos li a:hover {
+	color: #00254b;
+	text-decoration: underline;
+}
+
+/**/
+/*  FOOTER NAV */
+
+div#nav {
+	clear: both;
+	text-align: left;
+	margin: 0 auto;
+}
+
+ul#proyecto,
+ul#documentacion,
+ul#obras {
+	list-style-type: none;
+	display: block;
+	float: left;
+	padding: 8px 20px 10px 0;
+	margin-right: 10px;
+	width: 255px;
+}
+
+ul#proyecto {
+	border-top: 2px solid #1fc0e2;
+}
+
+ul#documentacion {
+	border-top: 2px solid #00d6b4;
+}
+
+ul#obras {
+	border-top: 2px solid #db5d00;
+}
+
+ul#proyecto li, ul#documentacion li, ul#obras li {
+	padding-left: 25px;
+	background-repeat: no-repeat;
+	margin-bottom: 0px;	
+}
+
+ul#proyecto li {
+	background-image: url('../images/bullet_azul.png');
+}
+
+ul#documentacion li {
+	background-image: url('../images/bullet_verde.png');
+}
+
+ul#obras li {
+	background-image: url('../images/bullet_naranja.png');
+}
+
+ul#proyecto li a:link, ul#proyecto li a:visited, ul#proyecto li a:active,
+ul#documentacion li a:link, ul#documentacion li a:visited, ul#documentacion li a:active,
+ul#obras li a:link, ul#obras li a:visited, ul#obras li a:active {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	color: #000;	
+	text-decoration: none;
+	letter-spacing: 2px;
+	background-color: transparent;
+}
+
+ul#proyecto li a:hover {
+	border-bottom: 2px solid #1fc0e2;
+}
+
+ul#documentacion li a:hover {
+	border-bottom: 2px solid #00d6b4;
+}
+
+ul#obras li a:hover {
+	border-bottom: 2px solid #db5d00;
+}
+
+form#session {
+	margin-top: 35px;
+	font-weight: 400;
+}
+
+form#session label {
+	font-size: 14px;
+	color: #000;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+form#session input {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	border-bottom: 1px solid #000;
+	width: 160px;
+	margin-right: 16px;
+	padding-left: 6px;
+}
+
+form#session input#entrar, form#contacto input#enviar {
+	background-image: url('../images/unam_bdpn_bgd_session.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 2px 4px;
+	width: 70px;
+	border-radius: 3px;
+}
+
+form#session input#entrar:hover, form#contacto input#enviar:hover {
+	background-position: 0 -25px;
+}	
+
+
+
+
+
+
+
+
+

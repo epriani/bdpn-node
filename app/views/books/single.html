@@ -1,0 +1,120 @@
+{{layout "../layout"}}
+<div id="container">
+	<h1>${book.name}</h1>
+	<h3>${book.author}</h3>
+	<div id="folios" class="foliaje">
+		<img src="/images/hr.png" alt="BDPN" />
+			<a href="#" target="_self" class="folink">Anterior</a>
+			<span class="fol">${folio.pb}</span> 
+			<a href="#" target="_self" class="folink">Siguiente</a>
+		<img src="/images/hr.png" alt="BDPN" />
+	</div>
+
+	<div class="media float marginright20">
+		<div class="tei-content texto">{{html folio.lines}}</div>
+		<div class="bloque">
+			<span class="numeralia">1</span>
+			<p class="texto">Question ha sido muy ventilada entre los observadores Astronomos si todos los cometas son elementares,
+		esto es sublunares, ò inferiores â la Luna. ò si son
+		celestes, esto es superiores, ê independientes de toda materia de</p>
+		</div>
+
+		<div class="bloque">
+			<span class="numeralia">10</span>
+			<p class="texto">los elementos, question digo de toda consequencia porque de su
+		decision depende el juizio de sus effectos naturales si son elemen-
+		tares, ò sobrenaturales, si son celestes, y formados en aquel al-
+		tissimo ethere por sola la disposicion divina sin intervension de
+		las segundas causas, y aunque en esto se ha exercitado mucho la</p>
+		</div>
+
+		<div class="bloque">
+			<span class="numeralia">15</span>
+			<p class="texto">industria humana con exactissimas observaciones de los mas in-
+		signes cometas en todos tiempos con todo no se le â podido dar
+		definitiva sentencia con exclusion del sentir contrario, por quan-
+		to consta por las subtilissimas observaciones de sus paralaxes,
+		que algunos ha avido superiores á la Luna, y otros inferiores, co-</p>
+		</div>
+
+		<div class="bloque">
+			<span class="numeralia">20</span>
+			<p class="texto">mo el del año del Señor de 396. del qual afirma San Agustin "in-"
+		ficiònaba â Constantinopla, con hedor de azufre, y con mas evi-
+		dencia el del año de 1450. que aseguran las observaciones haver
+		eclypsado à la Luna
+		Para cuya inteligencia es de notar, que los vapores, y exala-</p>
+		</div>
+
+		<div class="bloque">
+			<span class="numeralia">25</span>
+			<p class="texto">ciones de los elementos tierra, agua, fuego, y ayre, no llegan,
+		quantos menos passan del Cielo, por donde gira la Luna, y conse-
+		cutivamente en los Cielos superiores no ay causa, ni materia pa-
+		ra producirlos naturalmente, con que solo alli se forman por la
+		disposicion divina, como portentos sobre naturales, pregones</p>
+		</div>
+
+		<div class="bloque">
+			<span class="numeralia">30</span>
+			<p class="texto">de su ira, y amenasas de su vengança, y assi solo de los inferiores
+		discurre el juizio Astrologico en quanto â sus influencias, y efec-
+		tos naturales
+		De su forma segun consta por las succesivas historias, y lo que
+		han escrito los Astrologos, y Philosophos se han observado siem-</p>
+		</div>
+
+		<div class="bloque">
+			<span class="numeralia">35</span>
+			<p class="texto">pre varias especies, y diferencias, por que unos aparecieron con
+		caudas, ò colas excesivas, como fue el passado de 1681. otros ca-
+		belludos, ò melenudos que llaman crinitos, otros con mucho
+		menor efluviò, que dizen Barbatos, otros en forma de flecha, es-
+		pada, escoba (como es el presente) hacha encendida, y lança, que</p>
+		</div>
+	</div>
+
+	<div class="media float margintop15">
+		
+		<div id="widget">
+			<ul id="options">
+				<li><a href="#" target="_self">Nombres</a></li>
+				<li><a href="#" target="_self">Fechas</a></li>
+				<li><a href="#" target="_self">Referencias</a></li>
+				<li><a href="#" target="_self">Términos</a></li>
+				<li><a href="#" target="_self">Comentarios</a></li>
+			</ul>
+			
+			<div class="valores">
+				<ul>
+					<li class="term-odd"><a href="#" target="_self">Barbato</a></li>
+					<li class="term-even"><a href="#" target="_self">Cauda</a></li>
+					<li class="term-odd"><a href="#" target="_self">Celeste</a></li>
+					<li class="term-even"><a href="#" target="_self">Cometa Celeste</a></li>
+					<li class="term-odd"><a href="#" target="_self">Crinito</a></li>
+					<li class="term-even"><a href="#" target="_self">Elementar</a></li>
+					<li class="term-odd"><a href="#" target="_self">Juicio Astrológico</a></li>
+					<li class="term-even"><a href="#" target="_self">Paralaje</a></li>
+					<li class="term-odd"><a href="#" target="_self">Inficionaba a Constantinopla con hedor de azufre</a></li>
+				</ul>
+			</div>
+		</div>	
+		
+		<img src="/images/facsimil.jpg" class="facsimil" />
+	</div><!-- / media float marginright20-->
+
+	<div class="clear"></div>
+
+	<div id="folios" class="foliaje">
+		<img src="/images/hr.png" alt="BDPN" />
+		<a href="#" target="_self" class="folink">Anterior</a>
+		<span class="fol">${folio.pb}</span> 
+		<a href="#" target="_self" class="folink">Siguiente</a>
+		<img src="/images/hr.png" alt="BDPN" />
+	</div><!-- / foliaje-->
+
+	<a href="#" target="_self" class="top">arriba</a>
+</div>
+<script type="text/javascript">
+	$('.tei-content p br').each(function(i,line){ if(i % 5 == 0){$('<div class="spacer"/>').insertAfter(line)} });
+</script>

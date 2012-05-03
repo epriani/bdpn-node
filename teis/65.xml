@@ -1,0 +1,793 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="es">
+<schemaSpec ident="TEI-minimal" start="TEI">
+	<moduleRef key="tei"/>
+	<moduleRef key="header"/>
+	<moduleRef key="core"/>
+	<moduleRef key="textstructure"/>
+	<moduleRef key="namesdates"/>
+</schemaSpec>
+
+<teiHeader>
+ <fileDesc>
+   <titleStmt>
+      <title>Lunario Y Prognostico de temporales; Con las Elecciones de Medicina, Phle=
+Botomia, Navegación, y Agricultura, Por lo que indican los Astros este Año de 1698 Segundo despues de Bisiesto. Calculado para el Meridiano de La ciudad de México</title>
+        <author>Marcos Antonio de Gamboa y Ryano</author>
+    </titleStmt>
+  <publicationStmt>
+<publisher>Universidad Nacional Autónoma de México. Facultad de Filosofía y Letras</publisher>
+ <distributor>Biblioteca Digital del Pensamiento Novohispano</distributor>
+  <respStmt>
+<name>Ernesto Priani Saisó</name>
+<resp>Marcado XML/TEI</resp>
+</respStmt>
+<respStmt>
+<name>Abraham Cervantes y Manuel</name>
+<resp>Transcripción</resp>
+</respStmt>
+  </publicationStmt>
+<sourceDesc>
+<bibl>Lunario Y Prognostico de temporales; Con las Elecciones de Medicina, Phle=
+Botomia, Navegación, y Agricultura, Por lo que indican los Astros este Año de 1698 Segundo despues de Bisiesto. Calculado para el Meridiano de La ciudad de México
+El Barón Marcos Antonio de Gamboa de quarto curso de
+Medicina. (faltan datos) 
+</bibl>
+ </sourceDesc>
+  </fileDesc>
+</teiHeader>
+
+<text>
+<div>
+<front>
+
+<titlePage>
+<pb>Folio 1 frente</pb>
+<docTitle>Lunario
+Y
+Prognostico 
+de temporales;
+Con las Elecciones de Medicina, Phle=
+Botomia, Navegación, y Agricultura,
+Por lo que indican los Astros este
+Año de
+<date>1698</date>
+Segundo despues de Bisiesto.
+Calculado para el Meridiano de
+La <name type="place">ciudad de México</name></docTitle>
+El <abbr>Br</abbr> <name type="person" reg="Gamboa y Ryaño (de), Marcos Antonio"> Marcos Antonio de Gamboa
+Y Ryaño</name>, de quarto curso de
+Medicina.
+</titlePage>
+
+</front> 
+</div>
+
+<body>
+<div>
+<pb>Folio 1 vuelta</pb>
+<p>
+AL <abbr>Mro</abbr> de Campo <name type="person" reg="Zabalburu (de), Domingo">D Domingo de Zabalbu=
+Ru</name>, cavallero del <name type="inst">orden de santiago</name>, Gover=
+Nador, y Capitán General de las <name type="Place" reg="Filipinas">yslas Phili=
+Pinas</name>, y Presidente de la <name type="inst" reg="Real Audiencia de Manila">Real Audien=
+Cia de Manila</name>.
+Estas lineas que en la esfera de sus límites llegaron
+mas alla de su esfera, Corriendo por estrellados
+rumbos el luminoso velo a la argentada pedre=
+ria de los Orbes, para copiar en luces, loque en su
+azul cuaderno delinearon en aspectos los Astros,
+Cielos representativos son, que mejoran de estre=
+lla, quando se hallan Vn nuevo <name type="god">Atlante</name> de los 
+Cielos. Clara esta la similitud, pues hablamos 
+de luces: Conocido el Mecenas, pues diximos <name type="god" reg="Atlante">Atlan=
+te</name>; que otro que <abbr>[VSS]</abbr> no pudiera subir tan alto
+Venciendo tan penosas prendas el repetido im=
+possible de coger el cielo con las manos, estando
+en manos de <abbr>[VSS]</abbr> el coger estos cielos. Cuya Vida
+Con perfecta Salud aumente la Magestad Di=
+vina Vuestra señoría.
+<abbr>[B.l.m de VSS.]</abbr>
+Su mas affecto y obligado servidor
+<abbr>Br</abbr> <name type="person" Reg="Gamboa y Ryaño (de), Marcos Antonio"> Marcos Antonio de
+Gamboa y Ryaño</name> [rúbrica]
+</p>
+
+</div>
+
+<div>
+
+<pb>Folio 2 frente</pb>
+
+<p>
+<head>Notas Chronologicas</head>
+Cumplense en el presente año de la Creacion del Mun=
+do, segun la opinion mas Verdadera, (5658). del dilu=
+vio Vniversal, (4001). del principio del Templo de Salomón,
+(2734). de la fundación de <name type="place">Roma</name>, (2447). de la muerte del
+Principe de los Poetas <name type="person" reg="Virgilio">Virgilio Maron</name>, (1713). de la del inge=
+niosissimo <name type="person">Ovidio</name>, (1680), del descubrimiento de la <name type="place" reg="América">Ameri=
+ca</name>, (206). de la fundacion de esta <name type="place" reg="Ciudad de México">ciudad</name> (371). de su Con=
+quista por los Españoles (199). de su Vltima inundacion,
+(69). de la fundacion de la <name type="inst" reg="Real y Pontificia Universidad de México"> Rl y Pontificia Vniversidad</name>, 
+(145). de la Aparicion de <abbr>nra</abbr> señora de <name type="CathDiv">Guadalupe</name>,
+(167). de la fundacion de la Ciudad de la <name type="place">Puebla</name>, y Correc=
+cion del calendario Gregoriana , (168). de la conquista del 
+Reyno del <name type="place">Peru</name> (166), de la de las <name type="place" reg="Filipinas">>Yslas Philipinas</name>, (138).
+y Vltimamente de la Encarnacion del Verbo Divino,
+(1698).</p>
+<p><head>NOTAS ASTRONOMICAS</head>
+la magnitud del año Equinoccial, o <term type="Astron" reg="Trópico">Tropico</term>
+es de 365. d. 5 h. 49 mi. poco menos; y porque el <name type="planet" reg="Sol">sol</name>
+ha menester 20 mi. de tiempo para andar 50 seg. que
+camina qualquiera estrella fixa en Vn año, sera la 
+quantidad del año sydereo, 365. d. 6 h. 9 mi. la
+maxima declinacion de la <term type="Astron" reg="Eclíptica">Ecliptica</term> invariable, es, 
+gr. 30. mi. la precession de los <term type="Astron">Equinoccios</term>, 29. g. 39.
+mi. 14. seg. la <term type="Astron" reg="excentricidad"> Eccentricidad</term> del <name type="planet" reg="Sol">sol</name> 2. gr. 2 mi.
+48 seg.</p>
+</div>
+<div>
+<pb>Folio 2 vuelta</pb>
+
+<p><term type="Astron" reg="Eclipse">Eclipses</term> en la redondes de la <name type="planet" reg="Tierra">tierra</name> senotaran solos
+dos, y ambos de <name type="planet" reg="Sol">sol</name>. Vno a <date reg="3 de octubre de 1698">3. de octubre</date>, este sera impos=
+sible Verle nosotros, por ser la hora dela <term type="Astro" reg="Conjunción">Conjuncion</term>
+Verdadera las 8 h. 15 mi. de la noche. otro a <date reg="1 de abril de 1698">1º de Abril</date>,
+este observaremos; y segun su calculo por las tablas
+de <name type="person" reg="Magino, Juan Antonio">Juan Antonio Magino</name>, es la hora de la <term type="Astro" reg="Conjunción">conjuncion</term>
+aparente en <name type="place" reg="México">Mexico</name> las 11 y 55 mi. del dia, hallandose
+a este punto los luminares en 21 gr. 26 mi. de <name type="constelation">Aries</name>, es=
+tando en el Horizonte Oriental, 25 gr. 59 mi. de <name type="constelation" reg="Cáncer">Cancer</name>
+y en el occidental los mismos de <name type="constelation">Capricornio</name>, de quien
+dista el sol 85 gr. 28 mi. y siendo el angulo de la <term type="Astron" reg="Eclíptica">E=
+cliptica</term>, y Horizonte 80 gr. 1 mi. sera la altura del
+<name type="planet">Sol</name>, 79 gr. 3 mi. la distancia de la <name type="planer" reg="Luna">luna</name> a la <name type="planer" reg="Tierra">tierra</name>
+55 semid. 4 mi. (Consta Vn semidia muxo de la <name type="planer" reg="Tierra">tierra</name> de
+1003 leguas Españolas) y la <term type="Astro" reg="paralaje">parallaxis</term> de la <name type="planer" reg="Luna">luna</name> al <name type="planer">Sol</name>
+en el Vertical 11 mi. 31 seg. mediante esta, y el angulo
+de la <term type="Astron" reg="Eclíptica">Eclpitica</term>, y <term type="Astron">Vertical</term>, que es 65 gr. 52 mi. sera la
+diversidad de aspecto de latitud 10 mi. 30 seg. que su=
+mada con 4 mi. 10 seg. de latitud verdadera <abbr>[M. D.]</abbr>
+resultara la latitud aparente 14 mi. 40 seg. el se=
+midiametro del <name type="planet" reg="Sol">sol</name> es 15 mi. 12.
+seg. el de la <name type="planet" reg="Luna">luna</name> 19 mi. 10 seg.
+y el agregado de ambos 32 mi.
+22 seg. el excesso de la summa
+17 mi. 42 seg. conque seran 7.
+digitos la parte del <name type="planet" reg="Sol">disco solar</name> eclipsadas.
+(Margen inferior izquierdo: hay un dibujo del sol con sus puntos cardinales: septentrion, occidente, mediodia y oriente)</p> 
+</div>
+<div>
+<pb>Folio 3 frente</pb>
+<p>Los minutos de incidencia 28 y 52 seg. y 
+siendo el movimiento de la <name type="planet" reg="Luna">luna</name> al <name type="planet" reg="Sol">sol</name> 40 mi. antes
+de la <term type="Astro" reg="Conjunción">Conjuncion</term> de 22 mi. 6 seg. sera el tiempo de inci
+dencia del principio al medio 1 h. 18 mi. 22 seg. dicho
+movimiento 40. mi. después de 33.mi. 35. seg. y el ti=
+empo de incidencia del medio al fin 51 mi. 36 seg. Conque se observara su 
+
+
+<table border="1">
+<tr>
+<td></td>
+<td>H.</td>
+<td>Mi.</td>
+<td>seg.</td>
+<td></td>
+</tr>
+<tr>
+<td>Principio</td>
+<td>10</td>
+<td>36</td>
+<td>38</td>
+<td>De la</td>
+</tr>
+<tr>
+<td>Medio</td>
+<td>11</td>
+<td>55</td>
+<td>00</td>
+<td>Ma</td>
+</tr>
+<tr>
+<td>Fin</td>
+<td>12</td>
+<td>46</td>
+<td>36</td>
+<td>Ñana</td>
+</tr>
+<tr>
+<td>Y toda su</td>
+<td>2</td>
+<td>9</td>
+<td>58</td>
+<td>Duracion</td>
+</tr>
+</table>
+
+<head>Notas del Computo, y
+fiestas movibles.</head>
+Siendo E. letra Dominical, Aureo numero 8. <term reg="indicción">indiccion
+Romana</term> 6 Cyclo solar 27. y <term type="Astro">Epacta</term> 18. sera el <term type="atro" reg="plenilunio pascual">Ple=
+nilurio Pasqual</term> a <date reg="26 de marzo 1698">26. de Março</date>, y por Consiguiente 
+Septuagessima a <date reg="26 de enero 1698">26. de Henero</date>, <name reg="Miércoles de Ceniza">"Ceniza</name> a <date reg="12 de febrero 1698">12. de febrero</date>, 
+<name reg="Pascua de resurrección">Pasqua deResurreccion</name> a <date reg="30 de marzo 1698">30. de Março</date>, <term>Rogaciones</term> 
+a 5. 6. y 7. de Mayo, <name reg="Ascención">Ascencion</name> a <date reg="8 de mayo 1698">8 de Mayo</date>, <name reg="Pentecostés">Pentecos=
+tes</name> a <date reg="18 de mayo 1698">18. del mismo</date>, la <term type="CathDiv" reg="Santísima trinidad">Trinidad sanctisima</term> a <date reg="25 de mayo 1698">25</date>.
+del mismo, <term>Corpus christi</term> a <date reg="29 de mayo 1698">29. de Mayo</date> y pri=
+mero domingo de <term>adviento</term> a <date reg="30 de noviembre 1698">30. de Noviem=
+bre</date>.</p>
+</div>
+<div>
+<pb>Folio 3 vuelta</pb>
+<p>De las <term type="Med" reg="Témpora">temporas</term> seran las
+
+
+<table border="1">
+<tr>
+<td>Primeras a</td> 
+<td>19</td>
+<td>21</td>
+<td>22</td>
+<td>De febrero</td>
+</tr>
+<tr>
+<td>Segundas a</td>
+<td>21</td>
+<td>23</td>
+<td>24</td>
+<td>De Mayo</td>
+</tr>
+<tr>
+<td>terceras a</td>
+<td>17</td>
+<td>19</td>
+<td>20</td>
+<td>De Septiembre</td>
+</tr>
+<tr>
+<td>quartas a</td>
+<td>17</td>
+<td>19</td>
+<td>20</td>
+<td>De Diziembre</td>
+</tr>
+</table>
+
+<head>Notas al Diario</head>
+los que no han experimentado las pseudographías Astro=
+logicas, dan tanto assenio a sus predicciones, que tienen por
+Cosa muy asentada, que sino suceden sus Contingencias
+Como se prognostican, es preba de ignorancia en quien las
+Conjetura; sin attender a que en cada instante de tiempo
+baxan a la tierra infinitos rayos de influencia diver=
+sas; Cuya Comprehension reservò a si solo <name type="CathDiv">Dios</name>, <cit><foreign lang="lat" reg="quimimerat multitudinem stellarum e omnibus e isnomina">quimi=
+merat multitudinem stellarum et Mmnibus eis nomina
+Vocat.</foreign> ([Psal. 146])</cit> y estas pueden impedir o diminuir
+las delas mas principales, aque pueden a tender los
+Astrologos. Y aun mas: quieren, que aquel mesmo día
+del aspecto se experimenten sus effectos; no debien=
+dose entender assi, sino que en los siete dias Comple=
+tos, que ay de Vno a otro, sera la Constitucion del tiem=
+po Como en aquella <term type="Astro" reg="Conjunción">Conjuncion</term>, opposicion <abbr>Vra</abbr> se prog=
+nostica.</p>
+<p>Conjetura Vniversal del año.
+Aunque en otras ocasiones se han notado, por in=
+genio superior, las erratas de <name type="person" reg="Argoli, Andrés">Andres Argoli</name>, le esta
+muy mejor el que en todas se publiquen, que el que en
+algunas se Callen: pues no diciendolas, se acreditan</p>
+</div>
+<div>
+<pb>Folio 4 frente</pb>
+<p>
+de errores, y entonces les conviene la deffinicion de
+<name tipe="person" reg="Pontano, Giovanni">Pontano</name> (ad 10 <refTitl>AEneid. V110</refTitl> <name type="person">Virgilio</name>) <q><foreign lang="latin">error imprudentis est ig=
+norantis fere aut certe falsa opinione ducti sine culpa.
+pero erratum, et scientis est, et culpa non aret</foreign></q>. y como
+se Continuan Contanta velocidad que se atropellan
+Crecen también las Culpas y Con ellas la ocasion de
+decirlas. porque si los juicios Astrologicos penden de
+la noticia, que en las <term type="asto" reg="Efeméride">Ephemerides</term> nos Comunica
+la Certidumbre Astronomica de la situacion de los
+Astros, errada esta, y siendo ellos essencialmente
+falibles, que Conjetura saldra de provecho? para
+evitar esto Vbiera hecho <term type="asto" reg="Efeméride">Ephemeride</term> particular
+para la regulacion de este Almanaque, si ocupa=
+ciones mas precissas no me lo Vbieran impedido,
+permitiendome solo el Corregirle las h. de los
+aspectos de la <name type="planet" reg="Luna">luna</name> Con el <name type="planet" reg="Sol">sol</name>, y le halle y yerro
+de 6 h. algo mas.</p>
+<p><date reg="19 de marzo 1698">Miercoles 19 de Março</date> a las 5 h. 6 mi. de la
+tarde, tiene principio, en este Meridiano, y sus adia=
+centes el año Astronomico; y erecto a este punto thema
+Celeste segun el modo racional ordinario es la posicion
+que de los Cielos se representa en Vn tan pequeño plano, 
+y estado de los Planetas, como dire, tomando principio
+del angulo del oriente, en donde se hallan 17 gr. 15 mi.
+de <name type="zodiacal">Virgo</name>, Conque en el del occidente se hallaran los
+mismos de <name type="zodiacal" reg="Piscis">Pisces</name> su opuesto; en la 10 o angulo del Me=
+dio cielo, 17 gr. 35 mi. de <name type="zodiacal" reg="Géminis">Gemini</name>, y por Consiguiente en la 
+4 o angulo de la <name type="planet" reg="Tierra">tierra</name> los mismos de <name type="zodiacal">sagitario</name>, y en las</p>
+</div>
+<div>
+<pb>Folio 4 vuelta</pb>
+<p>demas Casas los de los signos, que les Corresponden.
+<name type="planet">Mercurio</name>, Señor del <term type="Astro" reg="Ascendente">Ascendente</term>, y dezima, se
+halla, aunque aungular, en pices su detrimento, y
+Cayda (que assi le pagan estos el aver merecido, median=
+te su embajada a <name type="planet" reg="Júpiter">Jupiter</name>, hallarse Colocados en la Calle
+Real del <name planet="planet">Sol</name> en Conjuncion platica Con <name type="planet">Venus</name>, que Con
+la asistencia en estos dos hijos del <name type="place" reg="Eúfrates">Euphrates</name>, se gran=
+gea el hallarse en su exaltacion y triplicidad ambos
+mirando a <name type="planet" reg="Júpiter">Jupiter</name>, fortuna mayor, en la tercera, y a la
+luna, que en la 11 se halla Señora de su Casa, en su
+triplicidad, y facie, mirada de <name type="planet">Marte</name>, que assiste
+en la segunda (y es el Vnico maleficio Vadio, que ay
+en la revolucion presente) porque <name type="planet">Saturno</name>, infortu=
+na mayor, se halla (aunque en su domicilio diurno)
+Cadente en la sexta, sin mirar ni ser Visto de estas
+Señoras: que ya se le acabo el tiempo, en que su gen=
+tileza y bisarria movida <name type="god">Ceres</name> y <name type="god" reg="Ops">Opis</name> sus hermanas,
+y auria <name type="god">Vesta</name> su madre, a quitarle (aunque por rue=
+gos, que para hijos obedientes son precepto) el Reyno
+a <name type="god" reg="Titán">Titan</name> su hermano mayor por favorecer al que
+oy es Viejo y siempre infausto Planeta.
+esta es la disposicion de los Cielos, y este el es=
+tado de los Astros errantes, y segun los aphorismos, y
+preceptos Astrologicos (que no refiero, por no permitirlo
+la brevedad de la obra) se le debe dar el dominio,
+y govierno del año a la <name type="planet">Venus</name> aCompañada de la
+de la <name type="planet" reg="Luna">luna</name>: Cuyas cualidades son Vnas mismas esto es Ca=
+lentar poco y humedecer mucho, segun estas y las que
+accidentalmente adquieren en orden a la <term type="Astron" reg="Eclíptica">ecliptica</term></p>
+</div>
+<div>
+<pb>Folio 5 frente</pb>
+<p>Signos del Zodiaco, Casas Celestes, <abbr>Vra.</abbr> jusgaremos de
+la Complexion del Ayre, sanidad, o enfermedad de
+los Cuerpos, abundancia, o falta de frutos
+No tiene duda, que exediendo el Calor
+o la humedad, se da principio de putrefaccion; pero
+oponiendose a esta sequedad, que Causa la luna en
+<name type="Zodiacal" reg="Cáncer">Cancro</name> (segun sentir de <name type="person" reg="Albumasar">Albumazar</name> <refTitle>[lib. S. de Coniunct. mag.
+diff. 6)</refTitle> se remittira en parte lo que fuere bastante, pa=
+ra reducirse el temperamento a Calido, y humedo sin
+exceso. esto mismo prueba la autoridad de <cit><name type="person">Juntino</name>
+en su <refTitle>tom. 1. fol. 1216</refTitle>. <foreign Lan="lat"><name type="planet">Venus</name>, et <name type="planet" reg="Luna">luna</name> significant bonam
+complexionem aeris</foreign></cit>. por lo que toca a las otras dos qua=
+lidades sera lo mismo: porque la <name type="planet" reg="Luna">luna</name> libre de malos
+rayos (que tambien se olean los Planetas) Causa fri
+aldad, pero mirada de <name type="planet">Marte</name>, no ereedara los ter=
+minos de templada: esto Confirma hallase <name type="planet">Venus</name>
+en <name tpe="zodiacal" reg="Piscis">Pisces</name>. Conque por todos modos tenemos la Consti=
+tucion del ayre en igualdad, y mediocridad, tan ala=
+bada de todos, que a <cit reg="Horacio. Odas Libro 2, 10, 5"><name type="person">Horacio</name> le motivo a llamarla
+de oro, <refTitle reg="Horacio. Odas Libro 2, 10, 5">lib. 2. Ode10.</refTitle>
+<foreign lang="lat" reg="Auream quisquis mediocriterem diligit tutus Caret o bioleti sordibus tecti; Caret invidendo Sobrius aula">Auream quisquis medicritarem
+diligit tutus Caret o bioleti
+sordibus tecti; Caret invidendo
+Sobrius aula</foreign></cit>
+siendo este el temperamento del ayre, quien
+duda sera el año saludable? inmediatamente
+al texto arriba dicho prosigue <name type="person">Juntino</name>: <q><foreing lang="lat" reg="et sanitatem Corporum huminum">et sanitatem 
+Corporum hominum</foreing></q>. que no solo causan estos pla
+netas templanca en el ayre, sino tambien sanidad.</p>
+</div>
+<div>
+<pb>Folio 5 vuelta</pb>
+<p>en los Cuerpos humanos deducese tambien de la senten=
+cia de <cit><name type="person">Galeno</name>, en el <refTitle>lib. 1 de tuen. Valet.</refTitle>. donde dice <foreign lang="lat" reg="aer nos ambiens obid Ig dis, quod aut calidos immodice, frigidos, humidos, aur siuos e Heies"> aer
+nos ambiens obid Ig dis, quod aut Calidos immodice, frigi
+dos, humidos, aur siuos e Hieis</foreign></cit>: que por tanto nos enferma
+el ayre ambiente, o porque sobremanera nos calienta,
+enfria, humedece, o seca: luego no executando en no=
+sotros algo de esto, antes si todo Con igualdad falta la
+Causal, y por Consiguiente e fundamental la Conjetu=
+ra, en que estxiba esta assercion no tan general que 
+excluya toda restriccion, pues admite la que se dis=
+curre de otro texto en el mismo <cit><refTitle reg="libro 1 de tuen Valet">libro</refTitle>: <foreign lang="lat" reg="aër temperatus optimo temperamento preditis est saluberrimus">aër temperatus
+optimo temperamento preditis est saluberrimus</foreign></cit>: para 
+los que gozan de perfecto temperamento (<name type="person" reg="Galeno">habla el prin=
+cipe de los Medicos</name>) es mas saludable el ayre templa=
+do: luego en los que excede alguna o muchas qua= 
+lidades no sera tanto: luego en estos no faltaran
+algunas destemplanças , determinar quales sean 
+estas no es possible, porque no lo es el saberlas Complexio
+nes particulares de todos los individuos humanos, y
+assi nos queda solo el recurrir Como siempre a quien
+en poco lo dixo todo: ya se sabia, que es <cit><name type="person" reg="Hipócrates">Hippocrates</name>,
+que en el lib, de <refTitle>flatib.</refTitle> me previno solucion a esta du=
+diciendo: <foreign lang="lat">Cum uero alteri Cuipiam animantium
+generi aër inconveniery est  tum morby illud penus
+corrigit.</foreign></cit></p>
+<p>Por lo que toca a los frutos, no puede mejorarse
+el año, porque, Como se experimento en el pasado, siendo
+las agulas a su tiempo y en Cantidad suficiente (Como
+lo testifica <cit><name type="person" reg="Albumasar">Alburmazar</name> en el <refTitle>lib. 5 de Conjunct. mag. diff.</refTitle>
+que hablando de la latitud de <name type="planet">Venus</name> dice: <foreign lan="lat" reg="Si fueris Meridionaly significat multas pluvias">Si fue=
+ris Meridionalis significat multas pluvias.</foreign></cit> lo mismo</p>
+</div>
+<div>
+<pb>Folio 6 frente</pb>
+<p>Dice de la <name type="planet" reg="Luna">luna</name> señora del año en el de sus experiencias.
+y <cit><name type="person" reg="Ptolomeo, Claudio">Ptolemeo</name> <refTitle>2. quadrip. Cap. 8.</refTitle> que obteniendo este señorio
+<foreign><name type="planet">Venus</name> demittir imbrium tempestivas pluvias)</foreign></cit> Con gran=
+des fundamentos puede esperarse la mejoria que
+digo. Por lo que toca a yelos, temo que el quadrado
+de <name type="planet">Saturno</name> Con el <name type="planet" reg="Sol">sol</name>, que ordinariamente los Causa an=
+tes, o despues, y es por Mayo, nos haga algun daño; pero
+reduciendose a escarcha Como puede ser, y espero en
+<CathDiv>Dios</CathDiv> (que no desprecia los Clamores de los pobres) podemos
+Vivir sin temor: pues la que Cayo por <date reg="abril 1697">Abril del año pa=
+sado</date> no fue bastante a impedir el logro tan excesi=
+vo en las cosechas. mediante esto, y las influencias par=
+ticulares de la <name type="planet">Venus</name>, assistencia de la <name type="planet" reg="Luna">luna</name> en sus dig=
+nidades, y en succedente a la dezima, se parara el año
+Con mucho gusto, alegria, mejora de estados <abbr>Vra</abbr>
+los navegantes pueden tener Consuelo Con la
+sentencia del <cit><name type="person" reg="Ptolomeo, Claudio">Principe de los Astrologos</name> (y otros) que
+dice en el mismo <refTitle>Cap. 8.</refTitle> que <foreign reg="Venus navibus felices Cursus, et successus lucrosos tribuit"> <name type="planet">Venus</name> navibus felices
+Cursus, et successus lucrosos tribuit</foreign></cit>, da felices, y prove=
+chosos Viages. quieralo assi su divina Magestad.
+mejorando lo bueno que prometen las <term type="Philo" reg="Causas segundas">Causas segun=
+das</term>, e impidiendo lo malo, que lo limitado de mi
+Capacidad no alcansa a prognosticar. esto es lo que
+del año presente dicen los aphorismos Astrologicos, 
+pero Yo Con mayor seguridad digo, que
+<CathDiv>Dios</CathDiv> sobre todo.</p>
+</div>
+<div>
+<pb>Folio 6 vuelta</pb>
+<p>Henero (<foreign>latinis a Jano clictus</foreign>) 31 diaz 
+Miercoles 1. ++ la Circumcicion del señor. y Jueves 2. no ay aspecto, que
+impida las elecciones.
+Viernes 3. quarto menguante a las 12 h. 18 mi. de la noche,
+en 15 gr. de <name type="constelation" reg="Libra">libra</name>. tiempo frio y pluvioso. Sab. 4. a proposito para
+<term type="Med" reg="Purga">purga sin sangria</term>. Domingo 5. generalmente electo. lunes 6. 
+4 + la Epiphania del señor no se tomen purgas. Mart. 7 y Miercoles 
+8. evacuese la <term type="Med" reg="Cólera">Colera</term>. Jueves 9. electo.  Viernes 10. prohib.
+Sabado 11. Conjuncion a las 10 h. 45 mi. de la noche en
+23 gr. de <name type="constelation" reg="Capricornio">Capricorno</name>. se aumentara el frio Con algunas nubes.
+Domingo 12. y lunes 13. prohb. Martes 14. y Miercoles 15. elect. Jue=
+ves 16. <term type="Med" reg="Purga">purguese</term> Con pildoras la <term type="Med" reg="Melancolía">melancolia</term>, y <term type="Med" reg="Flema">flema</term>. Viernes 17
+y Sabado 18. no se laben la Cabeza, ni den <term type="Med" reg="Purga">purgas</term>.
+Domingo 19. quarto Creciente a las 3 h. 12 mi. de la maña=
+na, en 1. gr. de <name type="zodiacal" reg="Tauro">tauro</name>. Vientos nortes frios y puede ser que se oigan
+algunos truenos. lunes 20. y Mart. 21. no se den medicamentos
+<term type="Med" reg="Purga">purgantes</term>. Miercoles 22. ( desde medio dia) Juev. 23. y Viernes 24.
+no se <term type="Med" reg="Sangría">sangren</term> Venas altas, ni se <term type="Med">sajen</term> las espaldas.
+Sabado 25. llena a las 12 h. 20 mi. de la noche que sigue
+a este dia, en 7 gr. de <name type="zodiacal" reg="León">leon</name>. Como el quarto pasado Con alguna
+nieve. Domingo de la septuagessima 26. y lun. 27. prohib.
+Martes 28. electo de medio dia en adelante. Miercoles 29.
+electo pasado. Jueves 30. y Viernes 31. prohibido.</p>
+<p>febrero (<foreign>latinis a februando et expurgando</foreign>) 28.
+Sabado 1. electo sin <term type="Med" reg="Sangría">sangria</term>.
+Domingo 2. la Purificacion de N. Señora es el quarto
+menguante a las 8 h. 49 mi. de la noche, en 15 gr. de <name type="zodiacal" reg="Escorpión">Escorpion</name>.
+tiempo Vario, y tempestuoso Con algun graniso. lun. 3 deme
+baños para humedecer, y medicamentos <term type="Med">Corroborantes</term>. Mart. 
+4. Miercoles 5. y Juev. 6. son a proposito para todas elecciones.
+Viernes 7. prohibe <term type="Med" reg="Purga">purgas</term>, y <term type="Med" reg="Fuentes">fuentes en las piernas</term>. Sab. 8. Como
+ayer, y admite <term type="Med">Vomitorios</term>. Domingo 9 prohibido.
+Lunes 10. Conjuncion a las 2 h. 38 mi. de la tardde en
+23 gr. de <name type="zodiacal" reg="Acuario">Aquario</name>. tiempo obscuro y frio Con nieve. Martes
+11. y Miercoles de Ceniza 12. minorese la <term type="Med" reg="Melancolía">melancolia</term> Con</p>
+</div>
+<dic>
+<pb>Folio 7 frente</pb>
+<p>36 <term type="Med">Pildoras</term>, y no se sangren del tobillo. Juev. 13. elect. Vier.
+14 prohib. sabado 15 no se laben la Cabeza. Domingo primero
+de quaresma 16 escusense las <term type="Med" reg="Purga">purgas</term>
+Lunes 17. quarto Creciente a las 9 h. 45 mi. de la maña=
+na en 30 gr. de <name type="zodiacal" reg="Tauro">tauro</name>. tiempo agradable, humido sereno Con
+aguas nieves. Mart. 18 y Mierc. 19 <term type="Med" reg="Témpora">temporas</term> no se <term type="Med" reg="Sangría">sangren</term> venas 
+altas, <term type="Med" reg="sajen">sajen las espaldas</term> , ni <term type="Med" reg="Cauterizar">Cauterizen</term> los braços. Juev. 20.
+no se <term type="Med" reg="Purga">purgen</term> vier. 21 <term type="Med" reg="Témpora">temporas</term> electo sabado 22 <term type="Med" reg="Témpora">temporas</term>, y
+Vigilia y Domingo segundo de quaresma 23. prohib.
+Lunes 24. + <name type="CathDiv" reg="Matías (San)">san Mathias apostol</name>, es la llena a las 3 h.
+25. mi. de la tarde, en 7. gr. de <name type="constelation" reg="Virgo">Virgen</name>. tiempo Vario y Ventoso
+Con alguna humedad. Mart.25. y Miercoles 26. no ay aspecto
+que prohiba las elecciones. juev. 27. prohib. Viernes 28. escusense
+las <term type="Med" reg="Sangría">sangrias.</term></p>
+<p>Marzo (<foreign>latinis a Marte patre Romali</foreign>)31
+Sabado 1. <term type="Med" reg="Purga">purgese</term> la <term type="Med" reg="Flema">flema</term>, dense baños para humedecer, y <term type="Med" reg="Sangría">sangran=
+se</term>. Domingo tercero de quaresma  2. escusense las <term type="Med" reg="Purga">purgas</term>. lun. 3.
+como anteayer si en lugar de purgarse dan <term type="Med">Corroborantes</term>.
+Martes 4. quarto mengunate  a las 3 h. 58.mi. de la tarde en
+15. gr. de <name type="zodiacal">Sagitario</name> vientos resios Con aguaseros de graniso. Mierc.
+5 elect. juev. 6 . vier. 7. y sab. 8. dense <term type="Med">Vomitorios</term>, <term type="Med" reg="Sangría">sangrias</term>, <term type="Med">baños
+desecantes</term>, y no se <term type="Med" reg="Cauterizar">Cauterizen</term> las rodillas. Domingo quarto de 
+quaresma  9. prohib. lunes 10. electo. Mar. 11. no se <term type="Med" reg="Sangría">sangren</term> del
+tobillo.
+Miercoles 12. es la conjuncion a las 4 h. 19. mi. de la madru=
+gada, en 23 gr. de <name type="zodiacal" reg="Piscis">Pisces</name>. tiempo Ventoso con algun calor. juev.
+13. prohib. Vier. 14. no se laben la cabeza. sabado 15 y Domingo de Pas=
+sibri 16. escusense las <term type="Med" reg="Purga">purgas</term>. lun. 17. no se <term type="Med" reg="Sangría">sangren</term>, ni abran 
+<term type="Med" reg="Fuentes">fuentes en los brazos</term>, ni <term type="Med">sajen</term> las espaldas.
+Martes 18. quarto Creciente a las 5 h. 11 mi. de la tarde, en 
+29 gr. de <name type="zodiacal" reg="Géminis">Gemini</name>. tiempo sereno nublado, Con algunos nortes.
+Miercoles 19. + el Gloriosizimo <name type="CarhDivi" reg="José (San)">S. Joseph</name>. no se den medicamentos
+purgantes (oy es el <term type="Astron">equinoccio</term> del Verano, teniendo este
+principio Con la entrada del <name type="planet">Sol</name> en <name type="zodiacal">Aries</name>, a las 5. h. 6 mi. de la
+tarde) juev. 20. evacuese la <term type="Med" reg="Flema">flema</term>, y <term type="Med" reg="Melancolía">>melancolia</term>. Vier. 21 y 
+sab.22. prohib. <term type="Med" reg="Sangría">sangrias</term> y <term type="Med" reg="Purga">purgas</term>. Domingo de Ramos 23. de</p>
+</dic>
+<div>
+<pb>Folio 7 vuelta</pb>
+<p>Medio dia en adelante, lunes Santo 24. y Martes Santo 25 tt la 
+encarnacion electos.
+Miercoles Santo 26. es la llena a las 3 h. 30. mi. de la maña=
+na en 7 gr. de <name type="zodiacal" reg="Libra">libra</name>. tiempo tempestuoso con agua y truenos. Jueves
+Santo 27. escusense las <term type="Med" reg="Sangría">sangrias</term>, y dense baños para humedecer.
+Viernes Santo 28. electo para todo. Sabado Santo 29. escusense las <term type="med" reg="Purga">pur=
+gas</term>, en particular a la noche. Domingo 30. Pasqua de Resurrec=
+cion. Los medicamentos sean <term type="Med" reg="Corroborante">Corroborantes</term>. lun. 31. + Segundo
+de Pasqua dense baños <term type="Med" reg="Calefaciente">Calefacientes</term>, y electo para todo.</p>
+<p>Abril ( <foreign lang="lat">latinis, quod terrahocmenseaperiatur</foreign>) 30.
+Martes 1. + tercero de Pasqua, electo: Miercoles 2. escusense las
+<term type="Med" reg="Purga">purgas</term>, y <term type="Med" reg="Fuentes">fuentes</term> en las piernas.
+Jueves 3. quarto menguante a las 10 h. 44 mi. del dia, en 15 gr.
+de <name type="zodiacal" reg="Capricornio">Capricorno</name>. tiempo destemplado y sea con algunas nubes. Viernes
+4 <term type="Med">Vomitorios</term>, sin <term type="med">Cauterizar</term> las piernas. Sabado 5. prohibido. Domingo 6. como
+ayer. Lunes 7. no se <term type="Med" reg="Sangría">sangren</term> del tobillo. Martes 8. como ayer sin <term type="med" reg="Purga">pur=
+garse</term>. Miercoles 9. no se laben la cabeza.
+Jueves 10. es la <term type="Astro" reg="conjunción">conjuncion</term>, y <term type="Astron">eclipse</term> de sol, a las 11.h. 56 mi. del dia,
+en 21 gr. de <name type="zodiacal">Aries</name>. Continuarase la sequedad con mayor calor, Vien=
+tos resios, y tempestades. Vier. 11. dense <term type="Med">baños desecantes</term>, y escusense
+las <term type="Med" reg="Purga">purgas</term>. Sabado 12. como ayer. Domingo 13. no se <term type="med" reg="Sangría">sangren</term> de los bra=
+sos, ni les abran <term type="Med" reg="Fuentes">fuentes</term>, ni <term type="med">sajen</term> las espaldas. lunes 14. como ayer
+sin <term type="Med" reg="Purga">purgarse</term>. Mart. 15. y Mierc. 16. aproposito para evacuar la <term type="med" reg="Melancolía">melan
+colia</term>.
+Jueves 17 quarto Cresiente a las 2 h. 29 mi. de la madrugada,
+en 28 gr. de <name type="zodiacal" reg="Cáncer">Cancer</name>. muestras ay de alguna humedad con Vientos
+orientales. Viernes 18. y Sabado 19. solo se den baños para calentar.  Do=
+mingo 20. electo. lunes 21. prohib. Martes 22. electo y a proposito para
+bañarse. Miercoles23. no se <term type="Med" reg="Sangría">sangren</term>.
+Jueves 24. llena a las 11 h. 45 mi. de la noche, en 6 gr. de
+<name type="zodiacal" reg="Escorpión">Escorpion</name>. tiempo alborotado y tempestuoso, con algun calor.
+Viernes 25. letanias, no se den <term type="Med" reg="Purga">purgas</term>. Sabado 26. medicamentos
+<term type="Med" reg="Corroborante">corroborantes</term>. Domingo 27. y lunes 28. electos. Martes29. escusense
+las <term type="Med" reg="Purga">purgas</term>. Miercoles 30. dense <term type="Med">Vomitorios</term>.</p>
+<p>Mayo ( <foreign lang="lat">latinis a Maia matre Mercuris</foreign>) 31 dias
+[Asi] Jueves1. + San Phelipe, y Santiago Apostoles, electo si las eva=
+cuaciones fueren <term type="Med" reg="Vomitorios">Vomitivas</term>. Viernes 2. electo.</p> 
+</div>
+<div>
+<pb>Folio 8 frente</pb>
+<p>Sabado 3. + la invencion de la santa cruz es el quarto
+menguante a la 1 h. 21. mi. de la madrugada en 13 gr. de <name type="zodiacal">Acuario</name>.
+tiempo frio con algunas neblinas. Domingo 4. electo. lunes 5. Ro=
+gaciones no se <term type="Med" reg="Sangría">sangren</term> del tovillo, y evacuese con pildoras la <term type="med" reg="Melancolía">me=
+lancolia</term>, <term type="Med">flema</term>, y <term type="Med" reg="Cólera">colera</term>. Martes 6. Rogaciones. y Miercoles 7. Ro=
+gaciones. prohib. jueves 8. ++ la Ascencion del Señor, dense 
+baños para calentar, y no se <term type="Med" reg="Purga">purguen</term>, ni lleguen a la Cabeza.
+Viernes 9. conjuncion a las 7 h. 38 mi. en 20 gr. de <name type="zodiacal" reg="Tauro">tauro</name>.
+algunos Vientos, en mar, y tierra (y esta noche a las 11 es el quar
+to de <name type="planet">Saturno</name> con el <name type="planet" reg="Sol">sol</name>) Sab. 10 . prohib. Domingo 11. no se <term type="Med" reg="Sangría">san=
+gren</term> ni abran <term type="Med" reg="Fuentes">fuentes en los brasos</term>, ni lleguen a las espaldas. lu=
+nes 12. prohib. martes 13. generalmente electo, y a proposito para 
+<term type="Med" reg="Purga">purgar</term> la <term type="Med">flema</term>, y <term type="med" reg="Melancolía">melancolia</term>. Miercoles 14. como ayer y fe=
+lizmente se evacuara la <term type="Med" reg="Cólera">colera</term> y <term type="Med">flema</term>. juev. 15. prohib.
+Viernes 16. quarto creciente a la 1 h. 49 mi. de la tarde, en 
+26 gr. de leon. continuaranse los Vientos mas fuertes con algun atem=
+pestad. sab. 17. Vigilia electo. Domingo 18. Pasqua de Espiritu Santo, 
+prohib. lunes 19. +segundo de Pasqua, como anteayer. martes 20.
++tercero de Pasqua, escusense las <term type="Med" reg="Sangría">>sangrias</term>, y bañense por lim=
+piesa. Miercoles 21. <term type="Med" reg="Témpora">temporas</term>, y Juev. 22. electos. Viernes 23 <term type="Med" reg="Témpora">tempo=
+ras</term>, dense <term type="Med" reg="Corroborante">corroborantes</term>.
+Sabado 24. <term type="Med" reg="Témpora">temporas</term>, es la llena a la 1 hora 3 mi. de la tarde, 
+en 4 gr. de <name type="zodiacal">Sagitario</name>. tiempo sexeno, templado y saludable. Do=
+mingo de la Santissima Trinidad, 25. electo, y dense <term type="Med" reg="Calefaciente">baños calefa=
+cientes</term>. lunes 26. escusense las <term type="Med" reg="Purga">purgas</term>. Mart. 27. Mierc. 28. y Juev. 29.
+++ La festividad del Corpus christi, solo se den Vomitorios y sangrias, 
+y no se abran <term type="Med" reg="Fuentes">fuentes en las piernas</term>. Vier. 30. prohib. sab. 31. electo.</p>
+<p>Junio (<foreign lang="lat">latinis a Junone dictus</foreign>) 30. diaz.
+Domingo 1. quarto mengunate a las 12 h. 32 mi. del dia, en 12 gr.
+<name type="zodiacal" reg="Piscis">Pisces</name>. repetiranse los Vientos pasados con algun Calor y no muy 
+gustoso tiempo para los que tienen <term type="Med" reg="Llaga">llagas</term>. lun. 2. baños por limpie=
+za, sin <term type="Med" reg="Purga">purgarse</term>, ni <term type="Med" reg="Sangría">sangrarse</term> del tobillo. Martes 3. prohibido. Mier=
+coles 4. las evacuaciones sean por <term type="Med" reg="Vómito">Vomito</term>. Juev. 5 y Viernes 6. solo 
+se permiten <term type="Med" reg="Sangría">sangrias</term> y <term type="Med">baños desecantes</term>. Sabado 7. no se <term type="Med" reg="Sangría">sangren</term>,
+ni abran <term type="Med" reg="Fuentes">fuentes</term> en los brasos ni sajen las espaldas.</p>
+</div>
+<div>
+<pb>Folio 8 vuelta</pb>
+<p>Domingo 8 <term type="Astro" reg="conjunción">conjuncion</term> a las 2 h. 47 mi. d ela madrugada, en 
+18 gr. de <name type="zodiacal" reg="Géminis">Geminis</name>. Continuarase el tiempo pasado no tan intenso, y 
+puede ser que con algunas humedad. lun. 9. electo. Mart. 10 a proposito 
+para <term type="Med">expurgar</term> la <term type="Med" reg="Melancolía">melancolia</term>. Miercoles 11. y Juev.12. prohib. Vier. 13.
+y Sabado 14. electos, y a proposito para baños que enfrien, y sequen.
+Domingo 15. quarto Cresiente a las 3.h. de la madrugada, en 25
+gr. de <name type="zodiacal">Virgo</name>. tiempo sexeno con algunas lluvias. lunes 16. escusense las 
+<term type="Med" reg="Sangría">Sangrias</term>. Martes 17. y Miercoles 18. electos. Juev. 19. bueno para <term type="Med" reg="Corroborante">corro=
+borar</term>. Viernes 20. solo <term type="Med" reg="Vómito">Vomitorios</term> (tiene principio el Estio, entrando
+el <name type="planet" reg="Sol">sol</name> en <name type="zodiacal" reg="Cáncer">Cancer</name>, a las 7.h. 37 mi. de la noche) Sab. 21. y Domingo 22. electo.
+lunes 23. Vigilia, es la llena a las 6 h. 11 mi. de la mañana, en 
+2 gr. de <name type="zodiacal" reg="Capricorno">Capricorno</name>. algun calor con muchas nubes obscuras. Mart. 
+24. (mancha) +el nacimiento de <name type="person" reg="Bautista, Juan (san)">San Juan Baptista</name>, y Mier. 25. las evacua=
+ciones sean por <term type="Med" reg="Vómito">Vomito</term>, y no se abran <term type="Med" reg="Fuentes">fuentes en las piernas</term>. Juev. 26
+prohib. Vier. 27. dense baños para calentar y humedecer. Sabado 28.
+Vigilia, baños por limpieza, sin sangrarse del tovillo, y a propo=
+sito para evacuar la <term type="Med" reg="Flema">flema</term> con pildoras. Domingo 29. <name type="person" reg="Pedro (san)">san Pedro</name>, 
+y <name type="person" reg="Pablo (san)">San Pablo</name> Apostoles, como ayer, si en lugar de la <term type="Med" reg="Flema">flema</term> se depone
+la <term type="Med" reg="Melancolía">melancolia</term>, y <term type="Med" reg="Cólera">colera</term>.
+Lunes 30 quarto menguante a las 8 h. 19 mi. de la noche, en 
+10 gr. de <name type="zodiacal">Aries</name>. aumentarase el calor, con serenidad en el ayre.</p>
+<p>Julio (<foreign Lang="lat">latinis a Julio Cesare dictus</foreign>) 31 diaz. 
+Mar. 1. prohib. Miercoles 2. no se laben la cabeza, ni den medica=
+mentos purgantes. Juev.3. prohib. Viernes 4. escusense las <term type="Med" reg="Purga">purgas</term>.
+Sabado 5. y Domingo 6. no se lleguen a los brazos, ni espaldas con
+hierro, o fuego.
+Lunes 7. <term type="asrtro" reg="Conjunción">conjuncion</term> a las 10. h. 21 mi. del dia, en 16 gr.
+de <name type="zodiacal" reg="Cáncer">Cancer</name>. tiempo Vario, y Ventoso, y puede ser que con algu=
+na tempestad. Martes 8. electo. Miercoles 9. y jueves 10. Solo 
+baños para Calentar. Viernes 11. y Sabado 12. electos. Domingo
+13. electo, se pueden bañar por limpieza.
+Lunes 14. quarto creciente a las 6 h. 18 mi. de la tarde, en 
+23 gr. <name type="zodiacal" reg="Libra">libra</name>. como le quarto pasado con alguna remission,
+y mas calor. Martes 15. no ay aspecto que impida las elecciones.
+Miercoles 16. los medicamentos sean <term type="Med" reg="Corroborante">corroborantes</term>. jueves 17.</p>
+</div>
+<div>
+<pb>Folio 9 frente</pb>
+<p><term type="Med" reg="Vómito">Vomitorios</term> y baños <term type="Med" reg="Corroborante">corroborantes</term>. Viernes 18 y sabdao 19. electos.
+Domingo 20. como los pasados. lunes 21. sin <term type="Med" reg="Purga">purgas</term>, ni <term type="Med" reg="Fuentes">fuentes en 
+las piernas</term>. 
+Martes 22. llena a las 7 h. 47 mi. de la noche, en 26. mi. de
+<name type="zodiacal">Acuario</name>. sera el ayre mas templado con algunas lluvias frias.
+(en la opinion mas probable, que sigo, tienen principio los cani=
+culares oy, entrando el <name type="planet" reg="Sol">sol</name> en <name type="zodiacal" reg="Leo">leon</name> a las 8 h. 10 mi. de la mañana)
+Miercoles 23. electo. Juev. 24. Vigilia, prohibido. Viernes 25. + Santiago
+Apostol, dense pildoras y no se sangre del tovillo. Sabado 26. +
+Señora Santa Anna, como ayer, y evacuese la <term type="Med" reg="Melancolía">melancolia</term>. Domin=
+go 27. como los pasado, y depongase la <term type="Med" reg="Flema">flema</term>. lunes 28. prohibido. Martes
+29. no se <term type="Med" reg="Purga">purguen</term>.
+Miercoles 30 quarto menguante a la 1 hora 34 mi. de la madru= 
+gada, en 7. gr. de <name type="zodiacal">Tauro</name>. puede esperarse alguna agua si los Vien=
+tos dieren lugar a ello. Jueves 31 como anteayer.</p>
+<p>(Agosto (<foreign lang="lat">latinis, ab Octavio Augusto imperatore</foreign>) 31.
+Viernes 1. y Sab. 2. no se <term type="Med" reg="Fuentes">abran fuentes</term> ni <term type="Med" reg="Sangría">sangren</term> en los brazos, ni 
+se <term type="Med" reg="sajen">sajen las espaldas</term>. Domingo 3. evacuesen la <term type="Med" reg="Melancolía">melancolia</term>, y <term type="Med" reg="Cólera">Colera</term>. 
+Lunes 4. no den <term type="Med">medicamentos purgantes</term>.
+Martes 5. conjuncion a las 7 h. 15 mi. de la noche, en 14 gr.
+de <name type="zodiacal" reg="Leo">leon</name>. puedense esperar aguas agradables Con ayre templado.
+Miercoles 6 prohibido. Jueves 7. y Viernes 8. electos. Sabado 9. Vigilia
+prohibido. Domingo 10. <name type="person" reg="Lorenzo (san)">San lorenzo</name> martyr, baño sin sangrarse.
+Lunes 11. prohib. Martes 12. sin purgarse. 
+Miercoles 13. <name type="CathDiv" reg="Hipólito (San)">+San Hipolito</name> (fiesta en Mexico) quarto
+creciente a las 9 h. 45. mi. de la mañana, en 21 gr. de <name type="zodiacal" reg="Escorpión">Escorpion</name>.
+como el quarto pasado con poco calor. Juev. 14. Vigilia, electo. Vier=
+nes 15. ++ la Assumpcion de Nuestra Señora, y Sabado 16. como ante=
+ayer. Domingo 17 y Lunes 18. <term type="Med" reg="Vómito">Vomitorios</term> sin abrir <term type="med" reg="Fuentes">fuentes en las 
+piernas</term>. Mertes 19. electo. Miercoles 20. prohibido.
+Jueves 21. llena a las 7 h. 49 mi. de la mañana en 29 gr.
+de <name type="zodiacal" reg="Acuario">Aquario</name>. continuaranse las aguas Con ayre sereno, y saluda=
+ble. Viernes 22. bañense, purgese la <term type="Med" reg="Melancolía">melancolia</term>, y <term type="Med" reg="Flema">flema</term> Con
+pildoras, y no se sangren del tovillo (oy se acaban los Canicula=
+res a las 3 h. 23 mi. de la tarde.) Sabado 23. Vigilia, Como ayer.</p>
+</div>
+<div>
+<pb>Folio 9 vuelta</pb>
+<p>Domingo 24. <name type="CathDiv" reg="Bartolomé (san)">San Bartolome</name> Apostol, prohibido. lunes 25. Martes
+26. y miercoles 27. no se den <term type="Med" reg="Purga">purgas</term>
+Jueves 28. + <name type="person" Type="CathDiv" reg="Agustín (san)">San Augustin</name>, quarto menguante, a las 5.
+h. 48 mi. de la mañana, en 5 gr. de Gemini. tiempo Vario, Ven=
+toso, y es de temer alguna tempestad: Viernes 29. no se <term type="Med" reg="Sangría">sangren</term>,
+ni abran <term type="Med" reg="Fuentes">fuentes en los brazos</term>. Sab. 30. <name type="person" reg="Rosa (santa)">Santa Rosa</name>, evacuese
+la (<term type="Med" reg="Melancolía">melencolia tachada</term>) <term type="Med" reg="Cólera">colera</term>, y <term type="Med" reg="Flema">flema</term>. Domingo 31. depongase la
+<term type="Med" reg="Melancolía">melancolia</term>.</p>
+<p>Septiembre (<foreign lang="lat">latinis, quasi septimus imber a Martio</foreign>) 30
+Lunes 1 y Martes 2. y Miercoles 3. prohibidos.
+Jueves 4. Conjunción a las 6 h. 14 mi. de la mañana en 12 gr. de <name type="Zodiacal">Virgo</name>.
+no faltaran Vientos con algunos aguaceros. Viernes 5 electo. Sabado 6.
+baños sin <term type="Med" reg="Sangría">sangrarse</term>. Domingo 7. Como ayer. lunes 8. + La natividad 
+de <name type="CathDiv" reg="María">Nuestra Señora</name>, electo. Martes 9. prohibido. Miercoles 10 Como ayer. lunes
+11. <term type="Med" reg="Vómito">Vomitorios</term>, y baños <term type="Med" Reg="Corroborante">corroborantes</term>.
+Viernes 12. quarto creciente a las 5 h. de la mañana, en 20 gr. de
+<name type="Zodiacal">Sagitario</name>. aguas quietas, tiempo sereno, y agradable. Sabado 13. Do=
+mingo 14. y lunes 15. las evacuaciones sean por <term type="Med" reg="Vómito">Vomito</term>, y no se abran 
+<term type="Med" reg="Fuentes">fuentes en las piernas</term>. Martes 16 prohibido. Miercoles17. <term type="Med" reg="Témpora">temporas</term>, escu=
+sense las <term type="Med" reg="Purga">purgas</term>. jueves 18. bañense, <term type="Med" reg="Purga">puerguense con pildoras</term>, y no se <term type="Med" reg="Sangría">san=
+gren del tobillo</term>.
+Viernes 19. <term type="Med" reg="Témpora">temporas</term>, en la llena a las 6 h. 43 mi. de la tarde, en 
+27 gr. de <name type="Zodiacal" reg="Piscis">Pisces</name>. Como el quarto parado. Sabado 20. <term type="Med" reg="Témpora">temporas</term>, y Vigilia,
+prohib. domingo 21. <name type="CathDiv" reg="Mateo (san)">San Matheo</name> Apostol, ni se <term type="Med" reg="Purga">purguen</term>, ni laben la
+Cabeza. lunes 22. (es el <term type="Astron" reg="Equinoccio">Equinoccio del Otoño</term>, entendo el <name type="planet">Sol</name> en <name type="Zodiacal" reg="Libra">libra</name>,
+a las 11 h. 18 mi. del dia). y Martes 23. escusense las <term type="Med" reg="Purga">purgas</term>. Miercoles 
+24 prohibido Jueves 25 no se <term type="Med" reg="Sangría">sangren Venas altas</term>, ni abran <term type="Med" reg="Fuentes">fuentes en 
+los brazos</term>, ni se <term type="Med" reg="sajen">sajen las espaldas</term>.
+Viernes 26. quarto menguante a las 11 h. 15 mi. del dia, en 4 gr. 
+de <name type="Zodiacal" reg="Cáncer">Cancer</name>. temperamento Vario Con algunas templanza. Sabado 27.
+evacuense la <term type="Med" reg="Cólera">Colera</term> y <term type="Med" reg="Melancolía">melancolia</term>. Domingo 28 depongase la <term type="Med" reg="Flema">flema</term>. lunes 
+29. <name type="CathDiv" reg="Miguel Arcángel (san)">+San Miguel Archangel</name> y Martes 30 prohibidos.</p>
+<p>Octubre ( <foreign lang="Lat">quasi Octavus a Martio imber latinis</foreign>) 31.
+Miercoles 1 y jueves 2. electos
+Viernes 3. <term type="Astro" reg="Conjunción">Conjuncion</term> (y <term type="Astron">eclipse</term> de <name type="planet" reg="Sol">sol</name>, que no Veremos) a las 8. h.
+15 mi. de la noche, en 11 gr. de <name type="Zodiacal" reg="Libra">libra</name>. Tiempo templado Con aguas quie=
+tas y serenas. Sabado 4. y Domingo 5. electos, y se pueden bañar por,</p>
+</div>
+<div>
+<pb>Folio 10 frente</pb>
+<p>
+limpieza lunes 6. escusense las <term type="Med" reg="Purga">purgas</term>. Martes 7. dense <term type="Med" reg="Corroborante">Corroborantes</term>.
+Miercoles 8. prohibido. Jueves 9. y Viernes 10. electos. 
+Sabado 11. quarto Creciente a las 11 h. 15 mi. de la noche, en 19
+gr. de <name type="Zodiacal" reg="Capricornio">Capricorno</name>. Continuaranse las aguas Con algunas nubes, y
+puede con alguna tempestad en el mar. Domingo 12. <term type="Med" reg="Vómito">Vomitorios</term>,
+sin <term type="Med" reg="Fuentes">fuentes en las piernas</term>. Lunes 13. prohib. Martes 14. electo. Mierco=
+les 15. sin <term type="Med" reg="Sangría">sangrase</term>. Jueves 16. se pueden bañar, sin <term type="Med" reg="Sangría">sangrarse</term> del
+tovillo, ni <term type="Med" reg="Purga">purgarse</term>. Viernes 17 evacuese Con píldoras la <term type="Med" reg="Melancolía">melancolia</term>,
+y <term type="Med" reg="Cólera">Colera</term>. Sabado 18. no se laben la Cabeza, ni se <term type="Med" reg="Purga">purgen</term>.
+Domingo 19. llena a las 5 h. 18 mi. de la mañana en 26 gr. de <name type="zodiacal">Aries</name>.
+es de temer alguna tempestad en este quarto. lunes 20. y Martes 21 pro=
+hiben las <term type="Med" reg="Purga">purgas</term>. Miercoles 22. y Jueves 23. no se <term type="Med" reg="Sangría">sangren</term> Venas altas, ni
+abran <term type="Med" reg="Fuentes">fuentes en los brazos</term>, ni se <term type="Med">sajen</term> las espaldas. Vier. 24. electo.
+Sabado 25. quarto menguante a las 7 h. 28 mi. de la noche,
+en 3 gr. de <name type="Zodiacal" reg="León">leon</name>. experimentarase algo templada la Constitucion del 
+ayre. Domingo26. y lunes 27. Vigilia, prohib. Martes 28. + <name type="CathDiv" reg="Simón (san)">San Simon</name>,  
+y <name type="CathDiv">Judas</name> Apostoles, electo. Miercoles 29. prohibido. de medio dia en ade=
+lante. Juev. 30. prohibido. Viernes 31. electo.</p>
+<p>Noviembre (<foreign Lang="lat">quasi nonus imber latinis</foreign> ) 30.
+Sabado 1. ++ la fiesta de todos Santos, electo, y bueno para bañarse.   
+Domingo 2. <term type="Astro" reg="Conjunción">Conjuncion</term> a las 12 h. 46 mi. del dia. en 11 gr. de 
+<name type="Zodiacal" reg="Escorpión">Escorpion</name>. Como el quarto pasado Con alguna tempestad, y ay Causa
+para que yele. lunes 3. la Commenmoracion de los fieles diffuntos,
+electo. Martes 4. dense <term type="Med" reg="Corroborante">Corroborantes</term>. Miercoles 5. dense baños para
+Calentar, y no se <term type="Med" reg="Sangría">sangren</term>. Jueves 6. prohib. Viernes 7. y Sabado 8. las
+evacuaciones Sean <term type="Med" reg="Vómito">Vomitivas</term>, y no se abran <term type="Med" reg="Fuentes">fuentes en las pier=
+nas</term>. Domingo 9. electo.
+Lunes 10. quarto Creciente a las 4 h. 51 mi. de la tarde, en
+19 gr. de <name type="Zodiacal" reg="Acuario">Aquario</name>. tiempo fresco, Con pocas aguas. Martes  11. electo.	
+Miercoles 12. y Jueves 13. no se <term type="Med" reg="Sangría">sangren</term> del tovillo, dense pildoras, y
+se pueden bañar. Viernes 14. prohibido. Sabado 15. no se laben la Cabeza,
+y dense <term type="Med" reg="Vómito">Vomitorios</term>. Domingo 16. sin <term type="Med" reg="Purga">purgarse</term>.
+Lunes 17. llena a las 3 h. 22 mi. de la tarde, en 26 gr. de <name type="Zodiacal" reg="Tauro">tauro</name>.
+Sentirase alguna mutacion en el ayre, y puede ser Con alguna agua.
+Martes 18. y Miercoles 19. sin <term type="Med" reg="Sangría">sangrarse</term> Venas altas, sin abrirse <term type="Med" reg="Fuentes">fuen=
+tes en los brazos</term>, ni <term type="Med" reg="sajen">sajarse las espaldas</term>. Jueves 20. escusense las <term type="Med" reg="Purga">purgas</term>.</p>
+</div>
+<div>
+<pb>Folio 10 vuelta</pb>
+<p>
+Viernes 21. electo, y a proposito para evacuar la <term type="Med" reg="Flema">flema</term>. Sabado 22.
+prohibido. Domingo 23. solo baños para Calentar.
+Lunes 24. quarto menguante a las 7 h. 25 mi. de la noche, en
+3 gr. de <name type="Zodiacal">Virgo</name>. Como el quarto pasado, algo mas Vario. Martes
+25. y Miercoles 26. electos. Jueves 27. prohibido. Viernes 28. electo, y se pue=
+den bañar. Sabado 29. Vigilia, sin <term type="Med" reg="Sangría">sangrase</term>. Domingo primero de
+Adviento 30. <name type="CathDiv" reg="Andrés (san)">San Andres</name> Apostol, escusense las <term type="Med" reg="Purga">purgas</term>.</p>
+<p>Diciembre (<foreign lang="lat">latinis, tanquam decimus imber</foreign>) 31.
+lunes 1. a proposito para <term type="Med" reg="Corroborante">Corroborar</term>.
+Martes 2. <term type="Astro" reg="Conjunción">Conjuncion</term> a las 7 h. 34 mi. de la mañana, en 
+11 gr. de <name type="Zodiacal" reg="Sagitario">sagitario</name>. tiempo sosegado Con algun frio. Miercoles 3.
+electo. Juebes 4. y Viernes 5. <term type="Med" reg="Vómito">Vomitorios</term> sin abrir <term type="Med" reg="Fuentes">fuentes en las pier=
+nas</term>. Sabado 6. y Domingo 7. prohib. Lunes 8. + la <name type="CathDiv" reg="Inmaculada Concepción">immaculada
+Concepcion de N. Señora</name>. electo. Martes 9. pildoras, y baños, sin 
+<term type="Med" reg="Sangría">sangria del tovillo</term>.
+Miercoles 10. quarto Creciente a las 8 h. 44 mi. de la ma=
+ñana, en 19 gr. de <name type="Zodiacal" reg="Piscis">Pisces</name>, Como el quarto pasado Con mas frio
+Jueves 11. prohib. Viernes 12. y Sabado 13. no se <term type="Med" reg="Purga">purguen</term>, ni laben 
+la Cabeza. Domingo 14. no se den medicamentos purgantes. lunes
+15. las evacuaciones sean por <term type="Med" reg="Vómito">Vomito</term>. Martes 16. sin <term type="Med" reg="Sangría">sangrarse</term> Venas
+altas, sin abrir <term type="Med" reg="Fuentes">fuentes en los brazos</term>, ni <term type="Med" reg="sajen">sajarse las espaldas</term>.
+Miercoles 17 <term type="Med" reg="Témpora">temporas</term>, es la llena a la 1 hora 17 mi. de la madru=
+gada, en 26 gr. de <name type="Zodiacal" reg="Géminis">Gemini</name>. apretaran los frios con algunas nieves.
+Juev. 18. electo. Viernes 19. <term type="Med" reg="Témpora">temporas</term>, sin <term type="Med" reg="Purga">purgarse</term>. Sabado 20. <term type="Med" reg="Témpora">tempo=
+ras</term>, y Vigilia, prohib. (esta noche a las 11 h. 24 mi. tiene principio
+el invierno Con la entrada del <name type="planet">Sol</name> en <name type="Zodiacal" reg="Capricornio">Capricorno</name>) Domingo 21.
+<name type="CathDiv" reg="Tomás (santo)">Santo Thomas</name> Apostol, Como ayer. lunes 22. electo.
+Martes 23. quarto menguante a las 11 h. 6 mi. de la noche.
+en 3 gr. <name type="Zodiacal">Libra</name>. tiempo sereno, Vario, y frio. Miercoles 24. Vigilia,
+y Jueves 25. ++ el nacimiento de N. Señor <name type="CathDiv" reg="Jesús">Jesuschristo</name>, son dias elec=
+tos, y a proposito para bañarse. Viernes 26. + <name type="CathDiv" reg="Esteban (san)">San Estevan</name> proto=
+martyr, electo. Sab. 27.+ <name type="CathDiv" reg="Juan Evangelista (san)">San Juan Evangelista</name>, Como ayer. Do=
+mingo 28. los <name type="CathDiv" reg="Santos Inocentes">Santos niños innocentes</name>, Como los pasados. lunes  
+29. los medicamentos sean solo para <term type="Med" reg="Corroborante">Corroborar</term>. Martes 30. electo.
+Miercoles 31. <term type="Med" reg="Vómito">Vomitorios</term>, sin <term type="Med" reg="Fuentes">fuentes en las piernas</term>.
+<abbr>[O. S. C. S. M. E. C. R.]</abbr>
+</p>
+</div>
+</body>
+</text>
+</TEI>
