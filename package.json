@@ -17,7 +17,7 @@
     "express": "*",
     "jqtpl": "*"
   },
-  "version": "0.0.0-7",
+  "version": "0.0.0-8",
   "engines": {
     "node": "0.6.x"
   }
