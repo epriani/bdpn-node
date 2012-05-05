@@ -1,29 +1,20 @@
 {{layout "../layout"}}
 <div id="container" class="atenea">
 	<img src="images/home.jpg" class="homeimg" />
-	<p class="description">La <strong>BdPn</strong> es un proyecto dedicado a la publicación de ediciones críticas de textos impresos y manuscritos editados en Nueva España durante el siglo XVII. La edición de estas obras, en soporte digital, tiene como finalidad hacer accesibles a estudiantes, académicos e investigadores las fuentes novohispanas, para que sirvan como herramienta de investigación y de enseñanza sobre el pensamiento novohispano.</p>
+	<p class="description">{{html dictionary.intro }}</p>
 	<div class="clear"></div>
 	<div class="home">
-		<h1 class="label">Actividad reciente</h1>
+		<h1 class="label">${dictionary.activity}</h1>
 	</div>	
 	<div class="clear"></div>
-	<div class="home">
-		<div class="block">
-			<h1>Gaspar Juan Evelino</h1>
-			<h2><a href="book.html" target="_self">Especulacion Astrológica, y physica de la naturaleza de los cometas</a></h2>
+
+	{{each(i, book) books}}
+		<div class="home">
+			<div class="block">
+				<h1>${book.value.author}</h1>
+				<h2><a href="/books/${book.id}" target="_self">${book.value.name}</a></h2>
+			</div>
 		</div>
-	</div>
-	<div class="home">
-		<div class="block">
-			<h1><a href="book.html" target="_self">Especulacion Astrológica, y physica de la naturaleza de los cometas</a></h1>
-			<h2>Gaspar Juan Evelino</h2>
-		</div>
-	</div>
-	<div class="home">
-		<div class="block">
-			<h1><a href="book.html" target="_self">Donec metus nunc, faucibus quis lacinia ac, volutpat nec odio.</a></h1>
-			<h2>Marcos Antonio de Gamboa y Ryano</h2>
-		</div>
-	</div>
+	{{/each}}	
 	<div class="clear"></div>
 </div><!-- / CONTAINER -->

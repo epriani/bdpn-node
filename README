@@ -1,0 +1,8 @@
+Documentation from packages
+jqtpl https://github.com/kof/node-jqtpl
+
+ToDos:
+- Add slugs to books
+- Add english static views
+- Add line counter to parser
+- Add line bubbles to books single

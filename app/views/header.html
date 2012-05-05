@@ -1,22 +1,23 @@
+<a id="language" href="#">${ dictionary.changeLanguaje }</a>
 <div id="header">
 	<div class="headerint">
 		
 		<a href="/" target="_self"><img src="/images/unam_bdpn_bgd_logo.png" alt="BDPN" class="logo float" /></a>
-		<h1 id="title"><a href="/" target="_self">Biblioteca Digital del Pensamiento Novohispano</a></h1>
-		<h2 id="unam">Facultad de Filosofía y Letras, UNAM</h2>
+		<h1 id="title"><a href="/" target="_self">${ dictionary.title }</a></h1>
+		<h2 id="unam">${ dictionary.faculty }</h2>
 		
 		
 		<ul id="main">
-			<li class="ob"><a href="/books" target="_self">Obras</a></li>
-			<li class="au"><a href="/authors" target="_self">Autores</a></li>
-			<li class="co"><a href="/collections" target="_self">Colecciones</a></li>
-			<li class="in"><a href="/terms" target="_self">Índices</a></li>
+			<li class="ob"><a href="/books"       target="_self">${ dictionary.books }</a></li>
+			<li class="au"><a href="/authors"     target="_self">${ dictionary.authors }</a></li>
+			<li class="co"><a href="/collections" target="_self">${ dictionary.collections }</a></li>
+			<li class="in"><a href="/terms"       target="_self">${ dictionary.indexes }</a></li>
 		</ul>	
 		
 		<div id="busqueda">
 			<form>
 				<input type="text" name="buscar"  />
-				<input type="submit" id="submit" value="BUSCAR" />
+				<input type="submit" id="submit" value="${ dictionary.search }" />
 			</form>
 		</div>
 		<div class="clear"></div>
