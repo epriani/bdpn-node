@@ -1,0 +1,18 @@
+{
+	"changeLanguaje" : "Change Languaje",
+	"title"   : "Biblioteca Digital del Pensamiento Novohispano",
+	"faculty" : "Facultad de Filosofía y Letras, UNAM",
+	"books"   : "Obras",
+	"authors" : "Autores",
+	"collections" : "Colecciones",
+	"indexes" : "Índices",
+	"search"  : "BUSCAR",
+	"intro"   : "La <b>BdPn</b> es un proyecto dedicado a la publicación de ediciones críticas de textos impresos y manuscritos editados en Nueva España durante el siglo XVII. La edición de estas obras, en soporte digital, tiene como finalidad hacer accesibles a estudiantes, académicos e investigadores las fuentes novohispanas, para que sirvan como herramienta de investigación y de enseñanza sobre el pensamiento novohispano.",
+	"activity"      : "Obras con más actividad",
+	"proyect"       : "Proyecto",
+	"collaborators" : "Colaboradores",
+	"collaborate"   : "Cómo colaborar",
+	"licence"       : "Creative Commons Atribución No Comercial",
+	"council"       : "Consejo Nacional de Ciencia y Tecnología",
+	"academic"      : "Dirección General de Asuntos del Personal Académico"
+}

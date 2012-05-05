@@ -1,0 +1,780 @@
+﻿<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="es">
+<schemaSpec ident="TEI-minimal" start="TEI">
+	<moduleRef key="tei"/>
+	<moduleRef key="header"/>
+	<moduleRef key="core"/>
+	<moduleRef key="textstructure"/>
+	<moduleRef key="namesdates"/>
+</schemaSpec>
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+       <title>Copia de una carta del Alferez Don Martin dela Torre tocante a la
+aparicion de un Cometa de los años de 1680, 1681.
+			  <abrTitle> Carta de Don Martín dela Torre tocante a la
+aparición de un Cometa de los años de 1680, 1681.</abrTitle>
+			  
+	  </title>	  
+
+	   <author>Don Martín dela Torre</author>
+  </titleStmt>	   
+	   
+  <publicationStmt>
+<publisher>Universidad Nacional Autónoma de México. Facultad de Filosofía y Letras</publisher>   
+<distributor>Biblioteca Digital del Pensamiento Novohispano</distributor>
+  </publicationStmt>
+	   
+	   <respStmt>
+
+  <name>Ramiro Cotarelo Lira</name>
+
+  <resp>Marcado XML/TEI</resp>
+
+      </respStmt>
+
+ <respStmt>
+
+  <name>Ramiro Cotarelo Lira</name>
+
+  <resp>Transcripción</resp>
+
+ </respStmt>
+	   
+	   
+	   
+	   
+	   <sourceDesc>
+	     <bibl>Copia de una carta del Alferez Don Martin dela Torre tocante a la
+aparicion de un Cometa de los años de 1680, 1681.		  
+		</bibl>
+	   </sourceDesc>
+	      
+ </fileDesc>
+</teiHeader>
+
+
+<text>
+<div>
+<front>
+
+
+
+<pb>Folio 1 frente</pb>
+
+
+{Presentación del transcriptor}
+<docTitle>
+Copia de una carta del Alferez ['o' "Don"] Martin dela Torre tocante a la
+aparicion de un Cometa de los años de 1680, 1681.</docTitle>
+
+{Inicio de la Carta}
+<p>
+Satisfago al deseo [de un, y entro] en el Teatro de la curiosidad hu-
+mana, en el [digo] de los cometas, Portentosos y prodigiosos celestes,
+arcanos, Rayos y amenazas de la venganza Divina; admira-
+</p>
+
+
+</front> 
+</div> 
+
+<body>
+
+<div>
+
+<pb>Folio 1 vuelta</pb>
+
+<p>
+dos de lo [meteonomos], contemplados de los Filósofos, temidos del vulgo
+[incapaz], como pregones de [futuras] calamidades y interpretado de 
+las [Sibilas, santos padres, y Theologos, como anuncios de la ['Ixa' "nuestra" o "señora"]
+Divina.
+
+Pero antes de alargarme [en mi] discurso, trataré con la breve-
+dad, a que dan lugar mis ocupaciones, de su lugar en el dilema
+del mundo, [su] forma, materia, termino de [duracion]. y naturaleza.
+[que] hicieron mui [ventilada] [sabido o habido], entre los observadores astrono-
+mos, si todos los cometas, son <term type="astron" Reg="Elementar">elementares</term>, que es sublunares, ó infe-
+riores a la <name type="planet" reg="Luna">Luna</name>; o si son celestes; eso es superiores, y Independientes,
+de toda materia de los clementes: question digo de toda consequen-
+cia, porque de su decision depende el juicio de sus efectos naturales;
+si son  <term type="astron" Reg="Elementar">elementares</term>; ó sobrenaturales, si son celestes, y formados
+en aquel altisimo ethere, por sola la disposicion divina, sin
+intervencion de las Causas  <term type="astron" Reg="Elementar">elementares</term> y aunque en ella se
+ha exercitado mucho la influencia humana, por las [exactisi-
+mas] observaciones de los mas insignes cometas [en los] tiempos,
+no se le ha podido dar definitiva sentencia, , con exclusion del
+sentir [contrario], por cuanto consta por las [humilisimas] observa-
+ciones de los  <term type="astron" Reg="Paralaje">paralaxes</term>, que algunos á havido, superiores a la
+</p>
+
+</div>
+
+<div>
+
+<pb>folio 2 frente</pb>
+
+<p>
+<name type="planet" reg="Luna">Luna</name>, y otros inferiores, como el del <date reg="396">año del [del señor] 396</date> que [refiere]
+<name type="person" reg="San Agustín">San Agustin</name> Inficionava a <name type="place">Constantinopla</name> de hedor de Azufre, 
+y con mas evidencia el del año del <date>[¿1050 o 150 o 190?]</date> que [discurren] las obser-
+vaciones haber eclipsado a la <name type="planet" reg="Luna">Luna</name>.
+
+Para cuya inteligencia es de notar, que los vapores y
+exalaciones de los elementos, tierra, agua, fuego y aire, no
+llegan, quanto menos paran al cielo con cavo de la <name type="planet" reg="Luna">Luna</name>, y
+consecutivamente en los cielos superiores, no ay causa, ni ma-
+teria, para producirlos naturalmente, sino solo ay se for-
+man, por la disposicion Divina como portentos sobre natura-
+les, pregones de su ira, y amenazas de su venganza; y asi
+solo de los Inferiores discurre el juicio Astrologico, en quan-
+to asus Influencias, y efectos naturales.
+
+De su forma segun consta, por las [subcesivas] Historias,
+se han observado siempre, varias especies y diferencias, porque
+unos aparecieron con rabos [exuserinos], otros Cavellentos, otros
+en forma de flecha, espada, hacha en undida, y lanza, que
+siempre han sido los mas fatales.
+
+En cuanto a la materia, segun la distincion ya alegada,
+convengo, en que al cometa celeste, lo produce Dios sobre natural-
+</p>
+
+</div>
+
+
+<div>
+
+<pb>folio 2 vuelta</pb>
+
+<p>
+-mente de substancia etherea y de la naturaleza de los cielos,
+como obra de sus maravillas, y prodigios de su omnipotencia; pe-
+ro del cometa sublunar, siempre huvo varias y [sutilisimas] opi-
+niones unas que se tomava de la ['fuerza' o 'forma' o 'junta'] de muchas estrellas,
+[concurriones] en conjuncion, otras de planetas altisimos, y invi-
+sibles, que haciendo sus giros, y estando en el perigeo [<name type="planet" reg="Venus">venus</name>]
+<term type="astron" Reg="epiciclo">epiciclos</term>, se hacian visibles enciertos tiempos, y otras de nubes
+sublimes ilustradas por los rayos del Sol, pero [atodas] se les opone
+la evidencia de la experiencia, porque si fuera el cometa, una
+[junta] de Estrellas, todos los cometas habian de ser celestes, lo
+que repugna a las observaciones, y las estrellas fijas no mudan
+distancias entre si ni durara esta conjuncion tanto tiempo,
+como el de algunos que seis meses enteros aparecieron visibles;
+ni es planeta, por que haciendo sus giros, y entrando en su apogeo
+apareciera primero, como estrella de quinta y 6ta magnitud
+creciendo su forma en la proporcion de su movimiento, y cerca-
+nía al <term type="astron" Reg="perigeo">perigeo</term>; ni nube alumbrada del Sol, por que no du-
+rara tanto tiempo, ni se viere en una misma forma, en regio-
+nes remotas y diferentes y assi en mi sentir con <name type="person" reg="Aristóteles">Aristóteles</name> y
+otros modernos la decesion mas probable, y versada es, que el
+</p>
+
+</div>
+
+<div>
+
+<pb>Folio 3 frente</pb>
+
+<p>
+cometa en su cuerpo es diaphano y [Real], levantado y formado
+en la suprema Region del Aire, de las exalaciones de la tierra
+y en primer lugar de las de la mar, ensendidas ó alumbra-
+das por el fuego del Sol por donde se forma su rabo que no es lla-
+ma, sino rayos del Sol, hechados por la caveza diaphana del
+mismo cometa, porque no solo segun este <name type="person" reg="Aristóteles">filosopho</name>, sino assi-
+mismo, consta por la experiencia, que el agua marina, tiene
+un genero [degontura], azeitosa y [salitrava] cuios vapores [guia-
+dos] continuadamente suben a la mas alta Region del ayre, y la
+tierra en innumerables partes, abunda de vapores azufrados,
+y minerales, de los quales siempre se exalan espiritus calidos
+y secos, otros [es] salitrados y azeitosos, que juntadosdos en una 
+masa forman un cuerpo, capaz de ser encendido, ó alumbra-
+do del Sol, que es el mismo Cometa, y aunque no han faltado ar-
+gumentos en contra, convienen los mas, en que se forman de
+causas ocultas de la naturaleza.
+
+El tiempo de su duracion es vario, y depende de la canti-
+dad de esas exhalaciones, que si es mucha, aparecerá mas ti-
+empo el Cometa, y si es poca menos. Demanera que los que
+duran mas tiempo se fomentan con materia mas abundante
+</p>
+</div>
+
+<div>
+<pb>Folio 3 vuelta</pb>
+
+<p>
+y de las observaciones consta que el cometa que menos ha durado
+ha sido de seis y siete dias, y el que mas, de seis meses, y de la
+misma manera, como el tiempo de su aparicion depende de
+la cantidad de la materia, assi el de us efectos naturales, del
+mismo tiempo de la aparicion.
+
+Su naturaleza es varia, y la de los planetas, cuios colo-
+res y especies imitan, y de los signos en que aparecen y de ella
+nace el jucio de sus influencias, y efectos naturales. Y aunque
+este ha sido el blanco de la Curiosidad humana, fue siempre
+reputado por dificultosisima su comprehencion, como de ma-
+teria tan desproporcionada, con la Orden de la naturaleza
+enemiga de sus leyes, forma de tiempo, y sola regular, en las
+irregularidad de sus movimientos, atribuyendola con mas fun-
+damento a las maravillas del Señor y su divina y incompre-
+hensible providencia, y a lo mas, que pudo llegar este juicio,
+es a una mera congetura, fundada en la experiencia de lo
+que en la succesion de los tiempos antiguos y modernos, en to-
+das  apariciones de cometas, siempre por lo mas se ha visto
+succeder, cuya fuerza fuera mas valida, si huviere avido mu-
+chos cometas, en forma, duracion, naturaleza, y sus efectos
+</p>
+</div>
+
+<div>
+
+<pb>Folio 4 frente</pb>
+
+<p>
+en todo semejantes. A lo que se reduce la [historia] segun <name type="person" reg="Ptolomeo">Ptolo-
+meo</name>, <name type="person" reg="Leopoldo de Austria">Leopoldo de Austria</name> y <name type="person" reg="Francisco Juventino">[Francisco] Juventino</name> Doctor Teologico
+es lo siguiente.
+
+Si el cometa es <term type="astro" Reg="saturnino">Saturnino</term>, eso es de la naturaleza de
+Saturno; que es planeta de luz aplomada, palida, triste, ne-
+bulosa; frio y seco, contrario al calor natural, enemigo del ge-
+nero humano, y infortuna mayor en cuio oroscopo del na-
+cimiento apareciere, indica naturalmente segun [<name type="person" reg="Francisco Juventino">Ynnetino</name>],
+enfermedades melancolicas, y largas, y en el oroscopo del Año
+que empieza [peniferas], ambre, langostas, y pobresas, y a los
+hombres predominados del Imperio de <name type="planet" reg="Saturno">Saturno</name>, engendra
+Austeridades, enbidias,disenciones, avaricias, tristezas, ene-
+mistades, osbtinaciones, y maldades.
+
+Si es de la naturaleza de <name type="planet" reg="Júpiter">Jupiter</name>, plateada, y reluci-
+ente fertilidad, pero males de costado, colicos, y letargos. Si es
+marcial eso es en [undivo], y en forma de [ata] significa na-
+turalmente efectos de cosas calidas como vientos, Temblores
+de tierra, tormentas, rayos, fluxos de vientre, calenturas
+agudisimas, y colericas, sediciones y Guerras.
+
+Si es dorado, imitador del Solo; Muerte de Principes
+</p>
+</div>
+
+<div>
+
+<pb>Folio 4 vuelta</pb>
+
+<p>
+levantamientos, mudanzas de Estados y sequedades
+si genero, azul y [sebrahilo] amenaza a los riñones, a la
+madre, al estomago, hidropesia, apoplexias, mudanza de leyes.
+Si <term type="astro" Reg="Mercurial">Mercurial</term>, epilepsias, achaques freneticos, letargos ham-
+bre y [pena]. Si lunar amenaza al muxerío, con esterilida-
+des, enfermedades húmedas, y Guerras ligeras.
+
+El cometa presente por ser de luz aplomada, palida, tris-
+te y nebulosa, sin rayos, y en forma de Alfange, participa
+sin duda de la naturaleza de <name type="planet" reg="Saturno">Saturno</name>, y assi indica natural-
+mente, sus influencias, y efectos ya referidos en el princi-
+pio se la sumaria de la naturaleza de Saturno.
+
+Y porque en su principio fue oriental, segun  <name type="person" reg="Ptolomeo">Ptolomeo</name>
+sus efectos sucederan en el apariente tiempo, o presto, y poco
+despues de su aparicion, aunque los puede dilatar en algo;
+el haverse hecho el cometa al presente occidental, por donde
+serian sus efectos sospechosos en la maior parte del año y
+mas por que su aparicion, no seria de las mas breves pues
+siempre fué creciendo su rabo hasta que se extendio a 58.
+grados y [50] minutos, aunque desde el dia de <date>Enero del 1681</date>.
+empezó adisminuirse, como se verá en mis siguientes
+</p>
+
+</div>
+
+<div>
+
+<pb>Folio 5 frente</pb>
+
+<p>
+observaciones.
+
+Y porque fue caminando con su movimiento propio para
+el Oriente, y conjuncion con el Sol, [distante de el] de manera
+que fué Visible por los meses de <date>Noviembre y Diciembre del año
+pasado del 1680</date>. Yndica segun  <name type="person" reg="Ptolomeo">Ptolomeo</name> Muerte y [Ynterivo]
+de Principes y Cavezas Coronadas, y porque ese mismo movimiento
+fue hacia el Orientee, amenaza guerras estrangeras inva
+sion y asaltos repentinos, y mas en las regiones y parte que
+ha sido perpendicular en el Zenit, o en cuyos Orizontes fué
+mas larga su demora y aparicion, quales son todas las de
+poca altura de la una y otra [vanda] de la linea; porque en 
+el principio tuvo este Cometa con poca diferencia la mis
+ma declinacion de la vanda del sur que la <name type="constelation" reg="Spica">espiga</name> de la
+Virgen que es de [9] grados y [25] minutos aunque esta siempre
+fué amenos, hasta que el cometa pasó la linea, con declinacion
+Septeptrional, que va creciendo de día en día.
+
+Esta es, segun  <name type="person" reg="Ptolomeo">Ptolomeo</name> y [Juventino] la congetura y juicio,
+en quanto a las inclinaciones y efectos naturales del presente
+cometa. De la inclinacion [digo] de su naturaleza, no de ne-
+cesidad de su operacion. [(Latín) <foreign lang="Lat">Nam. de no ipse et Voluntatis</foreign>
+</p>
+
+</div>
+
+<div>
+
+<pb>Folio 5 vuelta</pb>
+
+<p>
+<foreign lang="Lat" cont="1">nostre liberas, celevrium y oqium</foreign>] Inclinaciones. [<foreign lang="Lat">sepe nu-
+mero vanas et innitas facient. neque erum astris, arim
+voluntates Subtestua, res sapiens illis predominabitur:</foreign>] y
+es loque alcansaron [consta] capacidades en materia tan subli-
+me y dudosa, y en que aunque salga verdadero el Juicio
+[siempre] es malo el Acierto, porque es acierto en mal. Lo cier-
+to es, que sean los cometas Celestes, ó sublunares siempre en 
+lo mas [ansido] preambulos, y causas segundas aunque no
+fisicas de mudanzas notables en estas cosas sublunares, y
+que los forma la providencia de Dios milagrosamente,
+o consiente se formen de causas naturales, para valerse 
+de ellos aunque con efecto natural para encausamiento sa-
+ludable, y anuncios de su ira, y cercano Contigo et. exunt
+signa in celo, no que sea cierta su execucion, sino para
+que (como sucedió a la <name type="place" reg="Nínive">Ciudad de Ninive</name>, y aquel Rey
+del Pueblo de <name type="place" reg="Israel">Isrrael</name>, cuya vida alargó Dios por quinze
+años, movido de supervivencia, no obstante su [decreto] que
+le anuncio el Profeta de la brevedad de sus dias, y que
+dispusiere de su Causa) convirtiendonos a su divina Mages-
+tad, [que] la contemplacion de tan fatales indicios, la convierta
+</p>
+
+</div>
+
+<div>
+
+<pb>Folio 6 frente</pb>
+
+<p>
+en misericordia, y en esta [atencion llama a los Cometas]
+<name type="person" reg="San Agustín">San Agustin</name> misericordia de Dios, y no riesgo, y Tertuliano
+Profetas, lenguas, y pregones Celestes, para que nos reconcilié-
+mos con su Divina Magestad. [(Latín) <foreign lang="Lat">Nam Deus et natura tus
+spectaculis nihil justra oporantius, quorum quideno pro-
+nosticatio probabilis in genere, desingulis vero Incerissi-
+ma est</foreign>] luego el querer particularizar estos pronosticos a
+personas singulares Reyes, o Principes de su muerte con
+denotacion de Persona ó de otros sus [suceros] particulares 
+es vano, ridiculo, afectado, y sin fundamento, amenos que
+sea por la gracia del espiritu profetico porque la inte-
+ligencia de tan arcanos, y [es con divinisimos] prodigios los
+tiene Dios reservado en los secretos [Terrenos] de su infi-
+nita sabiduria.
+
+Tocante a lo de mis observaciones apareció primero
+este cometa en el Oriente en el <name type="constelation" reg="Virgo">signo de virgo</name>, con decli-
+nacion austral por la madrugada poco despues de las
+dos del dia <date>24 de noviembre del año de 1680</date> y de ay en
+adelante siempre nació  mas tarde, por causa de su ve-
+los movimiento porio para el Oriente y cercania al Sol
+</p>
+</div>
+
+<div>
+
+<pb>Folio 6 vuelta</pb>
+
+<p>
+oprimiendo de sus raios hasta que con el se puso en conjuncion, y pasa-
+da esta se  hizo mas Oriental, por donde forzosamente despues de su ocaso,
+fue visible en el Occidente, y de matutino se hizo vespertino, de Oriental
+Occidental, igual a el que se vió en <name type="place" reg="Alemania">Alemania</name> <date>año de [1261] por el mes
+de Agosto</date>, pues era matutino en el oriente, y de ai a poco estando en
+conjuncion con el Sol el [dexo] de parecer y pasada esta apareció otra vez
+en el occidente, y aunque al vulgo parece este cometa era otro, no es 
+sino el mismo; ni mas ni menos como sucede en la <name type="planet" reg="Luna">luna</name> que quando se
+acerca para la conjuncion con el Sol, se ve por la madrugada en el
+oriente, y pasada esta, y puestose la <name type="planet" reg="Luna">luna</name> mas al [l] este que el mismo
+Sol, se nos aparece en su ocaso en el occidente.
+
+No fué observable por causa de los vapores del orizonte hasta
+el dia <date reg="28/11/1680">Jueves 28 de Noviembre</date> quando empecé a observarlo en este
+puerto de [nuestro santo] de <name type="place">Campeche</name> cuia voreal elevacion del Polo es de
+grados 19. hr. el mismo dia <date reg="28/11/1680">Jueves 28 de Noviembre por la madruga-
+da del año de 1680</date> pareció al antojo, aunque no es de los mas gran-
+des mayor que una estrella de primera magnitud, su color era
+aplomado, triste nebuloso y <term type="astro" Reg="saturnino">Saturnino</term> mas occidental y elevada que
+<name type="constelation" reg="Spica">la <name type="constelation" reg="Spica">espiga</name> del [a virgen]</name>, su movimiento proprio era veloz para el
+oriente, y ese mismo día en elevacion de la <name type="constelation" reg="Spica">Espiga</name> para el oriente
+</p>
+</div>
+
+<div>
+<pb>Folio 7 frente</pb>
+
+<p>
+de grados 33.8 distaba el Cometa de <name type="constelation" reg="Arturo">Arturo</name> grados 32.ih. y de
+la postrera de la cola de la <name type="constelation" reg="Osa mayor">[ursus] maior</name> grados 58.15 su elevacion era
+de grado 30.7. y entonces empezaba el crepusculo aunque con mas
+precision por el calculo trigonometrico y la elevacion de la <name type="constelation" reg="Spica">espiga</name>
+se sabra el momento del tiempo era largo su [rabo] de grados 13.
+30. y se encendia hasta el corazon del Leon para la parte del occi-
+dente y opuesta al Sol.
+
+Por la madrugada del dia <date reg="29/11/1680">Viernes 29 de Noviembre</date> en elevacion de
+la <name type="constelation" reg="Spica">espiga</name> para el Oriente de grados 19.52. distava el cometa de <name type="constelation" reg="Arturo">Arturo</name>,
+para el [lente] grados 32.26 de la postrera de la cola de la <name type="constelation" reg="Osa mayor">[ursa] mayor</name>
+grados [59.ho] estava casi en conjuncion, con la <name type="constelation" reg="Spica">espiga</name> de la virgen y
+su rabo muy pequeño por la vezindad del Sol. y algo mas voreal que
+la otra <name type="constelation" reg="Spica">espiga</name>.
+
+El dia <date reg="30/11/1680">sabado 30 de Noviembre</date> por la madrugada elevada la
+<name type="constelation" reg="Spica">espiga</name> al oriente de grados 19.[h9] distava de <name type="constelation" reg="Arturo">Arturo</name> al oriente
+grados 33.6 de la postrera de la cola de la <name type="constelation" reg="Osa mayor">ursa mayor</name> grados 62.[h2].
+hallavase en un vertical con la <name type="constelation" reg="Spica">espiga</name> de la virgen y mas orien-
+tal y cercano al orizonte.
+
+El <date reg="01/12/1680">dia primero de Diciembre</date> Domingo por la madrugada
+elevada la <name type="constelation" reg="Spica">espiga</name> al orientee de grados 27.[hh]. distava de <name type="constelation" reg="Arturo">Arturo</name>
+</p>
+</div>
+
+<div>
+
+
+<pb>Folio 7 vuelta</pb>
+
+
+<p>
+grados 33.39 de la [ara] cola de la <name type="constelation" reg="Osa mayor">ursa mayor</name> grados 63.[13.] de
+la <name type="constelation" reg="Spica">espiga</name> 9.29. mui disminuido su rabo por los rayos del sol, y al
+parecer [distava] su caveza al norte de la <name type="constelation" reg="Spica">espiga</name> y algo mas orien-
+tal cosa de 9 alo minimo.
+
+El dia <date re="2/12/1680">lunes 2 de Diciembre</date> por la madrugada elevada la
+<name type="constelation" reg="Spica">espiga</name> al oriente grados 27.[44]. distava de <name type="constelation" reg="Arturo">Arturo</name> grados 35..
+32. de la postrera de la cola de la <name type="constelation" reg="Osa mayor">ursa mayor</name> grados 66.7.. de
+la <name type="constelation" reg="Spica">espiga</name> 1h. h0. mas oriental que ella y menos elevada subia su
+rabo vertical para la <name type="constelation" reg="Spica">espiga</name> llegando casi a ella con su extremo.
+
+<date reg="3/12/1680">Martes 3 de Diciembre</date> elevada la <name type="constelation" reg="Spica">espiga</name> al oriente grados 33.18
+distaba de <name type="constelation" reg="Arturo">Arturo</name> al oriente grados 37.38 de la postrera de la cola de la
+<name type="constelation" reg="Osa mayor">ursa mayor</name> grados 68.52. de la <name type="constelation" reg="Spica">espiga</name> 20.6 tenuissima cada versus
+<name type="constelation" reg="Spica">spicam</name>. <date reg="02/12/1680">Miercoles 4 de Diciembre</date> [(latín)<foreign lang="Lat">mane alta <name type="constelation" reg="Spica">spica</name> ad <name type="constelation" reg="Arturo">artum</name> gradibus 37.30.</foreign>]
+distava en el oriente de <name type="constelation" reg="Arturo">arturo</name> grados 36.20. de la postrera de la 
+cola de la <name type="constelation" reg="Osa mayor">ursa mayor</name> 67.16. de la <name type="constelation" reg="Spica">espiga</name> 21.20 poco elevado del
+orizonte ni parecia su rabo oprimido de los rayos del Sol.
+
+Jueves 5 de diciembre elevada la <name type="constelation" reg="Spica">espiga</name> al oriente grados
+37.20. Distava de <name type="constelation" reg="Arturo">Arturo</name> grados 36.36. de la postrera de la
+cola de la <name type="constelation" reg="Osa mayor">ursa maior</name> grados 67.[80]. de la <name type="constelation" reg="Spica">espiga</name> 31.36 casi invi-
+sible los otros 3 a 4 dias aun se vió en el oriente, pero no obser-
+</p>
+
+</div>
+
+<div>
+
+<pb>Folio 8 frente</pb>
+
+<p>
+bable por la claridad de la <name type="planet" reg="Luna">Luna</name> y cercanía al Sol y los demas
+dias invisible hasta el dia <date reg="20/12/1680">viernes 20 de Diciembre</date> a prima noche po-
+co despues de las 6 que se vió su rabo en el occidente mui crecido
+su caveza invisible por los vapores del orizonte, y lo mismo fué el dia
+<date reg="21/12/1680">21 de Diciembre</date>  [letras ilegibles y después el número 13]
+
+El dia <date reg="22/12/1680">22 de Diciembre</date> a la misma hora vespertina vió su
+rabo sin la caveza estendiase desde el orizonte hasta la cola del
+[ <name type="constelation" reg="Cygnus">cigne</name>], y mas adelante 4 y 5. grados y lo mismo fué los dias sigui-
+entes hasta el dia <date reg="29/12/1680">Domingo 29 de Diciembre</date> quando se vio su caveza
+en el occidente in observable por la claridad de la <name type="planet" reg="Luna">Luna</name> y vapo-
+res del orizonte estendiase su rabo hasta la lucida de la Catedra
+De<name type="constelation" reg="Cassiopeia">casiopea</name> y fué casi siempre nebuloso triste del color de la ca
+beza aunque cerca de ella algo mas escondido y claro y lo mis-
+mo los dias siguientes por las nuves hasta el dia <date reg="03/01/1681">Viernes 3 de 
+Enero aprima noche 1681</date>. porque elevada la cola del <name type="constelation" reg="Cygnus">cigne</name> al
+occidente grados 23.31. distava de la misma cola del <name type="constelation" reg="Cygnus">cigne</name> gra-
+dos 34.37. de la lucida de la catedra De <name type="constelation" reg="Cassiopeia">casiopea</name> 57.49. esten-
+diase su rabo hasta grados 58.40. mas para el este, y elevado
+que la constelacion de <name type="constelation" reg="Cassiopeia">Casiopea</name>.
+
+El dia Savado 4 de Enero, aprima noche elevada la cola
+</p>
+
+</div>
+
+<div>
+
+<pb>Folio 8 vuelta</pb>
+
+<p>
+del <name type="constelation" reg="Cygnus">cigne</name> al occidente grados 22.45. distava de la cola del <name type="constelation" reg="Cygnus">cigne</name>
+grados 33.40. de la lucida de la Catedra de <name type="constelation" reg="Cassiopeia">Casiopea</name> 55.20. el
+rabo largo grados 58.40. mas adelante y elevada que la <name type="constelation" reg="Cassiopeia">cas-
+siopea</name>.
+
+<date reg="05/01/1681">Domingo 5 de Enero</date> a prima noche elevada de la cola del
+<name type="constelation" reg="Cygnus">cigne</name> grados 17.16. al Occidente distava el cometa en el occiden-
+te de la cola del <name type="constelation" reg="Cygnus">cigne</name> grados 32.56. de la lucida de la Catedra
+de <name type="constelation" reg="Cassiopeia">Cassiopea</name> 51.22. del pecho de <name type="constelation" reg="Cassiopeia">Cassiopea</name> 53.18. y lo demas co-
+mo el <date reg="04/01/1681">dia 4</date>.
+
+
+El dia <date reg="06/01/1681">Lunes 6 de Enero</date> a prima noche elevada la capela
+[hinco] al oriente grados 47.50. distava el cometa al occidente
+de la cola del <name type="constelation" reg="Cygnus">cigne</name> grados 32.35. de la lucida de la catedra de
+<name type="constelation" reg="Cassiopeia">Cassiopea</name> 48.28. del pecho de <name type="constelation" reg="Cassiopeia">Cassiopea</name> 49.35. estendiase el ra-
+bo hasta rados 58.50. por el medio de entre <name type="constelation" reg="Cassiopeia">Cassiopea</name> y el lu-
+cido lado de <name type="constelation" reg="Perseus">Perséo, y la Caveza de Medusa</name>.
+
+El dia <date reg="07/01/1681">Martes 7 de Enero</date>, a prima noche elevada la ca-
+pela [hinco] al oriente grados 48.56. distava el cometa al
+occidente de la cola del <name type="constelation" reg="Cygnus">cigne</name> grados 32.30. de la lucida de la
+Catedra de <name type="constelation" reg="Cassiopeia">Cassiopea</name> 45.16. del pecho de <name type="constelation" reg="Cassiopeia">Cassiopea</name> 46.2. el rabo se
+estendia asta grados 58.50. mas adelante que <name type="constelation" reg="Cassiopeia">Cassiopea</name> por el
+</p>
+</div>
+
+<div>
+
+<pb>Folio 9 frente</pb>
+
+<p>
+medio de entre ella y el lucido lado de <name type="constelation" reg="Perseus">Perséo y la caveza de 
+Medusa</name>. [resto del párrafo ilegible]
+
+<date reg="08/01/1681">Miercoles 8 de Enero</date> dia en que empezó a disminuir su 
+rabo elevada la Capela [hinco] al oriente grados 48. 48. distava 
+de la cola del <name type="constelation" reg="Cygnus">cigne</name> grados 32.42. de la lucida de la catedra de 
+<name type="constelation" reg="Cassiopeia">Cassiopea</name> 45.46. del pecho de <name type="constelation" reg="Cassiopeia">Cassiopea</name> 42.40. de la cola se estendia
+solamente grados 53.[10]. y llegaba acia la <name type="constelation" reg="Perseus">caveza de Medusa</name>.
+
+<date reg="09/01/1681">Jueves 9 de Enero</date> elevada la capela al oriente grados 51.18.
+a prima noche distava el cometa de la cola del <name type="constelation" reg="Cygnus">cigne</name> grados al occi-
+dente33.49. de la lucida de la Catedra de <name type="constelation" reg="Cassiopeia">Cassiopea</name> 39.38. del pecho
+de <name type="constelation" reg="Cassiopeia">Cassiopea</name> 39.26. su rabo siempre a menos y era de grado 51.20.
+casi en linea recta hacia el lucido lado de <name type="constelation" reg="Perseus">Perséo</name> la caveza mas
+subida, triste y nebulosa, y el rabo en la misma proporcion.
+
+<date reg="10/01/1681">Viernes 10 de Enero</date> elevada la capela al oriente grados
+50.1. distava de la catedra de <name type="constelation" reg="Cassiopeia">Cassiopea</name> grados 37..5. del pecho de
+<name type="constelation" reg="Cassiopeia">Cassiopea</name> 36.46. de la cola del <name type="constelation" reg="Cygnus">cigne</name> 35.4. el rabo menor y de
+grados 49. la caveza mui nebulosa se estendía hacia el lado de
+<name type="constelation" reg="Perseus">Perséo</name>.
+
+<date reg="11/01/1681">Savado 11 de Enero</date> a prima noche elevada la capela al
+oriente grados 53.46. distava de la Catedra de <name type="constelation" reg="Cassiopeia">Cassiopea</name> 34.40. del
+</p>
+</div>
+
+<div>
+
+<pb>Folio 9 vuelta</pb>
+
+<p>
+del pecho de <name type="constelation" reg="Cassiopeia">Cassiopea</name> 32.27. su rabo de grados 46.45.
+
+<date reg="12/01/1681">Domingo 12 de Enero</date> elevada la Capela al oriente grados 55.20
+distava de la catedra de <name type="constelation" reg="Cassiopeia">Cassiopea</name> 33.5. del pecho de <name type="constelation" reg="Cassiopeia">Cassiopea</name> 32.19
+su rabo era de grados 43.36. siempre a menos y derecho hacia 
+el lucido lado de <name type="constelation" reg="Perseus">Perséo</name>.
+
+Esas son mis observaciones hasta el dia de hoy y del presente
+cometa, y segun las cinco postreras su rabo fué en disminucion
+supuesto que habiendo sido el <date reg="07/01/1681">martes 7 de Enero</date> de grados 58.50 a
+8 del [otro] no llegó a mas que 53.10. y a menos en adelante por don-
+de se puede Juzgar será de menos tiempo su aparicion y lo
+mismo proporcionadamente de sus influencias naturales, las 
+de en adelante se haran con la misma exactitud para [su putam]
+a su tiempo por ellas y la doctrina de los Triangulos esfericos su
+declinacion ascension Ruta, latitud y longitud, y vario y veloz
+movimiento, para el oriente que si dura algunas semanas
+como es apariente llegará el cometa a mucha declinacion de la
+vanda del Norte y segun fuere en adelante su movimiento
+puede llegar a tanta que sea visible toda la noche y no se ponga
+debajo del orizonte, de todo compondré su efemeride a su tiempo
+con las demas consequencias que de ay resultan. No ignoro que
+</p>
+</div>
+
+
+<div>
+<pb>Folio 10 frente</pb>
+
+<p>
+el Vulgo há estrañado que viendose en el oriente hechava su ra-
+bo para el occidente, y que al presente estando en el occidente
+lo hecha a la parte opuesta y [averse] del [minimo Sol parece] fun-
+damento porque todos los cometas siempre echan su rabo a la 
+parte opuesta del Sol.
+
+Y este es el discurso, aque la brevedad del tiempo y mis continuas
+ocupaciones dan lugar [assujetome] en todo a mejor parecer y a la Cen-
+sura de la Santa y Catolica Iglesia Romana, que consiente estos
+juicios Astrologicos, [(latín) <foreign lang="Lat">cum reservatione liberi arbitry</foreign>], reservando la
+soverania de todo al supremo Dios [(latín) <foreign lang="Lat">ad cuius nostrum</foreign>], ovedecen los ele-
+mentos se rinde la naturaleza los mares se apartan estremecer-
+se los cielos, Sol y astros, mudan sus influencias, y cursos naturales. [(latín) <foreign lang="Lat">et
+stetit Sol adgabaon= et reberus est. Sol decem lineis por grados quos
+decenderat. </foreign>] y supuesto su divina piedad nos lo representa, en forma
+de flechas, espadas, lanzas, luces y hachas encendidas, en lugar
+de horrores sean señales de su misericordia; para que los que nos
+parecen pregones de sus iras sean con <name type="person" reg="San Agustín">San Agustin</name> anuncios de piedades;
+con <name type="person" reg="Tertuliano">Tertuliano</name> profetas de reconciliacion, lengias del Espiritu santo
+sean flechas del Amor Divino, espadas y lanzas de fortaleza en los
+travajos, luces desvanecedoras de tinieblas, y Arcos de Iris como los
+</p>
+</div>
+
+<div>
+
+<pb>Folio 10 vuelta</pb>
+
+<p>
+que dió en señal de su reconciliacion con el genero humano.
+
+En esto va el Calculo de mis observaciones de los Eclipses que
+[usted] pide de los postreros Años.
+
+Del Eclipse de <name type="planet" reg="Luna">Luna</name> en panama cuia elevacion de polo bo-
+real [símbolo] de grados 9.3. observé el fin del Eclipse de <name type="planet" reg="Luna">luna</name> del <date reg="06/07/1675">dia 6
+de Julio de 1675</date>. porque el principio me estorvaron las nubes
+y en el momento del verdadero fin de este Eclipse fué elevado [for-
+mahant] al oriente grados 24.40 eso es hora 11.59.52. post me-
+ridium dicte dici.
+
+En la Habana cuia altura de polo es de grados 23.6. observé
+el otro eclipse de <name type="planet" reg="Luna">Luna</name> del dia <date reg="31/12/1675">31 de Diciembre del mismo año
+del 1675</date>. y fue su verdadero principio en elevacion de [Procyon] al
+oriente de grados 31.38. eso es hora 8.45.21. su fin elevado el regulo
+al oriente de grados 27.58. eso es hora 10.45.12. [(latín) <foreign lang="Lat">unde tota diratio
+horarum dico horg</foreign>] 1.59.51. este eclipse se le pasó por alto a [Astr-
+golo] Romano
+
+En Chiclana que dista al Noroeste de Cadiz cosa de tres
+leguas, y cia elevacion de polo es de grados 36.31. observé el 
+eclipse de <name type="planet" reg="Luna">Luna</name> de <date reg="16/05/1677">16 de Mayo de 1677</date>. su verdadero principio
+fue elevado <name type="constelation" reg="Arturo">Arturo</name> al occidente grados 32.2. esso es hora 1.53.21.
+</p>
+</div>
+
+<div>
+<pb>Folio 11 frente</pb>
+
+<p>
+post meridiam nortem; su verdadero fin elevada la [linea] al occiden-
+te grados 20.59. esso es hora 4.34.11. la total duracion fue de 
+horas 2.40.20. este eclipse observó el catedratico de <name type="place" reg="Sevilla"> Sevilla</name>
+<name type="person" reg="Juan de la Cruz y Mesa">Juan de la Cruz y Mesa</name> su principio en Sevilla hora 1.54.
+el fin hora 4.33 y estan los lugares casi en un mismo meridia-
+no.
+
+En Chiclana observé otro eclipse de <name type="planet" reg="Luna">Luna</name> el <date reg="29/10/1678">dia 29 de Octubre
+de 1678</date>. su principio a las 6.5'.48''. la Imersion total en elevacion
+de la lira al occidente de grados 55.8' esso es hora 7.5.52 la
+emersion elevada la lira grados 35.52' esso es hora 8.48.19 el
+fin, elevada la lira al occidente grados 25.10. esso es hora 9.48.9
+la total duracion de horas 3.42'.21''. <name type="person" reg="Juan de la Cruz y Mesa">[don] Juan de la Cruz</name> lo ob-
+servo en Sevilla la imersion hora 7.8. emersion hora 8.49. [sabu bene].
+
+<name type="person" reg="Vicente de Mayorca">Don Vicente [Aust] de Mayorca</name> observó el eclipse de
+<name type="planet" reg="Luna">Luna</name> del <date reg="11/01/1675">11 de Enero 1675</date>. la total immersion hora 6.35. emer-
+sion hora 8.7'. y el año <date>1676</date>. el eclipse de Sol. de <date reg="10/06/1676">[10] de Junio</date>
+su principio hora 7.34' fin hora 10.12. en este <name type="place" reg="Campeche">Puerto de Cam-
+peche</name> observé el eclipse de Sol de <date reg="22/09/1680">22 de (Enero) digo Septiembre
+del año pasado del 1680</date> su verdadero principio fué elevado el Sol
+al occidente de grados 69.53'. de donde se deduce por los triangulos
+</p>
+</div>
+
+<div>
+<pb>Folio 11 vuelta</pb>
+
+<p>
+esfericos hora 0.13'.44''. despues de medio dia su fin en elevacion
+del mismo sol. al occidente de grados 46.39. esto es hora 2.37'.20''.
+por donde su medio fue hora 1.25'.32''. P.M. su total duracion de
+horas 2.23'. 36''. se obscurecieron segun el Anteojo a lomas 5 dedos
+ó partes de las quales todo el diametro del disco solar tiene 12
+la observacion fue exacta y iré continuandola en el eclipse
+de <name type="planet" reg="Luna">luna</name> proxima.
+
+[(latín) 
+
+<foreign lang="Lat">Observatio lunaris deliqy, diez 4 Matty 1681 facta a Mattino de
+la Torre in portum Santi Francisci de Campeche.
+
+Successith de lunare deliquium die 4 Matty anni 1681. mané
+luna ad occidentem, et. âmé observattum est <name type="place" reg="Campeche">In prtu Santi Francisci
+de Campeche</name>, cuyus borea poli elevatio est. gr. 19.41.
+
+[suit] que verium eius initium; nam Spurium pauculis momen-}
+tis preces serat de - indicavit manifesté telescopium, nam supremus
+luna mango erat lumine [hebetion], donec evitentes umbram terres-
+trem, ingremis est, coque momento erat alta <name type="constelation" reg="Spica">Spica virginis</name> ad oc-
+cidentem gradibus 51.50. eiusque declinattio [aurralis] grad. 9. 27
+et ammsio recta 127. 7'.  solis vero locus in H. 14.35'.38''. et [asumsio]
+luna 345.49 [unde] seducitur hora, qûo <name type="constelation" reg="Spica">Spica</name> in Meridiano fue-
+rat 14.5'.12''. P.M. et angulus ad polum Momento veri prin-</foreign>
+</p>
+</div>
+
+<div>
+
+<pb>Folio 12 frente</pb>
+
+<p>
+<foreign lang="Lat" cont="1">cipy grad. 25.2. sive hore 1.40'.8''. qui ad [diti horis  14.5.12 octe]
+horas 15.45'.20''. pro dicto momento veri principy [huius eclipsis:]
+indicto loco <name type="place" reg="Campeche">santi Fransici de Campeche</name> i dest hora 3.45'.20''. matuti-
+na <date reg="4/03/1681">4. manty 1681</date>.
+
+Nulle alie phas es fuere, nam luna eclipsatta, in horizontom
+Immersa est [esferé] momento, quo Sol super cum ascendebat
+eclipsatti [himt] disci 9. qualium totus est 12 [colon]
+partis eclipsate, toto tempore rubeus subringer, orango superior
+ali quantum lucidios. Observatio exactissima frit cuius collatto
+cum alys [m] viveris partibus valcat ad veritatem inquisitio-
+nis [merirannum] differenttis = Martinus de la Torre____________ </foreign>
+
+En Panama cuia elevacion de polo boreal es 9gr. 3' observé el
+fin del eclipse de <name type="planet" reg="Luna">Luna</name> de <date reg="6/07/1675">6 de Julio de 1675</date>. porque el princi-
+pio estorvaron las nubes  y en el mesmo momento del fin verdadero 
+fue elevado [Formabat] al oriente 24gr 40. y que el consiguiente
+hor 11.59.52. P.M. dicte dici. ____________________
+</p>
+
+</div>
+
+
+
+
+
+</body>
+
+</text>
+
+
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

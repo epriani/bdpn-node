@@ -1,0 +1,2646 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="es">
+<schemaSpec ident="TEI-minimal" start="TEI">
+	<moduleRef key="tei"/>
+	<moduleRef key="header"/>
+	<moduleRef key="core"/>
+	<moduleRef key="textstructure"/>
+	<moduleRef key="namesdates"/>
+</schemaSpec>
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+   <title>DISCURSO ETHEOROLOGICO DEL NUEVO COMETA, VISTO EN aqueste Hemisferio Mexicano ; y generalmente en todo el mundo. Este Año de 1652.</title>
+   <author>Diego Rodríguez</author>
+  </titleStmt>
+  <publicationStmt>
+<publisher>Universidad Nacional Autónoma de México. Facultad de Filosofía y Letras</publisher>   
+<distributor>Biblioteca Digital de Pensamiento Novohispano</distributor>
+  </publicationStmt>
+  <sourceDesc>
+   <bibl> DISCURSO ETHEOROLOGICO DEL NUEVO COMETA, VISTO EN aqueste Hemisferio Mexicano ; y generalmente en todo el mundo. Este Año de 1652. Escrito por fray Diego Rodríguez. Impreso por la Viuda de Bernardo Calderon, 1652.)</bibl>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
+
+<text>
+
+<front>
+
+<pb>Folio 1 frente</pb> 
+<docTitle>DISCURSO            
+ETHEOROLOGICO
+DEL NUEVO <term type="Astron">COMETA</term>, VISTO EN 
+aqueste Hemisferio Mexicano ; y generalmente en  
+todo el mundo. Este Año de <date>1652</date>.</docTitle>  
+
+DESIFRADO 
+A la <name type="CathDiv">Immaculada Concepcion de MARIA Santissima</name>,  
+Madre, y Señora nuestra.  
+COMPUESTO 
+Por el Padre Presentado <name type="person" key="WADLM1">Fr. Diego RODRIGUEZ</name>, del 
+<name type="inst">Orden de Nuestra Señora de la Merced, Redencion de cautivos</name>, 
+y Cathedratico en propiedad de Mathematicas en aquesta 
+<name type="inst">Real Universidad de Mexico</name>: 
+
+DEDICADO  
+A la Gloriosissima, y Admirable <name type="person">Santa RITA DE CASSIA</name>, de la  
+Esclarecida Religion del Gran Padre, y Patriarca <name type="person">San Agustin</name>,  
+Doctor de la Iglesia.  
+ 
+CON LICENCIA, EN <name type="place" reg="México">MEXICO</name> 
+Por la <name type="person">Biuda de Bernardo Calderon</name>, en la <name type="place">calle de San Agustin</name>, donde se venden.  
+
+</front>
+<body>
+
+
+<div>
+
+<pb>Folio 1 vuelta</pb> cit
+
+Folio en Blanco 
+
+</div>
+ 
+
+<div>
+<pb> Folio 2 frente</pb>  
+<p>
+<q>
+<foreign lagn="lat" reg="Cinctacaput Stellis"><name type="god">Apolo</name> circundata,Phoebes,Cornibus: eluso Virgo Dracone venis">Cinctacaput Stellis; <name type="god" reg="Apolo"> Phoebo</name> circundata, Phoebes,  
+Cornibus: eluso Virgo Dracone venis</foreign>.  
+<foreign lagn="lat" reg="Clara venis, sine nube venis: sive sordibus Adae, Tam pretiosa intus, quam pretiosa foris">Clara venis, sine nube venis: sive sordibus Adae,  
+Tam pretiosa intus, quam pretiosa foris</foreign>.  
+<foreign lagn="lat" reg="Hunc nova Stella tuum docuit sine labenitorem, Ut nati, ac matris par sit utrique iubar">Hunc nova Stella tuum docuit sine labenitorem,  
+Ut nati, ac matris par sit utrique iubar</foreign>.  
+<foreign lagn="lat" reg="Ast cur dum praelo tanta haec portenta notantur Sub Ritae claro nomine prodit opus?">Ast cur dum praelo tanta haec portenta notantur  
+Sub Ritae claro nomine prodit opus?</foreign>  
+<foreign lagn="lat" reg="Nempe Rita est coelum: cur asfixus Virginis honos Insidet, ut Dominae seruiat illa suae"> Nempe Rita est coelum: cur asfixus Virginis honos  
+Insidet, ut Dominae seruiat illa suae</foreign>.  
+</q>
+</p> 
+</div>
+
+<pb>folio 2 vuelta</pb> 
+<div>
+<p>
+A NUESTRO MUY <abbr>R. P. M.</abbr> <name type="person" reg="Fr. DIEGO DE LOS RIOS" >Fr. DIEGO  
+DE LOS RIOS</name>, segunda vez Provincial de la sagrada  
+Religion de nuestro P. <name type="person" reg="San Agustín">San Agustin</name>, Qualificador del  
+<name type="inst">S. Officio de la Inquisicion</name>, y Rector que fue de  
+la <name type="Inst">Real Universidad de Mexico</name>, &c.  
+</p>
+
+<name type="person" reg="Virgilio">Virg.</name>  
+<refTitle reg="Eneida">lib. 4.         
+aenei.
+v. 408.
+</refTitle>
+<q reg= "Virgilio. Eneida. Libro 4. Versiculo. 408"> <foreing lang="Lat" reg="Ultimus aethiopum locus est, ubi maximus Atlas">Axem humero torquet, stellis ardentibus aptum>Ultimus aethiopum locus est, ubi maximus <name type="god">Atlas</name>  
+Axem humero torquet, stellis ardentibus aptum.</foreing> </q>  
+<p>
+<abbr>M. R. P. N.</abbr>   
+Contemplo (quizá como tan aficionado a las celestiales esferas) aquessa  
+dichosa, y Sagrada Familia Aureliana del <name type="person" reg="San Agustín">Gran Padre</name>, y Patriarca  
+Augustino, como a la estelifera corte del Firmamento, y demas cielos,  
+en su Santidad, Firmeza, Lustre, y Adorno. Aqui el Zodiaco, o Faja  
+de una Cinta de mas Gracias, y resplandores, que la <term type="astron">Via Lactea</term> con el  
+agregado de sus minutissimas estrellas, y luzes. Aqui el negro manto de la noche  
+que lo vela sin cubrirlo, para que brillando sus tachones luzientes, sea aquesta dichosa  
+esfera la admiracion, y espectaculo de la <name type="planet" reg="Tierra">tierra</name>, ya porque a sus influjos, y Regla mi- 
+litan tantas sagradas Religiones, y ya porque son pocas las cuarenta y ocho imagenes  
+Ptolemaicas, para las que aqui tiene gravadas la immortalidad. Un Augustino <name type="planet" reg="Júpiter">Ju- 
+piter</name> de aqueste cielo, como matutina estrella, o esclarecido Luzero del Alva enme- 
+dio de una niebla, para que nebulosa no obscuresca a las demas. Un <name type="planet">Marte</name> en un <name type="person" reg="Guillermo">Gui- 
+llermo</name> guerrero, en martillarse austero, y en herrarse de cadenas marcial. Un Villa- 
+nueva <name type="planet">Mercurio</name>. <name type="person">Trimegistro</name> en las obras de sus plumas, que pasean el mundo. Una  
+esclarecida Clara, <name type="planet">Luna</name> llena, aunque de <name type="place" reg="Montefalco">Monte Falco</name>, o Falcada. Un <name type="planet">Sol</name> en un  
+Nicolas, que sembrando de estrellas aqueste talamo es corto numero el de mil y veinte  
+y dos diamantes, para aqueste esferico Zafiro, que solo contarà sus virtudes el que  
+quenta las estrellas. Y ultimamente una Diosa <name type="god">Venus</name>, en una <name type="CathDiv" reg="Santa Rita de Casia">S. RITA de CASIA</name>,  
+que ya alumbra el mundo, y aunque astro trasladado el año de <date>1447</date>. nueva estrella  
+es, descubierta con la atalaya devota del affecto de <abbr>V.P.</abbr> muy Reverenda, para gloria  
+de aqueste siglo. Aqui pues a los pies de aqueste signo de <name type="CathDiv">Virgen</name>, por su continente  
+Viudes, he de fixar humilde mi altivo, o atrevido Cometa, a contemplacion de <abbr>V. P.</abbr>  
+muy Reverenda, con que le resguardarè de judiciarios criminales, o juicios de la ca- 
+lumnia. Y pues aqueste estrellado Globo se sustenta, afirma, y estriva en los polos, y  
+hombros de un observante <name type="person" reg="Diego de los Ríos">Atlante Rector</name> del, que es <abbr> V. P.</abbr> muy reverendo en el  
+officio que exercita, mientras lo boltea, lo observa, lo vela, y govierna, yo como  
+quien dichoso milita a su Regla, lo veneraré, y admirarè a sus pies. Vale, & viue.  
+De <abbr>V. P. M. R.</abbr> su muy afectuoso hijo, <abbr>Q. S. M. B.</abbr>  
+Fr. <name type="person">Diego Rodriguez</name>.  
+</p>
+</div>
+
+
+<div>
+<pb>folio 3 frente</pb>
+<p>
+<q>
+<foreing lang="Lat" reg="SIGNUM MAGNUM APPARVIT IN coelo, Mulier amicta Sole,Luna subpedibus eius, & in capite eius Corona stellarum duodecim, &c">SIGNUM MAGNUM APPARVIT IN  
+coelo, Mulier amicta Sole, <name type="planet">Luna</name> subpedibus eius, & in  
+capite eius Corona stellarum duodecim, &c. </foreing>
+</q>
+</p>
+<p>
+<q>
+GRAN SEÑAL APARECIO EN EL CIELO,  
+una Muger vestida del <name type="planet">Sol</name>; debajo de los pies la <name type="planet">Luna</name>;  
+y coronada con doze estrellas la cabeça, &c.  
+</q>
+<refTitle reg="Apocalipsis, 12">
+Apocalipsis</refTitle> cap. 12.  
+
+A LA 
+</p> 
+</div>
+
+<div>
+<pb>folio 3 vuelta</pb>
+<p>
+
+§ 1                                                                       
+ 
+A LA IMMACULADA CONCEPCION  
+DE <name type="CathDiv" reg="María">MARIA</name> SANTISSIMA  
+ 
+GRAN Signo sin señal de culpa ; gran  
+señal sin rastro de tinieblas ; reseña  
+prodigiosa de la gracia ; enigma ce- 
+lestial, aun tiempo obscuro, y claro;  
+dichoso certamen de los siglos ; hi- 
+perbole de la luz ; parabola <term type="oldsp">ustoria</term>,  
+que en si une los rayos del <name type="planet">Sol</name> ; sa- 
+grada <term type="OldSp">duriforia</term> del cielo ; Maxima  
+conjuncion de la omnipotencia de  
+<name type= "god"> Dios </name> ; espantosa, y unida oposicion de cielo, y <name type="plant" reg="Tierra">tierra</name> ; mon- 
+struoso, y ethereo espectaculo ; el <name type="planet">Sol</name> se eclipsa , quedando 
+claro, y la <name type="planet">Luna</name> sin <term type="Astron">eclipse</term>, muestra tinieblas a la <name type="planet" reg="Tierra">>tierra</name> siendo  
+refulgente al cielo ; estraños aspectos de Astros ; una muger  
+circunda , y rodea a la varonil , y grandeza del <name type="planet">Sol</name> preñada  
+del , <foreign lang="Lat"> utero habens</foreign>: y el con sus rayos la viste , y baña :<foreign lang="Lat" reg="amicta Sole"> amicta  
+Sole</foreign>. Prodigioso ropaje, y aun mas admirable desnudés; (como  
+provarè) Parida en el cielo, con pañales de luces : <foreign lang="Lat" reg="Clamabat parturiens"> Clamabat  
+parturiens</foreign>. Un fiero Dragon le asecha el parto :  & <foreign lang="Lat" reg="Draco stetit ante mulierem, ut cum peperisset filium eius devoraret">Draco stetit  
+ante mulierem, ut cum peperisset filium eius devoraret</foreign>. O socorro  
+del cielo ! el niño fue arrebatado al trono de <name type="god">Dios</name> : <foreign lang="Lat" reg="raptus est  filius eius ad Deum, & ad tronum eius"> raptus est  
+filius eius ad Deum, & ad tronum eius</foreign>. Y la muger libre del Dra- 
+gon, y de sus asechanças, fue trasladada a un desierto, manu- 
+tenida de <name type="god">Dios</name>, donde le tenia lugar preparado & <foreign lang="Lat" reg="mulier fu git in solitudinem ubi habebat locum paratum a Deo"> mulier fu- 
+git in solitudinem ubi habebat locum paratum a Deo </foreign>. Aqui el pun- 
+to de mi admiracion, apoyada del sagrado Evangelista. Mil,  
+docientos i sesenta dias estuvo esta muger habitadora de aque- 
+ste desierto: <foreign lang="Lat"> Ubi pascant eam diebus mille ducentis sexaginta</foreign>. Que  
+computados por años los dias, fue el tiempo, o principio de  
+la contension de aqueste nuestro mysterio. Aqui empeço el  
+</p> 
+</div>
+
+
+<div>
+<pb>folio 4 v</pb>. 
+<p>
+
+<term type="Astron">eclipse</term> de <name type="planet">Luna</name> a la <name type="planet" reg="Tierra">tierra</name>, oponiendole tinieblas; aqui tuvo  
+principio su defensorio, con que su duracion a sido de quatro  
+siglos, o quatrocientos años, y ya por horas clarearàn sus <term type="OldSp" reg="opinales">opi- 
+nales</term> manchas. O suma felicidad de nuestra naturaleza; clara  
+profecia es la referencia del Evangelico Theologo <name type="CathDiv">San Juan</name> en  
+<name type="place">Pathmos</name>, y ya cierto pronostico de immaculada pureza, y  
+original inocencia. O si ya rompiese a luz aquesta preñes, co- 
+mo rompio el cielo aqueste prodigio ! tanto silencio en el, a  
+vistas del Dragon la muger:<foreign lang="Lat" reg="per tempus, & tempora, & dimio dium temporis a facie serpenti">  per tempus, & tempora, & dimio 
+dium temporis a facie serpentis </foreign> : O por trecientos y cinquenta  
+años sin poderla comprehender, ni manchar? Pero ya la tie- 
+rra rompe en vozes, y aclamaciones, llamandola immaculada;  
+el Evangelista nos previene con aquesta estraña señal.<foreign lagn="lat" reg="Signum magnum apparvit in coelo, mulier amicta Sole,Luna sub pedibus eius, & in capite eius corona stellarum duodecim"> Sig- 
+num magnum apparvit in coelo, mulier amicta Sole, <name type="planet">Luna</name> sub pedi- 
+bus eius, & in capite eius corona stellarum duodecim</foreign>. Y el mismo cie- 
+lo nos da señales en el <name type="planet">Sol</name>, <name type="planet">Luna</name>, y estrellas, indices de <name type="god">Dios</name>, y  
+ojos en los margenes de sus cielos,<foreign lang="Lat" reg="ut sint in signa, & tempora,  & dies, & annos"> ut sint in signa, & tempora,  
+& dies, & annos</foreign>. <refTitle reg="Génesis">Gen.</refTitle>c.1.(Como despues veremos) que no  
+sin mysterio se mueve el cielo a parir prodigios quando la <name type="planet" reg="Tierra">tier 
+ra</name> bozea a <name type="CathDiv" reg="María"> Maria</name> santissima immaculada, como de aqueste si 
+glo comprobaremos.</p> 
+<p>En que pues consistiò el ser aquesta vision, portento del  
+cielo, que assi la admirò el Aguila caudal, como sino ubiera  
+visto otras mayores? de ver a una muger con el trançado de  
+estrellas por perlas, sintas de resplandor que la coronavan?  
+de notarle el manto de lustre, ò de gloria, y que por coturno  
+argentado, ò chapado tenia a la <name type="planet">Luna</name> arqueada al cielo, y las  
+puntas a la <name type="planet" reg="Tierra">tierra</name>, (que es como la pinta la <name type="inst" reg="Iglesia">Yglesia</name>) como  
+polevies de aqueste siglo? Que mas hiziera si viera a las de  
+aqueste tiempo, con tantos circulos unos en otros como la  
+esfera armillar de <name type="person" reg="Ptolomeo, Claudio">Ptolomeo</name>, por resguardar un infante? Por  
+dicha cayo la admiracion de <name type="CathDiv">San Juan</name>, sobre ver, una grande- 
+za, y estatura tamaña, que estando de plantas esta muger en  
+el cielo de la <name type="planet">Luna</name> que hollava, tocaba con la cabeça en el fir-  
+ma- 
+</p>
+</div>
+
+ 
+
+<div>
+<pb>folio 4 r</pb> 
+<p>
+mamento, con que se coronaba de sus estrellas ? Y el <name type="planet">Sol</name> apro- 
+vechado de su cuarto sitio la bañava con sus rayos, que toda  
+esta grandeza paresia necessaria para que assi asombrase en la  
+<name type="planet" reg="Tierra">tierra</name> ? <foreign lang="Lat">Signum magnum apparvit in coelo</foreign>. Sea por uno, o por otro,  
+lo cierto fue, afirman mi gran Padre <name type="person" reg="Hipona (de), San Agustín">Agustino</name>,<name type="person" reg="Ambrosio (San)"> Ambrosio</name>,  
+<name type="person" reg="Jerónimo (San)">Hieronymo</name>,<name type="person" reg="Gregorio (San)"> Gregorio</name>,<name type="person" reg="Bernardo (San)"> Bernardo</name>, y <name type="person"> Tertuliano</name>, citados de la  
+<name type="person">Laureto</name>, que reconoció a <name type="CathDiv" reg="María">Maria</name> santissima, por Reyna de  
+aquessa republica celestial de luzes, coronada con firmeza, o  
+firmamento: vestida de perpetuidad de rayos; rompiendo  
+calçado cada mes, en Lunas nuevas, calificando su nobleza,  
+como lo notó  <name type="person">Alciato</name> de los Arcadia:<q> <name type="person" reg="Alciato">Calceus Archadico</name>,  
+<foreing lang="Lat">suberat cui Lunulae ritu</foreing> </q>. Y mejor <name type="person">Juvenal</name>:<q> <foreing lang="lat" reg="Appositam nigrae Lunam subtexit alutae">Appositam nigrae Lu- 
+nam subtexit alutae</foreing> </q>. Que mucho pues, que como domesticos  
+de la recamara de aquesta soberana Reyna, la <name type="planet">Luna</name> acuda a  
+calçarla, el <name type="planet">Sol</name> a vestirla, y el joyel del firmamento a tocarla  
+con estrellas ? con que estando todo el cielo assi ocupado en el  
+asseo, y adorno de aquesta Magestuosa señora <foreign lang="lat">signum magnum</foreign>,  
+ni ay, ni puede haver otra señal en èl ( aunque asombre, y es- 
+pante a la ignorancia ) que no sea en servir a esta Reyna del  
+cielo, en festejarla, en explicar sus glorias, en provenirle feste- 
+jos, en mirarle a la boca, y en adivinarle el gusto, que quando  
+la <name type="planet" reg="Tierra">tierra</name> assi lo hace, como su officina mas grosera, que mu- 
+cho el cielo se esmere en nuevos astros, <foreign lang="lat">Phenomenon</foreign> prodi- 
+gioso, admirables signos, o señales, y <term type="Astron">cometas</term> crinados, ò  
+caudados, que iluminen con sus madejas, y rastros el ayre di- 
+ligentes ? para que juzguemos, que no es asolas el gusto de la  
+<name type="planet" reg="Tierra">tierra</name>, sino que se deriba, y viene del cielo, con embaxadores  
+de paz, con monstruos luminosos, y con correos luzidos arti- 
+ficiados del <name type="planet">Sol</name> mayordomo de esta Reyna ; de la <name type="planet">Luna</name> su  
+dueña, o recamarera; y de sus doncellas en el retiro del firma- 
+mento: <foreign lang="Lat">ut sint insigna, & tempora, & dies, & annos</foreign>.  
+Retirome mas al mysterio, y digo, que aqueste lince ob- 
+servante, y grande observador de misterios, con la atalaya de  
+su elebado espiritu notó, que la <name type="planet">Luna</name>, y las estrellas luzian a  
+vistas 
+</p> 
+</div>
+
+ 
+
+<div>
+<p>
+<pb>folio 5 v</pb>. 
+vistas del <name type="planet">Sol</name>; prodigio raro, pues la <name type="planet">Luna</name> aunque se vea de dia 
+no alumbra, por que su privilegio es luzir de noche,<foreing lang="lat" reg="ut praeésset nocti"> ut praeésset  
+nocti</foreing>; & stellas. Ni las estrellas tampoco deven alumbrar don- 
+de <name type="planet">Sol</name>, y <name type="planet">Luna</name> luzen; ni pueden ( dixo el <name type="person" reg="Alonso (Rey)">Rey Alonso</name> en  
+sus tablas ) <foreign lang="lat">sidera obnuvilat Titan</foreign>. Como pues a un tiempo lu- 
+zen en <name type="CathDiv" reg="María">Maria</name> todos ? mas; deviendo aver <term type="Astron">eclipse</term> de <name type="planet">Sol</name> no le  
+ay; el arriba, la <name type="planet" reg="Tierra">tierra</name> de <name type="CathDiv" reg="María">Maria</name> en medio, y la <name type="planet">Luna</name> a los pies;  
+pues como ni el <name type="planet">Sol</name>, ni <name type="CathDiv" reg="María">Maria</name>, ni la <name type="planet">Luna</name> se eclipsan al cielo,  
+sino que resplandecen como tres Soles, y las estrellas como  
+cien mil oros brillan, y chispan ? Gran mysterio, y prodigios  
+raros; viò sin duda el Evangelista perpicas juntarse el alma,  
+y cuerpo de aquesta soberana Reyna, y que en essa union  
+donde en todos se causa <term type="Astron">eclipse</term> por la culpa original, no le  
+ubo, sino que todo fue luzes, rayos, resplandores, gracia, y  
+gloria, pues en esse punto todo el cielo luzio, estrellas, <name type="planet">Sol</name>,  
+<name type="planet">Luna</name>, y <name type="CathDiv" reg="María">Maria</name>; que mucho pues que prorumpiesse en admira- 
+cion diziendo: <foreign lang="lat" reg="Signum magnum apparvit in coelo, milier amicta Sole etc"> Signum magnum apparvit in coelo, mulier amicta  
+Sole etc.</foreign> De donde con razon el Grande <name type="person">Ignacio</name> ( dueño de  
+este pensamiento ) llamo a <name type="CathDiv" reg="María">Maria</name> santissima: <q><foreign lang="lat" reg="coeleste prodigium, & sacrassimum mostrum"> coeleste prodigium,  
+& sacratissimum mostrum </foreign></q>. Prodigio celestial, asombro del  
+universo, y sagrado monstruo, y portento. 
+Aun me falta lo vivo de aquesta vision del fiel Secretario  
+de <name type="god">Dios</name>, y es, que siendo aquesta muger de acà de nuestra  
+<name type="planet" reg="Tierra">tierra</name>, Mulier, la testifica tan celestial, que nada halló en ella  
+que no fuesse del cielo, y nada de la <name type="planet" reg="Tierra">tierra</name>; sin palacios que la  
+autorizen, y ennoblezcan; sin alcaçares que la enriquezcan;  
+sin castillos que la pertrechen, y guarnezcan; y sin casa ni ho- 
+gar donde recojerse, y retirarle; sino como expuesta a las in- 
+clemencias del cielo <foreign lagn="lat"> apparvit in coelo</foreign>, que aun acà los terrenos  
+solemos decir por adagio, del que almedio dia no tuvo alver- 
+gue, que sesteó, y comió en el meson del <name type="planet">Sol</name>; y al que de noche  
+le falto, que seno en el de la <name type="planet">Luna</name>, y durmió en el de la estrella.  
+Como pues tanto desabrigo en esta muger, Mulier? en lo raso  
+del cielo, al <name type="planet">Sol</name>, a la <name type="planet">Luna</name>, y a las estrellas ? esto es, de la <name type="planet">Luna</name>  
+B        gasta 
+</p>
+</div>
+ 
+
+<div>
+<pb>folio 5 r</pb>. 
+<p>
+gasta calçado, <name type="planet">Luna</name> sub <foreign lagn="lat">pedibus eius</foreign>; de los rayos del <name type="planet">Sol</name> vi- 
+ste, <foreign lagn="lat">amicta Sole</foreign>; de las estrellas corta tocado, y haze almo- 
+hada, & <foreign lagn="lat">in capite eius corona stellarum</foreign>; donde el colchon fue  
+cielo, como acà suelo, <foreign lagn="lat">apparvit in coelo</foreign>. Luego bien vale, que  
+sin casa, ni hogar; desnuda, descalça, destocada, y ayuna, al  
+desabrigo de todo el cielo. Raro prodigio pues, que siendo  
+toda de la <name type="planet" reg="Tierra">tierra</name>, sea toda tan del cielo, que nada tenga de  
+ella, por no heredar de sus padres alguna alaja apestada de la  
+culpa, rezelandole de una hoja de Higuera, y de una piel  
+maldita, por quienes ya es vituperio, y escarnio todo abri- 
+go de la <name type="planet" reg="Tierra">tierra</name>, como dixo <cit reg="Clemente de Alejandria. Libro 2. Paedagogus. c.10">S. <name type="person" reg="Clemente de Alejandría"> Clemente Alexandrino</name> lib. 2.  
+<refTitle reg= "Paedagogus">Pedag</refTitle>. c. 10.<foreign lang="lat" reg="Nihil habet amplius quam alia vestis, nisi solum vituperium"> Nihil habet amplius quam alia vestis, nisi solum vi- 
+tuperium</foreign> </cit>. Fabriquen pues Palacios, Alcaçares, Castillos, y  
+casas los deliquentes de la original culpa para encubrirse, y  
+esconderse, que assi lo hizo el primero delincuente, abscon- 
+dit se in medio ligni paradisi <refTitle reg="Génesis">Gen</refTitle>.c. 3. que <name type="CathDiv" reg="María">Maria</name> santissima con  
+ninguna cosa comprueba mejor su limpieça, y el estar en el  
+estado de la justicia original, desde el punto de su immacula- 
+da Concepcion, que con no tener casa, sino el abrigo del  
+cielo; pues alli se muestra a los ojos de todos; grande para ser  
+vista; y en la carroza de los cielos para no esconderse a nadie; que 
+bien <name type="person">Chrisologo</name> sobre aqueste punto:Serm.142.<foreign lang="lat" reg=" Nec secretummun danae habitationis inquirit, que se septam superni splendoris circunspicit velamento">Nec secre- 
+tum mundanae habitationis inquirit, que se septam superni splen- 
+doris circunspicit velamento</foreign>. 
+Vistanse assi mismo purpuras, telas, sedas, y preciosos  
+linos para abrigarse de inclemencias del cielo, cubrir desnu- 
+deses, y ocultar manchas, y fealdades los sequazes de <name type="person" reg="Adán">Adan</name>, y  
+<name type="person">Eva</name>, que <foreign lang="lat">consuerunt folia ficus, & fecerunt sibi perizomata</foreign>. <refTitle reg="Génesis">Gen. </refTitle> 
+c. 3. Que mas higa de la naturaleza, que estas hojas de hi- 
+guera ? Que mayor vituperio? y que mayor desnudès que la  
+que no cubre el vestirse bien ? Que a tiempo el <name type="CathDiv" reg="Job (San)">Santo Job</name>:  
+<q reg="Génsis. c3"> <foreign> Nudus egressus sum de utero matris meae, & nudus revertar illuc</foreign></q>.
+cap. 1. Desnudo naci del vientre de mi madre, y desnudo he  
+de bolver a el; pues no se vistiò nunca el <name type="CathDiv" reg="Job (San)">S. Job</name> ? Si vistiò, y  
+consta  
+</p>
+</div>
+
+
+<div>
+<pb>folio 6 v</pb>. 
+<p>
+consta del texto que fuidit vestimenta sua. Pues como se la- 
+menta de tanta desnudès desde el vientre de su madre hasta  
+llegar al de la <name type="planet" reg="Tierra">tierra</name> ? Llano es que no se lamenta, porque no  
+habla de la desnudès culpable, que aquessa nunca puede ser  
+cubierta, ni aun encubierta; antes son palabras de victoria,  
+y triunfo, pues habla de la desnudès inculpable, y el estado  
+de la inocencia. Hizo concepto, y considerose (dize la boca de  
+oro de <name type="person" reg="Cristósomo, Juan"> Chrisostomo</name>. In Caten.) en el estado del primer hom- 
+bre, assi que salió desnudo de las manos de <name type="god">Dios</name>, vestido de  
+la gracia, y de la justicia original, aunque nacido del vientre  
+de la <name type="planet" reg="Tierra">tierra</name>; y estando en este concepto dixo:<q> a este vientre  
+he de bolver resolviendome, a inocencia, y gracia, desnudo  
+como sali, nudus revertar illue</q>. Pero oygamoselo mejor a  
+cuyo es. <foreign lang="lat" reg="Sed cuius tandem uteri meminit? Nempe primi illius opicif?, suaeque è terra coagmentationis, primi parentis opificium imitantis"> Sed cuius tandem uteri meminit? Nempe primi illius  
+opicif?, suaeque è terra coagmentationis, primi parentis opificium  
+imitantis</foreign>. <foreign lang="lat" reg="Nudus è terra divino munere conformatus sum. Ergo nudus quoque revertar illuc; quo? nempe ad locum plangere liberum"> Nudus è terra divino munere conformatus sum. Ergo  
+nudus quoque revertar illuc; quo? nempe ad locum plangere libe- 
+rum</foreign>.Esto pues, que en el <name type="CathDiv" reg="Job (Santo)">Santo Job</name>fue <foreign lang="lat"> per saltum </foreign>, conside- 
+randole, de un estremo a otro, de aquel principio à su fin,  
+dexando en medio el estado de la culpa, y desabrigada des- 
+nudès, todo en concepto; fue en la Concepcion de <name type="CathDiv" reg="María">Maria</name>  
+santissima succesivo de punto a punto; fue consequencia  
+necessaria, nuda <foreign lang="lat">egressa sum; ergo nuda revertar illuc</foreign>. Assi lo  
+testifican de su abrigada desnudès, la <name type="planet">Luna</name> que la claça, el  
+<name type="planet">Sol</name> que la viste, las estrellas que la adornan, y el cielo que  
+la acoge. <foreign lagn="lat">Signum magnum apparvit in coelo, etc</foreign>. 
+</p>
+§. 2. 
+<p> <refTitle>PROGENIE DE LOS <term type="Astron">COMETAS</term> </refTitle>, 
+su Propagacion, y Nombres, segun los 
+Etnicos. 
+</p>
+<p>La fabulante Poesia de la Gentilidad fingiò, (quiçà por  
+disfrazar verdades robadas de Evangelistas, y Profetas  
+en su comica roperia ) que la hermosissima <name type="god">Latona</name> ocu- 
+B2       pa- 
+</p>
+</div>
+ 
+
+<div>
+<pb>folio 6 r</pb>. 
+<p>
+pada por el Dios <name type="god" reg="Júpiter">Jupiter</name>, ( como <q reg="Orfeo.Libro 8."><name type="god" reg="Orfeo">Orpheo</name> cantò: lib 8.                                           
+
+         <foreign lagn="lat">E Iove quae quondam espartus sortita</foreign> dolores. 
+         <foreign lagn="lat">De qua sunt Phaebus simul, & Diana creati</foreign> </q> )  
+
+Peseaba la orilla, y la playa del  mar <name type="place">Egeo</name>, ya con los dolores  
+del parto que instava; y como la Diosa <name type="god">Juno</name> zelosa la emu- 
+laba, diole por Fiscal, y verdugo a la serpiente Piton, que le  
+asechava el parto para hazer pressa en el, (esta según <name type="person">Ovidio</name>,  
+y Textor se engendró de la corrupcion de la <name type="planet" reg="Tierra">tierra</name>, despues  
+del Diluvio del tiempo de <name type="god">Deucalion</name>; pero mejor <name type="person" reg="Lisimaco Alexandrino">Lisima- 
+co Alexandrino</name>, que fueron las tinieblas, y chaos en la ge- 
+neracion del cielo, y <name type="planet" reg="Tierra">tierra</name>, de que explica Natal aquesta  
+<refTitle>Fabula</refTitle>. lib.10. ) <name type="god">Latona</name> dolorosa, y afligida aguardaba su  
+muerte en la qne amenazava a sus entrañas; previno el lan- 
+ze <name type="god">Neptuno</name>,Dios de las aguas, y su cuñado, y por ser el  
+fracaso en su jurisdiccion hallose empeñado al socorro, con  
+que rebento en el mar la Isla<name type="place"> Delos</name>, no vista hasta entonces; o  
+porque era erratica, y vaga en el y siendo movediza la truxo  
+al socorro, como dixo <q reg="Claudiano Libro2."><name type="person">Claudiano</name>.lib.2 de rapt Proserpin.  
+
+—————<foreign lagn="lat" reg=" Motoque iustamine Delos Errat, & aurato trahitur circumflua Ponto"> Motoque iustamine <name type="place">Delos</name>  
+Errat, & aurato trahitur circumflua Ponto</foreign>.</q> 
+
+Y <cit reg="Ovidio.Metamorfosis. Libro 10."> <name type="person">Ovidio</name> en sus  <refTitle reg="Metamorfosis">Metamorfoseos</refTitle>.lib. 10.  
+
+—————<foreign lang="lat" reg="Quamuis erratica Delos Errantem accepit tunc, cum leuis insula navat">Quamuis erratica <name type="place">Delos</name>  
+Errantem accepit tunc, cum leuis insula navat</foreign>.</cit> 
+
+Trasladada aqui la Diosa, quedó libre de la serpiente fiera,  
+y espantosa como un grande monte; y alli en <name type="place">Delos</name> logrò  
+sus dos <name type="god" reg="Apolo">Melisos Apolo</name>, y <name type="god">Diana</name>, tan bellos como el <name type="planet">Sol</name>, y  
+<name type="planet">Luna</name> que eran. Y ya adulto <name type="god">Apolo</name>, mató con sus saetas a la  
+serpiente Piton, que afligio a su Madre, y le asechò en el par- 
+to. Hasta aqui el primero parto de <name type="god">Latona</name>; por quien es en- 
+tendida la <name type="planet" reg="Tierra">tierra</name>, que estando con el vientre a la boca, y ya  
+con los dolores para parir a luz sus crias, no podia por ha- 
+llarse cercada, y cubierta de las aguas, del abismo, chaos, y  
+de las tinieblas, que no solo no ayudavan con calor a sus  
+partos, pero con su frialdad los amenazaban. Apartadas  
+pues  
+</p>
+</div>
+ 
+
+<div>
+<pb>folio 7 v</pb>. 
+<p>
+pues por el <name type="god">Criador del cielo</name>, y <name type="planet" reg="Tierra">tierra</name> las aguas a un lugar, 
+asomó la <name type="planet" reg="Tierra">tierra</name> libre de ellas; o sea la Isla <name type="place">Delos</name> los mismos  
+cielos que fueron criados de las aguas, y por esso erratica,  
+y movedisa como està dicho. Aqui pues parteados ya <name type="planet">Sol</name>,  
+<name type="planet">Luna</name>, y estrellas, el <name type="god" reg="Apolo">señor de Delos</name> con sus saetas, y rayos  
+acabò con las tinieblas, abismo, y chaos iluminando a las  
+aguas; y a la <name type="planet" reg="Tierra">tierra</name> la secò consumiendo los vapores cor- 
+ruptos, que atosigaron a su madre, como lo explican <name type="person" reg="Antípatro">An- 
+tipatro</name> <term type="Philo" reg="Estoico">stoico</term>, y el Comite lib. 9.c. 6. in <refTitle>Mithologia</refTitle>. 
+No puedo ( oyendo esta Fabula tan al intento de lo di- 
+cho ) dexar de dezir lo que en el sagrado Texto se me ofrece  
+con <name type="person">Anastasio Sinaita</name>, lib. 1. Exam. Como pues, quando  
+<name type="god">Dios</name> en el principio crió todas las cosas, aviendose <term reg="agrado">agrada- 
+do</term> de todas sus obras, no dixo que le parecian buenas las  
+aguas, las tinieblas, el abismo, y chaos, aviendolo dicho de  
+las demas ?<foreign lang="lat" reg="Quomodo non dicit scriptura illus tenebras, quae erant ante lucem esse bonas? Sed neque aguas illas bonas, neque abyssum quae obscurabatur bonam dicit?"> Quomodo non dicit scriptura illus tenebras, quae erant  
+ante lucem esse bonas? Sed neque aguas illas bonas, neque abyssum  
+quae obscurabatur bonam dicit?</foreign> Bueno fuera por cierto, llamar  
+bueno a todo aquesso; al reyno de las tinieblas avia de lla- 
+mar bueno, siendo retrato de la culpa, que aun la siega gen- 
+tilidad figuró, y llamó serpiente ? Bueno fuera paracerle bien  
+haviendo asechado a una <name type="planet" reg="Tierra">tierra</name> virgen, que las tinieblas no  
+la pudieron penetrar por solida, como al ayre, aguas, y abis- 
+mo? Bueno fuera por cierto, que figurando aquesta <name type="planet" reg="Tierra">tierra</name>  
+en aquesse su primero parto, a <name type="CathDiv" reg="María">Maria</name> purissima Virgen, y  
+Madre de <name type="CathDiv" reg="Jesús">JESVS</name>, verdadera luz, que avia de nacer de ella,  
+como <name type="planet">Sol</name>, y <name type="planet">Luna</name> en la naturaleza divina, y humana, le pa- 
+reciesse buena la serpiente, y no le quitase la vida con sus  
+rayos aviendo queridole sufocar, y ahogar a su Madre ?<foreign lang="lat" reg=" Dicens ergo,& vidit lucem quod esset bona (prosigue el Sinaita) ostendit, quod omnis illa quae  venerant ante veram lucem Iesum, quae illuminat omnem hominem venientem in hunc mundum, & terram obscurarunt, demecerunt, & suffocarunt, non esse bona"> Di- 
+cens ergo, & vidit lucem quod esset bona (prosigue el Sinaita)  
+ostendit, quod omnis illa quae  venerant ante veram lucem Iesum,  
+quae illuminat omnem hominem venientem in hunc mundum, &  
+terram obscurarunt, demecerunt, & suffocarunt, non esse bona</foreign>. 
+Que mejor, ni mas al intento de nuestra sagrada Vission, en  
+des-  
+</p>
+</div>
+ 
+
+<div>
+<pb>folio 7 r</pb>. 
+<p>
+describirnos a <name type="CathDiv" reg="María">Maria</name> <name type="planet" reg="Tierra">tierra</name> immaculada ? <foreign lang="lat">Signum magnum</foreign>, &c. 
+Pasando ya a los segundos partos de la <name type="planet" reg="Tierra">tierra</name>, en que los  
+Antiguos figuraron al linaje humano, ya corrompido por  
+la culpa, lo explicaremos assi, dexando ya lo mistico, y es- 
+piritual, por lo ficico que nos insta. Fingieron pues, que ca- 
+sados ya el cielo, y la <name type="planet" reg="Tierra">tierra</name>, propagaron a los <name type="god" reg="Cíclopes">Cyclopes</name>, que  
+fueron ciento por sus varias formas, y condiciones; gente 
+de un ojo solo en la frente, que era redonda ; eran ferozes,  
+inhumanos, incultos, barbaros, salbajes, homicidas, y gue- 
+rreros, que solo tratavan de fraguas, hierro, y fuego, forjan- 
+dole rayos a <name type="god" reg="Júpiter">Iupiter</name>; y en fin todos malhechores, como <name type="person" reg="Eurípides">Eu-
+ripides</name> dixo de ellos.
+</p>
+<p><foreign lang="lat"> <name type="god" reg="Cíclopes">Cyclopes</name> homicidae antra decerti incolunt.</foreign></p>  
+
+<p>
+Y <name type="person" reg="Virgilio">Virg</name>.lib. 8. Habitadores del aetna en <name type="place">Sicilia</name>. Y mucho me- 
+jor <cit reg=" Hesiodo.Theologia."> <name type="person">Hesiodo</name> en su <refTitle>Theogonia</refTitle>, donde hablando de la <name type="planet" reg="Tierra">tierra</name>
+dize:  
+<foreign lagn="lat" reg="Haec eadem peperit-Cyclopas, de inde supervos,Argen magnaninum, pariter Brontem, steropemque;Qui fulmen, tonitrumque Iovi gravia arma parabant;Caetera d?s similes fuerant, sed fronte rotundam,Lumen gestabant media, hinc sunt nomen adepti">Haec eadem peperit-Cyclopas, de inde supervos,  
+Argen magnaninum, pariter Brontem, steropemque;  
+Qui fulmen, tonitrumque <name type="god" reg="Júpiter">Iovi</name> gravia arma parabant;  
+Caetera d?s similes fuerant, sed fronte rotundam,  
+Lumen gestabant media, hinc sunt nomen adepti </foreign></cit> .  
+</p>
+<p>Gran descripcion de los Rayos, y <term type="Astron">Cometas</term> feroces, en la  
+opinion de los peripateticos, ( que explicaremos ) donde el  
+mas espantoso a los mortales, y que mas los atemoriza, <term reg="llamo">lla- 
+mo</term> <name type="person">Plinio</name> lib. 2. Nat.Hist. Chasma, que parece tragarse a su  
+madre la <name type="planet" reg="Tierra">tierra</name>, dexandole caer en ella. Fit & sanguinea spe- 
+cies <foreign lang="lat" reg="(quo nihil terribilius mortalium timori est )  incendium ad terras cadens etc">(quo nihil terribilius mortalium timori est )  incendium ad ter- 
+ras cadens etc</foreign>. Y <name type="person">Iacobo Milichio</name> su comentador, cap. 27.  
+<foreign>Chasma vocant hiatum, seu voraginem, quando ignis velut ex dis - 
+rupto coelo decidere videtur</foreign>. Este es el <name>Polifemo</name> espantoso, y  
+caudillo de los <name type="god" reg="Cíclopes">Cyclopes</name>. Pero porque aquesta doctrina sea  
+ordenada, y clara, explicarè la opinion de los peripateticos  
+en los versos dichos, reduziendo a especies los <term type="Astron">Cometas</term>, y  
+poniendo los nombres dellos, segun las opiniones mas corrien- 
+tes.    Los  
+</p>
+</div>
+
+<div>
+<pb>folio 8 v</pb>. 
+<p>
+Los hijos de la <name type="planet" reg="Tierra">tierra</name> engendra en sus entrañas, siendo 
+causa eficiente el ciclo ( como dixo <name type="god">Orfeo</name>:  
+
+<foreign lang="lat">Progenies terrae, pariter coelique nitentis</foreign>.)  
+</p>
+<p>Son ( siendo materia de los <term type="Astron">Cometas</term>) las exalaciones ca- 
+lientes, y secas, gruessas, y compactas, con partes de humedad,  
+para que encendidas tengan duracion, y estas son sulfureas,  
+viscosas, crasas, de maligna mixtion, y qualidad; corrup- 
+tas, y pestilentes, que inficionando el ayre al salir a luz en- 
+venenan lentamente a las criaturas; y mediante la respi- 
+racion siendo nuestro ambiente aqueste ayre inficionado,  
+hazen pressa estas serpientes en nuestras entrañas, pulmon,  
+y partes principales del cuerpo, con que los humores del,  
+sobresaltados se destiemplan, dañan, y corrompen, movien- 
+dose a diversos fines, segun sus disposiciones, y eficiencias del  
+cielo. Estos suben a la suprema region del ayre, vezina al  
+fuego, levantados de la virtud celestial, que los patrocina,  
+y alli como lugar diputado para aquestas impresiones,  
+aviendo estado en embrion toman forma, y cuerpo varia- 
+mente, coagulandose, y dencificandose, con que encendi- 
+das, como vnos quieren; o illuminadas de los Astros, y el  
+<name type="planet">Sol</name>, como otros afirman, fingense deidades, y estrellas del  
+cielo en los movimientos que siguen; el rapto porque dizen  
+llega alli el impetu del primero moble; los suyos proprios  
+como heredados de sus progenitores. 
+</p> 
+
+<p> <foreign lang="lat" reg="Caetera d?s similes fuerant; sed fronte rotundam,Lumen gestabant media, hinc sunt nomen adepti">Caetera d?s similes fuerant; sed fronte rotundam,  
+Lumen gestabant media, hinc sunt nomen adepti</foreign>.  
+</p>
+<p>Como tenemos dicho de <name type="person">Hesiodo</name>. Son llamados Mono- 
+culos, o <name type="god" reg="Cíclopes">Cyclopes</name>, de vn ojo con la frente redonda, porque  
+en medio de ella tienen vna luz como estrella encendida,  
+que en vnos resplandece mas que en otros; con que su forma  
+es circular, y redonda en la cabeça por la mayor parte, que  
+arde, y alumbra. En su nombre Generico comunmente son  
+llamados <term type="Astron">Cometas</term>, de vn vocablo Griego, que quiere decir  
+Coma, cavellera, crines, vello, barbas, o madejas, por las que  
+arro-  
+</p>
+</div>
+ 
+
+<div>
+<pb>folio 8 r</pb>. 
+<p>
+arrojan largas de la cabeça, y son como suele pintarse vn 
+Salvaje, <name type="god">Satiro</name> o <name type="god">Fauno</name>, y de aqui se llaman <term type="Astro">Crinati</term>, o <term type="Astro" reg="Criniti">Cri - 
+niti</term>, <term type="Astro">Comati</term>, <term type="Astro">Caudati</term>, <term type="Astro">Barbati</term>, etc.  
+Segun lo dicho muy mal opinados estàn los <term type="Astron">Cometas</term> 
+con todos los Autores, y nunca segun <name type="person">Anastasio Sinaita</name>,  
+podremos llamar buenos, a los que infestan a la <name type="planet" reg="Tierra">tierra</name>, y la  
+pretenden ahogar, y sufocar; y estos, segun sus choronistas  
+siempre vienen como los criados de <name type="CathDiv" reg="Job (San)">Iob</name>, portando malas  
+nuevas del cielo, y de la <name type ="planet" reg="Tierra">tierra</name>. Son <name type="god" reg="Cíclopes">Cyclopes</name> feroces, in- 
+humanos, homicidas, incultos, y guerreros; y sino oyga- 
+mos a sus descriptores. <q> <name type="person">Virgilio</name> los lamentò diziendo:  
+
+<foreign lang="lat">Numquam coelo spectatum, impune Cometem</foreign></q>. 
+</p>
+<p>jamas se viò <term type="Astron">Cometa</term> en el cielo, que no fuesse vengativo,  
+y que olvidasse su dañada malicia. Lo mismo lloro <q> <name type="person" reg="Claudiano">Clau- 
+diano</name>: 
+
+<foreign lang="lat">Impune numquam visus fulgure Cometes</foreign></q>.  
+</p>
+<p> <name type="person" reg="Manilio, Marco">Manilo</name>, despues de haver fatigado su Musa en vna larga  
+descripcion de ellos; de sus effectos dize, que pregonan in- 
+cendios, sequedades, inundaciones, frecuentes tumultos  
+populares, engaños, fraudes, y trayciones:  
+
+<q><foreign lang="lat">Quin, & bella canunt, varios, subitosque tumultos</foreign>.  
+<foreign lang="lat">Et clandestinis surgentia fraudibus arma</foreign>.  
+<foreign lang="lat">Civiles etiam motus, cognataque bella</foreign>.  
+<foreign lang="lat">Numquam futilibus excanduit ignibus aer</foreign></q>.  
+</p>
+<p>
+<name type="person" reg="Pontano, Giovanni">Pontano</name> añade vientos terribles, guerras, y muertes de Re- 
+yes, y Grandes:  
+
+<foreign lang="lat">Ventorum quoque certa dabunt tibi signa Cometae</foreign>.  
+<foreign lang="lat">Illi etiam belli motus, feraque arma minantur</foreign>.  
+<foreign lang="lat">Magnorum, & clades populorum, & funera regum</foreign>.  
+</p>
+<p>Y de los que se ven al oriente, o se mueven hazia el,Hue- 
+stes estrangeras que con guerras inquietaràn la paz:  
+
+Sin <foreign lang="lat">ortum tendunt versus, peregrina moveri</foreign>.  
+Bella <foreign lang="lat">scias, hortemque externis affore ab oris</foreign>.  
+</p>
+<p>El <name type="person">Arato</name> Griego nos previene por buen Año aquel, ( que 
+por   
+</p>
+</div>
+
+
+<div>
+<pb>folio 9 v</pb>. 
+<p>
+por malo sea ) no se viere <term type="Astron">Cometa</term> en el cielo: 
+
+<foreign lagn="lat" reg="Laetus vt optanti contingat, & Aurens annus Numquam crinitum videatur in aere  sidus">Laetus vt optanti contingat, & Aurens annus 
+Numquam crinitum videatur in aere  sidus</foreign>.  
+</p>
+<p><cit reg="Aristóteles. Poética"><name type="person" reg="Aristóteles">Aristoteles</name> en <refTitle reg="Poética">Poema</refTitle> nos dize lo mismo:  
+<foreign lang="lat" reg="Tu steriles agros, & inania vota coloni,  Siccus, & effervens dire Cometa facis,Cum crinem ostentas, tunc ventorum impetus urget Oppida, tubellam sanguinolenta moves">Tu steriles agros, & inania vota coloni,  
+Siccus, & effervens dire <term type="Asrtron">Cometa</term> facis,  
+Cum crinem ostentas, tunc ventorum impetus urget  
+Oppida, tubellam sanguinolenta moves</foreign></cit>.  
+</p>
+<p>Remato con la <q> <name type="person" reg="Sibilia Erithea">Sibilla Erytraea</name>, que hablando de ellos mu- 
+cho dize:  
+
+<foreign lang="lat">Sole sub occiduo verè vocitata Cometes</foreign>.  
+<foreign lang="lat">Stella refulgebit glad? mortalibus index</foreign>.  
+<foreign lang="lat" reg="Et fames, & mortes, praeclarorumque virorum, Atque Ducum interitus, magnorum, Nobiliumque Maxima praeterea mortales signa monebunt"> Et fames, & mortes, praeclarorumque virorum,  
+Atque Ducum interitus, magnorum, Nobiliumque  
+Maxima praeterea mortales signa monebunt</foreign>.</q> 
+</p>
+<p>Que han dexado pues que dezir a la sala del Crimen, o al  
+braso Seglar de la judiciaria; pareceme que en lo dicho tie- 
+nen paño de que cortar los criminales, y sanginolentos, y en  
+otras muchas cosas mas, que de ellos se dizen, pues ni ha fal- 
+tado quien los tenga por espiritus malignos, y trasgos igni- 
+tos. Pero yo ( <foreign lang="lat">quiça pusilanimo</foreign>, y de natural encogido ) ni  
+por Astros , ni <term type="Astron">Cometas</term> malsines, quisiera juzgar vidas age- 
+nas, y sustanciar sin causa causas a los mortales; con que digo  
+de mi, lo que de si dixo christianamente <name type="person" reg="Cristiano Longomontano">Christiano Seveti- 
+no Longomontano</name>, viendose en el mismo empeño de <term type="Astron" reg="Cometa">Co- 
+meta</term> que me veo. <foreign lagn="lat" reg="Quin in super, quod ingenue fateor, natura mea semper hactenus à praedictionibus eventuum ex astris, & im- primis hisce prodigiosis Phaenomenis, & Cometis abhorruit; ne sci- licet nimium cum al?s quibusdam, qui maiore licentia hanc segetem  metunt, prodigus harum invenerim, etc"> Quin in super, quod ingenue fateor, natura  
+mea semper hactenus à praedictionibus eventuum ex astris, & im- 
+primis hisce prodigiosis Phaenomenis, & Cometis abhorruit; ne sci- 
+licet nimium cum al?s quibusdam, qui maiore licentia hanc segetem  
+metunt, prodigus harum invenerim, etc</foreign>.O quiça porque nada  
+sabemos, por voca de los que todo lo saben, que vestidos de  
+viejo nos ponen de nuevo.
+</p>  
+<p>Y concluyendo con los nombres especificos, digo que  
+<name type="person" reg="Albumasar">Abulmaçar</name> en el tratado de aquestas ignitas impresiones, y  
+C        Guido 
+</p>
+</div>
+ 
+<div>
+<pb>folio 9 r</pb>. 
+<p> 
+<name type="person" reg="Bonato, Guido">Guido Bonato</name> 4.part.cap. 105. de parecer de <name type="person" reg="Ptolomeo, Claudio">Tholomeo</name> po- 
+nen 9 especies, y son: Veru vel Feru; Cenaculum, vel Te- 
+naculum; Pertica, vel Partica; Asconae, vel Astoriae Dominus;  
+Miles; Argenteum; Matutina, vel Aurora rubea; Rosa; Nigra.  
+Atribuyenle a cada Planeta las de la naturaleza de cada vno.  
+Pero <name type="person">Plinio</name> lib. 2. nat. Hist.cap. 25. como refiere <name type="person" reg="Iacobo Milichio">Iacobo Mi- 
+lichio</name> cap. 25. aviendolo tomado de los Griegos pone doze  
+especies y son; Pogonias; Hyppus, vel Hyppeus; Acontia; Xiphia;  
+Discus; Pithus, vel Pithetes; Ceratias; Lampas; Argenteum; Rosa,  
+Tibia, vel Fistula; Nigra. Fuera de aquestas, de otros muchos  
+Authores se coligen aun mas especies, que no se pueden re- 
+ferir a las dichas, y son Chasma; Vorago; Hiatus; Draco volans;  
+Igni perpendiculares; Ignis lambens; Ignis fatuus; Ignitus gladius;  
+Ensis; Cornu; Equs; Dolium; Area; Parel?; Virga; Lancea; & Fa- 
+ces. Fuera nunca acabar poner todos sus nombres y solo di- 
+go, que por aquesto la Fabula de los <name type="god" reg="Cíclopes">Cyclopes</name> fingio ser cien- 
+to los hijos del cielo, y de la <name type="planet" reg="Tierra">tierra</name>, sin los que no son igni- 
+tos ( que no hablo de ellos ) como de las Nubes, Neblinas,  
+Arcos, Lluvias, Granizo, Piedras, Escarchas, Rozios, Ye- 
+los, Nieve, Manà, y Miel, con otros muchos mas. Hasta aqui  
+los peripateticos todos, aunque varian algo en el sentir de  
+todos aquestos Meteoros, que assi los llaman. 
+</p>
+<p>§. 3. 
+VERDADERA PROGENIE DE LOS  
+<term type="Astron">Cometas</term>; y sus especies.  
+</p>
+<p>Basto, y grosero sentir de aquestos monstruos illumina- 
+dos ha sido el referido; conque en aqueste mi discurso  
+he de acudir a su desagravio, con opiniones modernas,  
+y antiguas; con demostraciones, y observaciones veridicas  
+de buenas letras; con que honrosamente les desenterraremos  
+los huessos, desahijandolos de la <name type="planet" reg="Tierra">tierra</name>, legitimandolos en  
+las  
+</p>
+</div>
+
+
+<div>
+<pb>folio 10 v</pb>. 
+<p>
+las aguas, y como originarios del cielo que son, los materia-  
+remos de aquel Etereo talamo, como congelos de la misma  
+luz, sin negar ( aunque pudiera con el <name type="person" reg="Cristiano Longomontano">Longomontano</name>, y <name type="person" reg="Tycho Brahe">Ty- 
+chon </name> lib. 2 ) que en el ayre tambien se forjan Phenomenos,  
+y apariencias; pero dire que vno, y otro, con <name type="person" reg="Kepler, Johannes">Juan Keplero</name>,  
+que essos no son, ni pueden ser <term type="Astron">Cometas</term>, pues estos tienen  
+todo su abolengo en el cielo, sin q las noblezas de ellos desme- 
+rescan, aunque se reconocen competencias entre las legiti- 
+mas, y bastardas; y para ilustrar su descendencia, ó ascenden- 
+cia, oygamos a <name type="person">Luciano</name> en sus dialogos, y a <name type="person">Ovidio</name> en el pri- 
+mero de sus <refTitle reg="Metamorfosis">Methamorfoseos</refTitle>; q dizen que el altivo, y mag- 
+nanimo <name type="god" reg="Faetón">Faeton</name> siendo hijo del Dios <name type="god">Apolo</name>, y de la her- 
+mosissima Ninfa <name type="god">Clymene</name>, tuvo competencias, y algunas  
+altiveces con <name type="god" reg="Épafo">Epafo</name>, hijo de <name type="god" reg="Júpiter">Iupiter</name>, y de la Diosa <name type="god" reg="Io">Yo</name>, con  
+que le dio ocasion a q le llamase de mal nacido, y bastardo;  
+sentido <name type="god" reg="Faetón">Faeton</name>, refrenando con la verguença la colera, recurriò  
+a su madre <name type="god">Clymene</name>, a deslindar su hidalguia, y legitimidad:  
+
+<q><foreign lagn="lat" reg="Erubuit Phaethon, iramque pudore repressit, Et tulit ad Clymenen Epaphi convitia matrem">Erubuit Phaethon, iramque pudore repressit,  
+Et tulit ad Clymenen Epaphi convitia matrem</foreign></q>.  
+</p>
+<p>La madre aunque le satisfizo; el mal contento recurrió a su  
+Padre <name type="god">Apolo</name>, que reconociendole por hijo, con el gusto, y pala- 
+bras le engendrò nueva altives de pasear su hidalguia por el  
+cielo; que la que no es ostentada, y pregonada, desmerece en  
+la vanidad por clandestina. Pidiole su carro, y cavallos de  
+fuego prestados por vn dia, para afirmar su principado; el Pa- 
+dre aunque lo rehusò prudente, temiendo su furia, y la de sus  
+Pias, instado condecendió con el, adestrandolo en la nueva  
+cavalleria, por nunca exercitado en ella. Apenas los fogozos  
+animales sintieron la liviandad, y descamino del novel gine- 
+te quando el freno en los dientes, desenfrenados lo precipi- 
+taron (prosigue <name type="person">Ovidio</name> )  
+
+<foreign lagn="lat" reg=" Ausus aeternos agitare currus Immemor metae iuvenis paternae, Quos Polo sparsit, furiosus ignes, Ipsae recepit"> Ausus aeternos agitare currus  
+Immemor metae iuvenis paternae,  
+Quos Polo sparsit, furiosus ignes,  
+Ipsae recepit</foreign>.    C2       Des- 
+</p>
+</div>
+ 
+
+<div>
+<pb>folio 10 r</pb>. 
+<p>Deshecho en pieças el carro, y sembrado el ayre de rayos, y 
+chispas por espumas, cayo <name type="god" reg="Faetón">Faeton</name> en el rio <name type="place" reg="Erídano">Eridano</name> por tem- 
+plarse, muriendo abrasado, sin quedar escaldado. Pintolo  
+bien <cit reg="Pargeo, Apoloni. libro4. Argonauticorum"> <name type="person" reg="Pergeo, Apolonio">Apolonio Pergeo</name> lib. 4. <refTitle>Argonauticorum</refTitle>:  
+<foreign lagn="lat" reg="Vltima ad Eridant minyae venere fluenta, Pectus quo ardenti percussus fulminis igne Semiustus cecidit Phaethon, currumque paternum Liquit in aereis campis"> Vltima ad Eridant minyae venere fluenta,  
+Pectus quo ardenti percussus fulminis igne  
+Semiustus cecidit Phaethon, currumque paternum  
+Liquit in aereis campis</foreign></cit>.  
+</p>
+<p>Alli fue llorado de su madre <name type="god">Clymene</name>; alli le lamentaron tan- 
+to sus seis hermanas, que estupidas quedaron convertidas en  
+alamos negros en las orillas del <name type="place" reg="Erídano">Eridano</name>; o porque su Padre  
+por calentarlas, y curarlas les precipitó vn rayo con que las  
+convirtió en <name type="god">Etiopisas</name>. Quiso hazer la misma fineza por el  
+su Tio, llamado <name type="god">Cygno</name>, y agradecido <name type="god">Apolo</name> de sus lagrimas  
+le convirtio en <name type="Costelation">Cisne</name>, perpetuo morador de las aguas, escal- 
+dado del fuego del Sobrino, para alli assistirle perpetuamen- 
+te a sus ceniças. </p> 
+<p>En aquesta Fabula hemos de yr explicando todo nuestro  
+designio, y pues nos queda que discurrir en nuestro assumpto,  
+escusarè el repetir su narracion; dize pues assi el Comite:<q><foreign lagn="lat" reg="Fuerunt qui Phaethontis fabulam inde exhortam esse dicant, quod vastus Cometa solaris natura, in non nullis locis tandem in disolutus, intolerabiles aestus effecerit">Fue- 
+runt qui Phaethontis fabulam inde exhortam esse dicant, quod vastus  
+<term type="Astron">Cometa</term> solaris natura, in non nullis locis tandem in disolutus, intolera- 
+biles aestus effecerit</foreign></q>. <foreign lagn="lat" reg="Est enim ea Cometarum natura sive sit vapor circa sidera collectus, sive perse praelongus existat, qui paulatin exuritur, sive alia de causa quavis oriatur, ut sicciras, & aestus consequatur"> Est enim ea Cometarum natura sive sit vapor  
+circa sidera collectus, sive perse praelongus existat, qui paulatin  
+exuritur, sive alia de causa quavis oriatur, ut sicciras, & aestus  
+consequatur</foreign>. Dize lo mismo, en orden a los effectos, que lo  
+que tiene dicho <name type="person">Hesiodo</name>, en orden a su generacion; y assi por  
+<name type="god" reg="Faetón">Faeton</name> son entendidos los <term type="Astron">Cometas</term> de naturaleza del <name type="planet">Sol</name>,  
+como animados con sus rayos, con q como el abrasan, que- 
+man, y encienden; y como el curso del <name type="Planet">Sol</name> sea por la torrida  
+Zona siempre sin salir de ella, de aqui es que la abrasada <name type="place" reg="Etiopía">Ethio- 
+pia</name> la habiten Ethiopes adustos, y quemados de sus rayos,  
+que son los alamos negros en que <name type="god">Apolo</name> se dize convirtiò a las  
+hermanas de <name type="god" reg="Faetón">Faeton</name>, para habitadoras del <name type="place" reg="Erídano">Eridano</name>. Otros  
+dize 
+</p>
+</div>
+
+
+
+<div>
+<pb>folio 11 v</pb>. 
+<p>
+dize <name type="person" reg="Conti, Natali">Natal</name>, la explican del insendio del <name type="planet">Sol</name>, que se causa en la 
+via combusta, que es de fin de <name type="constelation">Libra</name> a los principios de <name type="constelation" reg="Escorpion">Es- 
+corpion</name>, por diez grados, que parece averse descaminado alli  
+el<name type="planet">Sol</name> segun abrasa: <foreign lang="lat" reg=" Finxerunt eum in ea parte praecipue signiferi delirasse, quae est vltima Librae, in Scorpionem, vbi via dicitur combusta, quae gradus decem utrimque continet"> Finxerunt eum in ea parte praecipue signiferi  
+delirasse, quae est vltima Librae, in Scorpionem, vbi via dicitur  
+combusta, quae gradus decem utrimque continet</foreign>. Otros prosigue  
+<name type="person" reg="Conti, Natali">Natal</name>, fingieron esta Fabula ( y la explicó Samoteo ) de vn gran 
+insendio, y sequedad que vbo en toda <name type="place">Francia</name>, <name type="place">Italia</name> y <name type="place" reg="Grecia">Gre- 
+sia</name>, el año de <date>1242</date>. en q murieron mas de diez mil personas,  
+y fue una combension, oduriforia de Planetas, que se halla- 
+ron todos juntos en Leon con el <name type="planet">Sol</name>, menos <name type="planet" reg="Júpiter">Iupiter</name>, que se  
+hallò en <name type="constelation">Tauro</name>. Y lo mismo en otros tiempos, en <name type="place">Egipto</name>,  
+y en <name type="place" reg="Asia">Assia</name>; y el parar <name type="god" reg="Faetón">Faeton</name> en el <name type="place" reg="Erídano">Eridano</name>, se explica de las  
+grandes inundaciones que despues de aquestos fuegos, calo- 
+res, y sequedades se siguen; pero desto en otro lugar, y baste  
+por agora de su explicacion.</p>  
+<p>Es me forçoso pues, no seguir en aqueste mi discuso el co- 
+mun metodo de los Filosofos, empesando por la definicion;  
+pues entro supponiendo, que se ignora, y ha ignorado la ma- 
+teria, y modo de la formacion de los <term type="Astron">Cometas</term>, y yendo en  
+aqueste principio, ya buscar sus causas, fuera bastarda defini- 
+cion dezir de ellos, que son, vna apariencia cometica al mo- 
+do de estrellas, que de nuevo nacen, y se ven en el ayre, o en  
+el cielo por algun tiempo. Y assi para entrar en esta materia  
+seguirè la sentencia del Filosofo <cit reg="Aristóteles. Libro.1.Metafísica. capítulo.7"> lib. 1, <reftitle reg="Metafísica">Meth.</reftitle>cap. 7. que dize:  
+<foreign lang="lat" reg="Ea quae occulta sunt sensui, ratione satis demostrata esse dicimus, siea ad id quod fieri potest rebocaverimus">Ea quae occulta sunt sensui, ratione satis demostrata esse dicimus,  
+siea ad id quod fieri potest rebocaverimus</foreign></cit>. Que las cosas que nos  
+son ocultas, y escondidas a los sentidos, llegan a ser verifica- 
+das, y demostradas, con ponerlas en el campo de la posibili- 
+dad, y que no repugnen a la razon. Sea pues la entrada á aque- 
+sta doctrina de los <term type="Astron">Cometas</term>, y sus diferencias, asentar lo pri- 
+mero la doctrina de<cit reg=" Séneca. libro. 7 . capítulo. 11"> <name type="person" reg="Séneca">Seneca</name> lib. 7.cap. 11. donde dize:<foreign lang="lat" reg="Sivesint aliquae diferentiae illorum, sive non sint, eadem ratione fiant necesse est Cometae">Sive  
+sint aliquae diferentiae illorum, sive non sint, eadem ratione fiant ne- 
+cesse est Cometae</foreign></cit>, Aigan, o no, diferencias de <term type="Astron">Cometas</term>; lo cier-  
+to 
+</p>
+</div>
+
+
+<div>
+<pb>folio 11 r.</pb> 
+<p>
+to en ellos es, que todos tienen vna misma razon, y principios 
+de engendrarse, y formarse, y no diversas; esto es vna misma  
+materia, vna misma forma, vn mismo fin, en vna misma par- 
+te, con vn mismo modo, aunque en ellos se noten tan diver- 
+sas apariencias que obligan a multiplicarlos. </p> 
+<p>Lo segundo que asentamos para sus formas es, que los co- 
+lores en ellos no son reales, y verdaderos; sino falacia, y en- 
+gaños de la vista, flaqueza suya, refracciones, y reflexiones  
+de la luz, o rayos del <name type="planet">Sol</name>; como le vè en el Iris del cielo, en las 
+plumas de los Pavos, en los pechos de las Palomas, y en las   
+ampollas de las xabonaduras al <name type="planet">Sol</name> con los triangulares vi- 
+drios interpuestos a la vista. Assi lo sienten todos los Op- 
+ticos, y Filosofos, con el Principe de ellos; y lo prueba el  
+<name type="person" reg="Conti, Natali">Conde Natal</name> largamente en el lib 8.cap. 20. con que solo se  
+deven conceder en los <term type="Astron">Cometas</term> dos colores blanco, y negro,  
+donde aun el negro tambien es ficticio, porque este nace de  
+mas; o de menos densidad en el cuerpo opaco; porque si la nuve  
+es diafana desuerte que la luz venza penetrandola, se mue- 
+stra blanca, y lucida; si la luz es vencida de la densidad se  
+muestra negra; y si la luz, y densidad son proporcionadas re- 
+sulta el color rojo, que alli no ay. Y assi<name type="person">Iacobo Milichio</name> c. 29.  
+sobre el lib.2. de <name type="person">Plinio</name> dixo:<q><foreign lang="lat" reg="Diversitas autem colorum fit proater dicimilem lucis, & nubis permixtionem. Duobus tamen potissimum coloribus constat, albo si nubes est rarior, & atro si est densior">Diversitas autem colorum fit proa- 
+ter dicimilem lucis, & nubis permixtionem. Duobus tamen potis 
+simum coloribus constat, albo si nubes est rarior, & atro si est den- 
+sior</foreign> </q>. Conque el juzgar por colores de los <term type="Astron">Cometas</term>, solo es,  
+porque de ellos collegimos, raridad, o densidad, como en  
+los siete Planetas, y demas estrellas del cielo, no teniendo 
+todas mas color que el blanco, que es el de la luz, y el de la  
+materia, que es luzida; sin manchas ni borrones.</p>  
+<p>Ay pues solas dos especies de <term type="Astron">Cometas</term>, como de pare- 
+cer de <name type="person">Epigenes</name> refiere <cit reg="Séneca. Libro. 7. Capítulo. 6"> <name type="person" reg="Séneca">Seneca</name> en su lib. 7.cap. 6. diziendo:  
+<foreign lang="lat" reg="Duo Comentarum genera sunt, al? ardores vndique fundunt, nec locum mutant; al? in unam partem ignem vagum in modum comae porrigunt, & stellas permeant">Duo Comentarum genera sunt, al? ardores vndique fundunt, nec lo- 
+cum mutant; al? in unam partem ignem vagum in modum comae  
+porrigunt, & stellas permeant</foreign></cit>. ( aquestas dos especies estàn ve- 
+rifi-  
+</p>
+</div>
+
+ 
+
+
+<div>
+<pb>folio 12 v</pb>. 
+<p>
+
+rificadas en nuestra Fabula; ) la vna es ( dize <name type="person" reg="Séneca">Seneca</name> ) la de 
+aquellos <term type="Astron">Cometas</term>, que arrojan luz de si a todas partes igual- 
+mente como las estrellas del cielo, y aquestas no son andarie- 
+gas, ni mudan lugar, sino que fixas persisten con alguna du- 
+racion hasta desvanecerse. La otra es la de aquellos <term type="Astron">Cometas</term> 
+que arrojan de si alguna luz vaga, y larga como cavelle- 
+ra, y madeja hazia à alguna parte; y son estos vagos, tienen  
+movimientos velos, y nunca permanecen fixos, sino que des- 
+caminados duran algun tiempo, pero siempre menos que los  
+primeros; quiça que su inquietud, y viveza los gasta, y con- 
+firme; con que es necessario concederles distinctos sitios, y  
+lugares, aunque de vna misma materia, y formasion. Aqui  
+pues nuestra Fabula. <name type="god" reg="Faetón">Faeton</name>, y sus hermanas las <name type="god">Eliadas</name>,  
+hijos de <name type="god">Apolo</name>, y de <name type="god">Clymene</name> Ninfa, esto es el <name type="planet">Sol</name>, y del  
+agua dize <name type="person" reg="Conti, Natali">Natal</name>:<q><foreign lang="lat"> Clymenen dixerunt esse Matrem, quae aqua est</foreign></q>.  
+Con que se explicarán dos sexos; en <name type="god" reg="Faetón">Faeton</name> altivo, y sober- 
+vio, los <term type="Astron">Cometas</term> vagos, velozes, precipitados en su curso,  
+descaminados del camino de su padre el <name type="planet">Sol</name>, como dixo  
+<name type="person">Ovidio</name>:  
+
+<q><foreign lang="lat">Immemor metae iuvenis paternae</foreign></q>.  
+</p>
+<p>Y assi precipitados, como se verà en el lugar que les daremos,  
+su curso es avieso de Norte a Sur, y al contrario; duran muy  
+poco, y nunca llegan a tres Meses; ochenta dias les señalò por  
+termino <name type="person">Milichio</name>, y estos como quienes representan virili- 
+dad tienen barba, y madeja larga. Las <name type="god">Eliadas</name> hermanas de  
+<name type="god" reg="Faetón">Faeton</name>, como mugeres no mudan assiento, ni vagan, y assi  
+persistentes havitan las orillas del <name type="place" reg="Erídano">Eridano</name>, arraigadas como  
+arboles plantados. Pero vnos, y otros de vn principio, y de  
+una materia; pues assi <name type="god" reg="Faetón">Faeton</name>, como las <name type="god">Eliadas</name>, reconocen  
+la luz del <name type="planet">Sol</name>, y a <name type="god">Clymene</name>; y a vnos, y otros los recoge el <name type="place" reg="Erídano">Eri- 
+dano</name>, y sus aguas, sepultandose en su mismo origen, como se  
+explicarà. Y pues hemos assentado sus dos especies, o vna  
+en dos sexos, vamos ya a deslindar el sitio, y talamo de aque- 
+stas representaciones, que es lo principal de aquesta materia.  
+§. 4.  
+</p>
+</div>
+
+
+<div>
+<pb>folio 12 r.</pb> 
+<p>
+§. 4.  
+ES EL SITIO DE LOS <term type="Astron">COMETAS</term>  
+en el cielo; de la <name type="planet">Luna</name> para arriva.  
+</p>
+<p>El aver cielos solidos, fluidos, o un purissimo <term type="Astro" reg="éter">Ether</term>, no es  
+de fee, con que aquesta controversia, està dividida en opi- 
+niones, aun entre los Santos, y Doctores de la <name type="Inst">Iglesia</name>.</p>  
+<p>La que afirma no aver cielos solidos, està tan valida en aque- 
+ste siglo, y tan apoyada de razones, que se rien del que lleva  
+la contraria. Son desta opinion <name type="person">San Basilio</name>, <name type="person" reg="Justino (Mártir)">San Iustino Mar- 
+tyr</name>, respondiendo a la 90. question de los Ortodoxos,<name type="person" reg="Orígenes"> Ori- 
+genes</name> 5, contra <name type="person">Celso</name>, y en el 1. del <refTitle>Periarchon</refTitle>, cap. 7. <name type="person">San  
+Iuan Chrisostomo Homil</name>. 6 y 13. <name type="person">Ruperto 1 de Trinitate</name>,  
+<name type="person">Diodoro Tarcense</name> cap.1, Y otros muchos y de los moder- 
+nos todos. Las razones de su fundamento son muchas, y muy  
+fuertes, y solo referirè algunas, porque todas no será possible.</p>  
+<p>Sea la primera Filosofica, y es, que los lugares se graduan  
+por la nobleza de los cuerpos, y colas criadas, y la de estos es  
+la diafanidad, y la luz, acercandose a su sustancia, y apartan- 
+dose de lo opaco, y de las tinieblas. Vese en el orden que la  
+naturaleza guarda; que la <name type="planet" reg="Tierra">tierra</name> por mas tosca, opaca, y densa  
+ocupa el infimo lugar, y siendo impenetrable dista de la luz,  
+y se acerca a las tinieblas. Siguese luego el agua mas diafana,  
+y lucida, y assi mas noble que la <name type="planet" reg="Tierra">tierra</name>, y menos tinieblas.</p> 
+<p>Luego el fuego en su esfera sutilissimo, y diafano; y en la  
+misma proporsion se graduan los pesos dellos, siendo el fue- 
+golevíssimo, y puro. Siguense luego los cielos, que no de- 
+ven ser solidos, ni pesados, sino subtilissimos, leves, y muy  
+lucidos, mas que el fuego, porque la luz es el termino, y fin a  
+que todos caminan, que es su nobleza, y por el tanto la mas  
+noble de todas las criaturas, la mas pura, la mas leve, y velos,  
+pues se haze en instante la illuminacion, y de ella dixo <cit><name type="person" reg="Ambrosio (San)">San  
+Ambrosio</name> 1. Exam. cap. 9. que fue citada: <foreign lang="lat">Non in numero, non  
+impon-</foreign> </cit> 
+</p>
+</div>
+
+
+<div>
+<pb>folio 13 v.</pb> 
+<p>
+<cit cont="1"> <foreign lang="lat" cont="1"> in pondere, non in mensura</foreign></cit>, ( lugar dificil ) pues siendo la luz 
+criada en numero, peso, y medida como las demas criatu- 
+ras, <foreign lang="lat">in numero, pondere, & mensura</foreign>. ( Sapientae cap. 11 ) Ella  
+por su nobleza parece quererse salir de la norma de las cria- 
+turas. Luego si los cielos son los mas superiores, y mas cer- 
+canos a la luz, ni deven pesar, ni ser solidos, sino mas leves,  
+lucidos, y ligeros que el fuego, pues se suponen ser mas no- 
+bles; como en el hombre los espiritus vitales, y animales, que  
+mas se acercan a la naturaleza intelectual; y en los animales, y  
+plantas las almas vegetativas &c. Luego no ay cielos solidos.</p> 
+<p>La segunda razon sea de los movimientos de los cinco  
+Planetas, <name type="planet">Saturno</name>, <name type="planet" reg="Júpiter">Jupiter</name>, <name type="planet">Marte</name>, <name type="planet">Venus</name>, y <name type="planet">Mercurio</name> ( como  
+afirman, y comprueban <name type="person" reg="Tycho Brahe">Tychon</name>, y otros muchos ) que se  
+mueven alrededor del <name type="planet">Sol</name> concentricamente con sus movi- 
+mientos medios. Yten las observaciones hechas con la ata- 
+laya, o longo mira que inventó <name type="person">Galileo</name>, con que no solo el,  
+sino muchos han descubierto en el cielo muchos astros, y  
+estrellas que se mueven alrededor de los Planetas, en <name type="planet" reg="Saturno">Satur- 
+no</name> han notado dos, en <name type="planet" reg="Júpiter">Iupiter</name> quatro, en el <name type="planet">Sol</name> muchos, que  
+lo rodean, y tal vez se le ponen debajo, y lo manchan, o lo  
+eclipsan en parte. Y con mas perfecto instrumento ( dize <cit> 
+<name type="person">Marino Marsenio</name> vers. 8. art. 4. ) se pudieran descubrir mu- 
+chos mas:<foreign lang="lat"> Etenim sicut Galileus vidit in Iove quatuor, alius diop- 
+trae excellentioris ope, quinque, septem, centum, & alium quempiom  
+numerum tam stellarum, quam Planetarum inventre poterit</foreign></cit>. De  
+la <name type="planet">Luna</name> que es aspera, y casi irregular, y que tiene montes,  
+valles, y lagunas; que la rodean vapores, y otras apariencias.  
+Y assi mismo que <name type="planet">Mercurio</name>, y <name type="planet">Venus</name> crecen, y menguan como  
+la <name type="planet">Luna</name>, y <name type="planet">Venus</name> tal vez se ha visto sin atalaya casi tan gran- 
+de como la <name type="planet">Luna</name>. Todo esto pues no admite cielos solidos,  
+sino fluidos, porque menos que dandose penetracion en vnas  
+partes, y vasios en otras no pudiera ser, y por lo menos cor- 
+ruptivilidad en los cielos, y otras machinas incompossibles  
+de orbes, y <term type="astron" reg="Epyciclo">Epyclos</term> &c.  
+D        La  
+</p>
+</div>
+
+
+<div>
+<pb>folio 13 r.</pb> 
+<p>
+La tercera razon convence no aver cielos solidos, de los 
+mismos <term type="Astron">Cometas</term>, que es nuestro designio, por averse observa- 
+do de la <name type="planet">Luna</name> para arriva, hasta el firmamento, convencido  
+de sus <term type="Astron" reg="paralaje">Parallaxes</term>, y diversidades de aspecto, no solo de las de  
+un lugar en la <name type="planet" reg="Tierra">tierra</name>, sino de la observada en diversos luga- 
+res.<name type="person" reg="Albumasar">Abulmasar</name> año <date>844</date>. observò vno sobre <name type="god">Venus</name>; Me- 
+sahala, y Haly, lo mismo, sobre el 2. de la quadripartita de  
+<name type="person" reg="Ptolomeo, Claudio">Ptolomeo</name>; <name type="person">Proclo</name> otro sobre <name type="god" reg="Júpiter">Jupiter</name>; <name type="person">Hiparco</name>, <name type="person" reg="Séneca">Seneca</name>, y  
+<name type="person">Plinio</name> son de la misma opinion; de los <term type="Philos">Pitagoricos</term>. <name type="person" reg="Hipócrates">Hypo- 
+crates Chio</name>, <name type="person">Eschilo</name>, <name type="person" reg="Anaxágoras">Anaxagoras</name>, <name type="person">Apolonio Mindio</name>, testi- 
+fican lo mismo de sus observaciones ; <name type="person" reg="Cardano, Girolamo">Cardano</name> 4. de subilit,  
+afirma lo mismo; <name type="person" reg="Tycho Brahe">Tychon</name> grande observador cap. 6. afirma,  
+que se pueden ver en dicho termino de la <name type="planet">Luna</name> al firmamen- 
+to; assi lo tienen tambien <name type="person">Cornelio Gemma</name>,<name type="person" reg="Mestlino, Miguel"> Miguel Mes- 
+tlino</name>, y lo afirma del año <date>1580</date>. <name type="person">Marselo Esquarsialupo</name>,  
+<name type="person">Hagesio</name>, <name type="person">Teodoro Gramico</name>, <name type="person">Guillermo Principe de Assia</name>,  
+Fromando cap. 7. <name type="person" reg="Clavio, Cristóbal">el Padre Christoval Clavio</name>, <name type="person" reg="Cristiano Longomontano">Christiano  
+Longomontano</name>, y otros innumerables. <name type="person" reg="Tycho Brahe">Tychon</name> observò  
+quatro, el de <date>1572</date>. el de <date>1577</date>. el de <date>1585</date>. y el de <date>1590</date>. y en  
+todos verificò lo mismo. Del <term type="Astron">Cometa</term> de <date type="comet">1618</date> afirma <name type="person" reg="Fromando">Fro- 
+mando</name>, que estuvo tres vezes mas alto que la <name type="planet">Luna</name>. Y lo  
+mismo concluyó <name type="person" reg="Kepler, Johannes">Keplero</name>, y casi innumerables de los mo- 
+dernos en <name type="place">España</name>, <name type="place">Francia</name>,<name type="place"> Italia</name>, y <name type="place">Alemania</name>, con que estan- 
+do a las observaciones, y demonstraciones de los Mathema- 
+ticos, o no ay cielos solidos, o son corruptibles.</p>  
+<p>Y no es menos fuerte el argumento que se haze de los mo- 
+vimientos de los <term type="Astron">Cometas</term>, pues lo primero se mueven por  
+vn circulo maximo tan indefectiblemente como los mismos  
+astros, orden solo del cielo, y no de la region del ayre, que  
+ni aun rapto se le deve conceder; muevense al principio ve- 
+loces, y despues tardos circularmente, y sin alguna eccentri- 
+cidad, y no con movimiento rectilineo, como quiso <name type="person" reg="Juan">Iuan</name>  
+<name type="person" reg="Kepler, Johannes">Keplero</name>, no admitido en la naturaleza. Y lo segundo, ya de  
+Norte a Sur, como el de <date>1607</date>. Y ya del Sur al Norte, como  
+en   
+</p>
+</div>
+
+
+<div>
+<pb>folio 14 v.</pb>  
+<p>
+en el de <date>1618</date> y en este nuestro emos visto, causando su cir- 
+culo maximo 65 gr. De angulo con la <term type="Astron">Equinoccial</term>; y con la  
+<term type="Astron" reg="eclyptica">Eccliptica</term> 77. gr. 8. minutos. Y en el se ha observado lo que  
+en todos quantos se han visto, en orden à su forma, ma- 
+teria, y movimientos; y en todo muy semejante al de <date>1618</date>.  
+Retrogrado como el; del Sur al Norte, y en su velocidad, pues  
+la del de <date>1607</date>. fue de 10. gr. casi cada dia, en su principio, y  
+despues en su fin 5: minut. Y el nuestro de 12.gr. y acabó con  
+50. minut. El de <date>1618</date>. empeço con 3.gr. 20 minut. y acabó  
+con 1.gr. y 8.minut.Y de estos movimientos coligen la di- 
+stancia a la <name type="planet" reg="Tierra">tierra</name>, y ser sobre la <name type="planet">Luna</name>, pues siendo esta la mas  
+velos, y mas cercana a la <name type="planet" reg="Tierra">tierra</name>, es cierto estar los dichos Co- 
+metas sobre ella, pues son mas tardos, y mas mientras mas  
+altos, hasta carecer de movimiento, que son los que parecen en el fir- 
+mamento. Luego todos los <term type="Astron">Cometas</term> superiores son a la  
+<name type="planet">Luna</name>, y por el tanto se convence no aver cielos solidos, aun- 
+que fuessen corruptibles; pues moviendose del Sur al Norte,  
+por la cracicie de qualquier cielo (que se mueven de Occidente a  
+Oriente) avian de descaecer de su circulo maximo hazia  
+Oriente, lo cual con evidencia es falso; luego no ay cielos  
+solidos, y nuestro <term type="Astron">Cometa</term> estuvo poco mas arriva que la <name type="planet" reg="Luna">Lu- 
+na</name>, que aquel dia tuvo 13.gr. y 35.minut. de movimiento, y  
+el <term type="Astron">Cometa</term> 11.gr. casi ( pero desto despues ) Y asentado que  
+su sitio es el de los cielos, sumemos toda aquesta doctrina.  
+Digo pues, q de las dos especies de ellos, que hemos asen- 
+tado, los que son caudados, y tienen madeja larga, tienen el  
+movimiento dicho, como el nuestro; y se engendran en el  
+cielo planetario de <name type="planet">Saturno</name>, a la <name type="planet">Luna</name>, y estos duran poco, y  
+son Faetontes despeñados por sus cursos aviessos, como està  
+dicho; y destos mismos fueron, el de <date>1607</date>. y de <date>1618</date>. y otros  
+de los que atrás hemos citado, observados de los Autores.  
+Pero los que no tienen madeja, y son como estrellas claras,  
+o nebulosas, estas son en el firmamento, libres de movimien- 
+to, por ser como las fixas, y estas no son tan ordinarias, y du- 
+D2       ran  
+</p>
+</div>
+
+
+<div>
+<pb>folio 14 r.</pb> 
+<p>
+ran mas de un año; y dos por la mayor parte. Y siendo innu-  
+merables los de la primera especie, de esta segunda solas ca- 
+torze se han visto, y las mas continuas en nuestro siglo. La  
+primera observó <name type="person">Hiparco</name> 125 años antes de <name type="CathDiv" reg="Jesús">Christo</name> nuestra  
+salud. La segunda, en tiempo de <name type="person">Adriano</name> Emperador. La  
+tercera ( como refiere <name type="person">Cypriano Leovicio de Baransano</name> ) en  
+tiempos del emperador <name type="person">Oton</name>. La quarta, antes del incendio  
+de <name type="place">Troya</name>, que fue de las <name type="constelation" reg="Pléyades">Pleyadas</name>, llamada <name type="god">Electra</name>, que  
+aviendo aparecido muy lucida mas que las demas, oy per- 
+manece casi imperceptible, y es la que el vulgo llama de las  
+Cabrillas, que no le vè. La quinta el año <date>1264</date> en la ima- 
+gen de la <name type="Constelaton">Casiopea</name>. La sexta, en la misma <name type="Costelation">Casiopea</name>, el año  
+de <date>1542</date>. La septima, año de <date>1577</date>. observada por <name type="person" reg="Tycho Brahe">Tychon</name>,  
+y otros. La octava, año de <date>1572</date>. en la cátedra de la <name type="constelation" reg="Casiopea">Casio- 
+pea</name>, en el signo de <term type="Zodiacal">Tauro</term>. La novena en el <term type="Costelation">Zeto</term>, o <term type="Costelation">Ballena</term>,  
+segun <name type="person">David Fabricio</name>, el año de <date>1596</date>. La dezima,en el pecho  
+del <name type="Costelation">Cisne</name>, año de <date>1600</date>. en los 16 gr. 15. minut. De <name type="zodiacal">Aquario</name>.  
+La vndeziima, en <name type="Constelation">Antinoo</name>, segun <name type="person">Iusto Brigio</name>, este mismo  
+año. La duodezima, la que observó <name type="constelation">Plamareto</name>, año de <date>1603</date>.  
+en la <name type="constelation">Casiopea</name>. La dezimatertia, el año antes de <date>1602</date>. ob- 
+servada por <name type="person" reg="Kepler, Johannes">Iuan Keplero</name>, en el <term type="astron">Pes Austrino</term>. La dezima quar- 
+ta en el año de <date>1604</date>. en la rodilla del <term type="astron">Serpentario</term>, en <name type="cosntelation">Sagitario</name>.  
+Y aun <name type="person">Simon Mario</name> quiso que el año de <date>1612</date> se ubiesse visto  
+otra, en la imagen de <term type="astron">Andromeda</term>. Estas pues son las <name type="god" reg="Eliadas">Elia- 
+das</name> hermanas de <name type="god" reg="Faetón">Faeton</name>, fixas, y sin movimiento como ha- 
+bitadoras del firmamento. Y aun sospecho verisimilmente,  
+que cinco estrellas nebulosas, y nueve obscuras, que ay en el  
+cielo, son desta especie, que acrisoladas de los rayos del <name type="planet">Sol</name>,  
+se quedan proyladas con permanencia, como la plata en el  
+fuego, que consumida del, queda el oro inalterable del mis- 
+mo fuego. Ya no estraño la competencia que ubo entre <name type="god" reg="Faetón">Fae- 
+ton</name>, y <name type="god">Epafo</name> hijo de <name type="god" reg="Júpiter">Jupiter</name>, que es la que puede aver entre  
+los astros, y estrellas, que <name type="god">Dios</name> criò en el principio, tan no- 
+bles como de sus manos; ellas imputan bastardia, a las dos  
+espe-  
+</p>
+</div>
+
+ 
+
+<div>
+<pb>folio 15 v.</pb> 
+<p>
+especies dichas; pero ellas litigando su nobleza, la prueban                                             
+del sitio que havitan, y ser descendientes del mismo <name type="god">Apolo</name>,  
+de sus rayos, y de la pureza, y limpieza de la Ninfa <name type="god">Clymene</name>,  
+que son las aguas, que residen sobre el mismo firmamento,  
+como en el siguiente paragrafo veremos. </p>
+
+<p>DESLINDASE LA MATERIA DE  
+los <term type="Astron">Cometas</term> coelestes.</p>  
+
+<p>Asentado que los cielos no son solidos, sino labiles, flui- 
+dos, tenues y vna raridad, o diafanidad expansa, y di- 
+lada por todo aquel espacio ( como veremos ) y que  
+por el se mueven, y discurren los astros, y estrellas governa- 
+das de sus inteligencias, como las Aves por el ayre, y los pe- 
+ses por el agua (como dize <name type="person" reg="Crisóstomo, Juan (San)">San Juan Chrisostomo</name>, y <name type="person" reg="Basilio (San)">San Ba- 
+silio</name>. ) Entra agora la controversia entre todos los que tienen,  
+que los <term type="Astron">Cometas</term> son celicolas, y ciudadanos de aquel espa- 
+cio celestial, qual sea la materia de ellos. Algunos peripate- 
+ticos instando en sus exalaciones de la <name type="planet" reg="Tierra">tierra</name>, y con ellos <name type="person" reg="Rothmano">Ro- 
+thmano</name>, <name type="person">Epigenes</name>, y <name type="person" reg="Escalígero, Julio">Iulio Escaligero</name>, y otros, quieren que  
+estas exalaciones terreas suban, y penetren aquesse purissimo  
+espacio, y alli sean illuminadas del <name type="planet">Sol</name>, y astros sus patrosi- 
+nadores. Indevido pensar por cierto, aver de criar <name type="god">Dios</name> vnas  
+noblezas tan qualificadas, tan distantes, tan bien governa- 
+das por sus inteligencias, y tan guarnecidas, para que la <name type="planet" reg="Tierra">tierra</name>  
+deslabada las borrase, y manchase, haziendo de los cielos ta- 
+lamo de sus engendros; como si aquella corte a falta de ma- 
+teria noble necessitase de la suya tan material, y asquerosa,  
+barajandose la <name type="planet" reg="Tierra">tierra</name> con el cielo, e introducir alla el desorden  
+de acà, quando vemos que cada linaje, del propio procura  
+succesion, y no pasar a otro por perpetuar su nobleza. Como  
+pues no consideraron, que esta exalacion avia de penetrar  
+toda  
+</p>
+</div>
+
+
+<div>
+<pb>folio 15 r.</pb>  
+<p>
+toda la region del fuego sin consumirse, ni alterarse del? Co-  
+mo no pesaron la <name type="planet" reg="Tierra">tierra</name>, para ver que tamaña exalacion se  
+podia condensar de ella, para q en el firmamento pareciesse 
+estrella de primera magnitud, que devia ser 107. vezes ma- 
+yor que ella, y algo mas? Y si de segunda mas de 90. vezes?  
+Y si como la mas minima, o de sexta magnitud mas de 18.  
+vezes? Avia de ser mayor el hijo que la madre, pues aun esta  
+puesta allà no se veria? Y preguntandoles mas, donde tiene la  
+<name type="planet" reg="Tierra">tierra</name> el abasto para tantos <term type="Astron">Cometas</term> como en los ciclos se  
+an visto, que casi seran como las estrellas conosidas? Luego  
+opinion poco fundada. </p> 
+
+<p>Entre los mismos que llevan, que son de materia celestial,  
+ay tambien muchas opiniones.<cit><name type="person">Plutarco</name> lib. 3 cap. 12. de <refTitle>Pla- 
+citis Philosoph.</refTitle> refiere tres de los <term type="Philos" reg="pitagoricos">Pithagoricos</term>, unos dellos  
+dizen, que son estrellas del cielo como las demas, pero no de  
+las que se ven siempre, sino otras que aparecen a tiempos,  
+guardadas para este fin. <foreign lang="lat" reg= "Nonnulli Pithagorae alumni Cometam  esse ex illorum,quae non perpetuo visuntur numero, sed statuto tempore in orbem recurrere aperiuntur">Nonnulli Pithagorae alumni Cometam  
+esse ex illorum,quae non perpetuo visuntur numero, sed statuto tem- 
+pore in orbem recurrere aperiuntur</foreign></cit>. Estrellas, o <term type="Astron">Cometas</term> enca- 
+jonados, que a sus tiempos se desenfardan y se buelven a en- 
+fardar. Como si el aparecier a nuestra vista, avia de ser repen-  
+tinamente como quien corre vna cortina, sino con curso par- 
+ticular acercandose poco a poco, y creciendo en sus aparien- 
+cias como sucede al yrse, que proceden de mas a menos ha- 
+sta desaparecerse. Mas, o vienen por movimiento recto, ò  
+circular? Si recto, como se pespiden con el circular? Y si vie- 
+nen con el circular, como en <term type="Astron">Epyciclo</term>, vendrán directos y se  
+despediràn retrogrados, o al contrario? Lo cual todo es falso,  
+luego la opinion lo es. Otros ( dize <name type="person">Plutarco</name>) afirman, que  
+es vn encuentro que nuestra vista haze con los rayos del <name type="planet">Sol</name>  
+de que resulta el <term type="Astron">Cometa</term>, como sucede en la reflexion del  
+espejo. <foreign lang="lat" reg="Alli visus nostri ad Solem repercussum, simulacri modo specularis" >Alli visus nostri ad Solem repercussum, simulacri modo  
+specularis</foreign>. Como si los <term type="Astron">Cometas</term> fueran vistos solo de dia, y  
+nunca de noche. Fuera de que no se como consideran esta re- 
+per-  
+</p>
+</div>
+
+
+
+<div>
+<pb>folio 16 v.</pb>  
+<p>
+percusion, pues aunque no vbiera vista en la naturaleza ( co-  
+mo no la ay en los que duermen) el <term type="Astron">Cometa</term> se estuviera en  
+el cielo, y no fuera al quitar, y poner, aviendo, o no ojos, que  
+mirasen. Y remata <name type="person">Plutarco</name>, que otros como <name type="person" reg="Anaxágoras">Anaxagoras</name>, y  
+<name type="person" reg="Demócrito">Democrito</name> como mas expertos, dixeron que era vn concur- 
+so de luces de dos, o mas astros, que coincidiendo resultaba el  
+Cometa. <name type="person" reg="Anaxágoras">Anaxagoras</name>, & <name type="person" reg="Demócrito">Democritus</name>, <foreign lang="lat">stellarum binarum, vel  
+plurium interse mutuo collustrantium coitum.</foreign> Con que conce- 
+den, que la luz de los astros toma cuerpo, por solo el concur- 
+so , no teniendolo los rayos, y que en este cuerpo se engendra  
+vn movimiento, que en los concurrentes, o contrayentes no  
+ay, tan regular por vn circulo, que aun acabado el aspecto  
+dura mucho mas; sabiendo que las sombras tanto se mueven  
+como sus cuerpos. Pero dexando la rudeza de los pasados si- 
+glos, por las pocas observaciones; oygamos a los modernos.  
+<name type="person" reg="Cardano, Girolamo">Cardano</name>, y <name type="person" reg="Tycho Brahe">Tychon</name>, quisieron piadosos, que fuesse ma- 
+teria coeleste engendrada de nuevo en forma de Globo, que  
+illuminado del <name type="planet">Sol</name> causava la madeja de la parte contraria del.</p> 
+<p>Esto vltimo es assi mismo de <name type="person">Pedro Apiano</name>,<name type="person" reg="Gemmafricio"> Gemmafri- 
+cio</name>, y <name type="person">Cornelio Gemma</name>, y casi muchos modernos; pero  
+en la primera parte recurren a milagro por no hallar materia  
+en el cielo, y sola la cavellera, o madeja conceden a las se- 
+gundas causas. <name type="person" reg="Kepler, Johannes">Juan Keplero</name> quiso que fuessen de la materia  
+de los cielos, y que se viessen en el cielo, y tambien en el ay- 
+re, moviendose con movimientos rectilineos, no admitidos  
+en la naturaleza, ni verificado en la materia coeleste de don- 
+de se hazen, y deduzen; y si tambien en el ayre, tal vez en la <name type="planet" reg="Tierra">tierra</name>,  
+contra todas las observaciones referidas, y lo que el mismo  
+observò. Y aun como refiere Longomontano del, que pue- 
+den caer en la misma <name type="planet" reg="Tierra">tierra</name>, y penetrarla; con que muchos  
+juicios finales se pudieran aver visto, y esperar otros; pues  
+un <term type="Astron">Cometa</term> del cielo materia tendrà para abrasar la mayor  
+parte, o toda la <name type="planet" reg="Tierra">tierra</name>, y estos hasta oy no se han visto. Y ultima- 
+mente <name type="person">Villebrordo Elnelio</name> dixo, que eran una fogosidad del  
+<name type="planet">Sol</name>,  
+</p>
+</div>
+ 
+
+<div>
+<pb>folio 16 r.</pb> 
+<p>
+<name type="planet">Sol</name>, que respirada del por algunos como poros se desfogaba  
+arrojandolos lejos, o cerca de si; como se vè en los Bolca- 
+nes, y etnas, que resuellan llamas disparandolas à distan- 
+cia. O al modo de las chispas del hierro, que son escamas  
+de la misma materia inflamadas; con que ya concede, que  
+proceden de solo el <name type="planet">Sol</name>, y no de otros, y que es mas materia  
+de <term type="Astron">Cometas</term>, que eficiente de ellos; concediendo tambien  
+combustible en el, y atenuación, y que tal vez resollara so- 
+bre la <name type="planet" reg="Tierra">tierra</name>, con <name type="person" reg="Kepler, Johannes">Keplero</name>, que no quede de ella pelo, ni huesso.  
+Estas pues son las opiniones, vamos a la mas racional que po- 
+damos seguir. </p> 
+<p><cit>El Apostol <name type="cathdiv">San Pedro</name> en su 2. <refTitle>Canonica</refTitle> cap. 13. nos dize,  
+que las aguas fueron la materia de que <name type="god">Dios</name> criò los cielos,  
+<foreign lang="lat" reg="Latet autem, eos hoc volentes, quod coeli erant prius, & terra de aqua">Latet autem, eos hoc volentes, quod coeli erant prius, & terra de  
+aqua</foreign></cit>. Que es lo que la sagrada Escritura llama firmamento  
+en medio de las aguas, y lo que aqui llamamos cielo Plane- 
+tario y sidereo. Del octavo al primero, por firmamento esta  
+Ra Kiah; ó Rachia, en el Hebreo, que quiere dezir fluxible,  
+como ayre, o agua estendida sutil, y tenuamente. Assi <name type="person" reg="Basilio (San)">San  
+Basilio</name>, y <name type="person">Rabi Esra</name>. Assi mismo <term type="Theolo">Sammaim</term>, esta en lugar de  
+( en medio de las aguas ) que quiere dezir, alli ay aguas; Sam,  
+significa alli; y maim, aguas en la forma explicada, con que  
+los cielos son de su misma substancia frigidos, y humedos;  
+y aun las que estan ensima de los cielos, fueron para con su frial- 
+dad (que se dilata hasta la <name type="planet">Luna</name>) templar los ardores, y fuego  
+del <name type="planet">Sol</name>, y los astros, que no destruyensen, y abrasassen la <name type="planet" reg="Tierra">tierra</name>.</p>  
+<p> Assi <name type="person" reg="Justino (Mártir)">San Iustino Martyr</name>, quest. 93. <name type="person" reg="Basilio (San)">San Basilio</name>, homil. 3. He- 
+xam. <name type="person" reg="Ambrosio (San)">San Ambrosio</name>, lib. 2. cap. 3. Hexam. <name type="person" reg="Isidoro (San)">San Isidoro</name>, lib.  
+de nat. rerum, cap. 14. <name type="person" reg="Aquino (de), Santo Tomás">S. Thomas</name> sobre el Genesis. Beda de  
+nat. rerum. Cap. 7 y 8. Y aun la <name type="inst" reg="Iglesia">Yglesia</name> lo canta.</p>  
+
+<p><foreign lang="lat">Ut unda flammas temperet.  
+Terrae solum ne dissipet.</foreign></p>
+
+<p>Luego ni contradize, sino que apoya, que lo raso, y expando  
+del cielo sea frio, sutil, y agua atenuada. Item, los cuerpos  
+lumi-  
+</p>
+</div>
+
+
+<div>
+<pb>folio 17 r.</pb> 
+<p>
+conveniencia, pues fuera la misma razon, que en el expanso,  
+estando proporcionadas en su peso, y medida atenuarlas, y  
+alterarlas: ademas que esto mas es mendigarles forma, que  
+materia y de ella daran lo conveniente, que es la illumina- 
+cion, que en los <term type="Astron">Cometas</term> parte sera insita, y parte adventi- 
+cia, como veremos en su forma; creo que ya, ni en lo raso, ni  
+en lo luminoso hallamos esta materia que buscamos ; con que  
+hemos de buscar vna tercera naturaleza compuesta de las dos  
+dichas, de expanso, y luminoso, y que no tenga materia, y apa- 
+rato bastante. No ay pues otra en todo el cielo, sino la <term type="astron" reg="vía Lactea">via  
+Lactea</term>, o <term type="astron" reg="Galaxia">Gallaxia</term>, ( que en el Griego quiere dezir Leche )  
+luego aquestees el Almacen que buscamos ( según <name type="person" reg="Cristiano Longomontano">Christiano  
+Severino Longomontano</name>, en su tratado de <term type="Astron">Cometas</term> ) que  
+contiene, assi la materia que <name type="god">Dios</name> con su infinita sabiduría re- 
+servó alli ( como se ve, y nota en su crasitud ) como luz de  
+aquella primera que crió; guardada, y vertida aqui como re- 
+sagos, y retasos que sobraron, assi de lo expanso, como de lo  
+luminoso en el cuarto dia; materia apta, y ya informada en  
+parte para dichas generaciones. Llamadas assi Lactea por su  
+espesura, y coagulación, y por el candor que despide. La genti- 
+lidad fingiò, que dormida la Diosa <name type="god">Juno</name>, que criaba a la sa- 
+çon, le expusieron a <name type="god">Mercurio</name> asechadamente, y aviendo  
+mamado lo bastante, porque la Diosa retiró el pecho, de la  
+leche que se virtiò en el cielo, le formó este venero Lacteo;  
+Pero yo digo, que despierta la divina sabiduría, y advertido  
+el inmenso poder, criado el <name type="planet">Sol</name>, y estrellas, en la forma dicha,  
+depositò esta leche en los pechos del cielo, para venideras  
+crias, expuestas a sus pechos, que su providencia tenia pre- 
+venidas en los siglos. Y no obstan las dos razones siguientes.  
+La primera, que el Filosofo quiso que todo fuesse terreno,  
+y assi puso la <term type="astron" reg="Vía Láctea">via Lactea</term> en el ayre, aviendola puesto <name type="god">Dios</name>  
+en el firmamento, convencido, y averiguado de su duracion  
+desde la creación del vniverso; de su inmutabilidad; no solo  
+en el sitio que tiene inalterable respecto de las fixas, en su forma  
+</p>
+</div>
+ 
+
+<div>
+<pb>folio 18 v.</pb> 
+<p>
+y disposición; sino tambien en su movimiento regular, è 
+igual con el de las estrellada esfera, careciendo en toda su <term type="OldSp" reg="crasicie">cra- 
+sicie</term> de <term type="Astron" reg="paralaje">Parallaxes</term> aunque llega, y se dilata por muy gran par- 
+te del cielo Planetario, como esta averiguado, y recevido de  
+todos los Mathematicos. Luego no haze fuerça esta razon.</p>  
+<p>Ni tampoco la segunda, que son los chismes de la atalaya  
+de <name type="person">Galileo</name>, que observó en este camino Lacteo innumera- 
+ble numero de minutissimas estrellas, acumuladas, y agrega- 
+das en partes, con que quieren sea esta <term type="astron" reg="Galaxia">Gallaxia</term>, candor que  
+resulta destas estrellas, y sus cumulos; lo qual aunque es assi  
+en las estrellas, no lo es en el todo de la luz. Y pruebale, lo  
+primero, ay mas densidad de expanso, pues la luz halla assien- 
+to para ser vista, y determinada, que no sucede en lo expanso  
+de los cielos por su tenuidad, con que solo se ve, ò en los astros,  
+y estrellas, o en la <name type="planet" reg="Tierra">tierra</name>, que es donde halla densidad. Lo se- 
+gundo, ay luz en este venero separada de dichas estrellas, pues  
+la latitud de esta faja se termina con notoria orilla, y la ay don- 
+de no se hallan estrellas, ni sus cumulos, y la luz de las estre- 
+llas se termina indefinidamente; y es buen ejemplo el de vn  
+arroyo que lleva poco agua, que esplayada muestra muchos  
+guijarros, y chinas, por entre las quales discurre el agua, ter- 
+minando latitud. Y sino quieren que esto sea assi, concedan  
+vapores sacados por el <name type="planet">Sol</name>, y los astros con sus virtudes, de  
+aquellas aguas superiores, pendulas sobre el cielo sidereo; y  
+que estos discurriendo por el expanso frigido, entrando al- 
+gunos en la <term type="Astron" reg="Vía Láctea">via lactea</term> se materian mas, y se informan en los  
+<term type="Astron">Cometas</term> que de alli salen a vagar el cielo; con que no queda- 
+rà recurso a <name type="person">Galileo</name>, y sus sequaces. Pero estoy en lo prime- 
+ro, y a sus razones, que son muy fuertes como en ellas se verà.</p>  
+<p>La primera, que en las cosas naturales, y fisicas nada ccon- 
+vence con tanta apacibilidad, como las demostraciones que  
+son patentes a los sentidos. Y assi recurrase a contemplar la  
+<term type="Astron" reg="Vía Láctea">via lactea</term> en vna noche clara, y serena del Hybierno, donde  
+su cuerpo, y densidad de luz, satisfarà. Notorase un circulo  
+E2       maxi- 
+</p>
+</div>
+ 
+
+<div>
+<pb>folio 18 r.</pb> 
+<p>
+maximo , aunque irregular, que abraça todo el cielo para su 
+abasto, y dar socorro a todas partes. Un taheli bordado de  
+escarchada plata todo sembrado de luces, y candores. Vn  
+candor palpable, y fluido con venas como arterias; o como  
+en los cuerpos vivientes el huesso medular del espinaso, y  
+vena cava, que proveé assi al celebro como a las demas par- 
+tes; y aunque irregular en latitud, y en formar circulo pero  
+sin cortarse, ni discontinuarse en parte alguna, antes en al- 
+gunas partes haze posas, tebalses, y ensenadas, como donde  
+nada, y buela el <name type="constelation">Cisne</name>; y donde la Aguila herida de la zaeta  
+se cura, y baña. Densa, y profunda donde donde la <name type="Constelation">Casiopea</name> la va- 
+dea con el vasco de su Cathedra, mas diafana, y clara en los  
+cortes de la equinoccial, y <term type="Astron">eclyptica</term>, en dos puntos opuestos;  
+fines de <name type="constelation" reg="Géminis">Geminis</name>, y <name type="constelation">Sagitario</name>, o principios de <name type="constelation" reg="Cancer">Cancro</name>, y  
+<name type="constelation">Capricornio</name>, mansiones, y solsticios de <name type="planet">Sol</name>. Pasa por cer- 
+ca de los polos, assi del mundo, como de la <term type="astron">eclyptica</term>, casi  
+vn signo ( o lo que ocupa su espacio ) apartada dellos, don- 
+de siempre es mas densa, y crasa, como quaxada en estas  
+partes frigidisimas del Norte, y Sur, donde el arca de <name type="CathDiv">Noe</name>,  
+ò el Argonave de <name type="person">Ion</name> como varada en cristal sirve al aba- 
+sto austral ( como la <name type="Constelation">Casiopea</name> a la Aquilonar. ) Aqui son fre- 
+quentes los <term type="Astron">Cometas</term>, y no tanto en la torrida Zona por ser  
+alli diafana, quiçà por el calor della, curso del <name type="planet">Sol</name>, y de los  
+astros. Corre pues del Norte al Sur, y de alli circulando  
+buelve al Norte, en que se reconoce el movimiento que re- 
+conocen sus partos Cometicos, sin que le halle en todo el  
+cielo otra causa a quien atribuirselos, sino a la postura de  
+aquesta faja, o Zona; con que entiendo ya en nuestra Fabu- 
+la, porque <name type="god" reg="Faetón">Faeton</name> recurriò primero a su Madre <name type="god">Clymene</name> le  
+informase, y ella le mostrò el camino por donde avia de yr,  
+y subir a su Padre <name type="god">Apolo</name>? Assi pues los <term type="Astron">Cometas</term> alimen- 
+tados de esta leche, de su postura adquieren el curso del Sur  
+al Norte, y al contrario para subir a la torrida Zona del <name type="planet">Sol</name>.</p> 
+<p>La segunda razon es fortíssima, porque como notò <name type="person" reg="Hekio">He- 
+Kio,</name>  
+</p>
+</div>
+ 
+
+<div>
+<pb>folio 19 v.</pb> 
+<p>
+<term cont="1">Kio</term>, y lo averiguò, y provò <name type="person" reg="Cristiano Longomontano">Christiano Longomontano</name>,  
+todos los <term type="Astron">Cometas</term> por la mayor parte aparecen en la <term tyep="Astron" reg="Vía Láctea">via  
+Lactea</term>, y quantos se ven fuera de ella no se puede negar que  
+salieron de alli; y el no averse visto salir, es porque su prime- 
+ra aparicion fue de dia; o porque fue muy cercana a los po- 
+los deprimidos en mucha altura, que ni nacen, ni se ponen  
+hasta que sus parallelos son mayores; o por nubes, y nieblas  
+frequentes en los Horizontes, y mas en los polos. Esto a co- 
+sta aun de los mas extraordinarios, que son los que apare- 
+cen como estrellas, como en las atras referidas, que las mas  
+han sido en la <term type="Astron" reg="Vía Láctea">via Lactea</term>, o muy cerca de ella, y a sus marge- 
+nes. La del año <date>1600</date> en el pecho del <name type="constelation" reg="Cisne">Cysne</name>. La del año  
+de <date>1604</date> en el Serpentario. Y fuera de estas otras quatro en  
+la <name type="constelation">Casiopea</name>, como atras quedan referidas. Y en la del año  
+de de <date>1572</date> en la Cathedra de la <name type="constelation">Casiopea</name>, notó <name tyep="person" reg="Tycho Brahe">Tychon</name>, y  
+comunmente todos, que desaparecida, dexó alli vn rastro  
+estraño en la <term type="Astron" reg="Vía Láctea">via Lactea</term>, pues era vna cinta del color de lo  
+expanso del cielo, con que se verificó ser falta de la materia  
+que el <term type="Astron">Cometa</term> consumió en lo que discurrió, y andubo y  
+no luego se cubriò, sino en algun tiempo, hasta que la ma- 
+teria cercana se dilatò, y estendió.</p>  
+<p>Confirmo aquesta doctrina con nuestro <term type="Astron">Cometa</term> engen- 
+drado en la oposicion de <name type="planet">Sol</name>, y <name type="planet">Luna</name> de <date>14 de Diciembre</date>,  
+a las 8. horas de la noche; y en la opposicion de <name type="planet">Mercurio</name>, y  
+<name type="planet">Luna</name>, a 15 a las 6 horas de la mañana, donde noté vn pro- 
+digio raro, y fue, que <name type="planet">Sol</name>, y <name type="planet">Mercurio</name> estaban en la <term type="Astron" reg="Vía Láctea">via Lactea</term>, como  
+constarà de sus sitios, y calculo. Y el <term type="Astron">Cometa</term> se engendrò  
+en la misma vial actea sobre el pie de Roda de proa del Ar- 
+gonave; y su curso fue parallelo a la <term type="Astron" reg="Vía Láctea">via lactea</term>, hasta que vl- 
+timamente feneció en ella misma, a <date>6 de Enero</date> en el hom- 
+bro izquierdo de <name type="constelation">Perseo</name>. Y si se pretende, o pide mas prue- 
+ba, digo que observè ( y es notorio a todos ) que su madeja  
+tuvo vn movimiento particular con que siempre se iba vol- 
+vien-  
+</p>
+</div>
+  
+
+<div>
+<pb>folio 19 r.</pb> 
+<p>
+viendo, señalando, o reconociendo vn punto del cielo, que  
+fue en la <term type="astron" reg="Vía Láctea">via Lactea</term>, y el lugar que la <name type="planet">Luna</name> tuvo en su gene- 
+racion, y opposicion con el <name type="planet">Sol</name>. Quien pues negarà la do- 
+ctrina puesta, y ser la <term type="astro" reg="Vía Láctea">via Lactea</term> el embrión de los <term type="astron">Cometas</term>,  
+y su formacion; donde sus cursos le imitan terciando el cie- 
+lo sus circulos, de Norte a Sur, y del Sur al Norte? Y quien  
+le negarà al nuestro la naturaleza de <name type="planet">Luna</name>, y <name type="planet">Mercurio</name> ma- 
+mada en la misma <term type="astro" reg="Vía Láctea">via Lactea</term> donde todos concurrieron?</p>
+
+<p>§. 6.  
+DE LA CAUSA FORMAL DE  
+todos los <term type="Astron">Cometas</term>.</p> 
+
+<p>Cierto es, que quien da el ser a todas las cosas, y las còn- 
+stituye en el ser de tales, diferenciando vnas de otras,  
+es la forma que cada vna tiene, y guarda; con que pa- 
+ra proceder con orden en aqueste intento, hemos de averi- 
+guar succintamente en los <term type="Astron">Cometas</term>, qual sea su forma ge- 
+nerica, que conviene a todos, y qual la especial, que los di- 
+ferencia vnos de otros. Y en quanto a la generica de ellos,  
+con que empieçan a tomar la forma redonda de los astros, y  
+serles parecidos, segunda nobleza de la materia asignada  
+aunque no son permanentes. Digo, que serà no la luz del  
+<name type="planet">Sol</name>, ni la de las Estrellas, sino otra como seminal, que sea apta,  
+y potente a obrar, como en el resto de la naturaleza se ve en  
+todas las cosas; dandosela <name type="god">Dios</name> a su tiempo, o infundiendo- 
+sela a las materias, quando a su divina Magestad mejor pare- 
+ce conforme los fines que su providencia previene ( como  
+diremos en las causas eficiente, y final. ) pues como <name type="god">Dios</name>  
+obra (por la mayor parte) por medios naturales como Instru- 
+mentos suyos que son, sin alterar la naturaleza. De aqui es  
+que siendo los astros los mas racionales del cielo, obra con  
+ellos, y concurre a la generacion de los <term type="Astron">Cometas</term>, al infor- 
+mar-  
+</p>
+</div>
+
+<div>
+<pb>folio 20 v.</pb> 
+<p>
+marlos con aquella primera luz guardada, y reservada en la 
+<term type="astron" reg="Vía Láctea">via Lactea</term>, para este, y otros fines, entrañandola en la ma- 
+teria alli ya coagulada, y dispuesta por las mismas causas, è  
+instrumentos; como el calor natural, y nativo en todos los  
+vivientes, y assi fomentada la materia toma la forma exte- 
+rior que todos los astros, y cuerpos celestiales tienen, y guar- 
+dan, que es la circular, y globosa; a que no desayuda el sitio,  
+y vientre del cielo, o lo expanso del; pues siendo frio no se  
+disgrega la materia, sino que se contrae mas reconcentran- 
+dose aquella luz informante, con que con igual distancia de  
+ella la materia se congloba, y la luz media se abiva tanto,  
+que llega a parecernos materia ignita, o estrella, que brilla  
+en el centro del <term type="astron">Cometa</term>, y al parecer cavellera circular la  
+materia illuminada della; forma que nunca se pierde en to- 
+do <term type="Astron">Cometa</term>, aunque mas, y mas se baya atenuando hasta  
+desvanecerse. Y si me preguntaren, que obra aqui el calor  
+del <name type="planet">Sol</name>, astros, y estrellas, pues son instrumentos? Respon- 
+derè, que como en los vivientes ( y aun en los vegetales ) el  
+calor nativo adquiere fomento del adventicio, y mas si es  
+del <name type="planet">Sol</name>, assi en los <term type="Astron">Cometas</term>, los astros calientan el expanso,  
+o lo tiemplan, con que defienden, y apoyan aquella luz media.</p>  
+<p>Y pasando a la forma especifica digo, que es aquella con  
+que un <term type="Astron">Cometa</term> se distingue de otro; que en lo que tenemos  
+asentado con <name type="person" reg="Séneca">Seneca</name>, y <name type="person">Epigenes</name>, no ay mas que dos espe- 
+cies, vna de los que no parecen estrellas fixas en lo globo- 
+so, lucido, y en su quietud, y que no tienen mas movimiento  
+que el rapto, y todo aquesto sin duda les proviene del sitio,  
+y el lugar donde se ven, que es el cielo sidereo; y lo globoso,  
+adquieren no solo por la doctrina dicha, sino por la distan- 
+cia, porque aunque tuviessen alguna madeja, no se podria  
+ver desde acà, pues ay desde la <name type="planet" reg="Tierra">tierra</name> a su sitio 37. veces mas,  
+que ay de la <name type="planet" reg="Tierra">tierra</name> al lugar del <name type="planet">Sol</name>, y assi cualquier forma  
+aparente en ellos se reduze por la distancia a la globosa, lo  
+lucido, y resplandeciente los previene de la copia de mate- 
+ria,  
+</p>
+</div>
+ 
+
+<div>
+<pb>folio 20 r.</pb> 
+<p>
+ria, y forma, pues para que en la <name type="planet" reg="Tierra">tierra</name> se vean assi, es neces-  
+saria la dicha magnitud, y copia; de donde les proviene su  
+duracion, por vno, y dos años, ya de la copia, y ya de la  
+densidad por lo muy frigido de aquel expanso por la cerca- 
+nia de las aguas, y porque los rayos del <name type="planet">Sol</name> no llegan a tan- 
+ta distancia con tanta fuerça como en el cielo Planetario; y  
+la humedad alli se va la materia, y la defiende; con que su du- 
+racion es mucha. La tardanza en el movimiento propio, les  
+proviene de la copia, y magnitud, igual con el movimiento  
+de la octava esfera, que es el que a este sitio toca de Occi- 
+dente a Oriente; con el rapto, y estraño que todos los cielos  
+tienen; y lo mas cierto, que el criador del vniverso al criar  
+los cielos dio leyes, y señaló periodos a los astros, y estre- 
+llas, que por especies de movimiento en sus sitios, ó por in- 
+teligencias; o como al saber divino pareció conviniente se  
+moviessen por el <term type="astro">Zodiaco</term>, y torrida Zona para los fines mas  
+convenientes en la naturaleza y para otros a los <term type="Astron">cometas</term> Nor- 
+te Sur, para q assi todo el mundo fuesse registrado del cielo.</p>  
+<p>Y en quanto a la segunda especie de ellos, que se ven en  
+el cielo Planetario, con madejas, y cabelleras, ay que des- 
+lindar en ellos dos cosas, la vna la de sus movimientos si son  
+o no, respecto del centro de la <name type="planet" reg="Tierra">tierra</name>; o teniendo por centro  
+al cuerpo del <name type="planet">Sol</name> como <name type="planet">Saturno</name>, <name type="plant" reg="Júpiter">Iupiter</name>, <name type="planet">Marte</name>, <name type="planet">Venus</name>, y  
+<name type="planet">Mercurio</name>. <name tyep="person" reg="Tycho Brahe">Tychon</name>, y <name type="person" reg="Mestlino, Miguel">Mestlino</name> fueron deste ultimo pare- 
+cer, y quisieron comprobarlo el año de <date>1577</date> en el que en  
+este año se viò, pero su opinion mas es ingeniosa, que ver- 
+dadera, y en alguna manera <name tyep="person" reg="Tycho Brahe">Tychon</name> se retratò de ella en el  
+segundo de sus <reftitle>Progipnasmas</reftitle> pag. 168 con que lo mas ave- 
+riguado es, que no en circulo exccentrico, sino vno concen- 
+trico con la <name type="planet" reg="Tierra">tierra</name> como los dos luminares de <name type="planet">Sol</name>, y <name type="planet">Luna</name>, y  
+esto sin latitud respecto de su circulo, sino por el indefecti- 
+blemente con igual distancia a la <name type="planet" reg="Tierra">tierra</name>, como de sus para- 
+llaxes estar averiguado, y comprobado; y es la corriente opi- 
+nion de todos, y assi sus efectos son mas censibles a la <name type="planet" reg="Tierra">tierra</name>,  
+mas  
+</p>
+</div>
+ 
+
+<div>
+<pb>Folio 21 v.</pb> 
+<p>
+mas tempranos, y eficaces que otros algunos. 
+Lo segundo de la madeja, o cavellera, es en lo que mas  
+controversia à havido; y dexando opiniones de poco fun- 
+damento, la que hemos de seguir es la de <name type="person" reg="Tycho Brahe">Tychon</name>, <name type="person" reg="Cristiano Longomontano">Chrystia- 
+no Longomontano</name>, <name type="person" reg="Apiano, Pedro">Pedro Apiano</name>,<name type="person"> Gemma Frisio</name>, y <name type="person" reg="Cornelio Gemma">Cor- 
+nelio Gemma</name>, a quienes ya siguen todos, y es, que el <name type="planet">Sol</name>  
+con sus rayos illumina el cuerpo del <term type="astron">Cometa</term>( en ambas es- 
+pecies de ellos ) y con lo igneo, y el impulso dellos se lleva  
+tras si la materia mas tenue, y mas superficial del, y esta ma- 
+teria resistiendose, y apeteciendo la vnion de su cuerpo, y  
+la mayor parte de la materia que la tiene, y llama, sin soltar- 
+se causa la madeja; hasta que la persistencia de los rayos del  
+<name type="planet">Sol</name> poco a poco las atenua, y consume, sacando siempre ma- 
+teria de nuevo del cuerpo del <term type="astron">Cometa</term>, con que poco a poco  
+lo trilla, lo atera, y va consumiendo, hasta desvanecerlo todo  
+por su madeja; llevandose assimismo tras si parte de aquella  
+luz primera que lo informava, como en los vivientes el yr- 
+se acabando su calor natural, con que la madeja es vn <term type="Astro" reg="profluvio">pro- 
+fluvio</term> de la misma materia Cometica, mas lucido que en su  
+cuerpo, por mas tenuo, y sutil, mas largo, y dilatado si la ma- 
+teria no es muy densa, y compacta; mas corto si muy den- 
+sa; y mas eficaz, y fuerte ( por la illuminacion del <name type="planet">Sol</name> ) que en  
+su cuerpo, por que alli vnidos sus rayos en el centro salen mas  
+fuertes a la parte contraria del prosluvio, con que su eficacia  
+en la <name type="planet" reg="Tierra">tierra</name> es muy censible. Desta doctrina dicha darè dos  
+ejemplos, y sean los siguientes.</p>
+<p>El primero, que una vela encendida puesta a los rayos del  
+<name type="planet">Sol</name>, quando mas abrasa, se notarà a la parte contraria de sus  
+rayos un humo sutil, o un fomite, que lo lleban tras si los ra- 
+yos del <name type="planet">Sol</name> del mismo fuego de la vela; que hara pues en la  
+cercania del ciclo planetario en el cuerpo del <term type="Astron">Cometa</term>? El  
+segundo ejemplo, un cristal, o vidrio cristalino labrado con  
+superficie combexa, oppuesto al <name type="planet">Sol</name> rectamente, por la parte  
+contraria despide sus rayos unidos, dexando un rastro lumi- 
+F        noso  
+</p>
+</div>
+ 
+
+<div>
+<pb>folio 21 r.</pb> 
+<p>
+noso por el ayre, y hiriendo a tal distancia alguna materia  
+sutil la inflama, y enciende. Luego la luz del <name type="planet">Sol</name> adventi- 
+cia en el cuerpo del <term type="astron">Cometa</term>, le da mas viveza, y en parte se  
+informa, y en el todo es el que causa la madeja. Y assi tienen  
+observado los Autores alegados, que siempre es diametral- 
+mente a la parte contraria del cuerpo del <name type="planet">Sol</name>. Y aun <name tyep="person" reg="Tycho Brahe">Tychon</name>  
+quiere que tal vez causen lo mismo la <name type="planet">Venus</name>, y demas astros;  
+como el, y el <name type="person">Mestlino</name> lo pretendieron averiguar, y lo afirma- 
+ron del de <date tuype="comet">1577</date> pero en la <name type="planet">Venus</name>, no puede aver tanta efi- 
+cacia de luz, que no sea el <name type="planet">Sol</name> siempre el que lo es mas que  
+todos los astros juntos; si bien concederemos facilmente,  
+que se debe atender a las radiaciones, y aspectos del <term type="Astron">Cometa</term> 
+con todos los astros, en particular con el <name type="planet">Sol</name>, y <name type="planet">Luna</name>, y  
+toda conjuncion con astros, y estrellas, que siempre es la  
+mas fuerte, y eficaz para notar sus efectos.</p>  
+<p>Esta doctrina parece no poderse verificar en nuestro <term type="Astron">Cometa</term>
+que tuvo la madeja atravesada, al principio hazia el  
+Nordeste, despues fue torciendose hazia el verdadero Le- 
+ste. A <date>23. de Diziembre</date> fue oppuesta diametralmente al <name type="planet">Sol</name>,  
+apartado del cinco signos, y despues apuntó del Leste, al  
+Sueste, todo a las ocho de la noche. Luego falsa es la doctri- 
+na, ya admitida? A que respondo, que el que entendiere de  
+las refacciones, y reflexiones de los rayos del <name type="planet">Sol</name>, no estra- 
+ñarà lo dicho, ni dexarà de atribuir a la illuminacion  del  
+<name type="planet">Sol</name> la madeja; y se vè en vn espejo azogado, que oppuesto  
+al <name type="planet">Sol</name> quiebra sus rayos, y buelven a salir reflexos por vn an- 
+gulo agudo, o obtuso. Y los niños assi los entran por vna 
+ventana, o por donde quieren; siendo pues muy denso, y  
+opaco el cuerpo del <term type="Astron">Cometa</term> en su centro, y demas partes,  
+que los rayos del <name type="planet">Sol</name> no lo pueden penetrar por opposicion  
+diametral, necessariamente se han de quebrar, y aviendo  
+quebrado han de salir reflexos por algun angulo, llebandose  
+tras si lo sutil, y tenuo de la materia por aquella misma parte  
+que salen, como en este nuestro sucedió.</p>  
+<p>Ade-
+</p>
+</div>
+
+
+<div>
+<pb>folio 22 v.</pb> 
+<p>
+Ademas, que ay algunas virtudes en el cielo tan fuertes, 
+y eficaces ( y mas si son cercanas al <term type="Astron">Cometa</term>, y de su propia  
+naturaleza, y fucion las que como instrumentos principa- 
+les concurrieron a su generacion ) que llaman al <term type="Astron">Cometa</term> a  
+aquella parte, como la piedra Iman al Azero, y no pudiendo  
+atraer todo el cuerpo, ya por el velos curso que lleva, y ya  
+por su grande corpulencia; llama, y se lleva hazia si lo sutil,  
+y tenuo, que es el <term type="Astron" reg="profluvio">prosluvio</term>, y madeja; con que illuminada  
+del <name type="planet">Sol</name>, y desmentida de su cuerpo se dexa llevar de aquella  
+virtud aunque sea transversal; <foreign lang="lat" reg="Saltem">Saltim</foreign>, inclinandose a ella; cosa  
+que fue de mi muy observada en nuestro <term type="Astron">Cometa</term>, que sien- 
+pre apunto a vn punto del cielo, bolviendose hazia el, y fue  
+en la <term type="Astron" reg="Vía Láctea">via Lactea</term>, en el mismo lugar que la <name type="planet">Luna</name> estubo en su  
+primera aparicion en la opposicion de <name type="planet">Sol</name>, y <name type="planet">Luna</name>; y de <name type="planet" reg="Mercurio">Mer- 
+curio</name>, y <name type="planet">Luna</name>. Razon muy fuerte para assentar su natura- 
+leza de <name type="planet">Luna</name>, y <name type="planet">Mercurio</name>, como tenemos dicho, y adelante  
+comprobaré. Y pruebase ser assi, en que nuestro <term type="Astron">Cometa</term>,  
+fuera de haver sido velosissimo ( casi como la <name type="planet">Luna</name> en su  
+principio ) fue de mteria poco compacta, como se viò en  
+su poca duracion de 23 dias, con que en su principio tuvo  
+mucho <term type="Astron" reg="prosluvio">profluvio</term>, y madeja; esto es a 17 y 18; ya 19 fue  
+muy poca, porque llamado de aquella parte del cielo la atrujo  
+a si con fuerça, casi desnudando al <term type="Astron">Cometa</term> de aquella ma- 
+deja, y nunca perdiò esta inclinacion, y respecto.</p>  
+<p>En esto de la forma, solo nos resta responder a vna difi- 
+cultad fuerte aparentemente; y es, que nos diràn; como en  
+muchos <term type="Astron">Cometas</term> ( y aun en vno del año de <date>1618</date> se vió )  
+suelen echar la madeja larga, y archeada a modo de palma  
+curba, y doblegada, que llaman <foreign lang="lat" reg="cuerno">Cornu</foreign>, supuesto que los ra- 
+yos del <name type="planet">Sol</name> son directos; y quebrados, la reflexion tambien  
+es de rayos directos? Ytem, que la virtud, y eficacia de la  
+parte de ciclo que llama, siempre llama por camino brevis- 
+simo, que es el recto, con que si ( en casi todos ) la inclinacion  
+alli es recta, como en otros es curba y arqueada? A esto res- 
+F2      pon-  
+</p>
+</div>
+ 
+
+<div>
+<pb>folio 22 r.</pb>
+<p>
+pondo, que la virtud que llama es poca, y no vence a la de 
+los rayos del <name type="planet">Sol</name> en llebarse tras si el <term type="Astron" reg="profluvio">prosluio</term>, con que la  
+virtud que llama, se lleba tras si solo lo subtilissimo de las  
+ultimas partes, y no lo muy gruesso, que a esto lo defiende  
+el impulso del <name type="planet">Sol</name>, con que se causa la curvidad dicha. El  
+exemplo es muy llano, en vna madeja de cavellos puesta fi- 
+xamente en vn arroyo que corre, claro es que la cabellera  
+bañada del raudal derecha estarà siempre a la corriente, pe- 
+ro si de la punta de la cabellera, atado vn hilo a ella blanda- 
+mente, se llamase a alguna parte; se arquearia sin duda, ya lle- 
+vada de la corriente, que suponemos mas fuerte, y ya del  
+hilo que llama floxamente; pero si se llamase con mucha  
+fuerça que venciese al impulso del agua, rectamente se tor- 
+ciera. Con que hemos procurado satisfacer a todas las du- 
+das que en la forma de los <term type="Astron">Cometas</term> se ofrecen, dexando  
+otras de poco momento.</p>  
+<p>Solo nos resta responder , a la causa de empeçar los <term type="Astron" reg="Cometas">Co- 
+metas</term> tan veloces, y acabar tan tardos, descaeciendo siem- 
+pre con regularidad de su velocidad. A que digo, que pro- 
+viene de la copia de materia, y de aquella luz formal inter- 
+na, que siendo todo valido, y fuerte en su principio, se mue- 
+ven velozmente; y como vno, y otro se atenua, gasta y con- 
+sume; proporcionalmente, afloja el curso, y se debilita; o sea 
+impulso externo ( como en los <term type="Astron">Cometas</term> artificiados de la  
+polvora ) o sea virtud interna, como lo es nuestro calor na- 
+tural, que el debilitado, todos los espiritus animales se de- 
+bilitan, y descaecen en sus operaciones, siendo causa desta  
+devilidad el <name type="planet">Sol</name>, que los atèra, debasta y abraça. De donde  
+en nuestra Fabula quedarà entendido, que aunque <name type="god" reg="Faetón">Faeton</name>  
+era hijo del <name type="planet">Sol</name>, y eran sus hermanas las <name type="god">Eliadas</name>, su Padre  
+<name type="god">Apolo</name> despidiò un rayo, con que las convirtio en humo, o  
+transformò en Alamos negros, para significar su <term type="OldSp">adustion</term>, y  
+que a sus propios hijos debasta, quema, y abrasa con sus ra- 
+yos, dandoles muerte con lo mismo que les dio vida, y ser.</p> 
+<p>§. 7.  
+</p>
+</div>
+
+
+<div>
+<pb>folio 23 v.</pb>
+<p>
+§. 7. 
+DE LAS DOS CAUSAS DE LOS  
+<term type="Astron">Cometas</term> Eficiente, y Final.</p>  
+
+<p>He dexado para aqueste lugar, a la causa eficiente de  
+los <term type="Astron">Cometas</term>, para maridaje con la final; y de vna y  
+de otra sacar en nuestro provecho; un eficaz <term type="Med">colirio</term>, que  
+nos limpie los ojos <term type="Med" reg="lepido">Lepidos</term>, o nos despierte al hazimiento  
+de gracias; en que estamos empeñados, por los avisos que  
+se nos multiplican en cielo, y tierra; ya de regocijo, y ale- 
+gria, y ya de futuras amenazas, que quiça instan para que à lo  
+fervoroso de las oraciones, en los mysterios piadosos, que- 
+den <term type="OldSp">anegados</term>, y deshechos los <term type="Astron">Cometas</term>, y señales en que  
+reconozco, no solo efectos sobrenaturales, sino otros natu- 
+rales, vnos piadosos, y otros <term type="OldSp" reg="minaces">minases</term>; Y ultimamente vnos  
+misericordiosos, y otros justicieros; pero la justicia embai- 
+nada en la misericordia, donde solo asoma la empuñadura  
+para desenbaynarla a su tiempo. En aquel diluvio vniversal <cit reg="Génesis. Cap IX"><refTitle reg="Génesis">Gen.</refTitle> cap. 9 puso <name type="god">Dios</name> en el cielo por señal de paz vn Arco  
+Iris, que hasta oy vemos, y veremos.<foreign lang="lat" reg="Arcum meum ponam in nubibus coeli, & erit signum faederis inter me, & inter terram"> Arcum meum ponam in  
+nubibus coeli, & erit signum faederis inter me, & inter terram</foreign></cit>.  
+Pero quien no nota, que el Arco es mas señal de guerra que  
+de paz, pues en el se aptan las zaetas; y es assi sin duda, por  
+que si en lo ceruleo del Iris del cielo, encerró, y concluyò  
+<name type="god">Dios</name> los diluvios vniversales, fue añadiendo colores como  
+señales, que nos bosquejasen su justicia enbaynada. En el  
+verde, que esperasemos los diluvios particulares, y sus eno- 
+jos por mar y tierra; en el pajizo claro, los ventiscos, y hu- 
+racanes con los destemples del ayre, y de los humores; iras  
+templadas deste Arco; y en el color rojo y encendido, no  
+solo los herbores de coleta, y sangre, pero las ignitas seña- 
+les del cielo, con las demas en <name type="planet">Sol</name>, <name type="planet">Luna</name>, y Estrellas, hasta  
+el incendio universal del juicio; donde las Estrellas, o su  
+fuego  
+</p>
+</div>
+ 
+
+<div>
+<pb>folio 23 r.</pb> 
+<p>
+fuego se vendràn a tierra, puerto abierto para entonces. En  
+verdad que lo profetizò assi todo S.<cit reg="Pedro (San). Canónica. Cap III"><name type="person">Pedro</name> en su <refTitle reg="Canónica">canonica</refTitle> 2.  
+cap. 3. <foreign lang="lat" reg="Latet enim eos hoc volentes, quod coeli erant prius, & terra de aqua, & per aquam consistens Dei Verbo; per quae ille tunc mundus aqua inundatus per?t"> Latet enim eos hoc volentes, quod coeli erant prius, & terra  
+de aqua, & per aquam consistens Dei Verbo; per quae ille tunc mun- 
+dus aqua inundatus per?t</foreign></cit>. Hasta aqui el diluvio; y luego pro- 
+sigue. <cit reg="Pedro (San). Canónica. CapIII"><foreign lang="lat" reg="Coeli autem qui nunc sunt, & terra eodem Verbo repositi sunt igni referuati in diem iudic?"> Coeli autem qui nunc sunt, & terra eodem Verbo repositi  
+sunt igni referuati in diem iudic?</foreign></cit>. Esto es assi en las señales de  
+paz, para de las entrañas de las aguas ( alli encerradas ) desem- 
+baynar el fuego en el <term type="Astro" reg="Juizio">juizio</term> final. Y en verdad, q es lo mis- 
+mo en las señales del cielo de todo punto espirituales, y mis- 
+steriosas, como las que nuestro Evangelista San <name type="person" reg="Juan (Evangelista)">Iuan</name> viò en  
+en su <refTitle reg="Apocalípsis">Apocalipsi</refTitle>, en que no solo se representò el estado de  
+la <name type="Inst">Iglesia</name> santa, y los mysterios de <name type="CathDiv" reg="María">Maria</name> Immaculada, sino  
+el estrago, ruyna, y devastacion de <name type="place" reg="Jerusalén">Hierusalem</name>, en opinion  
+del doctissimo <name type="person" reg="Padre Alcázar">Padre Alcaçar</name>, que dize. <q><foreign lang="lat" reg="Censeo enim cum Hentenio, & Salmerone Hierosolimae ruinam in Apocalipseos Profesia contineri"> Censeo enim cum Hen- 
+tenio, & Salmerone Hierosolimae ruinam in Apocalipseos Profesia  
+contineri</foreign></q>. Con que diré de los <term type="Astron">Cometas</term>, que la causa eficiente  
+dellos es <name type="god">Dios</name>, y el cielo; la primera como principalissi- 
+mo eficiente para sus fines, y designios inscrutables; y las  
+segundas como instrumentos naturales; con que no dexamos  
+recurso a los <term type="Philo">Estoicos</term> para poder prevenir <term type="Astron">Cometas</term>, pues  
+ninguno de los mortales podrà dezir, donde, como, con que  
+movimientos, y que circulos seguiràn, pues todo dimana   
+mas de la primera causa, que de las segundas, como en la  
+dellos toqué.</p>  
+<p>Y porque a las segundas causas, medios, é instrumentos  
+con que <name type="god">Dios</name> obra en la naturaleza, no les neguemos tener  
+eficiencia natural, digo que en los <term type="Astron">Cometas</term> son los genera- 
+lissimos, las maximas <term type="Astron">Conjunciones</term> de <name type="planet">Saturno</name>, y <name type="planet" reg="Júpiter">Jupiter</name>,  
+como la que precediò año de <date>1603</date>. Y los <term type="Astron">Eclipses</term> de <name type="planet">Sol</name>, y  
+<name type="planet">Luna</name>, muy cercanos al <term type="Astron">Cometa</term>; los especiales son, la <term type="Astron" reg="oposición">oppo- 
+sicion</term>, o <term type="Astron">conjuncion</term> de <name type="planet">Sol</name>, y <name type="planet">Luna</name>, que le procedió, a que  
+casi siempre se le atribuye la aparicion, porque nunca per- 
+fectamente puede constar su primera manifestacion. <name type="person" reg="Ptolomeo, Claudio">Ptho- 
+lomeo</name>,  
+</p>
+</div>
+ 
+
+<div>
+<pb>folio 24 v.</pb> 
+<p>
+lomeo, y comunmente todos, señalan otros dos generales  
+insendiarios, que son <name type="planet">Marte</name>, y <name type="planet">Mercurio</name>, en qualquiera de  
+sus aspectos, pero nunca se pueden negar los referidos; ni  
+los particulares aspectos al punto de su possesion, y jura en  
+el cielo. A <date>15 pues de Diciembre</date>, en las dos <term type="Astron" reg="oposición">opposiciones</term>  
+de <name type="planet">Sol</name>, y <name type="planet">Mercurio</name>, con la <name type="planet">Luna</name>, passo <name type="planet">Mercurio</name> a <name type="constelation" reg="Capricornio">Capri- 
+cornio</name>, y tuvo con <name type="planet">Marte</name> quadrado platico; con que ni esta  
+razon ha faltado para que nuestro <term type="Astron">Cometa</term> sea <term type="Astron">Mercurial</term>, y  
+<term type="Astron">Lunar</term>, y lo mostró en su color, velocidad, tenuidad, y trans- 
+formacion; siendo el sitio que ocupo en el cielo, entre el de  
+<name type="planet">Mercurio</name>, y <name type="planet">Luna</name>, y no mas, ni menos o no ajustaran las  
+<term type="Astron" reg="Paralajes">Parallaxes</term>, ni la <term type="Mathe">Trigonometría</term> los que dixeren otra cosa. 
+El fin del cielo en aquestos despeñados <name type="god" reg="Faetón">Faetontes</name>, es pur- 
+garse de algunas heses, como en toda la naturaleza se reco- 
+noce; y en los mayores cuerpos de ella, el Mar con su con- 
+tinua inquietud las aparta de si, arrojando a sus orillas todo  
+lo que le es adventicio, sin consentir immundicias; la tierra  
+las corrompe, y en exalaciones se las remite al fuego, como  
+se vè en sus <term type="Astron" reg="Meteóro">metheoros</term>; el fuego no las admite, o las despide  
+en humo, purgandose assi todos los elementos; luego ni el  
+cielo, que es mas puro, y limpio, valiendose de las luzes de  
+los astros para que las dispongan, como ministros del S I. juez  
+de aquesta politica, y policia espejada, y el con gala, con honra,  
+y sin publicar faltas, o sobras de aquel talamo, illuminandolos  
+los quema, deslie, y consume, hasta espejar, y despejar su  
+plaça, y carrera; para que en ella no aya en que tropezar.</p> 
+
+<p>§. 8.  
+EFECTOS BUENOS, Y MALOS  
+de los Cometas.</p> 
+
+<p>No ay duda que los <term type="Astron">Cometas</term> por la mayor parte son  
+Lugubres, y <term type="OldSp" reg="Minaces">Minases</term>; poco expertos en el estilo, y  
+doctrina de los astros; distantes de su nobleza, hidal- 
+guia,  
+</p>
+</div>
+ 
+
+<div>
+<pb>folio 24 r</pb>. 
+<p>
+guia, y apacible aspecto, y condiciones; novicios de aquel 
+professado de luzes; impolutos, o poco politicos, y assi no  
+aprobados en aquel orden, sino expulsos del; con que nunca  
+paran en bien, sino que despeñados, y precipitados se pier- 
+den; y ya que ellos no lloran su desastre, hazé llorar a otros.  
+Harto bien està significado en nuestra Fabula, en las <name type="god" reg="Eliades">Elia- 
+das</name> perpetuas plañideras del <name type="Constelation" reg="Eridanus">Eridano</name>, haziendolo caudalo- 
+so, y colmandolo con las avenidas de sus lagrimas, saliendo  
+de madre, porque <name type="god" reg="Faetón">Faeton</name> su hermano salió de padre; con  
+que siempre permanecen tristes; y melancolicas, como les  
+cantó <cit reg="Ovidio. Metamorfósis. Cap II"> <name type="person">Ovidio</name> lib. 2. <refTitle reg="Metamorfósis">Meth.</refTitle>
+
+         <foreign lang="lat" reg="Nec minus Eliades Lugent, & inania morti Munera dant lachrymas, & cesae pectora palmis, etc.">Nec minus Eliades Lugent, & inania morti  
+         Munera dant lachrymas, & cesae pectora palmis, etc.</foreign></cit></p>  
+
+<p>En estas pues tenemos significada la otra especie de <term type="Astron" reg="cometas">Come- 
+tas</term> professas en el <term type="OldSp">mongio</term> del enclaustrado firmamento, de  
+donde nunca salen, ni se mueven, y a solo el torno de este  
+cielo pueden ser vistas. Estas pues assi como las estrellas ne- 
+bulosas, y obscuras, quieren los Autores, que siendo arrepen- 
+tidas, sean lagrimas, solloços, y llantos sus efectos. Y assi
+<cit reg="Hyginio. Fabulae. Cap 192"><name type="person">Hyginio</name> lib.<refTitle reg="Fabulae">Fabul.</refTitle> cap. 192. hablando de la <name type="person">Electra</name> vna de  
+seu Virgilis,<foreign lang="lat" reg="maerens crinem solutum gerit, quae Cometes appellatur, sive Longodones, quia in longitudine producitur;ea autem stella luctum portendit">maerens crinem solutum gerit, quae Cometes appellatur,  
+sive Longodones, quia in longitudine producitur; ea autem stella  
+luctum portendit</foreign></cit>. Y quiça aun de su presencia, y compañía  
+salieron lloronas todas catorze hermanas, siete <term type="constelation" reg="Híadas">Hyadas</term>, y  
+las siete <name type="Constelation" reg="Pléyades">Pleyadas</name> ( como dize lo mismo <name type="person">Hyginio</name> ) estas la- 
+mentando la muerte de su hermano <term type="Astron">Hyante</term>, como las <name type="god" reg="Eliadas">Elia- 
+das</name> la de <name type="god" reg="Faetón">Faetonte</name>.</p>  
+<p>No por eso se colige, y queda comprobado, que todo  
+<term type="Astron">Cometa</term> sea mal quisto, y el malsin del cielo, y que solo tenga  
+gusto cuando vè, y haze llorar; porque aunque esto sea assi  
+en muchos, ay <term type="Astron">Cometas</term> tambien placidos, alegres, musi- 
+cos, y cantores; amigos de festines, y que son correos, y  
+</p>
+</div>
+
+<div>
+<pb>folio 25 v</pb>.  
+<p>
+portadores de buenas nuevas, que quando <name type="god">Dios</name> los pone, 
+y da lugar en sus cielos, siempre es con mysterio, y no siem- 
+pre para asolar el mundo; antes asolado con el Iris hermoso,  
+y agradable, perpetuó pazes en la tierra, y enjugó vn dilu- 
+vio de lagrimas. No son aquessos cielos papel batido don- 
+de <name type="god">Dios</name> escrive pronosticos felicíssimos a los hombres con  
+letras resplandecientes, digalo <cit><name type="person" reg="Juan (Evangelista)">Ioseph</name> <refTitle reg="Génesis">Genes</refTitle>. 39. n. 9. que  
+el <name type="planet">Sol</name>, <name type="planet">Luna</name>, y estrellas le adoraban en presagio de la felici- 
+dad que le esperava? <foreign lang="lat" reg="Vidi per somnium, quasi Solem, & Lunam,& stellas vndecim adorare me?"> Vidi per somnium, quasi Solem, & Lunam,  
+& stellas vndecim adorare me?</foreign></cit> El estado, y aumentos de la  
+<name type="inst">Iglesia</name> santa, y la santidad de <name type="CathDiv" reg="María">Maria</name> purissima, no se la reveló  
+<name type="god">Dios</name> a su amado dicipulo con estas mismas letras, y en este  
+mismo papel,<cit reg="Juan (San). Apocalipsis. Cap 12"><refTitle reg="Apocalípsis">Apoc</refTitle>. 12.<foreign lang="lat" reg="Signum magnum apparvit in coelo?"> Signum magnum apparvit in coelo?</foreign></cit> Y  
+no solo en las cosas de tan profundos mysterios, y a los hom- 
+bres tan grandes como a vn Evangelista, sino aun a los hom- 
+bres muy humanos se digna <name type="god">Dios</name> ( sin envilecer sus letras )  
+de avisarles por ellas prodigios, y portentos de gusto.</p>  
+<p><cit reg="Justino (Mártir). Historia. Libro 7"><name type="person" reg="Justino (Mártir)">Iustino</name> en su <refTitle>Historia</refTitle> lib.7. dexò escrito del Rey <name type="person" reg="Mitridates">Mi- 
+tridates</name>, que al nacer, y al empeçar a reynar, se vieron dos  
+<term type="Astron">Cometas</term> en el cielo, que cada vno durò setenta dias.<foreign lang="lat" reg="Mitradates Rex quo genitus est anno, & eo quo regnare primum caepit, stella Cometes per vtrumque tempus 70. diebus ita luxit, ut coelum omne constagrare videretur"> Mitra- 
+dates Rex quo genitus est anno, & eo quo regnare primum caepit,  
+stella Cometes per vtrumque tempus 70. diebus ita luxit, ut coelum  
+omne constagrare videretur</foreign></cit>. Vencian estos <term type="Astron">Cometas</term> a la luz  
+del <name type="planet">Sol</name>, y ocupaban la quarta parte del cielo.<foreign lang="lat" reg="Magnitudine sui qnartam partem coeli occupaverat & fulgore sui Solis nitorem vicerat">  Magnitudine sui  
+qnartam partem coeli occupaverat & fulgore sui Solis nitorem vicerat</foreign>.</p> 
+<p>Al nacimiento del grande <name type="person" reg="Magno, Alejandro">Alexandro</name> ( dize el Padre Fr.</p>  
+<p> <cit reg="Boskhiero, Felipe. Ara Coeli"><name type="person">Felipe BosKhiero</name> en su <refTitle>Ara coeli</refTitle> ) precedieron grandes pro- 
+digios, y portentos; viose pelear al <name type="planet">Sol</name> con la <name type="planet">Luna</name>; muchas  
+piedras sudaron sangre; de dia se vian muchas <name type="planet">Lunas</name> en el  
+cielo; en claridad solian competir las noches con el dia; caian  
+del cielo, piedas prodigiosas; siete dias continuos cayò gra- 
+nizo; y otros prodigios.<foreign lang="lat" reg="Sol visus est pugnase cum Luna.Saxa saenguine sudaverunt. Interdiu, plures Lunae in coelo apparverunt. Nox ad plurimam diei partem tendi visa est; tunc, & saxa de nuvibus cecidere, & per septem dies grando, lapideisque testarum fragmentis inmixtis, terram latissime verberauit.">Sol visus est pugnase cum Luna.Saxa  
+saenguine sudaverunt.Interdiu, plures Lunae in coelo apparverunt.  
+Nox ad plurimam diei partem tendi visa est; tunc, & saxa de nu- 
+G        vibus </foreign></cit>
+</p>
+</div>
+
+ 
+<div>
+<pb>folio 25 r</pb>. 
+<p>
+<cit cont="1"><foreign lang="lat">vibus  cecidere, & per septem dies grando, lapideisque testarum frag-  
+mentis inmixtis, terram latissime verberauit</foreign></cit>. Y con esto no se  
+acabò el mundo, ni fue el juicio final, sino que naciò un <name type="person" reg="Magno, Alejandro">Ale- 
+xandro magno</name>; que de grandes algunos hombres tiene la na- 
+turaleza al parirlos grandes dolores. Que mucho que el cielo  
+que pare sin dolores, al concebirse <name type="CathDiv" reg="María">Maria</name> ( en la representa- 
+cion de nuestra sagrada Vision ) el <name type="planet">Sol</name>, <name type="planet">Luna</name>, y estrellas, le  
+formassen <term type="OldSp">saraos</term> todos juntos de las manos. <foreign lang="lat" reg="Signum magnum apparvit in coelo, etc"> Signum magnum  
+apparvit in coelo, etc</foreign>.</p> 
+<p>Al nacer <name type="person" reg="César Augusto">Augusto Cesar</name>, hijo de <name tyep="person" reg="Cayo Ocatavio Turino">Octavio</name>, viò vn nuevo  
+<name type="planet">Sol</name> en sueños, y su madre <name type="person" reg="Balba Cesonia, Atia">Accia</name>, viò assi <term type="OldSp" reg="mismo">mesmo</term>, que su vien- 
+tre se le entumesia, y dilatava de tal suerte, que llegava al  
+cielo, y que ocupaba con el toda la redondes de la <name type="planet" reg="Tierra">tierra</name>, assi  
+lo refiere el R. P. <name type="person">Cornelio Musso</name>. <refTitle>serm. de Nativit. Domini.</refTitle>  
+de donde aquel grande interpretador de sueños <name type="person" reg="Fígulo, Publio Nigidio">P. Nigidio  
+Figulo</name> les dixo.<q><foreign lang="lat" reg="Imperatorem genuistis, & dominum mundi futurum"> Imperatorem genuistis, & dominum mundi fu- 
+turum</foreign></q>. Aveis engendrado a vn Emperador, que dominarà  
+el mundo todo.</p>  
+<p>
+<cit reg="Flavio Vegesio Renato. Historia Anglica. Libro XVI"><name type="person" reg="Virgilio,Polidoro">Polydoro</name>, y <name type="person" reg="Flavio Vegecio Renato">Vegesio</name> lib. 16. de su <refTitle>Histor.Anglica</refTitle>, refie- 
+ren, que al nacer el niño <name type="person" reg="Eduardo I">Edobardo</name>, hijo de <name type="person" reg="Enrique III">Henrico</name> tercero  
+Rey de Inglaterra, se viò vn prodigioso <term type="Astron">Cometa</term> en el cielo  
+por algunos dias, antes de salir el <name type="planet">Sol</name>, y que se movia velo- 
+cissimamente.<foreign lang="lat" reg="Sub cuius ortum adparuit stella immensae magnitudinis, per aliquot dies, ante Solis ortum, quae per longum coelitractum veloci, crebroque cursu ferebatur">Sub cuius ortum adparuit stella immensae mag- 
+nitudinis, per aliquot dies, ante Solis ortum, quae per longum coeli  
+tractum veloci, crebroque cursu ferebatur</foreign></cit>. Y significo la dilata- 
+cion del Imperio de aqueste Rey, como el mismo <name type="person" reg="Flavio Vegecio Renato">Vegesio</name>  
+dize. <q reg="Flavio Vegecio Renato. Historia Anglica.Libro XVI"><foreign lang="lat" reg="Quo sane ostento futura Edouardi patris ampitudo, velut exoraculo quodam pronuntiata dicitur"> Quo sane ostento futura Edouardi patris ampitudo, velut ex  
+oraculo quodam pronuntiata dicitur</foreign></q>. Refierelo <name type="person" reg="Boskhiero, Felipe">BosKhiero</name>.
+</p>  
+<p>En el Has, o Fardo de los tiempos, se refiere, que en el  
+de Càyo <name type="person" reg="Julio César">Iulio Cesar</name>, se vieron en el Oriente tres <name type="planet">Soles</name>, que  
+poco a poco se ivan aunando hasta convenir en vno solo;  
+grande prodigio, dize su Autor.<q><foreign lang="lat" reg="Tres Soles in coelo versus Orientem adparuerunt, qui paulatim in unum corpus solare redacti sunt"> Tres Soles in coelo versus Orien- 
+tem adparuerunt, qui paulatim in unum corpus solare redacti sunt</foreign></q> </p>.  
+<p> <foreign lang="lat">Grande spectaculum, Grandium signum fuit</foreign>. Y significò que  
+las 
+</p>
+</div>
+ 
+<div>
+<pb>folio 26 v</pb> 
+<p>
+las tres partes del mundo, <name type="place">Asia</name>, <name type="place">Africa</name> y <name type="place">Europa</name>, avian de  
+concurrir en un dominio, de <name type="person">Lucio Antonio</name>, y <name type="person" reg="Marco Antonio">Marco An- 
+tonio</name>. Assi lo juzgaron los presagientes de aquel siglo. Pero  
+mucho mejor sintiò el Autor de la Historia, que dize.<foreign lang="lat" reg="Vel Potius unius, trinique Dei notitiam in toto orbe mox pervagaturam">Vel  
+Potius unius, trinique Dei notitiam in toto orbe mox pervagatu- 
+ram</foreign>. Mejor juicio fue colegir la dilatacion del inefable myste-  to
+rio de la <term type="Theolo">Santissima trinidad</term>, por todo el mundo, que se  
+avia de seguir a este prodigio; y assi se avia de sentir, y juzgar  
+de todas las señales del cielo. 
+
+Aquella prodigiosa, y nueva estrella, que apareció a los  
+tres <name type="person">Reyes Magos</name>, en el Oriente, no les fue de suma dicha,  
+y felicidad pues <name type="person" reg="Crisóstomo, Juan (San)">San Iuan Chrisostomo</name> en su obra imper- 
+fecta <refTitle reg="Homiliae in Evangeluim Sancti Johannis">Homil</refTitle>. 2. sobre el cap. 2 de S. <name type="person" reg="Mateo(San)">Matheo</name> quisiettao que fuesse  
+estrella Loquas, cuya forma era de Cruz, y un niño en ella,  
+que les dixo, que caminasen a <name type="place">Galilea</name>, y los instruyó. <cit><foreign lang="lat" reg="Adparuit eis descendens super montem victorialem, habens inse formam quasi pueri paruuli, & superse similitdem Crucis, & locutra est eis, & docuit eos, & praecepit eis, ut proficicerentur in Iudeam">Ad- 
+paruit eis descendens super montem victorialem, habens inse for- 
+mam quasi pueri paruuli, & superse similitudinem Crucis, & lo- 
+cuta est eis, & docuit eos, & praecepit eis, ut proficicerentur in Iu- 
+deam</foreign></cit>. Y quando esto no fuese assi ( por que no passa por ello  
+S. <name type="person" reg="Aquino (de), Santo Tomás">Thomas</name> en sus opusculos, tampoco passó por el myste- 
+rio Immaculado, y oy lo aclamamos, y el mundo lo acla- 
+ma ) Mayor prodigio fue ser instruidos interiormente de vna  
+estrella, Loquas en el espiritu, sin forma mas que de estrella,  
+que hablar materialmente? No vino esta estrella a turbar à  
+<name type="person">Herodes</name>, a alborotar a <name type="place">Galilea</name>, y a publicar la aparicion de  
+<name type="person" reg="Jesucristo">Christo</name>, para que le jurasen por Rey? No vino a apuntar con  
+los dedos de sus rayos al <name type="CathDiv">Niño Dios</name>, <foreign lang="lat" reg="usque dum staret supra ubi erat puer">usque dum staret supra  
+ubi erat puer</foreign>? Pues que temeridad, y descamino serà dezir,  
+que aviendo aparecido nuestro <term type="Astron">Cometa</term>, a <date type="comet" reg="15 de diciembre">15. de Diziem- 
+bre</date>, octavo dia de la Immaculada Concepcion de <name type="CathDiv" reg="María">Maria</name>  
+Purissima, y desvanecidose a <date type="comet">6 de Enero</date>, dia de la aparicion  
+del Hijo, avia venido a publicar la aparicion de la Madre,  
+<foreign lang="lat" reg="vsque dum start supra vbi erat Maria">vsque dum start supra vbi erat <name type="CathDiv" reg="María">Maria</name></foreign>? Previniendo el regocijo  
+general a esta quarta parte del mundo de su Immaculada  
+G2       pure-  
+</p>
+</div>
+
+<div>
+<pb>folio 26 r.</pb> 
+<p>pureza. Festejo impensado, y menos prevenido, celebrado  
+en aqueste mismo mes, a los 19 dias del, de una atenta <name type="inst" reg="Universidad">Uni- 
+versidad</name>; de todas las esclarecidas Religiones; de Principe  
+tan devoto, tan magnanimo y grande, que solo a su sombra pu- 
+do brillar tanta luz como la que se ha esparcido; y de una Ciu- 
+dad noble, y piadosa, donde cada vno a sido un <term type="Astron">Cometa</term> de  
+aqueste soberano mysterio; cuyas relaciones otros escrevi- 
+ràn ingeniosos.</p>  
+<p>Antes de passar a mas mysterios, y prodigios, quiero  
+acreditar mi <term type="Astron">Cometa</term>, con los mal contentos del, por no- 
+minas, pues quieren leer las letras como de Anagrama. Y  
+digo, que el Rey de <name type="place">Liguria</name> en <name type="place">Italia</name>, llamado en nuestra  
+Fabula ( de los <term type="Astron">Cometas</term> ) Cygno, como està dicho, por la  
+muerte de <name type="god" reg="Faetón">Faeton</name> le convirtió <name type="god">Apolo</name> en <name type="constelation" reg="Cisne">Cysne</name>, por agra- 
+decerle sus finezas, trasladandolo despues al cielo, y estam- 
+pandolo en la que llamamos imagen del <name type="constelation" reg="Cisne">Cysne</name>, que cae en  
+la misma <name type="constelation" reg="Vía Láctea">via Lactea</name> , trocandole el denegrido <name type="constelation" reg="Erídano">Eridano</name> en  
+aqueste <name type="constelation" reg="Vía Láctea">rio Lacteo</name>. De aquesta Ave pues se dize, que es  
+cantora, y que al morir desplegadas las alas, como velas para  
+el cielo, burla con consentos harmonicos lo amargo, y llo- 
+roso de la muerte; assi lo cantò del <name type="person" reg="Séneca">Zeneca</name> in <refTitle>Hippolt.</refTitle> act. 1
+<abbr expan="verso">V.</abbr> 300.
+</p> 
+<cit>                  <foreign lang="lat" reg="Candidas Ales modo mouit alas, Dulcior vocem moriente Cygno">Candidas Ales modo mouit alas,  
+                              Dulcior vocem moriente Cygno</foreign>.  
+</cit>							  
+<p> Y <name type="person">Virgilio</name> <refTitle reg="Églogas">Eclog.</refTitle> 9. V.29. </p>
+<cit>
+                   <foreign lang="lat" reg="Cantantes sublime ferent ad sydera Cygni">Cantantes sublime ferent ad sydera Cygni</foreign>.
+</cit>		
+<p> Aquesta Ave siempre fue tenida por de felices pronosticos  
+entre los antiguos, assi lo notò S. <name type="person" reg="Ambrosio (San)">Ambrosio</name>, y <name type="person">Jerónimo 
+Ruchelo</name>, en la empressa de <name type="person" reg="Cornelio Musso">Cornelio Muso</name>, y para prueba  
+dixo aqueste verso.
+</p>
+<q>  
+
+                   <foreign lang="lat" reg="Cygnus in Auspicus semper laetissimus Ales">Cygnus in Auspic?s semper laetissimus Ales</foreign>. 
+</q>
+<p><name type="person" reg="Giovani Pierio Valeriano">Pierio</name> trae vn Hieroglifico del Cysne, y ponele por titulo:  
+<refTitle>Navigatio secunda</refTitle>. Navegación prospera, y feliz, porque vien- 
+do a esta Ave los marineros, lo tenian por alegre presagio,  
+y assi trae de <name type="person">Virgilio</name>, que dexo dicho lib. 1. <refTitle reg="Eneida">AEneid. </refTitle> V. 396.
+Ni  
+</p>
+</div>
+
+<pb>folio 27 v.</pb> 
+<div>
+<cit>
+         <foreign lang="lat" reg="Ni frustra augurium vani docvere patentes, Aspice Bissenos Laetantes agmine Cygnos">Ni frustra augurium vani docvere patentes,                                              
+         Aspice Bissenos Laetantes agmine Cygnos</foreign>. 
+</cit>
+<p>Y lo mismo otros muchos. Ya reconozco pues por felicis- 
+simo, dichoso, y alegre a aqueste siglo, cantor de maravillo- 
+sos mysterios; pues en el se han visto quatro estrellas nue- 
+vas en el firmamento ( sin la prodigiosa de <date>1572</date>. en la <name type="constelation" reg="Casiopea">Casio- 
+pea</name> ) concurrencia jamas vista en los pasados siglos; y la pri- 
+mera de ellas al Año de <date>1600</date>. aun mas refulgente, y bella  
+que el luzero de <name type="planet">Venus</name>; en el mismo pecho del <name type="constelation" reg="Cygnus">Cysne</name>, en- 
+gastada alli en blanda, y blanca pluma, bañada en el Lacteo  
+alcanfor, señal de pureza; entretenida alli por largo tiem- 
+po con la suave voz que en ella misma sonaba, pues brillando  
+las luces en el pecho, despedia rayos musicales por la flauta  
+gutural del dulce <name type="constelation" reg="Cisne">Cysne</name>, que la publicava dichoso pronostico  
+del siglo que empeçava. Y vemos, que ya lo media la Imma- 
+culada pureza en nuestras aclamaciones, no merecida de los  
+pasados siglos.  
+</p>
+<p>Ademas que el mas sentido me responda, que nos ha in- 
+dicado, vna maxima <term type="astro" reg="Conjunción">Conjuncion</term> el año de <date>1603</date>. y en 52.  
+años cinco estrellas nuevas; y en el cielo planetario hasta  
+ocho <term type="Astron">Cometas</term>, todos de vna casta, lucidos, claros, y her- 
+mosos, formando palmas victoriales? A que atribuyremos  
+quatro Cometas juntos el año de <date type="comet">1618</date>. desde <date type="comet"> onze de No- 
+viembre </date> ? No fueron señales prevencionales del gusto, y  
+celebridad que vbo este año, de nuestro soberano mysterio  
+en las >quatro partes del mundo, donde ellos asomados en  
+aquese valcon oriental del cielo, influyan publicos regoci- 
+jos, y admirando nuestros amorosos afectos, aun se alegra- 
+van de ver nuestros materiados <term type="Astron">Cometas</term>, donde aquesta  
+<name type="place" reg="Ciudad de México">Athenas Americana</name> illuminó el ayre, y abrasó al cielo con  
+afectos fervorosos? No multiplico <term type="Astron">Cometas</term>, no, oigamo- 
+selo a <name type="person" reg="Cristiano Longomontano">Christiano Severino Longomontano</name>, que nos dize <q>.  
+<foreign lang="lat" reg="Hoc animadvertione dignum est, quod eodem anno 1618. paullo ante vltimi Cometae exortum ( quod nescio an unquã autea factum sit.) duo al? Cometae magis monstruosi apparverint.">Hoc animadvertione dignum est, quod eodem anno <date>1618</date>. paullo 
+ante vltimi Cometae exortum ( quod nescio an unquã autea factum  
+sit.)</foreign> </q> 
+</p>
+</div>
+
+<div>
+<pb>folio 27 r.</pb>
+<p>
+<q cont="1"><foreign cont="1">sit. ) duo al? Cometae magis monstruosi apparverint.</foreign> </q> Los dos de                                               
+ellos vimos, que formavan en el cielo, o distinguian alum- 
+brando el mundo, una Zona torrida; los otros dos como  
+Legados de los primeros, vno al Norte, y otro al <term type="astron" reg="Sur">Austro</term>, co- 
+mo prosigue el alegado Autor. <q> <foreign lang="lat" reg="Alter in Septrntrione sub Vrsa Mayore, velut magni huius vltimi Legati adfuturi internumtius, vel custos; alter inmeridie tamquam eundem Legatum magnum instruxisset, viresque tribuisset">Alter in Septentrione sub Vrsa  
+Mayore, velut magni huius vltimi Legati adfuturi internumtius, vel  
+custos; alter inmeridie tamquam eundem Legatum magnum instruxisset,  
+viresque tribuisset</foreign> </q> etc. Legados, o correos, dize que fueron  
+de los primeros, a publicar nuevas en todo el mundo, quien  
+lo duda? Pero pasemos a nuestro <term type="Astron">Cometa</term>, que ya nos insta. 
+</p>
+<p>§. 9.  
+DESCRIPCION, Y SEÑALES AD- 
+mirables de nuestro <term type="Astron">Cometa</term>.  
+</p>
+<p> <date>A los 15 dias del mes de Diziembre, del año de 1652</date>.  
+el <name type="planet">Sol</name>, y <name type="planet">Mercurio</name> con la <name type="planet">Luna</name>, somorgujados en va- 
+ños de <name type="constelation" reg="Vía Láctea">Leche</name>, el dia octavo de la Immaculada pureza se  
+penetraron sus rayos diametrales, sin enemiga opposicion;  
+antes si de amistad convenidos, para que la tierra media  
+gozase,assi a la <term type="astron"><name type="planet">Luna</name> llena</term>, como al <name type="planet">Sol</name> refulgente; que si  
+antes en <term type="astro" reg="Conjunción">conjuncion</term>, fue cifra en el cielo vista, y escrita assi  
+al sagrado <name type="person" reg="Juan (Evangelista)">Evangelista</name>, ya para decifrarla al mundo, ha de  
+ser llenandose de luz todos los astros hazia el. Aqueste mis- 
+mo dia pues ( ò piedad immensa de <name type="god">Dios</name> ) surgieron dos  
+avisos en nuestro dichoso hemisferio, vno ya surcado el  
+Occeano en el <name type="place" reg="Puerto de San Juan de Ulúa">Puerto de San Juan de Ullua</name>, otro en el cielo,  
+puerto abierto de S. <name type="person">Juan Evangelista</name>, de donde nos avisa.  
+El del mar alegre nos despliega, y publica nuevas alegres de  
+la que es estrella del mar; de quien <name type="person" reg="Hierosolimitano, Juan">Iuan Hierosolimitano</name>  
+lib. <refTitle>Inst. Monach.</refTitle> cap. 32. dixo. <cit> <foreign lang="lat" reg="Licet nuvecula illa esset originaliter eiusdem naturae cum Mari, alterius tamen fuit qualitatis, alteriusque propietatis; Mare quippe ponderosum est, & amarum, sed nuvecula illa leuis suit, ac dulers">Licet nuvecula illa esset origi- 
+naliter eiusdem naturae cum Mari, alterius tamen fuit qualitatis,  
+alteriusque propietatis; Mare quippe ponderosum est, & ama- 
+rum, sed nuvecula illa leuis suit, ac dulers</foreign> </cit>. Esto dize de la nuve- 
+sita  
+</p>
+</div>
+
+<div>
+<pb>folio 28 v.</pb>  
+<p>sita leve de <name type="CathDiv" reg="María">Maria</name> Santissima, vista, y profetizada por <name type="person" reg="Elías">Elias</name>                                              
+3. Reg.cap. 18. como una huella de hombre. Aqui conside- 
+rola el <name type="person" reg="Hierosolimitano, Juan">Hierosolimitano Juan</name> como nubecita leve; y aunque  
+originaria del Mar, purissima, y de otra qualidad; pero sien- 
+do estrella del Mar, dirè ya con San <name type="person" reg="Crisóstomo, Juan (San)">Juan Chrisostomo</name>, que  
+es estrella en quien se viò, no solo vna huella de hombre, sino  
+vn niño Dios, y hombre. Y con San <name type="person" reg="Juan (Evangelista)">Juan el de Pathmos</name>,  
+que es vna constellacion entera en aquel expando purissimo  
+del cielo; donde no de exalaciones de mar, y tierra, que allà no  
+llegan a manchar, ni lucir, sino que pues alli ay aguas coelemen- 
+tares destas, purissimas, y espejadas, dirè que siendo aquella  
+muger ( alli señal vista <foreign lang="lat">Signum magnum</foreign> .) de nuestra misma  
+masa, y naturaleza, que es la de <name type="person" reg="Adán">Adan</name>, siendo la de acà im- 
+pura por la culpa original, aquellas representan la pureza de la  
+justicia original, y dellas mas que destas se levantò el vapor  
+cristalino é immaculado, que la divina gracia vaño en Leche  
+en el instante de su Concepcion, formandola alli; ya nuvesi- 
+ta leve, como la huella de un hombre, porque ya se recono- 
+cio luego su maternidad de un <name type="god">Dios</name> humanado; y ya nuve  
+estrellada, o estrella nebulosa, que en aquel instante creció  
+tanto, que passò a constellacion compuesta de <name type="planet">Sol</name>, <name type="planet">Luna</name>, y  
+estrellas. Y assi <name type="person">Alberto Magno</name>, sobre <foreign lang="lat">Signum magnum</foreign>, dixo,  
+que destas doze estrellas, que fueron doze privilegios de <name type="CathDiv" reg="María">Maria</name>,  
+el principal, o primero fue su pureza original. <q><foreign lang="lat" reg="Prima stella, & primum privilegium Beatissimae Virginis fuit peccati immunitas">Prima stella, &  
+primum privilegium Beatissimae Virginis fuit peccati immuni- 
+tas</foreign></q>. Y pruebalo con la autoridad de mi gran Padre <name type="person" reg="Hipona (de), San Agustín">Augusti- 
+no</name>. Que mucho pues que en aquesta misma conformidad,  
+nos aya hablado por su aviso el mar, al mismo tiempo que el  
+ciclo por el suyo habla.  
+</p>
+<p>PROSOPOPEYA.  
+
+Introducese el <term type="Astron">Cometa</term> en persona de <name type="planet" reg="Mercurio">Mercu- 
+rio</name>, ( como de su naturaleza que es ) con- 
+versando con la Paloma de <name type="person" reg="Noé">Noe</name>.  
+Hablò  
+</p>
+</div>
+
+<div>
+<pb>folio 28 r.</pb>  
+<p>Hablò pues, o por hablar surgiò en el Ethereo Pielago                                            
+el arca de <name type="person" reg="Noé">Noe</name>, o el <term type="theolo">Argonave</term> de <name type="person" reg="Jasón">Jason</name>; diò fondo en  
+la <name type="constelation" reg="Vía Láctea">Baia Lactea</name>, y <name type="place">Galeta</name> <term type="Astron">Austral</term>, donde encallada en  
+arracifes de estrellas, sin estrellarse; un Lenguado <term type="Astron">Cometa</term> de  
+que la nave venia preñada, y lastrada, se precipitó dirigen- 
+te por la popa ( camino estraño de nacer, porque estraño lo  
+ordinario a que no venia ) saltò en el cielo, como quien sal- 
+ta en tierra, que en el todo fue uno, y aun mismo tiempo.  
+Apareciò <name type="god" >Mercurio</name> ya adulto, y con la leche en los labios  
+de la Diosa <name type="god" reg="Juno">Iuno</name>, se vistió de los resplandores de <name type="god">Diana</name>, de  
+cuya naturaleza venia envestido, y cubriendose la cabeça  
+con tres infulas, como encavellado <name type="person" reg="Trismegisto, Hermes">Trismegisto</name>, calçose sus  
+alas por espuelas, y atravesó al oriente su madeja o Caduseo;  
+quiça porque venia de paz, y a tratarlas, que assi lo notò <name type="person" reg="Calepino, Ambrosio">Am- 
+brosio Calepino</name>. <foreign lang="lat" reg="Quod contentiones, & bella cadere faciat">Quod contentiones, & bella cadere faciat</foreign>. Con  
+que a todos los embajadores, que vienen a tratar pazes llaman,  
+<term type="theolo">Caduceatores</term>, como lo dize <name type="person" reg="Tito Livio">Titolibio</name> lib. 6. <q><foreign lang="lat" reg="Asdrubal caduceatorem mittit">Asdrubal cadu- 
+ceatorem mittit</foreign></q>. Lo mismo <name type="person">Marsiano</name> in.1. 8. ff. <q><foreign lang="lat" reg="de rerum divitione">de rerum di- 
+vitione</foreign></q>. Y tambien S. <name type="person" reg="Isidoro (San)">Isidoro</name> en sus <refTitle>ethimologias</refTitle>. Y como  
+refiere <name type="person">Plinio</name> lib. 29. <refTitle reg="Histori natural">Hist. nat.</refTitle> Cap. 3. entre muchas nacio- 
+nes fue el Caduceo simbolo de paz; y quiça tambien porque  
+tres borlas en la cabeça, con capirote de luces, sin Caduseo  
+en las manos de las ciencias que professava, no pareceria  
+decente Comissario de la <name type="inst">Universidad</name> de luces, viniendo a  
+tratar mysterio grande con la <name type="place" reg="Ciudad de México">Athenas Mexicana</name>, del festejo  
+que se devia prevenir a la Immaculada Pureza, cuyos pies  
+besava, y benerava en el primero cielo, con la <name type="planet">Luna</name>. En fin  
+<name type="god">Mercurio</name> Principe de la eloquencia ( adornado de todas len- 
+guas, como <name type="person">Homero</name> dixo.  
+</p>
+<q>         <foreign lang="lat" reg="Linguas imponit in igne, Interea accensus fundunt libamina linguis">Linguas imponit in igne,  
+         Interea accensus fundunt libamina linguis</foreign>.  
+</q>
+<p>Como legado de los Dioses, y del grande <name type="god" reg="Júpiter">Iupiter</name>, como  
+ <name type="person">Horacio</name> cantò, oda. 10.  
+<cit>
+         <foreign lang="lat" reg="Te canam magni Iovis, & deorum nuntium">Te canam magni Iovis, & deorum nuntium</foreign>.  
+</cit>
+Y Ovi-  
+</p>
+</div> 
+
+<div>
+<pb>folio 29 v.</pb> 
+<p>Y <name type="person">Ovidio</name> lib. 5. <refTitle>Fastorum</refTitle> añidiò, que era Embajador de los de                               
+cielo, y tierra.  <cit> <foreign lang="lat" reg="Pacis, &armorum superis, imisque Deorum arbiter, alato, qui pede carpis iter">Pacis, & armorum superis, imisque Deorum  
+                  arbiter, alato, qui pede carpis iter.</foreign> ) </cit>
+</p>
+<p>Diò principio a su embajada; y el lenguaje con que habló,  
+aunque cifrado, fue assi.  
+Transformado ya el Olympico Embajador <name type="god">Mercurio</name>;  
+echado ya el cordel de su circulo maximo por el Zenit Me- 
+xicano, donde cortò la <term type="Astron" reg="Eclíptica">Ecliptica</term>; y ensartado en el, tomó  
+postas levantando el buelo, del Sur, al Norte; y en su prime- 
+ra jornada ahiló a la venta, y hosteria de la Paloma de <name type="person" reg="Noé">Noe</name>;  
+saliole alegre al dichoso encuentro, que de buelta se recogia  
+al sagrado del Arca, reconocido el naufragio general, y la di- 
+minusion de sus aguas, que ya abatidas descollaban los oli- 
+vos, de que entramada traya señas; como <name type="person" reg="Aurelio Prudencio Clemente">Prudencio</name> cantó.  
+</p>
+<q>         <foreign lang="lat" reg="Nuntia diluu? iam decresentis ad Arcam, Ore Columba refert ramum viridantis olibae">Nuntia diluu? iam decresentis ad Arcam,  
+         Ore Columba refert ramum viridantis olibae</foreign>.  
+</q>
+<p>Saludados los dos guespedes en aquella apacible, y amena  
+Hosteria, pasando la noche en vela, y en amorosa, y dulce  
+conversación; tomò primero <name type="god">Mercurio</name> la mano en darle  
+quenta a la Paloma de su disfras, y transformacion; del lar- 
+go, y dichoso viage que avia traydo en la misma Arca donde  
+ella se embarcava; diole parte como era Nave felisissima, y  
+de dichosos portes, como quien se avia engendrado en sus  
+entrañas, a los pechos de la Diosa <name type="god" reg="Juno">Iuno</name>; diosele a conocer  
+por hijo de los Dioses; por el Dios de la eloquencia, y to- 
+das ciencias; y de como era el correo, y embajador de cielo,  
+y tierra; con que vbo de revelarle el mysterio a que venia, y  
+la embajada que traya de paz, de amor, y de Immaculada  
+Pureza, del signo de Virgen sacrosanto; portento, y monstruo  
+sagrado del cielo; figurado por el Altissimo en vna prodi- 
+giosa constellacion del cielo, que San <name type="person" reg="Juan (Evangelista)">Iuan Evangelista</name> ob- 
+servò en la <name type="place" reg="Isla de Patmos">Isla de Pathmos</name>; que en suma era vna muger ve- 
+stida del <name type="planet">Sol</name> de pies a cabeça, la <name type="planet">Luna</name> abasallada a sus pies,  
+y que doze estrellas sin desvanecerse le orlaban las sienes; y  
+decifrandole este mysterio, y cifra le dixo. Sabràs amorosa  
+H        Palo-  
+</p>
+</div>
+
+<div> 
+<pb>folio 29 r.</pb>
+<p>Paloma, que eres dichoso retrato de <name type="CathDiv" reg="María">Maria</name> sacrosanta, pre-                                             
+servada de culpa original desde el primero instante de su con- 
+cepcion, con que su immaculado mysterio es el que ( aunque in- 
+digno embajador ) vengo a publicar, y hazerlo notorio a este  
+nuevo mundo, que lo anhela. Con que puso silencio a su discurso.  
+La Paloma, que atenta, y vigilante le avia oydo, agrade- 
+ciendole las buenas nuevas que se daba, por retornarle en la  
+misma moneda, le dixo alagueña; sabràs ingenioso, y di- 
+choso <name type="god">Mercurio</name> ( como ya sabràs ) que soy Ave tan suave,  
+y dulce, que para serlo del todo, ha sido mi especie preser- 
+bada de hiel, que no cayera bien mancha de colera en el hu- 
+mor aqueo cristalino que me compone; ya lo sabras de <name type="person" reg="Pierio Valeriano, Giovani">Pie- 
+rio</name> lib. 22.cap. de <refTitle>Columba</refTitle>; del eloquentissimo <name type="person" reg="Cipriano">Cypriano</name>,  
+en que el, y la <name type="inst">Iglesia</name> santa, me asemejan al mismo <name type="CathDiv" reg="Espíritu Divino">Espiritu  
+Divino</name>. <cit> <foreign lang="lat" reg="Id circo, &in Columbae specie venit spiritus Santus, simplex animal, & Laetum, non felle amrum, non morsibus saevum. De Honorio Augustudonense, y el Abad Ruperto, Al? dicunt Columbam esse sine felle">Id circo, & in Columbae specie venit spiritus Santus,  
+simplex animal, & Laetum, non felle amarum, non morsibus sae- 
+vum. De Honorio Augustudonense, y el Abad Ruperto,  
+Al? dicunt Columbam esse sine felle</foreign></cit>. Por esto los mortales han  
+querido, que yo sea symbolo de la salud; y assi <name type="person" reg="Pierio Valeriano, Giovani">Pierio</name> en vn  
+Hieroglifico mio, me puso por blason <foreign lang="lat" reg="salud">salubritas</foreign>, lib. 22. Mi  
+carne comida es contra los contagios, y pestes, y no les em- 
+pece a aquellos a quienes he sido ordinario alimento; y à  
+los Reyes por preserbarlos los mantengo en viandas; hasta  
+mi sangre es colirio de los ojos encarnizados (dize <name type="person">Plinio</name> )  
+pues a la colera ni aun pintada quiero verla. Y porque avràs  
+leido a <name type="person" reg="Discórides">Discorides</name>, <name type="person" reg="Al-Razi">Rasis</name>, al Florentino, ya <name type="person" reg="Adamo Leonicero">Adamo Leo- 
+nisero</name>, y otros, paso adelante por no cansarte. Para credito  
+de mi fidelidad solo te afirmo, que en apretadas ocasiones  
+he sido embajadora de nuevas de importancia; como lo hize  
+con los de <name type="place" reg="Siria">Syria</name>, cuyos estandartes adornè; a <name type="person">Decio Bruto</name>,  
+en vn apretado cerco, le traspalé dichosamente sus desig- 
+nios ( como el Textor en la 2. part. de su officina afirma ) Y siem- 
+pre he sido buen pronostico, de presagios Reales, amiga de  
+dar buenas nuevas, alegres, y felices; como de mi tiene testi- 
+ficado <name type="person" reg="Pierio Valeriano, Giovani">Pierio Valeriano</name>; y <name type="person" reg="Honorato, Servio">Servio</name> sobre <name type="person">Virgilio</name> lib. 6 de  
+sus  
+</p>
+</div>
+
+<div> 
+<pb>folio 30 v.</pb> 
+<p>sus <refTitle reg="Eneida">aeneidos</refTitle>, lo notò en estos versos.                                                               
+</p>
+<cit>
+         <foreign lang="lat" reg="Vix ea fatus erat, gemine cum forte Columbae Ipsa sub ora viri, coelo venére volantes, Et viridi sedère solo, tum maximas Heros Maternas agnoscit aves, laetusque precatur">Vix ea fatus erat, gemine cum forte Columbae  
+         Ipsa sub ora viri, coelo venére volantes,  
+         Et viridi sedère solo, tum maximas Heros  
+         Maternas agnoscit aves, laetusque precatur</foreign>.  
+</cit>
+<p>Lo mismo <name type="person" reg="Pontano, Jcobo">Iacobo Pontano</name>, acreditandome con el sucesso  
+del Cessar, anidando en su campo, por buen presagio de la  
+victoria que alcançò. A <name type="person">Diadumeno</name>, hijo de <name type="person">Macrino</name>, le  
+pronostiquè el Imperio, yendome a sus manos. A <name type="person" reg="Severo, Alejandro">Alexan- 
+dro Severo</name>, le pronostiquè assimismo el Imperio, presen- 
+tandome a su Madre en su nacimiento. A los <name type="person">Argonautas</name>  
+siempre he sido favorable, como lo testifica <name type="person" reg="Rodio, Apolonio">Apolonio Ro- 
+dio</name> lib. 3. <refTitle reg="Argonáuticas">Argonaut.</refTitle> Y lo ves en la derrota que sigo de mi  
+Argo Nave, y la razon que boy a darle del diluvio.  a los 17
+Pero que te dirè ( apacible <name type="god">Mercurio</name> ) de tu disignio, y  
+el mio; no fue presagio del, entrarme en el conclave de los  
+Cardenales, y juntos a la eleccion del Summo <term type="theolo" reg="Papa">Vicario</term> de la  
+<name type="inst">Iglesia</name>, pagarme de la inocencia, y afabilidad del que ya es  
+el X <name type="person" reg="Inocencio">Inocensio</name> en la silla de San <name type="person" reg="Pedro (San)">Pedro</name>, sin desampararle vn  
+punto su lado hasta ser adorado? no se califica en esta accion  
+mi afortunada eleccion, pues adornó por esso su sello, y ar- 
+mas con ramo de oliva? y no espero menores dichas de su  
+mano, que la que encierra aqueste anuncio, que tu, y yo pu- 
+blicamos. Symbolo he sido siempre de amor, y de la mise- 
+ricordia estable, y firme, y en señal de perpetua paz llevo  
+en el pico aqueste verde ramo de oliva, alimento de mi con- 
+dicion, y oficio, con que a <name type="person" reg="Noé">Noe</name> mi dueño, y a su posteridad  
+boy a dar perpetuo beso de paz. Oyeselo al <name type="person">Arato</name> lib. 2. so- 
+bre los hechos Apostolicos.
+</p> 
+<q>
+         ————————<foreign lang="lat" reg="Rostrique modesti Pignus oliva fuit, dilectio semper in ore, Fructum pacis habet">Rostrique modesti  
+         Pignus oliva fuit, dilectio semper in ore,  
+         Fructum pacis habet</foreign>. ————————  
+</q>
+<p>Yo callada con este verde ramo en la boca, arguyo demostran- 
+do con fuerça mas concluyente ( perdonenme tus letras  
+<name type="god">Mercurio</name> ) que las eloquencias del mundo pregonan, y que  
+H2       la s 
+</p>
+</div>
+
+<div>
+<pb>folio 30 r.</pb> 
+<p>las razones que los mas agudos ingenios producen. Dime ami-                               
+go, quien reservo aqueste verde ramo del universal diluvio,  
+sin que las aguas le tocasen ( ya sea en el <name type="place" reg="Paraíso Terrenal">terrenal Parayso</name>, ya  
+en el monte de las olivas, o ya en otras partes, que para mi  
+lo reservo, que se de donde le traygo ) no reservaria en el ge- 
+neral diluvio de la culpa original a su Madre? Que fuesse re- 
+servado oyeselo al divino <name type="person" reg="Ambrosio (San)">Ambrosio</name> lib. de <name type="person" reg="Noé">Noe</name>, & Arca,
+cap. 19. que dize. <q><foreign lang="lat" reg="Vir iustus Gauisus est fructum de veteri semine aliquem reseruatum, & inde collegit misericordiae insigne diuinae quodiam diluuium removisset, quae fructum demostraret, cui non potuissent nocere diluuia">Vir iustus Gauisus est fructum de veteri semi- 
+ne aliquem reseruatum, & inde collegit misericordiae insigne diui- 
+nae, quodiam diluuium removisset, quae fructum demostraret, cui 
+non potuissent nocere diluuia</foreign></q>. Tuvo <name type="person" reg="Noé">Noe</name>, su muger, e hijos;  
+tuve yo, y dos animales de cada especie, mas privilegio para  
+no ser <term type="OldSp">anegados</term>, o hemos dado todos mayor prueba de ino- 
+cencia, que la que es madre del que a todos estos reservó? Tie- 
+nes tu mayor privilegio de immaculado, ni las estrellas del  
+cielo con el <name type="planet">Sol</name>, y su expanso, por mas que me has pintado, y  
+encarecido tu nobleza, y origen, pues me tienes dicho, que  
+todos servis a esta Reyna del cielo, en aquessa admirable vi- 
+sion de S. <name type="person" reg="Juan (San)">Juan</name>? Ea <name type="god">Mercurio</name>, que rompe el Alva, no dilates  
+diligente tu carrera, lleva breve estas nuevas, y en señal de  
+avernos visto de paz ( y a mas ver ) toma este ramo de oliva;  
+Y passando <name type="god">Mercurio</name> a la izquierda su Caduseo, embraçó  
+en la diestra su rama, y assi entramado se abraçaron la Palo- 
+ma, y el <term type="Astron">Cometa</term>, pasandose por debajo de sus tendidas alas.  
+Prosiguiò pues su carrera, y por mas avivar su curso <term reg="alijose">ali- 
+jose</term> de madeja, y venerando el dia festivo de su Reyna espe- 
+rando, le esperò, y hospedò en lo raso aquesta noche, y por  
+quitar miedos, y temores al mundo ( pues ya le miravan mu- 
+chos ) en la siguiente, tomò posada en la Alebrestada ima- 
+gen, o <term type="Astron" reg="constelación">asterismo</term> de la <name type="constelation" reg="Lepus">Liebre</name>; no rompiendole los cascos, ni  
+incluyendoselos lùcidos, pero si, illuminandole la cabeça assi quitar confussiones, y dudas a los ingenios  
+timidos, y cobardes. A los 20. illustró al rio <name type="place" reg="Erídano">Eridano</name>, como  
+reconociendo las zeniças de <name type="god" reg="Faetón">Faeton</name>, sepulcro que tambien le  
+amenazava; y atendiendo a que era embajador de mas porte,  
+y no  
+</p>
+</div>
+
+<div>
+<pb>folio 31 v.</pb> 
+<p>y no de tragicos pronosticos, transformado en <name type="constelation">Cisne</name>, ya tres-                                
+nado de cavellera, vadeò dichosamente el caudaloso <name type="place" reg="Erídano">Erida- 
+no</name>. Afrontose despues con el desmesurado Xigante <name type="constelation">Orion</name>,  
+que le esperava al paso, la claba enarbolada, y muy abro- 
+quelado, rezeloso de su madeja; bien reconociò aqui las con- 
+tensiones del mysterio, y los dares, y tomares de argumen- 
+tos, pero el magnanimo <term type="Astron">Cometa</term> pasandose a los braços del  
+<name type="constelation" reg="Tauro">Toro</name>, sin ser atropellado, de tropel passò por ellos. O que  
+risa que hizo, y causó pasando por entre las catorze her- 
+manas plañideras, y lloronas; <name type="constelation" reg="Híadas">Hyadas</name>, y <name type="constelation" reg="Pléyades">Pleyadas</name>; en ver- 
+dad que juzgo, que las festejò, y por alegrarlas les hizo mil  
+festines, haziendolas reir; jugandoles el <name type="constelation" reg="Tauro">Toro</name>, con dichoso  
+lanze en la servis, el mismo dia que en la tierra assistia un  
+Buy al nacimiento del Criador de cielo, y tierra.  
+De aqui por tres dias discurriò por lo raso del cielo, an- 
+cioso por hallar la cabeça de Medusa, crinada de serpientes,  
+virtiendo sangre tan venenosa, que amenazaba con ella man- 
+char el cielo; vió alli a la violenta estrella de <term type="Astro">Argol</term>, o <term type="Astro" reg="Rasdalgol">Ras- 
+dalgol</term>, y admirado de tanto tosigo, y mortal veneno, reco- 
+nociò en ella las cabeças quebrantadas de aquel fiero Dra- 
+gon, que asechava a su Reyna; y arrebatado de la vision sa- 
+grada del <name type="person" reg="Juan (Evangelista)">Evangelista</name>, contemplò aqui aquella guerra en- 
+tre los <term type="CathDiv">Angeles</term> de luz, y de tinieblas, acaudillados los pri- 
+meros del <name type="CathDiv">Arcángel San Miguel</name>, y los otros de <term type="CathDiv">Luzbel</term>;  
+originada de aver querido manchar a aquella muger, y a su  
+parto, de nuestra admirable vision. <cit><foreign lang="lat" reg="Factum est prelium magnum in coelo">Factum est prelium mag- 
+num in coelo</foreign></cit>, etc. <refTitle reg="Apocalípsis">Apoc.</refTitle> 12. Diremos que aquella señal grande  
+del cielo, <foreign lang="lat" >Signum magnum</foreign>, fue señal de aquesta guerra? No  
+por cierto, que ya esso fuera ser judiciarios; y mas aviendo  
+sido el dragon otra señal en el cielo.<foreign lang="lat" reg="Et visum est aliud signum in coelo, & ecce draco Magnus, rufus habens capita septem">Et visum est aliud signum  
+in coelo, & ecce draco Magnus, rufus habens capita septem</foreign>. Pues  
+que diremos que fue? Lo que de hecho passo, y sucediò en  
+el cielo; que este dragon de siete cabeças, rojo, y ensangren- 
+tado, quiso manchar sobervio a la misma pureza de Madre,  
+y Hijo, como la misma vision testifica; siendo antecedente   
+la  
+</p>
+</div> 
+
+<div> 
+<pb>folio 31 r.</pb> 
+<p>la vision, y consecuente la batalla. Y sino, en que ocasion                                               
+por <name type="CathDiv" reg="María">Maria</name> purissima pudo haver batalla, y por su precioso  
+Hijo? No por su Nacimiento, y demas mysterios, pues esta- 
+ban ya litigados; luego fue solo en el punto de su Con- 
+cepcion, y por este fue la batalla, y ya consta que en el no fue  
+manchada, pues aqui fue manutenida de <name type="god">Dios</name>, y pertrecha- 
+da con todas las luces del cielo; y el dragon solo por el aco- 
+metimiento castigado, y lançado del ; y trayendose tras  
+si la tercera parte de las estrellas, ninguna fue de las que  
+adornaban a <name type="CathDiv" reg="María">Maria</name>, entre las quales fue su Concepcion ( co- 
+mo hemos dicho de <name type="person">Alberto Magno</name>.) Y por el Hijo, quan- 
+do, y como pudo aver guerra, si no aviendo sido su Madre  
+primero esclava de la culpa, para ignomia del Hijo? Luego  
+este punto es el que alli se deslindo a favor de la Immacu- 
+lada pureza. Pero oygamos ya al fervoroso <name type="god">Mercurio</name>.  
+Hollada la cabeça de Medusa, y sus serpientes, contem- 
+plò alli al dragon de siete cabeças; al altivo, y soberbío <name type="god" reg="Faetón">Fae- 
+ton</name> hijo del mismo <name type="god">Apolo</name>; viò alli dibujado a <term type="CathDiv">Luzbel</term>, que  
+quiere dezir <term type="CathDiv">Lúcifer</term>, el que lleba el estandarte de luz; sus  
+seis cabeças las <name type="god">Eliadas</name>, seis hermanas de esta desvanecida 
+luz, y fervoroço con <name type="person" reg="Isaías">Esaias</name> le dize cap. 14. <q><foreign lang="lat" reg="Quomodo cecidisti Lùcifer qui mane oriebaris">Quomodo cecidi- 
+sti Lùcifer qui mane oriebaris?</foreign></q> Dime <name type="god" reg="Faetón">Faeton</name> sobervio, no eras  
+el Luzero claro, y vistoso del Alva? como ya <term type="Astron">Cometa</term> cau- 
+dado, y despeñado? No eras de aquella noble naturaleza?  
+como ya tan manchada, que como vn fiero dragon, por <name type="constelation" reg="Vía Láctea">via  
+lactea</name> arrastras tanto humo con tu cola, y por sus minutis- 
+simas estrellas despeñas a la tierra, tantos que fueron Luze- 
+ros en el cielo? y siendo <term type="CathDiv">Lucifer</term> antes benevolo, ya castigas,  
+y amenazas a las gentes con terrores, y espantos? Pero que  
+me admiro, si dezias. <q><foreign lang="lat" reg="Super astra Dei exaltabo soliu meum, sedebo in monte testamenti">Super astra Dei exaltabo soliu meum, sede- 
+bo in monte testamenti</foreign></q>. El assiento del altissimo <name type="god">Dios</name>, que es  
+<name type="CathDiv" reg="María">Maria</name>, quieres contaminar, sentandote tu primero en el?  
+Predominar quieres a los astros del cielo? Luego al <name type="planet">Sol</name>, <name type="planet" reg="Luna">Lu- 
+na</name>, y estrellas, (q)ue adornan, guardan y defienden a <name type="CathDiv" reg="María">Maria</name>? Pena  
+pues eternamente con tus hermanas en tu <name type="place" reg="Erídano">Eridano</name> tenebroso,  
+y llo-  
+</p>
+</div> 
+
+<div>
+<pb>folio 32 v.</pb> 
+<p>y llorente sin cesar. Y yo boyme passo a passo a mi sepulcro                                    
+Lacteo, cantando como <name type="constelation" reg="Cisne">Cysne</name>, y mientras se llega mi falleci- 
+miento quiero besarle a <name type="constelation">Perseo</name> la mano, que es donde me hallo.  
+Saliò pues nuestro <term type="Astron">Cometa</term> destas jornadas, y de la cabeça  
+de Medusa con el año; y por darnos bueno el que entra, en- 
+trò al ombro izquierdo de <name type="constelation">Perseo</name>, bañado en la <name type="constelation" reg="Vía Láctea">via lactea</name>,  
+de donde no saliò, por aver fallecido alli, que para llegar a  
+<date>6. de Enero</date> uvo de ser en ombros. A no aver aqui fallecido  
+nuestro <name type="god">Mercurio</name>, le preguntaramos quien era aqueste <name type="constelation" reg="Perseo">Per- 
+seo</name>? quales aquestos ombros? que Atlante el que le sustentó?  
+en cuyos ombros puso el Immaculado mysterio? En que  
+manos el Caduceo? a quien dexò el ramo de oliva? y quien  
+heredó sus alas? Pero veamos si atino. Preciosissimas alha- 
+jas, y joyas son las de nuestro fallecido, y assi devemosdar- 
+les dueños convenientes, que parezcan heredadas. Las alas  
+talares de los pies, son nacidas a la Fama, para que diligente  
+las imite. Las de las sienes, a los lucidos ingenios Ameri- 
+canos, para que las fecundas fantasias de sus Musas, dexen  
+atràs a las del Parnaso, que siempre serà assi como sea en nue- 
+stro mysterio. El Caduseo, cave quarteado, a las sagradas  
+Religiones, donde tienen assiento firme las Letras, fuentes  
+peremnes de la eloquencia, y vivas serpientes en la vigilan- 
+sia. Las infulas doctorales, se les restituyen a esta <name type="place" reg="Ciudad de México">Atenas</name> del  
+mundo, donde cada vno de sus Doctores, es vn <name type="person" reg="Trismegisto, Hermes">Mercurio  
+Trimegistro</name>. El ramo de oliva resta, de inestimable valor,Principes, Governadores, Comunidades, Cavildos, y a la  
+Republica toda; a poco cave, y menos, sino se guarda. Las    
+y precio por pacifico; y assi como reliquias se reparte a los  
+
+piedras del Aservo de <name type="god">Mercurio</name>, tocan a todo juez, Principe,  
+y Prelado, para repartir los premios devidamente, y castigar  
+culpas, y delitos; pues como dize <name type="person" reg="Téxtor, Rabisio">Rabisio Textor</name>, eran vnas  
+blancas, y otras negras para votar los pleitos. <q><foreign lang="lat" reg="Calculus albus in absolutione, indamnatione niger">Calculus albus  
+in absolutione, in damnatione niger</foreign></q>. Y <name type="person">Ovidio</name> lib. 15. <refTitle reg="Metamorfósis">Meth.</refTitle> 
+</p>
+<p>
+<cit>          <foreign lang="lat" reg="Mos erat antiquis, niueis, atrisque lapillis, His damnare reos, illis absolvere culpae">Mos erat antiquis, niueis, atrisque lapillis,  
+         His damnare reos, illis absolvere culpae</foreign>.  
+</cit>
+De 
+</p>
+</div> 
+
+<div>
+<pb>folio 32 r.</pb> 
+<p> Destos no hemos hecho mension, porq para votar a <name type="CathDiv" reg="María">Maria</name>,                                              
+y a su pureza ( como està votada en esta <name type="inst">Real Academia</name> ) no  
+tiene voto lo negro, pues no aviendo culpa original, los cal- 
+culos deste Aservo han de ser, <name type="planet">Sol</name>, <name type="planet">Luna</name>, estrellas y <term type="Astron">cometas</term>.  
+Los ombros de aqueste mysterio se esperan. Estos no  
+son en nuestra esperança los de vn <name type="person">Inocencio X</name>? Los de vn  
+<name type="person" reg="Felipe III">Filipo IIII</name> el Grande, por el mayor Monarca del mundo,  
+<name type="person" reg="Heráclito">Heraclio</name> de aqueste nuestro mysterio? no son tambien los de  
+las sagradas Religiones, que le sustentan, y defienden? Y de  
+ellas el ombro valeroso del <term type="theolo" reg="seráfico">Serafico</term> comersio, que produce  
+ombros, no menos que los de vn <term type="Astro">Mercurial</term> Escoto en suti- 
+lezas, vn <name type="constelation">Perseo</name> en sus Argumentos? No son los de aque- 
+sta <name type="inst" reg="Universidad">Vniversidad</name> Atlantica, que tiene en ombros, y defiende  
+a boca, y a braços la pureza de <name type="CathDiv" reg="María">Maria</name>? Pero vltimamente de  
+todos aquestos ombros, en el fuego de los afectos, y ferbo- 
+res se fundirà vn solo Atlante, de general aclamacion, cuyos  
+ombros sustenten a este nuevo cielo de <name type="CathDiv" reg="María">Maria</name> immaculada,  
+con nuevo <name type="planet">Sol</name>, nueva <name type="planet">Luna</name>, nuevas estrellas, y nuevos <term type="Astron">Co- 
+metas</term>, y estender aqueste nuevo mundo de Eclesiasticos, y  
+<term type="theolo" reg="seglar">Seglares</term>; grandes y pequeños; hombres, y mugeres; ricos,  
+y pobres; blancos, y negros, a quienes diremos con el Poeta <name type="person">Virgilio</name> lib. 8 <refTitle reg="Eneida">aenei.</refTitle> lo que el otro Atlas, que siendo las  
+estrellas <name type="constelation" reg="Pléyades">Pleyadas</name> hijas suyas sustentando el cielo; las susten- 
+tó en ombros. <name type="person">Ovidio</name> lib. 4. <refTitle>Fastorum</refTitle>.  
+</p>
+<cit>         <foreign lang="lat" reg="Pleyades incipient humeros revelare paternos">Pleyades incipient humeros revelare paternos</foreign>. </cit>  
+<p>Con que siendo <name type="CathDiv" reg="María">Maria</name> hija de <name type="CathDiv" reg="Adán">Adam</name>, en el la sustentamos, sa- 
+candola del en ombros como cielo que es; y siendo cada  
+Fiel vn Atlante, recevirà el mismo premio que el. Assi 
+<name type="person" reg="Ovidio">Ovid.</name> Lib. 2. Art. <refTitle>Amand.</refTitle>  
+</p>
+<cit>
+         <foreign lang="lat" reg="Qui meruit coelum, quod prior ipsae tulit">Qui meruit coelum, quod prior ipsae tulit</foreign>.  
+</cit>
+<p>Luego ya nuestro blasón, timbre, y armas serà eternamente:  
+<name type="CathDiv" reg="María">Maria</name> Immaculada, Concebida en Gracia,  
+y Gloria.  
+
+<foreign lang="lat">Omnia <abbr>S. C. S. R. E.</abbr>  </foreign>
+</p>
+</div>
+</body>
+</text>
+</TEI>

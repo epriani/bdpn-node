@@ -1,0 +1,21 @@
+{
+	"changeLanguaje" : "Cambiar idioma",
+	"title" : "Digital Library of Novohispanic Thought",
+	"faculty" : "Faculty of Philosophy and Literature, UNAM",
+	"books" : "Books",
+	"authors" : "Authors",
+	"collections" : "Collections",
+	"indexes" : "Indexes",
+	"search" : "SEARCH",
+	"intro"  : "The <b>Digital Library of Novohispanic Thought</b> (BdPn) is a project that is devoted to the publication of critical editions of texts in print and edited manuscripts. The digital edition of these works intends to make Novohispanic sources available to students and researchers, and thus to make them useful tools for the research and teaching of Novohispanic thought.",
+	"activity"      : "Most active works",
+	"proyect"       : "The Proyect",
+	"collaborators" : "Collaborators",
+	"collaborate"   : "How to collaborate",
+	"contact"       : "Contact",
+	"documentation" : "Documentation",
+	"criteria"      : "Editorial criteria",
+	"licence"       : "Creative Commons Atribution Non Commercial",
+	"council"       : "National Council for Science and Technology of Mexico",
+	"academic"      : "Director of General Support for the Academic Personnel"
+}

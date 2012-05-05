@@ -1,0 +1,614 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="es">
+<schemaSpec ident="TEI-minimal" start="TEI">
+	<moduleRef key="tei"/>
+	<moduleRef key="header"/>
+	<moduleRef key="core"/>
+	<moduleRef key="textstructure"/>
+	<moduleRef key="namesdates"/>
+</schemaSpec>
+
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+       <title>Tratado General De Reloxes de Sol</title>	  
+
+	   <author>Diego Rodríguez</author>
+  </titleStmt>	   
+	   
+  <publicationStmt>
+<publisher>Universidad Nacional Autónoma de México. Facultad de Filosofía y Letras</publisher>   
+<distributor>Biblioteca Digital del Pensamiento Novohispano</distributor>
+  </publicationStmt>
+	   
+	   <sourceDesc>
+	     <bibl>Tratado General De Reloxes de Sol (Manuscrito inédito) </bibl>
+	   </sourceDesc>
+	      
+ </fileDesc>
+</teiHeader>
+
+
+<text>
+
+<body>
+
+<div>
+
+<pb>Folio 1 verso</pb>
+
+[Invocación]
+
+<docTitle>Tratado General De Reloxes de Sol</docTitle> 
+
+<p>
+
+La Materia De Reloxes de Sol no es otra cosa que una Artificiosa Perspectiva con
+que los <term type="astron" reg="círculos horarios"> circulos Horarios</term> del cielo; y demas circulos del. Así Maximos, como los
+menores se demuestran en los Planos, o Paredes. Así perpendiculares Al Horizon-
+te, como inclinadas, con la variedad de inclinaciones al Meridiano. y a otros cir-
+culos, de tal suerte que de Muestren perfectamente lo mismo que en el cielo se considera
+de que veriasen la variedad de Reloxes solares que le pretenden delinear. como son los
+Horizontales en el Plano del Horizonte; Los verticales en el Plano del vertical prima
+rio, considerandolo como Plano, o Pared, cuios dos rostros, uno mira hacia el sur; y el
+otro hacia el Norte, que son las partes que apuntan los <term type="astron" Reg="gnomon"> Gnomones </term> Rectos que en ellas se
+fixan. y desde aqui empiesan a declinar ambo rostros, o hacia el otro, o hasia
+el occaso, de que nasen las quatro diferencias de Reloxes declina[...] del vertical
+primario rectos al Horizonte; luego los Reloxes meridionales en el plano del Me-
+ridiano conciderandolo como pared, cuios dos rostros uno mira al otro verdade
+ro de la <term type="astron" Reg="ecuatorial">[Aeqt]</term> y el otro a su ocaso, que son las partes que apuntan los <term type="astron" Reg="gnomon">Gnomones</term> rec-
+tos en ellas, llamanse por otro Nombre orientales y occidentales. estos todos aunque
+en varias posiciones, y declinaciones son rectos, y perpendiculares al Horizonte.
+
+Entran luego Despues destos Los Reloxes de Los planos inclinados solamente que son
+dos Especies, o diferencias la Primera de los que se inclinan hazia el sur, y hasia el Nor-
+te, estos son son Rectos al Meridiano, e inclinados al vertical primario hacia el Horizon-
+te. Como si el vertical primario fuese Plano, o Pared, y lo inlcinasen a una y otra parte 
+o hacia el mediodia, o hacia el norte, con que los <term type="astron" Reg="gnomon">Gnomones</term> rectos en estas paredes
+asi inclinadas, apuntan siempre en varias [...] del Meridiano y no declinan a una
+ni otra [...] del. Aquestas inclinaciones se [...] juntan desde el zenit por el Meridiano
+hacia el Horizonte y se llama inclinacion respecto del vertical primario; o alcontra-
+rio desde el Horizonte por el Meridiano hacia el zenit, y se llama inclinacion res-
+pecto del Horizonte y en estos en [...]. He incluien a los Reloxes Polar, y los <term type="astron" Reg="ecuatorial">[AEqtes]</term>.
+Los polares son los planos que se inclinan hacia el Norte desde el zenit el [com-
+plemento] de la [Altura] de Polo de la region. [...] los <term type="astron" Reg="ecuatorial">[AEqtes.]</term> los que se inclinan desde el zenit
+hacia el Medio dia [Altura] polo de la Region. [...] alcontrario si se forman en
+la parte Austral donde aquel polo se eleva, y se deprime debaxo [de tierra] el del
+Norte. [todos] estos Reloxes tienen dos rostros, uno superior hacia el cielo, y otro 
+inferior hacia la tierra por que son inclinados al vertical Primario, y al Horizonte.
+
+Despues destos entran los inclinados Al Meridiano, y Al Horizonte, pero rectos
+Al vertical primario, como si el Meridiano fuese una Pared, o Plano, y la incli-
+nacen Asi hacia el otro verdadero dela <term type="astron" Reg="ecuatorial">[AEqt.]</term> en el Horizonte, como hacia el occa-
+so verdadero della. Y en la misma forma de Aquestos planos, o paredes que la de los
+circulos de posicion rectos al vertical primario, e inclinados al Meridiano, Y 
+Al horizonte, que asi mismo tienen dos Rostros, uno superior hacia el cielo; Y otro infe-
+rior hacia la tierra, Y los <term type="astron" Reg="gnomon">gnomones</term> rectos que se fixan en aquestos Planos mi-
+ran siempre a la circunferencia del vertical Primario [...]
+
+Y ultimamente Despues destos Entran los de todo punto irregulares, Son los que pade-
+sen los dos Accidentes referidos que no solo tienen declinación del Meridiano, pero
+[juntamente] son inclinados. Y la variedad de aquestos se reduse a cinco diferencias en que
+se incuien [todos], Y tienen asi mismo dos rostros uno superior, y otro inferior. Y aques-
+tos son todas las Especies de Reloxes que ay en que se [desenuen] no solo las Hora, Medias
+
+</p>
+
+</div>
+
+<div>
+
+<pb>Folio 1 reverso</pb>
+
+<p>
+
+Horas; sino los signos y los parallelos; los Arcos semidiurnos y seminocturnos que
+forman; los verticales todos; las Alturas sobre el Horizonte de la Region y sobre
+los Planos que llaman <term type="astron" Reg="almicantarada">Almicantaradas</term>, como a los verticales <term type="astron" Reg="azimutal">Azimutrales</term>, las lon-
+gitudes de las Ciudades, Horas Planetarias, y las [abortuxavaccasu (subrrayado en folio original)]. de los Babiloni-
+cos, e italianos, y otros circulos que en el cielo se pueden conciderar. Y esto fuera
+de particulares inventivas de reloxes Generales, Y particulares que todos por la maior
+parte se incluien en las diferencias puestas con Algunos [Addivos.] [Ne].
+
+Para tratar pues aquesta Materia con claridad, y Generalidad, de suerte
+que quede entendida, con inteligencia de Algunos circulos del siglo, que
+son los que se representaron en lineas Rectas en los Planos, o Paredes, con otras
+figuras que llaman <term type="astron" Reg="Elípse">Elipses</term>; <term type="astron" Reg="parábola">Parabolas</term>; y <term type="astron" Reg="hipérbola">Hyperbolas</term> que dimanan de las figu-
+ras Conicas en sus secciones, emos de ponerlos en demostracion en el mismo
+cielo para deducir de alli los Angulos y lineas [...], en los planos. Y con al-
+guna Generalidad que comprenda todos los Accidentes referidos, Y Prime-
+ro de los Mas regulares, y faciles, para despues pasar, a los mas Irregulares
+Y no tan faciles, que en el orden que siempre se debe guardar, valiendonos en 
+todo de la Trigonometria que es el alma de las Mathematicas; y el unico refugio
+de los Mathematicos, y para mayor facilidad, por via de Logarithmos aunque no es-
+cusare los senos; tangentes y secantes donde conbiniere, para que los mas entendidos
+en estas materias los [vean], y Manejen. [Obrando] asi mismo por Geometria la
+mayor parte dellos y aun formarlos por diversos modos, para que cada uno elija
+el que mas le Agradare, y el que mas comviniere fuera de que sera Necesario asi para
+verificarlos y no cometer herros, que en las lineas, y diviciones de circulos se co-
+meten muy facilmente, en que suele aver mucha confusion por las muchas lineas,
+la pequeñes del papel en que se obra, y otros accidentes en las reglas, y compases que
+es Necessario mucha maña y [querro] para obrarlos con perfeccion; por todo lo qual
+siempre aconsejaria yo se valieren de la Trigonometria y sus [...] formando ta-
+blitas en que ay mas certidumbre, y menos embaraso de lineas, que es lo principal que
+executaremos despues de los modos Geometricos  para la inteligencia que se preten-
+de, Y aunque esta Materia es larga, y muy dilatada escusaremos demostraciones [...]
+
+De La Demostracion General De Los <term type="astron" reg="círculos horarios">Circulos Horarios</term>
+
+
+La siguiente Demostracion, es en la misma forma que en la Fabrica del
+ <term type="astron" Reg="astrolabio">Astrolabio</term>, para demostrar con su perspectiba la propiedad de los circulos
+de la Esfera,  no solo las porciones dellos que caen encima de tierra sino
+las que caen debaxo, de [onltrando] ambos polos del mundo, el que se
+eleba, y el que se deprime. Es pues en la siguiente figura el Plano del Horizonte
+el circulo entero. [A.E.B.D.] con que todos los circulos y lineas inclusos en el ca-
+en sobre tierra; y los que salen fuera del hasta el punto. [S] caen debaxo de tierra
+con que el circulo entero [A.S.B.P.] que es el de la hora sexta su mitad [A.P.B.] cae so-
+bre tierra; y su otra mitad [A.S.B.] debaxo. por quanto el punto. [P.] represen-
+ta el polo del Mundo que se eleba sobre el Horizonte, que es la Altura de polo dela re-
+gion, que es [P.D.] Y el punto opuesto [S.] representa el Polo del Mundo que se de-
+prime debaxo del Horizonte la cantidad. [E.S.] que es ygual de la. [P.D.] Y la linea
+
+</p>
+
+</div>
+
+<div>
+
+<pb>Folio 2 verso</pb>
+
+[Una imágen]
+
+<p>
+
+recta [D.P.L.E.S.] es el Meridiano de la Region, y de las. [L2]. y la que se crusa
+con esta en Angulos Rectos en [L.] que es la [A.L.B.] es el vertical Primario
+y el punto [L.] es el zenit de la Region, La <term type="astron" Reg="equinoccial">AEquinoccial</term> representa la
+porcion de circulo. [A.O.B.] con que su [orto] verdadero es el punto. [A] donde se cru-
+sa en Angulos rectos con el circulo de las [6.] de la Mañana. Y el punto opuesto 
+[B.] su occaso verdadero, y alli se crusa en Angulos rectos con los. [6.] de la tarde.
+Los dos Parallelos [F.G.H.] a la parte del Polo [S.] [depreso] es el Tropico de Ca-
+pricornio, y el otro. [I.C.K.] <term type="astron" Reg="Trópico de Cancer"> [el de cancro]</term> a la parte del Polo. [P.] que se [elebos.]
+Y si el Polo [P.] elebado sobre el Horizonte fuese el Polo Austral (como el Pe-
+ru) seria el opuesto. [S.] el del Norte depreso; el orto de la <term type="astron" Reg="ecuatorial">[AEqt.]</term> seria. [B.] Y su oc-
+caso. [A.] el parallelo [F.Cr.H.] el tropico de <term type="astron" Reg="Trópico de Cancer"> [cancro]</term>; Y el [T.C.R.] el de capricor-
+nio, todo al contrario, Y asi mismo Las Horas desde. [B.] hacia [A.] al contrario
+de como estan Asentados en la figura puesta, pero [la doctrina la misma]. 
+
+
+
+Folio 2 reverso
+
+Digo pues que todos Los circulos que salen del Polo. P. al Polo S. o al
+contrario, siendo el Principal dellos el Meridiano, son <term type="astron" reg="círculos horarios">circulos Hora-
+rios</term> (y juntan [se] Circulos de Las Declinaciones.) Los que atras estan expresos son
+de las Horas enteras, contando La <term type="astron" Reg="ecuatorial">[AEqt]</term> A.D.B. en Angulos rectos de [15 en]
+[15 g.r.] desde las 6. de la Mañana a las 6. de la tarde, Y por debaxo de tierra des
+de las 6. de la tarde, a las 6. de la Mañana, aun que estos no estan tirados atras
+por no confundir con lineas la demostracion, y bastan los semicirculos de
+encima de tierra que sus opuestos son las horas debaxo de tierra. y como esta
+demostradas Las horas enteras de Polo a Polo se pueden demostrar no solo
+Las Medias horas; los quartos sino los minutos de hora; por que si se [gira] en circu
+los de Polo a Polo por cada grado de la <term type="astron" Reg="ecuatorial">[AEqt.]</term> serian <term type="astron" reg="círculos horarios">circulos horarios</term> de [a 4 minutos.]
+de tiempo, por 15 g. de <term type="astron" Reg="ecuatorial">[AEqt.]</term> son una hora, [o 6. mt.] de tiempo. y asia {[.4.] veses 15
+son 6 o. } las medias horas son de a [7.g.30.mt.] de <term type="astron" Reg="ecuatorial">AEqt</term>. un quarto de hora son [3.g.4s. 
+mt] de  <term type="astron" Reg="ecuatorial">AEqt</term>. [ello] pero hasta estar representadas las horas enteras por
+evitar confusion advirtiendo que desde que desde cualquier de los dos Polos P. [N.]
+S. A qualquiera parte de la <term type="astron" Reg="ecuatorial">Aeqt.</term> A.O.B. Asi encima, como debaxo de tierra
+hay [90. gr.] que es una quarta de circulo con que los Angulos todos de las horas en-
+teras en los Polos son de a 15.g. y los Angulos de las medias horas en los polos
+son de a [7.g.30.mt. lla] por que lo que en la <term type="astron" Reg="ecuatorial">Aeqt</term>. es porcion de circulo, o Arco, eso
+mismo mide y es Angulo en los Polos por distar [90. gr.] cada polo de la <term type="astron" Reg="ecuatorial">AEqt</term>. (Fin de-párrafo)
+
+
+Supuesto pues todo lo dicho digo ya que todos los <term type="astron" reg="círculos horarios">circulos Horarios</term> atras ex-
+presos, y los demas que se puedan expresar de Las Medias horas [llla] cortan al Ho-
+rizonte A.E.B.D. en las secciones A.e.d.c.b.a.E. Asi en las quartas orientales
+como en las occidentales, yguales las de cada quarta [adinuicem (subrayado)].  por que son opues-
+tas, y cortan yguales partes de la <term type="astron" Reg="ecuatorial">AEqt</term>. y son. [24.] secciones en toda la circunfe-
+rencia del circulo Horizontal, de las 24. horas del dia Natural. y destas sec-
+ciones se forma el Relox Horizontal. y basta conocer Las seis de una quarta
+con que estan conocidas todas po ser yguales entre si en cada quarta como es dicho.
+estas secciones pues, o se conocen por Numeros de [gr.] [y mt lla] o por Geometria en
+la forma que adelante se ira viendo y explicando. (Fin de-párrafo)
+
+
+Lo segundo. todos los <term type="astron" reg="círculos horarios">circulos Horarios</term> referidos cortan Al vertical Primario A.L.B.
+en las secciones A.f.g.h.i.[s].L. Asi en la parte oriental como en la occidental
+yguales ad invicem. (subrayado) las de cada quarta correlativamente y lo mismo debaxo de tierra
+con los <term type="astron" reg="semicírculos horarios">semicirculos Horarios</term> opuestos a los de encima y destas secciones que son seis en
+cada quarta, y veintyquatro en todo el vertical primario, se forman los Reloxes
+verticales regulares que [derechamente] los rostros de los Planos, o Paredes miran
+Al Norete, y Al Sur. como si en la Linea A.L.B. del vertical Primario se [lebantase]
+un plano un rostro del miraria derechamente al Polo. P. del Norte, y el otro opuesto
+miraria derechamente al Polo. S. del sur, o Medio dia. y seria cortado este Plano,
+o Pared en las secciones referidas expresas en la linea, o vertical Primario, que
+son diferentes que las referidas en el circulo, o Plano Horizontal. y [conoseranse]
+Asi mismo Aritmetica, y Geometricamente como las Horizontales. (Fin de-parrafo)
+
+
+
+Lo tercero Digo que si sobre lalinea Meridiana D.P.L.E. se lebantase un plano
+recto al Horizonte [en el] los <term type="astron" reg="círculos horarios">circulos Horarios</term> todos no se cortarian, ni concurriri-
+an, fino que en el estos circulos se representarian por lineas parallelas, todas como exes
+del mundo, mirando derechamente a los Polos P.N.S. donde la linea de las
+6. seria el perfecto exe del mundo. Y las demas horas Parallelas de las seis. y entre [finisimas]
+
+</p>
+
+</div>
+
+<div>
+
+<pb>Folio 3 verso</pb>
+
+<p>
+
+porque las Horas en el cielo son circulos. y en los planos se representan en lineas
+rectas, Y como en el que se lebantare sobre la linea Meridiana la hora de las
+6. es el Exe del mundo, ella a de ser el <term type="astron" Reg="gnomon">Gnomon</term>, y asi sobre toda ella se Le-
+vanta el <term type="astron" Reg="gnomon">Gnomon</term> que es otra Linea parallela A las seis La qual siendo linea
+recta todas las horas que señalare seran lineas rectas parallelas del <term type="astron" Reg="gnomon">Gnomon</term>
+que es linea y parallelas de las seis exe del mundo. con ygual distancia en el cielo
+que son los 15 gr. de <term type="astron" Reg="ecuatorial">Aeqt</term>. que en el Plano seran <term type="mathe">tangentes</term> como en su fabrica se 
+vera, y aquestos, y los explicados son los Regulares,  a que luego se sigun los 
+irregulares que son los accidentados con declinación; luego los inclinados della
+oriente; y despues Los de Arribos accidentes declinantes, e inclinados. (fin de párrafo)
+
+
+Lo cuarto si sobre el vertical Primario A.L.B. se lebantase un plano, no ya recto
+al Horizonte como Antes sino inclinado, o hacia el Norte y polo P. o havia el 
+Sur y Polo S. seria de La Especia delos inclinados sin declinación alguna que al prin-
+cipio diximos,  cuios nomones rectos mirarian siempre en la linea Meri-
+diana, destos dos solos se representan en la figura de atras; el uno es la <term type="astron" Reg="ecuatorial">AEqt</term>.
+A.O.B. inclinada al Horizonte a la parte de sur. la cantidad. O. E. apartada 
+del Zenit L. la cantidad. L.O. que seria el Relox <term type="astron" Reg="ecuatorial">AEqt</term>. de dos rostros, y de
+horas yguales en sus secciones de a. 15 gr. el otro plano seria a la parte del
+Norte. o Polo P. sobre el circulo de la hora sexta A.P.B. inclinado hacia
+el Horizonte la cantidad D.P. tanto como la Altura de polo, Y apartado del Zenit
+L. La cantidad L.P. asi mismo de dos rostros superior hacia el cielo, e inferior
+hacia la tierra, Y al modo destos otros muchos sobre el vertical primario A.L.B.
+inclinados variante a una y otra parte como los dos referidos. (fin de párrafo)
+
+
+Lo quinto Si sobre la Linea Meridiana D.L.E. se lebantarse un plano, no ya recto al 
+Horizonte como antes, sino inclinado ya hacia, la parte del oriente que mirase al [pr] or-
+to A. y su <term type="astron" Reg="gnomon">Gnomon</term> recto al vertical Primario; y ya hacia la parte B del occiden
+te, como los circulos de Posicion seria la Especie de los Reloxes Meridionales in-
+clinados y sin declinacion Alguna, [ll] de 90 gr. de declinacion respecto del Meri-
+diano, y ninguno respecto del vertical primario estos no estan demostrados en
+La 1a figura de Atras por no confundir los
+circulos demaciadamente , y asi los
+demuestro aqui en esta figura 2a con solo
+dos Planos sobre la Meridiana D.L.S. in-
+clinados el uno hacia el orto. A. y el otro ha-
+cia el occidente. B. el primero es el S.E.D. in-
+clinado hacia el Horizonte La cantidad 
+A.E. apartado del Zenit L. La cantidad
+L.E. el otro inclinado hacia el occaso
+La cantidad. L.F. que es el Plano S.F.D.
+Ambos rectos al vertical primario porque
+Lo cortan rectamente y miran a el sus Gno-
+mones rectos, pero inclinados respecto
+del Meridiano, y Horizonte. A.S.B.D. ca-
+da uno de dos rostros, uno superior Al cielo
+Y otro inferior hacia la tierra, [lla] (fin de párrafo)
+
+
+A estos Planos variante los cortaran los <term type="astron" reg="círculos horarios">circulos Horarios</term> que salieren del Polo 
+del mundo. P. que es el elevado, osea Polo septf. osea el Austral. aqui solo tira el semi-
+circulo de la Hora sexta que es A.P.B. que los corta ambos en los puntos T.N.T. Y a este
+</p>
+
+
+</div>
+
+<div>
+
+<pb>Folio 3 reverso</pb>
+
+<p>
+
+modo los demas <term type="astron" reg="círculos horarios">circulos Horarios</term>, conforme la inclinacion de cada Plano, La
+<term type="astron" Reg="ecuatorial">AEqt</term>. A.O.B. los corta en los puntos. x.N.x. Asi mismo con variedad conforme
+sus inclinaciones. con que Pasaremos ya a los que se siguen. (fin de párrafo)
+
+
+En la primera figura las dos lineas. M. N.y Q. R. que pasan por el Zenit L.
+se representan dos Planos declinantes, con ellos quedarán demostrados todas las demas.
+declinan pues del Meridiano el Primero Q.R. La cantidad Horizontal Q.E. a la parte
+del sur, Y a la del Norte la cantidad D.R. Pero del vertical primario a la parte del
+orto la cantidad A.Q. Y al del occidente la cantidad B.R. Recto al Horizonte pues 
+pasa por el Zenit L. el otro plano M.N. pasa asi mismo por el Zenit L, y es recto al Ho-
+rizonte su declinacion del Meridiano a la parte del sur es. E.N. y a la del Norte la
+cantidad M.D. Pero del vertical Primario la cantidad A.M. a la parte del orto, Y a
+La del occaso la B.N.cada uno de dos rostros considerando lebantados dos Planos so-
+bre aquestas dos lineas, Y por crusarse en Angulos rectos si se considera el Plano Q.R.
+sera la linea M.N. su vertical primario particular, (que cada plano deve tener su verti-
+cal primario distinto de la Region A.L.B.). pero si se considera el Plano lebantado
+sobre la linea. M.N. sera su vertical primario la linea Q.L.R. respecto de las quales
+verticales son rectos sus Planos, y obliquos, o declinantes respecto de la Region [=] en
+estos planos pues las secciones delos Arcos Horarios, no son uniformes, ni yguales 
+los de cada seis horas,  como en los Regulares de atras ya referidos, Y solo son uniformes
+e yguales los dos arcos, o secciones de encima de tierra a las dos de debaxo como se 
+ve en la demostracion y conocidas estas secciones se forman con ellas los reloxes
+declinantes variamente cortados, o Aritmeticamente o geometricamente aquestas sec-
+ciones no estan citadas alli con Letras, sino con solos puntos negros. (fin de párrafo)
+
+
+Lo septimo que en el diagrama 1° se a de notar es que las secciones de las horas
+son siempre encontradas por quanti las las sombras de los <term type="astron" Reg="gnomon">gnomones</term> son 
+siempre a la parte contraria del sol. Y asi las secciones que caieren al occaso
+son las de las Horas de la Mañana, Y las que caieren a mano isquierda
+de la parte, o mediedad oriental son de por la tarde. Y si las fabricas fueren
+para los reloxes en Alturas de polo Austral. seran asi mismo al contra-
+rio las de la mano derecha de la parte o mediedad occidental seran las de las Ho-
+ras por la tarde, Y al contrario las de la Mediedad oriental para las de por
+la mañana en este presente diagrama. porque fuera notable y [erxo]uno con
+las secciones, pero para esto todo servira de guia la raya del <term type="astron" Reg="gnomon">gnomon</term>.
+conforme donde caiere, esto se entiende en los reloxes que declina[...], del
+Meridiano, y vertical primario, y asi mismo si estos tienen incinacion,
+que los que fueren rectos al Meridiano, Y al vertical primario, aunque esten incli-
+nados, todos estos tienen yguales las secciones Horarias, las de por la maña-
+na, y por la tarde. Y lo dicho solo se entiende en los irregulares que declinan. (fin de párrafo)
+
+
+Lo octavo que se deve advertir mucho es, que toda la fulleria, y arte de fabricar
+reloxes por numeros, no esta en otra cosa que en conoser la distancia Al Me-
+ridiano por la <term type="astron" Reg="equinoccial">AEquinoccial</term> del sol; o punto de la <term type="astron" Reg="eclíptica">Ecliptica</term>; del circulo
+Horario este el punto donde estuviese, en la <term type="astron" Reg="eclíptica">Ecliptica</term> en algun signo, o [...]
+del, en los tropicos, o en otra qualquiera parte. Y conosida esta distancia esta todo
+facil, que es el Angulo en el mismo Polo de un circulo de declinacion, con el Me-
+ridiano. Y se cierra aqueste un angulo <term type="mathe" Reg="oblicuángulo">obliquangulo</term> con cualquier vertical que
+</p>
+
+</div>
+
+<div>
+
+<pb>Folio 4 verso</pb>
+
+<p>
+Muestra la Altura del sol sobre el horizonte. Y si es dado dicho
+angulo de la distancia al Medio cielo, que es lo que se supone de las horas
+Y medias horas, por el en el mismo uni angulo <term type="mathe" Reg="oblicuángulo">obliquangulo</term> se co-
+noce la Altura del sol sobre el Horizonte, conque este punto es el que emos
+de decidir primero, con la claridad posible, por cosa necessarissima
+para nuestras cosas; como <term type="astro" reg="Eclípses">Eclipces</term>; reloxes; y otras innumerables ma-
+terias; Y esto en un solo uni angulo <term type="mathe" Reg="oblicuángulo">obliquangulo</term> spheral,  y a su res
+pecto de todos quantos se pueden ofreser, por dos modos porthaphere-
+ticos, que procurare explicar con toda claridad. (fin de párrafo)
+Otros muchos puntos avia que advertir pero se iran notando como se fue-
+re ofreciendo. agora poes e de explicar el primer modo de <term type="mathe" Reg="prostaféresis">Porthaphe-
+resis</term> del referido triangulo <term type="mathe" Reg="oblicuángulo">obliquangulo</term> para el efecto de las altu-
+ras del sol sobre el Horizonte
+sea pues en el diagrama pre-
+sente. el Meridiano. A.B.L.C.
+el Horizonte oriental, o el oc-
+cidental. B.G.H.C. la <term type="astron" Reg="equinoccial">equi-
+noccial</term> K.T.L. con los dos pro-
+pios de [69.] y [...] u otros dos qua-
+lesquier parallelas de signos,
+o puntos, uno Austral en E.
+Y otro Septentrional en F. si la altura
+de polo C.P. fuese septentrional y si fue-
+re Austral el punto F. sera
+Austral; Y el de E. septentrio-
+nal. sean dos verticales que pa-
+sen por estos dos puntos E. y F.
+el uno A.E.G. y el otro A.F.H.
+Y un semicirculo de declinacion que rase por ellos, o circulo Horario que to-
+do es uno. de polo á polo P.F.E.D: como todo esta expreso en la figura (fin de parrafo)
+quedan pues formados dos triangulos <term type="mathe" Reg="oblicuángulo">obliquangulos</term> que on el menor,
+o de menor Basis A.F.P. donde A.P. es complemento de la altura de 
+Polo C.P. el lado, o Basis. F.P. complemento de la declinacion T.F. el
+tercer lado A.F. complemento dela Altura del sol F.H. sobre el Horizonte
+o es A.F. la distancia al Zenit. A . El segundo triangulo <term type="mathe" Reg="oblicuángulo">obliquangulo</term> ma-
+yor, o de mayor Basis, es A.E.P. donde. P.E se compone de 90g. de P.I.
+Y de la declinacion. I.E. el lado A.P. complemento al Polo C.P. co-
+mun lado a ambos triangulos, como el Angulo A.P.F. y el A.P.E. que es el
+mismo, el tercer lado es A.E del vertical, complemento de. G.E. altura
+del sol sobre el Horizonte conque queda explicado el diagrama bastan-
+temente. donde aquestas dos porcones de los verticales, o alturas del sol
+sobre el horizonte G.E. y H.F. de una ves an de quedar conosidas. (fin de párrafo)
+</p>
+
+</div>
+
+<div>
+
+<pb>Folio 4 reverso</pb>
+
+
+<p>
+Aqueste primero modo pues es Expedito, Y solo tiene de leve trabaxo
+el ser por senos versos, esto es, un seno verso que sirve de multiplica-
+dor, pero con tener a mano una tabla de senos versos, de 30. en 30. minu-
+tos, para las Horas, y medias horas, estara suplido aqueste trabaxo. y asi
+la [de] adelante expresa, para que aqui no falte nada de donde se tomara
+el que fuese necessario, Y de [L] se hara exposicion por [nueve] para perpetuo
+multiplicador de aquella hora, o media hora en que se obra por todos los pun-
+tos del Zodiaco; <term type="astron" Reg="eclíptica">Ecliptica</term> [X]. Seno verso no es otra cosa que lo que re-
+sulta de restar un Seno de complento del senoto, como si fuese dado
+el Arco de. 23. a 30 ó. Y se quicierse conoser su seno verso. Su seno recto
+seria (39[8]74907 *subrayar*). Y ek de su complemento. (9[1]706007. *subrayar*) este es el que se resta
+del seno todo, y quedan (829393. *subrayar) que es el tabulado, en la fig de tabla conque
+escusamos de sacar senos de complementos, Y de la resta que se hace. (fin de párrafo)
+
+
+
+Para los senos versos mayores del seno todo, delos Arcos mayores que 90.
+Gr. se tomara del arco dado, el complemento a 180 g. Y el arco de la recta
+dara en esta tabla un seno verso que añidiendole el seno todo, sea el seno
+verso que se busca, como si el Arco fuese de [.105.] su complemento a 180 gr. sera
+75.g. que en esta tabla dara el seno verso. (7 4118095 *subrayado) Y añidiendole el seno
+todo sera. (174118095. seno verso de [105 gr.] Y asi de los demas. (fin de párrafo)
+
+
+
+Esto supuesto B [...] al punto, en el traingulo <term type="mathe" Reg="oblicuángulo">obliquangulo</term> menor de 
+atras. que es el A.P.F. es con el que siempre se a de obrar, que de el se deduse, y 
+saca la operacion del mayor siempre, sin necessidad de nueva, [...]
+operacion. es pues conosido en el lado A.P. del complemento dela
+Altura del polo. Asi mismo La Basis, o lado. F.P. complemento de la decli-
+nacion. T.F. con unio [Ara] se obra, Y con el del complemento de la Altura de 
+Polo. sera asi mismo conosido el Angulo incluso, o intercepto destos dos 
+lados, que es A.P.F. de la distancia al meridiano por la sqt. que es T.K. con que para
+conocer la Altura del sol sobre el Horizonte se obrara en la siguiente forma. (fin de párrafo)
+
+
+
+Sumese el arco del complemento del polo, con el Arco de la declinacion
+Y tomese el seno recto de la suma, Y sera primero invento;  tomese asimismo
+la diferencia destos dos Arcod, Y saquese su seno recto, y sera 2° invento [=] su-
+mense aquestos dos senos de 1° y 2° [y] inventos, y tomese la mitad [hasta] de la
+suma. y sera esta mitad 3° invento (hasta aqui este primero modo, es lo mis-
+mo que obraremos en el 2° modo). tomese luego de la siguiente tabla el seno ver-
+so del Angulo comprehendido de la lista. al meridiano por la <term type="astron" Reg="ecuatorial">AEqt</term>. y llama-
+remosle 4° invento. deste se hase expancion por [nueves] pasa que sirve de mul-
+tiplicador perpetuo de las Alturas sobre el horizone de todas las horas, o puntos
+de tiempo que se dieren de alguna declinacion, que sera con la que se empeso a obrar.
+Al que directo, partido por el seno todo llamaremos 5° invento aviendo mul-
+tiplicdo el 3° invento por este 4°  o seno verso con que abra salido el 5°. aqueste
+en los signos septes, o polo septentrional. se restara siempre del 1° invento sobre
+tierra, Y para los signos Australes sobre tierra se restanra del 2° invento.
+Y para las depreciones del sol debaxo de tierra se restara al contrario, Y que-
+dara el 6° invento de la Altura del sol sobre el Horizonte, o debaxo [Xta]. (fin de párrafo)
+</p>
+
+</div>
+
+<div>
+
+<pb>Folio 5 verso</pb>
+
+
+[Tabla de Senos Versos]
+
+</div>
+
+<div>
+
+<pb>Folio 5 reverso</pb> 
+
+
+<p>
+Los Exemplos Haran clara aquesta doctrina a decir tiempo que para estas
+operaciones bastan de a seis cifras los senos, Y [aun de a cinco] por ser por gr.
+Y mt. solos. supongo pues el seno todo de 1000000. de a seis cifras; qui-
+tando las dos [Otrinas] en los senos versos desta tabla. sea pues 1° Exemplo
+en todas las Horas, y sus medias siendo la declinacion del sol de (14 g. 52 mt.*subrayado)
+septentrional en altura de polo septentrional de 19 g. 15. Y en la misma declinacion Austral.
+que la primera es en los 10.g. de
+Tauro. y en los 20 de Leo y la Aus-
+tral en los 20 g. de <name type="constelation" reg="Acuario">Aquario</name> y en
+los10 de <name type="constelation" reg="Escorpio">Escorpio</name>. Y esta asi en  
+polo septentrional. como en Polo
+Austral que con una sola ope-
+racion se sacan las Altu-
+ras de quatro puntos de 
+La <term type="astron" Reg="eclíptica">Ecliptica</term>. Y no solo son
+Alturas, sino depresiones
+debaxo del Horizonte. con 
+una sola [cilissima] operacion
+o multiplicacion. sea pu-
+es el Exemplo en las 6. y. 30.
+Y las 5. y. 30. de la mañana,
+Y de la tarde, que las Alturas 
+del sol sobre el Horizonte
+de por la mañana, son ygua-
+les a las de sobre tarde co-
+mo se corresponden en las
+distancias al Meridiano
+como esta de las 6. H.30.
+de la tarde, o mañana.
+que dista de Meridiano 82g 30.
+Y lo mismo las 5.H.30. e tomado aqueste Exemplo por que aigan depre-
+siones del sol debaxo del Horizonte que aunque siempre las ay las cercanas
+al Horizonte son necessarias para los <term type="astro" reg="Eclipses">Eclipses</term> del sol en el Oriente. [X] (fin de párrafo)
+
+
+
+Sumando pues. 70.g.45'. del complemento del polo septentrional de 19g.15'. con 14.g.52'.
+de la declinacion septentrional. (o en polo Austral en declinacion Austral) Y era 
+la suma (85.g.37'. *subrayado) su seno recto es (997075. *subrayado) Primero invento, la diferen-
+cia de los dos arcos es 55.g.53'.(***) y su seno recto es. 827897. (***) segundo invento.
+La suma destos dos senos es. 1824972.(***) y su mitad. )12486. (***) 3° invento
+que es el que se a de multiplicar por el seno verso desta tabla de -82.g.30'. que
+es 869473. (***) hecha expancion del por nueve, para la facilidad de las 
+multiplicaciones, como la que se ve hecha por este 4° invento; Y sale el 
+Producto 793382. (***) quinto invento. con este se hacen las restas. Una
+del primero invento. 997075. Y otra del 2° 8278 97. Y sale en la primera
+el seno
+</p>
+
+</div>
+
+<div>
+
+<pb>Folio 6 verso</pb>
+
+
+<p>
+el seno. 203693. (***) cuyo Arco es. 11.g.45'. y en la [segunda] es seno 34515 (***) cuio
+Arco es de 1.g.59'. (***) y ambos senos por 6° invento. aquestos dos arcos
+son alturas sobre el Horizonte, oriental, y occidental. Y depresiones
+en quatro puntos de la <term type="astron" Reg="eclíptica">Ecliptica</term> en altura de polo septentrional y en otros quatro
+[permutadamente] en Altura austral, como estan atras expresos en la de-
+clinacion 14.g.52 en los 10.g. detauro, y los 20 de <name type="constelation" reg="Leo">Leon</name> de la mediedad 
+septentrional y en los 10.g. de <name type="constelation" reg="Escorpio">escorpion</name> y los. 20, de <name type="constelation" reg="Acuario">Aquario</name> de la mediedad Austral
+esto es asi para todas las partes, y puntos de la [...] en esta sola expansion
+por nueve del seno verso {puesto] de 82.g.30' excepto para los 12.H en punto
+Y para las seis de la mañana, o tarde. que se sacan en la forma siguiente. (fin de párrafo)
+para las 12 horas en punto sirven la suma y resta del principio de los
+dos Arcos complemento del polo, y declinacion. que son. 85.g.37. y 55.g.53. que
+quando el uno es Altura sobre el Horizonte [esalo xe] depresion. y al contra-
+rio, y asi sean permutadamente en lo dichos puntos, conforme es la de [Oracion]
+septentrional, o Austral; y conforme los polos septentrional o Austral. esto es facil conocer
+Y asi mismo quando la Altura sobre el Horizonte es a la parte del norte, respecto
+del vertical primario, o a la parte del sur, por que tu en las alturas de polo meno-
+res que 23.g.31'. pasa el sol del Zenit a la parte contraria al mediodia, y antes
+conforme fuere el polo septentrional o austral. esto ira todo en la tabla que adelante 
+dare muy expreso con una escala negra que hase divicion [X]. (fin de párrafo)
+Para hora de las seis de la tarde, o mañana, lo que se hace es restar los sex-
+tos inventos el menor del mayor. Y la mitad de la resta es el seno de la Altura
+sobre el Horizonte, como en el exemplo presente que res-
+tando. 34515. (***) de. 203693. (***) sextos inventos queda
+el seno. 84589. (***) cuio arco es. 4.g.51. altura A las 6.h.
+en punto sobre tierra en los 10.g. de Tauro y los 20. de Leo
+Y es la misma depresion en los 10.g. de <name type="constelation" reg="Escorpio">Escorpion</name>. y los 20. de <name type="constelation" reg="Acuario">Aquario</name> en polo septentrional y en
+Austral al contrario de lo dicho solo nos resta el accidente siguiente (fin de párrafo)
+Suele pues suceder que la suma de los dos lados, declinacion y complemento
+del Polo exeden al quadrante de 90.g. como siendo la declinacion
+23.g.8.48. que la suma es [2[3.g.53.48. co-
+mo aqui aparece. Y en estos casos se toma
+el seno recto del complemento a 180.g. Y se-
+ra el primero invento, Y en lo demas como
+atras multiplicando el 3° invento por 
+la misma expancion de atras del seno ver-
+so que sirve a todos los puntos dela <term type="astron" Reg="eclíptica">Ecliptica</term>
+A las 6.H.30. y a las 5.H.30. asi encima co-
+mo debaxo de tierra en los quatro puntos
+(10. g. de <name type="constelation" reg="Capricornio">Capricornio</name> [=] con los 20. de <name type="constelation" reg="Sagitario">Sagitario</name> ***) y [tem] en los
+10.g. de <name type="constelation" reg="Cancer">cancer</name>. que aqui son sobre tierra, como en 
+los 20.g. de <name type="constelation" reg="Geminos">Geminis</name>. que en los otros son depresiones
+Y al contrario todo [= igual].
+</p>
+
+</div>
+
+<div>
+
+<pb>Folio 6 reverso</pb>
+
+[Tabla de Las Alturas del sol sobre el Horizonte (Y algunas depresiones) en Altura.]
+
+</div>
+
+</body>
+
+
+</text> 
+
+
+</TEI>

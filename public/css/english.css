@@ -1,0 +1,7 @@
+h2#unam{
+	font-size:12px;
+}
+
+ul#creditos li a:link, ul#creditos li a:active, ul#creditos li a:visited {
+	font-size:11px;	
+}

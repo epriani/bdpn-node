@@ -1,0 +1,2479 @@
+﻿<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="es">
+<schemaSpec ident="TEI-minimal" start="TEI">
+	<moduleRef key="tei"/>
+	<moduleRef key="header"/>
+	<moduleRef key="core"/>
+	<moduleRef key="textstructure"/>
+	<moduleRef key="namesdates"/>
+</schemaSpec>
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+       <title>DISCURSO COMETOLOGICO, Y RELACION DEL NUEVO COMETA: 
+	          VISTO en aqueste Hemispherio mexicano,
+	          y generalmente en todo el Mundo: el Año de 1680;
+              Y extinguido en este de 81:
+              Observado, y Regulado en este mismo Horizonte de <name type="place" reg="México">Mexico</name>.
+			  <abrTitle> Discurso Cometográfico, y relación del nuevo cometa; 1681.</abrTitle>
+			  
+	  </title>	  
+
+	   <author>Joseph de Escobar Salmerón y Castro </author>
+  </titleStmt>	   
+	   
+  <publicationStmt>
+<publisher>Universidad Nacional Autónoma de México. Facultad de Filosofía y Letras</publisher>   
+<distributor>Biblioteca Digital del Pensamiento Novohispano</distributor>
+  </publicationStmt>
+	   
+	   <respStmt>
+
+  <name>Ramiro Cotarelo Lira</name>
+
+  <resp>Marcado XML/TEI</resp>
+
+      </respStmt>
+
+ <respStmt>
+
+  <name>Héctor Rafael Aparicio Sedano</name>
+
+  <resp>Transcripción</resp>
+
+ </respStmt>
+	   
+	   
+	   
+	   
+	   <sourceDesc>
+	     <bibl>DISCURSO COMETOLOGICO, Y RELACION DEL NUEVO COMETA: 
+	          VISTO en aqueste Hemispherio mexicano,
+	          y generalmente en todo el Mundo: el Año de 1680;
+              Y extinguido en este de 81:
+              Observado, y Regulado en este mismo Horizonte de <name type="place" reg="México">Mexico</name>.
+              POR JOSEPH DE ESCOBAR, SALMERON (Por la Viuda de Bernardo Calderon, 1681.) 		  
+		</bibl>
+	   </sourceDesc>
+	      
+ </fileDesc>
+</teiHeader>
+	   	  
+		  
+<text>
+<div>
+<front>
+
+<titlePage>
+Portada
+<pb>folio 1 frente</pb>
+
+<docTitle>DISCURSO
+COMETOLOGICO,
+Y RELACION DEL NUEVO
+COMETA:
+VISTO en aqueste <name type="place" reg="México">Hemispherio mexicano</name>,
+y generalmente en todo el Mundo: el Año de <date>1680</date>;
+Y extinguido en este de <date reg="1681">81</date>:
+Observado, y Regulado en este mismo Horizonte de
+<name type="place" reg="México"> Mexico.</name>
+</docTitle>
+
+POR <name type="person" reg="José de Escobar Salemerón y Castro">JOSEPH DE ESCOBAR, SALMERON, Y
+CASTRO</name>, Medico, y Cathedratico de Cirugia, y
+Anothomia, en esta <name type="Inst" reg="Real Universidad">Real Vniversidad</name>:
+
+Dedicado, y Consagrado al gloriosissimo Patriarcha
+<name type="cathDiv" reg="San José">SAN JOSEPH</name>, Esposo de <name type="cathDiv" reg="Virgen María">Nuestra Señora</name>, y
+amantissimo Patron de esta <name type="place" reg="Nueva España">Nueva-España</name>.
+
+[Imagen de un cometa]
+[Nota manuscrita en la imagen, confirmar con el original Al parecer la nota dice El cometa...]
+
+<docImprint>
+CON LICENCIA. En <name type="place" reg="México">Mexico</name> Por la <name type="person">Viuda de
+Bernardo Calderon</name>, Año de <docDate>1681</docDate>.
+</docImprint>
+
+
+</titlePage>
+
+</front> 
+</div> 
+
+<body>
+
+<div>
+
+
+<pb>folio 1 vuelta s/n</pb>
+<p>
+
+Firma autográfa de <name type="person">Mendoza</name>, supuesto propietario y el costo del texto, 2 p
+
+</p>
+</div>
+
+<div>
+
+<pb>folio 2 frente s/n</pb>
+
+
+[Imagen de San José]
+[Letra capital de 6 renglones, adornada con flores]
+
+
+
+<p>
+<name type="cathDiv" reg="San José">PATRIARCHA SANTO, VIRGEN PURO</name>,
+y Padre putativo de <name type="cathDiv" reg="Cristo">Christo</name>, con Fe viva animo
+fervoroso, zelo Christiano, y con vn pecho de-
+votamente Catholico, toda esta Septentrional
+<name type="place" reg="América">America</name>, y <name type="place" reg="Nueva España">Nueva-España</name>, desde su primero, y
+feliz descubrimi(e)nto, por apellidar segura su feli-
+cidad: os nombrò, eligiò, y advocò por su vigilantissima Guar-
+dia, Custodia, y vnico Patron: de quien cordialissimamente las
+Ciudades todas deste Seno Mexicano, con sus nobles habita-
+dores han seguido, y prolongado hasta oy con mas encendido
+fervor, la muchas vezes dichosa suerte en la advocacion de
+tan alto Santo y Amantissimo Tutelar, fiando como siempre,
+de tan seguro Patr(o)n, el empeño de las amenaças, y temores, (q)ue
+puede induzir este Cometa presente, como temeroso aborto
+de
+
+</p>
+
+</div>
+
+<div>
+
+<pb>folio 2 vuelta s/n</pb>
+
+<p>
+
+de las errantes lumbreras; por cuyo Patrocinio assimesmo se
+ofrece verdadera c(o)nfiança para toda su Corona Española: que
+assi como el Sol en la vuelta entera, que da al Orbe en 24 ho-
+ras; una hora no dexa de alumbrar, fomentar, y vivificar tierra
+de su gran Monarcha Rey y Señor <name type="person" reg="Carlos II">D. CARLOS SEGUNDO</name>
+(que Dios guarde) Tu <name type="cathDiv" reg="San José">Joseph</name> Santissimo como purissimo Sol
+(segun <name type="person" reg="San Agustín">S. Augustin</name> <refTitle>tom.10.Serm.81.de tempore</refTitle>) un solo in-
+stante, no falten tus favores, y purissimas luzes, para fomen-
+tar , alumbrar, y desterrar las mas tenebrosas amenazas, que
+pueden tenerse en este nuevo Cometa, que produxeron las es-
+trellas: Y si estas à vista del Sol, apagan sus luzes, esconde en
+sus esplendores; y aun aquel milagroso, y tan luzido Cometa
+(segun algunos) que guiò los <name type="cathDiv" reg="Reyes magos">Magos</name> hasta el lugar de <name type="cathDiv" reg="Cristo">Christo</name>
+nacido, retirò sus luzes à vista de tus clarissimos resplandores;
+pues no se vieron mas (q)ue las tres Personas de <name type="cathDiv" reg="Cristo">JESVS</name>, <name type="cathDiv" reg="Virgen María">MARIA</name>,
+y <name type="cathDiv" reg="San José">JOSEPH</name>: el presente Cometa, à vista de tu Patrocinio sin-
+gular, extinguirà; en lo mas adverso sus luzes; endulçarà su
+mordacidad; ablandarà sus terrores, y suspenderà sus mas hor-
+rorosos effectos para todo el Imperio Español, y esta <name type="place" reg="Nueva España">Nueva-
+España</name>, (q)ue Patrocinas; troc(a)ndo à pesar de su ponçoña, los ame-
+nazos lugubres, e infaustos, en alegres victorias, y plausibles su-
+cessos de nuestro Rey y Señor, en todos sus Goviernos, con feli-
+cissima succecion, assistiendole tu Patriarcha Santo, como vni-
+co Angel de Guarda de su Real persona, que assi tendrà en tu
+assistencia, mas que muchos Angeles de Guarda.
+En dos ocasiones contemplo à <name type="cathDiv" reg="Cristo">Señor N.</name> en manos
+de sus enemigos: En la vna huyendo à <name type="place" reg="Egipto">Egypto</name> del poder de
+<name type="person">Herodes</name>, y de su Imperio: En la segunda, en el Huerto
+templandole su poder, para poder pedir al Padre Legiones de
+Angeles à la venganza de su agravio. Aqui de sola vna escol-
+ta de hombres muestra, al parecer, necessidad de Angeles mu-
+chos: alli del poder grande de vn Rey, y de todo su Imperio, al
+no oyr la necessidad de Angeles, la advierto escusada, por no
+expressarse à la duda. Mas aunque distantes los lugares de los
+suce-
+
+</p>
+
+</div>
+
+
+<div>
+
+<pb>folio 3 frente s/n</pb>
+
+<p>
+sucessos; no esta muy lejos la solucion a la duda, si està <name type="cathDiv" reg="San José">Joseph</name>
+al lado de <name type="cathDiv" reg="Cristo">Christo</name> huyendo à <name type="place" reg="Egipto">Egypto</name>, cuya presencia vale por
+muchas Legiones de Angeles; y en el Huerto, como <name type="cathDiv" reg="San José">Joseph</name> no
+assistiò: avian de substituir su presencia, en guarda de <name type="cathDiv" reg="Cristo">Christo</name>,
+muchas Legiones de Angeles. En ambos sucessos, parece, que
+asistiò la sutileza de <q reg="Sanctorale Sive, Sermo secundus de Sancto Josepho">Sylveira lib. 1 cap. 10.super Evang. <foreign lang="Lat">quest.
+15.n.54 Vt à manu Imperij Herodis Christus eximeretur, pote-
+rat Pater mittere duodecim legiones Angelorum, &#38; ut à caevitia
+alterius Herodis custodiatur; unus tantum elligitur Joseph? Me-
+ritò Sanè. Hic licet unus, pro illis omnibus erat. N(o)n ne vides, quo-
+modo in coelo millia millium ministrabant ei? Pro illis omnibus
+in terris unus est <name type="cathDiv" reg="San José">Joseph</name></foreign></q>. Por muchos Angeles de Guarda vale
+tu Patrocinio <name type="cathDiv" reg="San José">Joseph</name> Santissimo. Por vnico antidoto contra
+toda Peste te veneran, por dadivoso, y charitativo amante de
+tus Pueblos te reverencian, y como verdaderamente piadoso
+el Orbe todo te adora, y como vnico Patron toda esta <name type="place" reg="Nueva España">Nueva-
+España</name> con todo rendimiento te suplica, no le faltes en los ac-
+cidentes adversos, que se pueden rezelar. Y como am(a)nte leal
+te pide: à su Rey y Señor le assistas como Angel de su Guarda,
+y à todos sus Governadores, y subditos, para que como Catho-
+lico Monarcha dilate nuestra S. Fè por todo el mundo, para
+mayor honra, y gloria de <name type="god">Dios</name>.
+
+</p>
+
+</div>
+
+<div>
+
+<pb>folio 3 vuelta s/n</pb>
+
+<p>
+
+<head>CENSVRA
+
+DEL <name type="person">R. P. FRANCISCO XIMENEZ</name> Provincial, que
+ha sido, de la Sagrada Religion de la Compañia
+de <name type="cathDiv" reg="Cristo">JESVS</name> de esta <name type="place" reg="Nueva España">Nueva.España</name>, &c. </head>
+
+Ex.mo Señor.
+
+[Letra capital de 4 renglones]
+POR mandado de V.Ex.he leydo el Discurso
+Cometologico del B.r <name type="person" reg="José de Escobar Salemerón y Castro">Joseph de Escobar,
+Salmeron, y Castro</name>, Medico, &amp;c.
+Y està muy bien trabajado, erudito, ingenio-
+so, y conforme à los principios, y observaciones de los
+<term type="OldSp" reg="Filósofo">Philosophos</term>, y Astrologos antiguos, y de algunos
+modernos; y no contiene cosa, contra nuestra S. Fè, y
+buenas costumbres. Con que podra V. Ex siendo sèr-
+vido, dar Licencia para que se imprima. Professa, y
+<date>Abril 15. de 1681</date>.
+
+                                      <name type="person">Fransisco Ximenez
+Orlado</name>
+
+[Letra capital de 2 renglones]
+EL <name type="person" reg="Conde de Paredes">Ex.mo Señor Marquès, Conde de Paredes</name>, del
+Consejo de su Majestad, Virrey de esta <name type="place" reg="Nueva España">Nueva-España</name>, ese,
+Vista la Censura de arriba, diò licencia para esta Impresion: Por
+Decreto de <date>18. de Abril de 1681</date>.    Rubricado de su Ex.
+APRO-
+
+
+</p>
+</div>
+
+
+<div>
+
+<pb>folio 4 frente s/n</pb>
+
+<p>
+
+            <head> APROBACION
+DEL <name type="person">DOCTOR D. GARCIA DE LEON
+Castillo</name>, Cura Propritario por su Magestad, de esta
+Santa Cathedral Metropolitana, Ordinario del Santo
+Officio de la Inquicision de esta <name type="place" reg="Nueva España">Nueva-España</name>,
+con Pruebas dimanadas por la Suprema, y
+General; Segunda vez Rector de esta
+<name type="Inst">Real Universidad</name>, y Abogado de
+esta Real Audiencia. </head>
+
+[Letra capital de 6 renglones, adornada con flores]
+EN virtud del Decreto del señor <name type="person">Doctor D. Juan
+Cano Sandoval</name>, Maestre-escuela de esta <name type="Inst">S. Igle-
+sia Cahtedral Metropolitana</name>, Cancelario de esta 
+<name type="Inst">Real Universidad</name>, Juez Provisor, y Vicario 
+General de este Arçobispado, por el Ilust. moy  [apostilla del 5 al 8 renglón: Proveb. cap. 17. v. 24]
+<name type="person">Ex. mo Señor M. D. Fray Payo Enriquez de 
+Ribera</name>, Virrey que fue de esata  <name type="place" reg="Nueva España">Nueva-España</name>: Vì, Leì y con ad-
+miracion ponderè; no solo lo singularisimo de lo perspicazmente
+philosophado, lo mas que raciocinadamente discurrido, y ultima- 
+mente; lo que mas en segura medicina, es imaginable en el Dis-
+curso a todas luzes grande, que á cerca del Cometa, que se viò en 
+la superior region el año passado, y reconociò toda esta <name type="place" reg="Nueva España">Nueva Es-   
+paña</name>: observado con tan singular, y trabajado estudio, por el B. r
+<name type="person" reg="José de Escobar Salemerón y Castro">de Escobar, Salmeron, y Castro</name>, Medico, y Cathedratico 
+de Cirugia, y Anathomia en esta <name type="Inst">Real Universidad</name>, que parece
+que el Cometa apareciò mas para haverse discurrido con tan ge-
+nuinas razones, y solidos fundamentos, que segun ellos, parece, se 
+hazen llanos los sucessos, que de el se pueden rezelar: pues la salud
+ò enfermedad consiste en la conveniencia, ò disconveniencia de,
+<term type="med">humores</term> de los cuerpos sublunares, que las causas naurales pue-
+den mover, como dixo <q><name type="person">Avicena</name> lib.I.Fen.2.</q> Bien observado
+del    
+
+</p>
+
+</div>            
+
+<div>
+
+<pb>folio 4 vuelta s/n</pb>
+
+<p>
+del dicho B.r Salmeron, tan seguro en el discurso, que para afian-
+çarlo, observò lo que dixo <q reg="Naturales quaestiones annaei senecae, libro 7"><name type="person" reg="Séneca">Seneca</name> <refTitle reg="Naturales quaestiones annaei senecae, libro 7">en el lib 7. de sus quaestiones natu
+rales</refTitle>: <foreign lang="Lat">Quae an vera sint, Dijsciunt. Nobis rimari illa in oculto
+tantu licet</foreign></q>. Y si de <name type="person" reg="Hipócrates">Hipocrates</name> <q reg="La ciudad de Dios, libro 5"> dixo el gran Padre de la Iglesia <name type="person" reg="San Agustín">S.
+Augustin</name>, <refTitle reg="La ciudad de Dios, libro 5">en el lib.5.de Civitate Dei</refTitle>: <foreign lang="Lat">Creavit Deus Hipocratem
+tanquam virum in arte medica minimè errantem</foreign></q>. Los que le-
+yeren este Discurso, reconoceràn, quan nacidas le vienen las pala-
+bras por lo discurrido al dicho B.r Con que siendo de la calidad,
+que llevo referida su raciocinacion, hallo ser digno de que sè dè à
+las prensas; pues no contiene cosa contra nuestra Santa Fè Catho-
+lica, ni buenas costumbres. Este es mi parecer, salvo <foreign lang="Lat">in omnibus
+meliori iudicio</foreign>. <name type="place" reg="México">Mexico</name>, y <date> Marzo 30. de 1681</date>. años.
+
+                                <name type="person">Doct. D. Garcia de Leon
+                                      Castillo</name>
+[Orlado]
+
+
+[Letra capital de 2 renglones]
+EL Señor <name type="person">Doctor D. Juan Cano Sandoval</name>, Mae-
+stre-escuela de esta S. Iglesia Cathedral Metro-
+politana, Cancelario de la <name type="Inst">Real Universidad</name>, Juez
+Provisor, y Vicario General deste Arçobispado,&amp;c.
+Aviendo visto la Aprobacion de arriba, diò Licencia
+para la impression deste Discurso Cometologico, por
+Auto de <date>17. de Março de 1681</date>. Ante <name type="person">Fransisco de
+Villena Notario Publico</name>.
+
+</p>
+
+</div>
+
+
+<div>
+
+<pb>folio 1 frente</pb>
+<p>
+orlado  
+<head>PROLOGO</head>
+La persuacion de algunos afectos para que 
+escriviese este Discurso, hame empeñado à
+disimular dos motivos, que aun mismo tiem-
+po timido respetava: En el primero, adver-
+tia el temor, que aliado de bastante verguan
+ça, me ocupava el animo al cojer en este as-
+sumpto la pluma, à vista de las muchas, que (aunque no decla-
+radas por quadernillos, en esta ciencia Astrologica) conosco,
+y reconosco Superiores, qu(a)ndo por remontadas en alas de in-
+genios Americanos, se desparecen à muchos, por no parecer-
+se à algunos: De esta verdad, pongo por testigo al doctissimo
+<name type="person" reg="Pérez de Nueros, Jerónimo">P. Geronymo Perez Nueros</name>, de la Compañia de <name type="cathDiv" reg="Cristo">JESVS</name>, en 
+su erudita Lapidicina.
+     En esta primera parte, le aseguro (perdonada la cortedad 
+de mi entendimiento) cobrarà en los ojos los prudentes, y 
+sabios, el lustre que necessita, para llegar à sus manos:<q reg="Biblia: libro de los Proverbios, 17:24"><foreign lang="Lat"> In facie [apostilla del 16 al 18 renglón: <refTitle>Proveb. cap. 17. v. 24</refTitle>]
+prudentis lucet sapientia: Oculi stultorum in finibus terrae</foreign></q>.
+     De los imprudentes, y necios, que todos temen; con certi-
+dumbre confio Yo la suavidad à lo menos, quando hago lo 
+mas, que es ponorles la mesa, con el manjar de su gusto, por no
+decirle el cevo de su mordacidad, de que me pueden estar agra-
+decidos, à no callar correspondidos. 
+     El segundo motivo, que me detenia, era el huir la distrac-
+cion de mi precissa, y legitima ocupacion de Medicina, cuya
+continua vigilancia, se queja aun del mas breve rato, que se le
+divierte: mas como con tanta estrechez, se den estas dos cien-
+cias las manos; no fue dar de mano a la Medicina, el vsurparle 
+en el curso de sus tiempos, algun tiempo, para este Discurso.
+     Y como esta materia Cometica, sucite tanta curiosidad 
+en el entendimiento, sin sosiego trabesea este, en escudrinar,
+sus causas; buscando à lo menos la razon, que mas le pueda
+aquie-				A    
+ 
+</p>
+</div> 
+
+<div>
+
+<pb>folio 1 vuelta</pb>
+
+<p>
+aquietar; y crece mas su inquietud, quando le propon(e)n varias,
+y diversas opiniones sin probar la selecta; y faltando aqui la 
+probança; sobran alli las dudas. Esto me ha suceido en la 
+ocasion presente, pues noticiados muchos de opiniones anti-
+guas, que por faltarles fuerças <term type="OldSp" reg="Filosófico">PPhilosoficas</term> avian ya muerto,
+de cuyas memorias, aun por relacion, quodlibeteando su sen-
+tir, quieren à fuerça de la importunidad, hazermè  presidente 
+de su decision; pues si en Quodlibetos, se puede elegir la que
+se quiere: qualquiera quiere, que Yo responda à la que eligiò
+y mientras otros responden explic(a)ndose por la que eligieron,
+    Digo, por quitar dudas, que el Cometa, de esta Relacion, 
+fue sublunar, sin juzgar de otros, si fueron, ò no de alto, ò bajo
+linage, porque no los conocì, vidè, ni observè; de este si afir-
+mo, que tuvo de la tierra , pues conocì aun antes que nacierà,
+à sus Padres, segun, q(ue) despues dirè; y siendo, como es, el Co-
+meta de que tratamos, vna cosa tan remota à los sentidos: sufi-
+cientemente estaràn las opiniones contarrias impugnadas, si
+quando à ellas les cercan imposibles; y absurdos: ni aun de le-
+jos de la nuestra puede inducirse el menos; porque como el
+principio de nuestro conocimeinto, principalmente en las co-
+sas <term type="oldSp" reg="Física">Phisicas</term> sea el sentido; aquellas que no sin sensibles en si, 
+como son las celestes, que estàn remotas de nosotros, no po-
+demos por propios principios conocerlas, sino solo por prin-
+cipios extrinsecos, y experiencias; como tambien por Resolu-
+cion, deduciendo por consequencias necessarias algun princi-
+pio evidentemente verdadero, ò falso. Como si dixeramos: su-
+pongamos esto, que ignoramos si es verdadero, ò falso; segun
+la probabilidad de las consequencias: las q(ue) mas llegaren à pro-
+bar sin induccion de improbabilidad, ni absurdo; serâ la opi-
+nion mas cierta. Sentir es este del mismo <name type="person" reg="Aristóteles">Aristoteles</name>, <q>en esta 
+materia texto 33. <foreign lang="Lat">Quoniam autem de immanifestis sensui puta-
+nas suscienter demonstrasse secudum rationem, si ad posibile re-
+duxerimus</foreign></q>. Y <q reg="Aphorismi hippocratis, libro 1, 12"><name type="person">Galeno</name>, al intento, en el libro primero de los
+aphorismos 12. hablando de lo incomprehensible de la can-
+tidad de las fuerzas, dize: <foreign lang="Lat">At si non posumos earum quanti-
+tatem</foreign></q>		       A	  
+</p>
+ 
+</div>
+ 
+<div>
+ 
+<pb>folio 2 frente</pb>
+
+<p>							
+<q><foreign lang="Lat">tatem exquisitè cognoscere, poßumus tamen artificiosa quadam
+coniectura, ad veritatem proxime accedere</foreign></q>. Con que si de nue-
+stro Cometa sublunar no se sigue improbabilidad, ni absurdo;
+antes si con vna conjetura artificiossa, de que (segun nuestra
+suficiencia) usamos en su escrutinio: podremos acercar nue-
+stro sentir mas à la verdad, y como proximos à ella, conocer, 
+ser natural (aunque extraordinario) todo lo que concurriò à
+su produccion, causas, y señales, de que por consiguiente re-
+sultan naturalmente sus pronositicos, de que se puede hazer 
+<term type="astro" reg="Juicio">juizio</term>, por lo menos vna cojetura <term type="oldSp" reg="Filosófico">Philosofica</term>, como de ordi-
+nario se haze de vna <term type="astro">Conjuncion Magna</term>, y <term type="astro" reg="Eclípses">Eclipses</term>; y como 
+hijo, parto, ò efeto de los estos sea el Cometa; sigue este la mis-
+ma razon de aquellos, en poder ser juzgado en el tribunal de 
+los limites sujetos à la naturaleza, para cuyo conocimiento 
+no es necessaria particular revelacion, pues para conocer Yo,
+que donde sale humo, ay fuego, me basta el conocimiento na-
+tural, que <name type="god">Dios</name> me diò, en el orden de las cosas; pero para afir-
+mar alguno lo contrario, si lo necessita, porque ya fuera 
+milagro el que alli faltase el fuego; y assi para dar à creer qual-
+quieralo asertivo de esta opinion, se avia de obligar primero à  
+mostrar el titulo de llamado â Consejo divino; y si no lo mo-
+strase, se sugeta ia à la irricion, por su pueril desvario, que es lo 
+que esta opinion promete â los q(ue) sigu(e)n la sublunar, y natural.
+    Sea firme corroboracion de lo que hasta aqui he dicho, lo 
+que mucho antes avia pronunciado el Angelico Doctor <q reg="Comentario a las sentencias de Pedro Lombardo, Distinción 7,art. 2, solución"> <name type="person" reg="Santo Tomás">Santo
+Thomas</name>, como verdadero <term type="OldSp" reg="Filósofo">Philosofo</term>, y Astrologo, <refTitle reg="Comentario a las sentencias de Pedro Lombardo, Distinción 7,art. 2, solución">en la 2.a 2.ae
+quest. 95.artic. I. in corpore, &amp; 2. sentent. distinct. 17. q. ad
+secund</refTitle> . <foreign lang="Lat">Si autem determinentur (conviene à saber los futuros)
+in causis,ut ex quibus frequenter contingunt, cu potestate tamen,
+deficiendi in minori parte propter impedimentu ex parte agentis,
+vel ex parte recipientis actione, eoru cognitio non certitudinalis,
+sed coniecturalis haberi potest. Et hoc modo Astrologus dicit, quae-
+dam futura, quae consequutur ex motu coelesti in istis interioribus:
+quae tamen impediri possunt propter deffectu inferiori causarum
+&amp; baecpraecognitio tanto magis ad certitudin? accedit, quanto ad
+vnum	</foreign></q>			           A2      
+</p> 
+ 
+</div>
+ 
+ 
+<div>
+ 
+<pb>folio 2 vuelta</pb>
+<p>
+<q cont="1"><foreign lang="Lat">unum effectu cognoseuntur &amp; quanto virtus causae mellius scitur</foreign></q>.
+ Y assimesmo el Santo, en estas palabras, me defiende y es-
+cusa de temeroso, y criminal p[a]ra el Pueblo pronosticandole
+algunas calamidades, porque estas, como consta de sus pala-
+bras, pueden impedirse por muchas razones, en estos inferio-
+res, y los efectos, que las causas celestes produxeron en su alto
+alcaçar, ò por falta de disposicion en el recipiente, ò porque
+(como es continuo) no faltan aspectos jamas de buenos Pla-
+netas que interpolados, tiemplen, suavisen, y mejoren, lo que 
+otros aspectos de enemistad, y contrariedad produjeron; con
+que impiden muchas vezes estos (mediante Dios) la execu-
+cion, que aquellos avian dictado; que assi prosigue el <q reg="Comentario a las sentencias de Pedro Lombardo, Distinción 7,art. 2, respuesta 5"><name type="person" reg="Santo Tomás">Santo</name>, <foreign lang="Lat">in
+<refTitle reg="Comentario a las sentencias de Pedro Lombardo, Distinción 7,art. 2, respuesta 5">responsione ad 5</refTitle>. Quaetamen impediri possunt fortioribus mo-
+tibus supervenientibus</foreign></q>.
+     Y con esta suposicion se sabrà que no salgo con horrores, ni 
+espantos, pues hablo con Catholicos, ni con tanta confiança,
+que se menosprecie el aviso, à vista de los que velan à dormi-
+dos pues à este intento dixo el <name type="person" reg="Aristóteles">Philosofo</name>, y Yo lo repito: <q><foreign lang="Lat">Mel-
+lius-st ante tempus ocurrere quam post vulneratam causam, re-
+medium quaerere</foreign></q>. Ademas, que qualquiera calamidad, es muy 
+suave a qualquiera pecho Christiano, quando se espera (segun
+que despues dirè). Exaltacion de nuestra tanta Fè Catholica,
+y lo mas atroz; è infausto de las adversidades, para el <name type="person">Gran
+Turco</name>, y sus sequaces.
+
+	<head>Declarase la colligancia, similitud, ò ana-
+	logia, que se halla en el mundo, y el hom-
+	bre, respecto de los influjos celestes.</head>
+	
+	
+	
+ADmirable la obra de Dios, en el mundo, y el hombre, co- [Letra capital de dos renglones 28-29]
+mo de supremo Artifice campea magestuosa, haziendo
+alarde de su omnipotencia, en la similitudo analogia, que con 
+atencion reluze en estas dos obras, dandose con tanta estre-
+chèz las manos, en las partes que le componen; que obligò à la
+antiguedad à nombrarlas con estos dos nombres Griegos <term type="Philo" reg="Macrocosmos">Ma-
+cro-</term>
+</p>
+
+</div>
+
+
+<div>
+
+<pb>folio 3 frente</pb>
+<p>
+<term type="Philo" reg="Macrocosmos">crocosmos</term>, y <term type="Philo" reg="Microcosmos">Microcosmos</term>, que es lo mesmo (q)ue dezir, mundo gran-
+de, y mundo pequeño, que es el hombre: pues si en aquèste,
+advierte lo espherico de sus orbes celestes: espherica, y en su 
+lugar superior se mira como aquellos la cabeça del hombre:
+esphericos son los ojos, y no hay huesso en el cuerpo humano,
+que no remate con figura espherica en todos los artejos, y co-
+yunturas, como la rotula, ò huesso de la rodilla, y los demâs,
+que unos con otros se unen, y colligan; y assi como de lo alto
+de los orbes superirores, vengan los influjos à esta maquina in-
+ferior de los siete Planetas, que tan sensiblem(e)nte experimen-
+tamos; assi mesmo del celebro como de su primer origen bajan
+(segun mas cie[r]ta opinion) los siete pares de nervios, à todo el 
+cuerpo humano, para diversas acciones: unos a celebrar la vi-
+sta, el gusto otros, al movimiento los mas, sin que al oydo fal-
+ten algunos, ni al tocar particulares. Siete assimissmo son las 
+edades del hombre, y si quatro los elementos del mundo, qua-
+tro los <term type="med">humores</term> del hombre; y si en este los espiritus todo lo
+penetran, registran, y visitan: el ayre en el mundo por su suti-
+leza, todo lo anda, y escudriña; es un espacioso campo donde
+se apacentan diversidad de <term type="astron" reg="meteoro">Metheoros</term>, como nubes, aguas, ye-
+los, rocios, relampagos, truenos, rayos, dragones, chasmas,
+glovos, y otros diversos <term type="astron" reg="meteoro">Metheoros</term>, cuya materia es el fuego, y
+segun provable opinion estrellas volantes, y Cometas; es en
+en fin el ayre una mera recepcion del dia, y de la noche; quan-
+do se adelgaza ambicioso, trepa à lo sublime; cuando assi con-
+gregado, forma nubes, en cuyas entrañas deposita vapores, lle-
+na la tierra de aguas; y quando inquieto vagabundo suelta los
+vientos por diversas partes; y en fin es el ayre, el primero que 
+experimenta las calidades de los astros, que producen en
+estos inferiores, pues en el se experimentan las variedades de
+los tiempos de frio, y calor; en el se sustetan las Aves, con el
+respira todo viviente, con el vive si puro le goza, con el muere
+si inficionado de qualidad contraria le inspira, pues es el ayre
+materia de nuestros espiritus vitales, y como el ayre, tales son
+[l]os espiritus, como los espiritus, tales son los <term type="med">humores</term>, y como 
+los
+</p>
+</div>
+
+<div>
+
+<pb>folio 3 vuelta</pb>
+<p>
+los <term type="med">humores</term>, tales acciones en el cuerpo humano; y este es
+el orden que sigue el ayre inflamado, è inficionado de vn Co-
+meta, como despues se dirà.
+     No menos que el hombre reluce en los animales esta col-
+ligancia siguiendo al Sol en su carrera, como las Golodrinas
+le escuderean, del Austro al Aquilon, y del Aquilon al Austro,
+pues como se advierte por el mes de Março, les vemos que nos 
+anuncian su venida à esta plaga Septentrional: cogi(e)ndole la de-
+lantera quando vuelve à la Austral. Los Patos al contrario co-
+mo que huyen del Sol, hazen estos mismos viages. El Gallo bien 
+encerrado pronostica el Sol, que se nos aserca por el Oriente.
+El Buey escarbando la tierra, y ollendo el ayre, dà | muestras
+de la tempestad, y lluvia venidera. Y lo mismo es de otras ac-
+ciones de diversos animales, que Pestes, y Ter[r]emotos con de-
+jar su continua habitacion, nos previenen por daños futuros.                  
+     Si atendemos à la tierra, hallaremos nacidas de sus mismas 
+entrañas, siete especies de metales, que cada un[o] | [d]e los siete
+Planetas produjo, engendrò, y forjò en la fragua de sus luzes 
+à soplos de las virtudes, que Dios les diò; y veremos vna Agu-
+ja al primer toque de la Piedra Iman, que entre densissimas pa-
+redes, y fuertes muros, à pesar de estorvos mayores, anciosa
+solicita el lugar de la habitacion del fixo Norte.
+     Y para mas alabar à Dios, en sus obras: excede los limites
+de la admiracion, el ver las plantas, arboles, y yerbas, seguir su
+propension, que ayudada de la influencia con que fue amasa-
+da su naturaleza, vnas siguen à la Luna, en su forma, que lla-
+man lunares, como el Assaro, Nopal, Androfase, ò Ninfea, y el
+Cotilidon, ò ombligo de Venus, gozando aun las mismas qua-
+lidades en frialdad, y humedad, como la misma Luna.
+     Pasma assimesmo en la naturaleza, el vèr vna vna pequeña
+planta, con movimientos hijos de su propencion, como en el 
+Heliotropio, y Mirasol, que conociendo los asiduos beneficios, 
+que recibe del Sol, y que su ser, y acrecentamiento no le tiene 
+de otro influjo, se va olvidando de si mismo tras el, declarando
+con sus tallos, hojas, y flores vna inclinacion no vulgar (segun
+La-
+</p>
+</div>
+
+<div>
+
+<pb>folio 4 frente</pb>
+<p>
+Laguna) y vn intensissimo amor lleno de notable agradeci-
+miento, de suerte, que à qualquiera parte que inclina aquel re-
+lumbrante Planeta, siempre hazia aquella parte se enderezan
+vniformemente sus ramas, las quales de noche se encogen, co-
+mo Viudas atribuladas, que sentidas de su ausencia, se les des-
+fallecen de noche las fuerças, que de dia densissimas nubes no
+postraron en su galanteo.
+     Digna, y admirable de ser imitada, es la naturaleza de esta
+planta; pues si ella, aunque insensible, levanta el rostro â vista
+de tanta hermosura celeste: que debe hazer el hombre, que para
+aquella sublime Patria fue criado? Y aunq(ue) de lo mas bajo for-
+mado; solo el entre los animales todos se advierte c(o)n el rostro
+para lo alto, como à quien propriamente pertenece la aten-
+cion, y examen de tan alta arquitectura, y admirar su analo-
+gia, colligancia, y similitud, que respecto del hombre, y demàs
+criaturas inferiores se manifiesta. <q>A cuyo intento <name type="person" reg="Ovidio">el Poeta</name>:
+	<foreign lang="Lat">Pronaque; cum soectent animalia cetera terram,
+	Os homini sublime dedit, coelumque, uidere
+	Iussit, &amp; erectos ad sydera tollere ultus</foreign>.</q>
+Y yâ que es del hombre el levantar el rostro à essos sublima-
+dos claustros, y celestes Palacios: levantemos en esta ocasion 
+los ojos à este nuevo Cometa, que como Nuncio de lo dispue-
+sto en juntas de Superiores goviernos; nos dicta lo determi-
+nado por su descripcion, que es la que se sigue.
+	
+	<head>Proponese la descripcion, y observacion 
+	del Cometa en su primera apparicion.</head>
+	
+	
+[Letra capital de dos renglones 27-28]
+EL año pasado de <date>1679</date>. en mi Diario, y Pronostico de
+Temporales, à la buelta de la foja tercera, predixe temer-
+fe produccion de algun Cometa, ò otro <term type="astron" reg="meteoro">Metheoro</term> celeste, por
+algunas causas, que entonces insinue, reservando espressar las
+mas urgentes en la ocacion de este discurso; y como el año As-
+tronomico sea de Marzo, à Marzo; siete meses se retardò su 
+materia, que desde entonces se fue agregando, y disponiendo 
+para llegar à su incendio; del qual tuve noticia <date>Martes 19 de 
+No-</date>
+</p>
+</div>
+
+
+<div>
+
+<pb>folio 4 vuelta</pb>
+<p>        
+<date>Noviembre de 1680</date>. y luego <date>Miercoles 20. de dichomês</date>, po-
+co antes de las tres de la mañana, le vidè, y observè segun la
+posibilidad de mis fuerças, valiendome de las muchas, que en 
+esta materia prestan algunos( entre inumerables Autores ) q(ue)
+han dado reglas, y preceptos para hazer observaciones de Co-
+metas, de que estan oy llenas en el mundo las quatro partes,
+y muy en particular procurè llegarme segun mi suficiencia à 
+la nueva, y clara luz, en esta ciencia, el <name type="person">P. Joseph de Zaragoça
+de la compañia de Jesus</name>, en su <refTitle>Trigonometria aplicada</refTitle>, re-
+servando por agora el sutil modo de los apices en esta materia 
+para mere-Matematicos, debajo de cuya correcion no escu-
+sarè su muestre; y assi en este Discurso elegì el modo mas inte-
+legible por mas acomodarme al auditorio.
+     Digo, pues que en el <date reg="1680">dia 20. de dicho mes de Noviembre, à
+las tres de la mañana</date>, hallè la cabeça del Cometa junto à la es-
+trella de quarta magnitud, que està en el nacimiento de la ala 
+izquierda de <name type="zodiac">Virgo</name>, y primera de las que le componen dicha 
+ala, cuya naturaleza es de Mercurio, con latitud boreal de 1.
+gr. y 51. mi. y de declinacion de la misma plaga, 1. gr. y 7. mi.
+y tomada la distancia, segun longitud, entre dicha estrella, y 
+cabeça del Cometa, con el radio Astronomico, hallè estar 2.
+gr. mas alta la cabeça del Cometa; con q(ue) est(a)ndo dicha estrella
+en 29.gr. 44.mi. de <name type="zodiac">Virgo</name>; vino à estar dicha cabeça en aque-
+lla hora en los 27.gr. 16. mi. de <name type="zodiac">Virgo</name>; y hecha la misma com-
+paracion segun latitud, y delcinacion, era sola la diferencia de 
+11. mi. de declinacion mas, y de latitud 29. mi.
+     La cauda del Cometa bañava vna estrella, que està en el re-
+mate de la ala de <name type="zodiac">Virgo</name>, llegando casi à peynar con su remate 
+hazia la parte alta a otra estrella, de la misma magnitud, que 
+compone el tovillo izquierdo del Leon, en derecho para la 
+parte boreal, Y hallandose esta vltima estrella en 20.gr. de
+<name type="zodiac">Virgo</name>, por su distancia à la primera, se infiere aver tenido de
+longitud la cuada de 7.gr. 43.mi. en dicho tiempo.
+     A esta misma hora de las tres, halle mediab(a)n en el cielo 12.
+gr. de Cancro, y asciendiendo por el Horizonte 13. gr. I.I. mi. de 
+<name type="zodiac">Libra</name>.
+
+</p>
+</div>
+
+<div>
+
+<pb>folio 5 frente</pb>
+<p>
+<name type="zodiac">Libra</name>; tenia de altura la cabeça de dicho Cometa 16. gr. 49.
+mi. sobre nuestro Horizonte Oriental; teniendo de ascencion 
+recta 177.gr. y 53. mi. y de gr. Azimuthales 65 g. y 17 mi. Tu-
+vo assi nesmo en esta observacion en el circulo vertical 11. gr,
+y 9.mi. de paralaxis, y en la segunda, que vna hora despues hi-
+ze, hallè 37.mi. menos; por la qual paralaxis se vino en cono-
+cimiento, que el Cometa era sublunar.
+     Esta misma observacion referida, hize à la misma hora, el
+dia <date reg="1680">Jueves 21. de dicho mes de Noviembre</date>, y hallè la cabeça del
+Cometa muy immediata à la estrella, que se dixo estava, en el 
+nacimi(e)nto de la ala de <name type="zodiac">Virgo</name> 29 gr. 23. mi. del mismo Signo;por
+lo qual se conociò, avia sido su movimiento natural de 24. hor.
+segun succesion de los Signos, de mas de 2.gr. y medio; est(a)ndo
+ya para cortar la linea à la parte Austral, como la cortò â la
+media noche immediata, que prosiguiò su viage, siempre den-
+tro del Zodiaco; y por abreviar, digo, que cada dia fue apresu-
+rando mas el passo, por acercarse al Sol, y à la Luna, que vino
+à alcançar en el Signo de <name type="zodiac">Capricornio</name>, c(o)n quienes hizo Conj(u)n-
+cion el <date reg="1680">dia 22. de Diziembre</date>, celebr(a)ndola en el arco de la con-
+stelacion de Sagitario, desde donde caminò para la <term type="Oldsp" reg="saeta">zaeta</term> aqui-
+lonar, q(ue) caè en la ala izquierda del Aguila, q(ue) està sobre la cabe-
+ça de Antiono, ò Ganimedes, gan(a)ndo siempre de latitud Sep-
+tentrional, mas de 2.gr. y luego que llegò à esta constelacion,
+hizo Opposicion con <name type="planet">Saturno</name>, haviendo antes hecho à los
+primeros passos, desde Sagitario, Signo radical de <name type="place" reg="España">España</name>, con
+<name type="planet" reg="Júpiter">Jupiter</name>, q(ue) por caydo en Geminis, fue aspecto de bastante con-
+sideracion, y el primero que celebrò de enemistad el Cometa.
+     Assimesmo, en <name type="zodiac">Capricornio</name>, hizo Conjuncion con <name type="planet" reg="Mercurio">Mercu-
+rio</name>, à 26 de Diziembre, segundo dia de Pasqua, que observè, y 
+fue muy sensible la alteracion de vientos aquel dia, como se 
+acordaràn muchos. Otros aspectos de menos consideraci(o)n hi-
+zo en su curso con estos mismo Planetas, que no refiero, hu-
+yendo el dilatarme.
+     En <date reg="1680">el 21. de Diziembre</date>, appareciò la cauda del Come-
+ta, entre los rayos del Sol, con tanta magnitud, y latitud jun-
+ta-					B
+
+</p>
+</div>
+
+<div>
+
+<pb>folio 5 vuelta</pb>
+<p>
+tamente, que causò admiracion su anchurosa corpulencìa; y 
+luego que acabò de salir su cabeça, ocupò casi el quadr(a)nte en-
+tero su cuerpo, pues estando la cabeça casi en la misma cuspide 
+de la septima; rematava el fin de su cauda sobre nuestras cabe-
+ças, y zenit, tal que aunque la cabeça subia mas con su movi-
+miento natural sobre el Horizonte, y con el rapto bajava al
+Occidente: siempre la cauda en su remate parecia immoble
+sobre nuestras cabeças; y desde luego que trepò por la cola del
+Delfin, y quijada del Cavallo pequeño, hizo la punteria à la 
+cabeça de Meduza, en d(o)nde persevero, poco tiempo antes que 
+acabara. <date reg="1680">El dia 30.de Diziembre</date>, hizo Conjuncion con Ve-
+nus, en 10.gr. de Aquario, à las 2. de la noche, que desde las 7.
+de la noche del dia antecedente estuvo lloviendo con mucho 
+crecìmiento toda la noche con vientos frios. Prosiguiò desde 
+el Cavallo pequeño, al Pegazo, y al llegar à su rodilla diestra           
+se empeçò a hazer vertical nuestro, con declinacion de 13.gr. 
+7.mi. tocando vna estrella, que le compone de tercera magni-
+tud, con latitud 35.gr. Y todas las estrellas que hasta aqui
+visitò, desde que saliò por <name type="zodiac">Capricornio</name>, fueron de naturaleza 
+de <name type="planet">Marte</name>, y <name type="planet">Mercurio</name>. Prosiguiò su derrota passando por la ca-
+beça, y mano izquierda de Andromeda, al Pez Septentrional, 
+cabeça de Aries; y acabò en este mismo Asterismo, en los 17
+gr. de Tauro, con movimi(e)nto retrogrado de casi 9. mi. <date reg="1681">el Mier-
+coles de Ceniça 19. de Febrero de este presente año de 81</date>. Y 
+aunque afirman, fueron sus extremidades arqueadas à modo 
+de palma esto no fue por su propia forma, y figura, sino por 
+accidente de rematar la cauda en la via lactea; y assi por mas 
+limpia, y denza la parte del Norte, apareciò propriamente 
+como Portada de Iglesia, ò Vaculo Pastoral.
+     Hizo vn circulo maximo de 200.gr. en longuitud, su mayor 
+declinacion Septenrional fue de 23.gr. su movimiento no 
+fue vniforme, porque al principio fue de mas de 2.gr. y medio, 
+y mientras mas se acercò al Sol, fue mayor su movimiento
+diurno; pues llegò a 7.gr. y mientras mas se alejò de sus luzes,
+menguè mas su moviento, tal que à los fines antes que retro-
+gra-
+</p>
+</div>
+
+
+<div>
+
+<pb>folio 6 frente</pb>
+<p>
+gradara fue de 20.mi. y al mismo tiempo de su retrogradacion
+disminuyendo de la latitud, y declinacion. Admirable fue en 
+el lugar que ocupò; pues nunca saliò del Zodiaco, en cuyo cir-
+culo pocos se vieron durables, por ser continuo viage de todos
+los Astros. Singular fue en cortar dos vezes la linea; c(o)nsidera-
+ble en passar por debajo de los rayos del Sol, sin extinguirse, ni 
+resolverse su materia, antes si cobró mas fuerza, y alientos en 
+el mismo Ocasso; al salir de visitar tan refulgente lampara del 
+cielo, lo qual fue todo segun razon natural. 
+     Ya me parece oygo las dificultades, que con razon se ofre-
+cen a la duda q(ue) haze el aver oydo, que dentro de la region del
+fuego fuesse el lugar de la generacion deste Cometa; pues pa-
+rece impossible, que en las entrañas de tal voracidad persistie-
+ra en su combustion tan largo tiempo. A lo qual se responde:
+que aquella region, que llaman de fuego, no es ocupada con 
+fuego de la especie de que naturalmente vsamos en la tierra,
+necesitado de pabulo, y ayre para alimentarse en su llama, se-
+gun <cit><name type="person" reg="Aristóteles">Aristoteles</name> <refTitle reg="Meteorologica">I. Methor.cap.4.</refTitle> <foreign lang="Lat">Id, quod prope Lunam est, non 
+est ignis, licet a nobis ignis uocetur</foreign>.</cit> Y en el <cit><refTitle reg="Meteorologica">texto 31</refTitle>. <foreign lang="Lat">Pars, quae
+immediate est sub Luna, &amp; tangit caelum Lunae non est ignis, sed
+exalatio</foreign>.</cit> En cuyo c(o)mmento el eruditissimo <q><name type="person" reg="Niccolo Cabeo">Padre Nicolas Ca-
+beo</name> de la Compañia de Jesus, añade:<foreign lang="Lat">Immo dicit, hanc partem
+aliquando concipere ignem, &amp; inflammari</foreign>.</q> Quiere dezir <name type="person" reg="Aristóteles">Aristo-
+teles</name>, que no ay fuego como este material nuestro debajo de 
+la Luna, que todo lo abrasa, consume, y corrompe; sino vna au-
+ra subtilissima, que calienta; y no quema; fomenta; y no abra-
+sa, alienta, y no corrompe mientras no se mueve, y se le ofrece
+pabulo para su actividad, como se vè en el fuego subterraneo,
+que solo alza llama qu(a)ndo le agita el viento; y lo mismo suce-
+de en el calor natural, de quien verificandose lo que del ele-
+mentar se ha dicho, se entiende; si se haze demasiado exercicio
+con la agitacion, se sollama la lengua; haze hervir la sangre,
+el arder el coraçon, inflamar el higado, y corromper à todo el 
+hombre. Y siendo de esta calidad aquella region, no implica;
+antes si es de mucha probabilidad, el lugar que le hemos dado
+al				           B2
+
+</p>
+</div>
+
+<div>
+
+<pb>folio 6 vuelta</pb>
+<p>
+al Cometa en su generacion, qué es el mismo sitio que les con-
+cede el dicho<cit> <name type="person" reg="Niccolo Cabeo">Padre Cabeo</name>, <refTitle> en el texto 34</refTitle>. <foreign lang="Lat">Isti Cometae sunt in
+regione quidem,quae dicitur ignis</foreign>.</cit>
+     Pero instarame alguno, que si en el lugar del Cometa, no
+ay fuego, que encienda, corrompa, y consuma; como se encen-
+diò la materia del Cometa? A lo qual se responde, que jun-
+ta, y congregada la materia del Cometa; agitada del movi-
+miento, que tan cercamente recibia (por participacion del 
+orbe de la Luna del primer moble) concibiò vn <term type="astro">halito</term>, ò espi-
+ritu de la misma materia, que atenuò el movimiento, y se en-
+cendiò, al modo que vna <term type="Oldsp" reg="saeta">zaeta</term> tirada por el ayre suele enc(e)nder
+el mismo ayre, que con su veloz movimiento adelgaça, no de-
+xando ella misma de participar el fuego que sucitò, por el her-
+vor que concibiò.
+     Corona este mi sentir, el dicho erudito <cit><name type="person" reg="Niccolo Cabeo">Padre Cabeo</name>, en la
+<refTitle>qu(e)stion 5. sobre el texto 37.</refTitle> citado, hablando de las formas, y
+essencias de los Cometas, dize: <foreign lang="Lat">Aliqui enim sunt formaliter ig-
+nis, seu flamma: voco ignem ex communi vocablo, quiare vera 
+spirituosus ille halitus immodicum illum concipit fervorem, quem
+nos ignem vocamus, quamuius enim sit in illa regione, quam vulgus
+philosophorum regionem ignis appellat, <name type="person" reg="Aristóteles">Aristoteles</name> tamen dicit il-
+lum spiritum ibi positum non esse ignem, nec esse regionem ignis: ni-
+si quatenus ea; quae ibi sunt, sunt potentia ignis; quia facile accen-
+duntur</foreign>.</cit> Y assi con esta misma facilidad se enc(e)ndió nuestro Co-
+meta en esta region, que llaman del fuego, atenuado el espiri-
+tu, ò <term type="astro">halito</term> de su materia, con el continuo movimiento dicho
+     Pruebase vltimamente con demostracion Mathematica,
+no ser el fuego elementar, ò aquella exalacion de <name type="person" reg="Aristóteles">Aristoteles</name>,
+de la especie del fuego, q(ue) vsamos; pues avia de abrasar la tierra
+consumiendo todo lo inferior, y fuera, puesto alli, demasiada
+su aproximacion, de vn tan voraz elemento, porque si (co-
+mo otros asientan) el ayre evaporado de la tierra en su mayor
+fuerza se levanta en alto por el espacio de mas de 53 millas: si
+echaramos (que era necessario en esta suposicion) otras tantas
+à la llama sutil, y es assi (como se supone por los mas) la pro-
+por-
+
+</p>
+</div>
+
+<div>
+
+<pb>folio 7 frente</pb>
+<p>
+porcion del fuego al ayre, de diez tantos; quanta, y quan im-
+mensurable fuerza, y c(a)ntidad de fuego hemos de confessar en 
+aquel orbe? <q>Y como dize el <name type="person">P. Cuacino</name>: cada dia nos avia de 
+renacer vn nuevo Faeton, que arrojasse fuegos para destruir
+toda la naturaleza.</q>
+     Antes si, este fuego es tan necessario al orden natural de las 
+cosas; que como dize el doctissimo Valles, en su sacra Philoso-
+fia, no se inclina à lugar ninguno, porque todo lo anda, todo lo
+penetra, de todo es goloso, en quanto ay color se halla, todo es
+materia de su arte, chispas despide en las venas de las piedras,
+vive en los huesos del Leon, sustentase en algunos baños, y
+fuentes, con el fundan los hornos, arden los vapores, braman los
+truenos; con este se saçonan los manjares, y las medicinas, se
+forman las armas, vasos, è instrumentos, y quanto sirve a la 
+Agricultura, Milicia, y Artes todas; en todo està, y para todo 
+es necessaria su assistencia, moderada para la vida, suave para
+toda obra, manso para su vso, favorable à todo vehetativo, y 
+su lugar apacible, en donde si alguna vez levanta llama, como
+aconteciò en nuestro Cometa; fue movido de <term type="astro">halitos</term>s, y espi-
+ritus estraños, que encendiò, del modo que antes queda dicho.
+	
+	<head>Declarese la causa eficiente, formal, mate-
+	rial, y final de este Cometa; y pruebase, que
+	el mismo hombre con sus espiritus, y <term type="med">humores</term>
+		  fue materia de este Cometa.</head>
+		  
+		  
+[Letra capital de dos renglones 25-26]
+ASentado principio Philosophico, es, que para qualquiera
+generacion, ò produccion, dentro de los limites del or-
+den natural, son nec[e]ssarias estas quatro causas, que son Effi-
+ciente, Material, Formal, y Final; las quales por su orden se
+iràn declar(a)ndo; y con siguientem(e)nte el orden regular en el mo-
+do q(ue) siguiò el Cometa para su apparecimiento, y produccion.
+     Tocante à la Efficiente, no es dudable, que el Sol, con los
+demàs Planetas hiriendo con sus rayos, y luzes en esta machi-
+na inferior, levanta vapores, y exalaciones de todo quanto 
+se
+</p>
+
+</div>
+
+<div>
+
+<pb>folio 7 vuelta</pb>
+<p>
+se halla evaporable; y entonces con mas efficacia sucede esto
+en la tierra quando en el cielo de los orbes superiores aconte-
+cen posiciones, ò aspectos extraordinarios con algunas repe-
+tidas circunstancias, como Conjunciones Magnas, ò <term type="astro" reg="eclipse">Eclipses</term>;
+y estos repetidos con especialidad del lugar, y señorio de otro
+Planeta. Esta es doctrina observada, y corriente en toda la
+Astrologia, y como c(o)mprobada, y observada por mi, en este Co-
+meta, aun antes de su producci(o)n, como despues se dirà al seña-
+lar sus Padres, y Progenitores, como causas Efficientes suyas.
+     En lo que toca à la causa Material, fue en este caso todo qu(a)n-
+to evaporable, y exalable ay en esta machina inferior, como
+agua, tierra, todo cuerpo viviente, plantas, y aun los mismos
+cuerpos muertos sepultados en la tierra; y esto con lo antece-
+dente està obligado à conceder la opinion, que niega eficacia
+â las luzes superiores en la tierra; pues, si se le preg(u)nta; porque
+es prohibido el dia de vn <term type="astro">Eclipse</term>? Responderà, y bien, que por
+la contrariedad de las luzes, que sucede en los dos Luminares:
+de que se siguen tan sensibles efectos en los mismos cuerpos
+humanos, acrecentando dolores en <term type="med">Galicos</term>, ansias, è inquitu-
+des en los Febricantes.
+     Es assimesmo, como se propuso arriba, causa Material del 
+Cometa, el hombre, con sus espiritus, y <term type="med">humores</term>; y aunque al
+primer viso paresca dificultoso: desata la duda, el ver, que la llu-
+via, tiene por su materia, de que se forma, al mismo sudor del 
+hombre, pues el Sol le arrebata para si subiendole à la region
+primera, en donde recibiendo la forma de agua, cae à la tierra
+en tanta abundancia; y que arrebate en si este sudor el Sol, se 
+confirma aun en los mismos caminantes, en quienes en las
+partes que toca el Sol, no se vè el sudor, porque lo arrebata
+para lo alto con su calor; y las partes que van abrigadas, y
+no las toca sudan en abundancia, como se vè en lo alto de la 
+frente que ocupa el sombrero. Assi lo tiene por verdad <cit> <name type="person" reg="Hipócrates">Hippo-
+crates</name>, <refTitle>libro de aere, aquis, &amp; locis, en la elecci(o)n de las aguas</refTitle>, di
+ze por estas palabras dignas de toda admiracion, por su curio-
+sidad, y singular <term type="OldSp" reg="Filosofía">PPhilosofia</term>: <foreign lang="Lat">Quod vero tenuissimum est Sol sur-
+sum</foreign></cit>
+
+</p>
+</div>
+
+<div>
+
+
+<pb>folio 8 frente</pb>
+<p>
+<cit><foreign lang="Lat">sum rapit praelevitate. Rapit autem tale non solum ab aquis stag-
+na(n)tibus, sed eti(a)n ex ipso mari, &amp; ex omnibus in quibus aliquid bu-
+moris inest. Inest aut(e)n in omnibus rebus. Et es ipsis hominibus te-
+nuissim(u)n, ac levissim(u)n humorem ducit. Eius rei maxim(u)n signum
+inde sumere licet ubi homo vestibus indutus in Sole iterfecerit , aut
+federit. Quascunque enim corporis partes Sol aspicit, hae non exu-
+dant. Sol enim quicquid comparet sudoris sursum rapit. Quae vero
+sub veste contectae sunt, aut sub aliqua aliare, hae exsudant. Edu-
+cutur enim, ac domatur á Sole sudor. Seruatur autem ex tegmen-
+tis, ut ne dispedatur á Sole. Quum vero in umbram devenerit,
+totum corpus similiter sudore perfluit</foreign>.</cit> Citada queda; porque no
+paresca fingida la Autoridad.
+     Luego si no repugna, que el mismo hombre c(o)n sus espiritus,
+y <term type="med">humores</term>, sea causa Material de vn <term type="astron" reg="meteoro">Metheoro</term> como de la llu-
+via, por la eficiencia, y atraccion del Sol: porque ha de repug-
+nar, que estos mismos espiritus, y <term type="med">humores</term> (siendo con singu-
+laridad aqui mayor la atraccion del Sol, y demas Planetas) no
+h(a)n de ser assimismo causa Material de este <term type="astron" reg="meteoro">Metheoro</term> del Cometa?
+     Sea proposicion experimental, en esta causa, lo que han ex-
+perimentado, y estàn experimentando mis compañeros, y
+Doctos Medicos, en esta populosa Republica ( y  lo mismo
+aurâ sucedio en muchas partes del m(u)ndo) digo, pues, que han
+observado tres años ha, vna epidemia de granos, postulas, ò
+ronchas, tan molestas, y tan sin falta de veneno, y malignidad,
+que sin ceder à medicamentos de qualidades manifiestas, no
+han perdonado, ni por la piedad al viejo, ni al niño por su ino-
+cencia. Y assimismo <date reg="1680">el año passado de 8o</date>. se experimentò vna
+<term type="med">epidemia de tercianas</term>, y demàs intermitentes, con otros acci-
+dentes malignos, que dieron bastante cuydado; de cuya con-
+stitucion, si me preguntaran la causa, me afirmara entonces,
+y ahora me afirmo à dezir , que fue la Materia del Cometa, que
+como se iba congregando, y vniendo para llegar à su incendio
+era necessario el que los Astros, que cavsaron esta atraccion 
+de ella, fuessen exalando, y como chupando de los mismos
+cuerpos humanos todo aquello que era exalable, y vaporable;
+yco-
+
+</p>
+
+</div>
+
+<div>
+
+<pb>folio 8 vuelta</pb>
+<p>
+y como lo mas sutil està mas prompto à qualquiera atraccion,
+y entre los <term type="med">humores</term>, el mas sutil sea la colera: esta se extravassò
+haziendo à vezes tercianas, y otras inflamaciones diversas,
+<term type="med">pustulas</term>, <term type="med">ronchas</term>, <term type="med">bubones</term>, y otros accidentes desta prosapia,
+y linage.
+     Y es tan evidente lo que digo, que no es possible asignarle
+otra causa, q(ue) sea com(u)n à enfermedad comun; porq(ue) si atende-
+mos à la agua de <name type="place" reg="México">Mexico</name>, ha sido estos dos años antes, y este,
+vna misma, y por vn mismo lugar corre. Los mantenimientos
+vnos mismos, que siempre se han experimentado; los conti-
+nuos no han faltado, los de regalo se vieron, y las frutas como
+siempre; y en las Religiones( que es donde se guarda vn mis-
+mo orden en los mantenimi(e)ntos, y demàs cosas no naturales)
+no faltaron tercianas, ni oy falta la epidemia dicha de granos, 
+pustulas, y demàs <term type="med">achaques colericos</term>; y assimismo el agua, y 
+mantenimientos siendo como han sido los comunes de todos
+los años: queda la malicia en que el ayre fue el infestado des-
+de <date reg="1679">el año passado de 79</date>. por los <term type="astro" reg="eclipse">Eclipses</term>, que desde entonces
+hasta oy h(a)n sucedido. Y como al exalarse, y evaporizarse esta
+materia de las mismas entrañas de la tierra, lo primero con lo 
+que topa al salir la tierra, sean los vivientes, y en particular 
+con el hombre, por lo mas apto â la corrupcion nacida de los
+matenimientos mas delicados, respecto de los demàs anima-
+les; es concentaneo, que el primero que experimente la cali-
+dad, que empieça à evaporar, y exalar la tierra para la genera-
+cion del Cometa, sea el hombre, calentandole los espiritus, y
+corrompi(e)ndole los <term type="med">humores</term>, y en esta materia no pueden dar 
+otros que los Medicos el voto, pues si oy se le pregunta à qual-
+quiera de mi facultad, de los achaques que cura: dirà , que los
+mas son de esta prosapia de <term type="med">colera</term> podrida, y adusta, como flu-
+xiones à diversas partes del cuerpo, y en particular à las ocul-
+tas, fiebres ardientes, malignas, y demasiadas, inflamaciones
+internas con sus accidentes, que le son proprios en su esphera;
+y si à los fines de Febrero estamos experimentando lo dicho:
+todo el año, y en los demàs venideros à que se estiende el pro-
+nostì-
+
+</p>
+
+</div>
+
+<div>
+
+<pb>folio 9 frente</pb>
+<p>
+[en el original el folio dice 6 no 9]
+nostico deste Cometa, y vna Conjuncion de <name type="planet" reg="Júpiter">Jupiter</name>, y Satur-
+no, con quienes à los primeros passos encontramos: que pla-
+cemes saludables podemos esperar?
+     Hasta aqui hemos visto, que los influxos celestes de toda
+esta maquina inferior han levantado vapores, y exalaciones, 
+que infestando al hombre, y a sus <term type="med">humores</term>, le ofrecieron mas
+materia à este Cometa. Restanos ver el modo de su ascension,
+y subida, respecto de la altura en q(ue) se hallò, que fue muy cerca-
+no á la Luna. Es, pues, en esta forma la subida al lugar dicho.
+Toda esta materia como sea vaporosa, y sutil, tiene por mo-
+vimiento proprio el subir para lo alto, como se vè en vna olla
+de agua hirviendo, cuyos vapores suben arriva, à quienes si
+se interpone cuerpo denso, resuda la misma agua; y en el humo
+advertimos este mismo movimiento para lo alto; y quando el
+ayre en su region estâ debil, esto es, sosegado, persiste el hu-
+mo no hallando contrario à su movimiento hasta donde pue-
+dan alcançar sus fuerças; y esto experimentamos en Medicina
+respecto del sudor, que siendo en las partes infernas, arguimos
+fuerças, pues resistiò al movimiento natural suyo, y vence la
+naturaleza; pero si es solo en las partes superiores, arguimos
+flaqueza de la naturaleza, pues es señal, que no tiene fuerzas
+para resistir à vn vapor tan debil, y vence el vapor à la natura-
+leza, que es el sudor <term type="med">Diaphoretico</term>.
+     Esto mismo sucede en la materia del Cometa, que flaca, y
+debil la region del ayre (que es mas continuo en el Otoño por
+debilitarse los rayos del Sol, por la ausencia que entonces nos
+haze) debil, como digo, la region del ayre, no resiste, ni impele
+à estas exalaciones, que suben, sino que dejandolas passar, yà
+por su movimiento natural de subir para lo alto, como por la,
+atraccion fuerte de los Astros, segun se dixo de la lluvia: van 
+continuamente subiendo, y congregandose hazia aquella par-
+te por donde vinieron las luzes que les suscitaron en los aspe-
+ctos extraordinarios; y como la aguja de marear sigue al Nor-
+te: assi esta materia de este Cometa, no se desviò, ni dexò de
+mirar al vltimo Decano del Signo de <name type="zodiac">Virgo</name>, y primero del Sig-
+no				        C
+
+</p>
+</div>
+
+
+<div>
+
+<pb>folio 9 vuelta</pb>
+<p>
+no de <name type="zodiac">Libra</name>, que fue el lugar donde se celebrò el <term type="astro" reg="eclipse">Eclipse</term> de <date reg="1679">4.
+de Octubre de 79</date> y el de <date reg="1680">22. de Septiembre de 8o</date>. que fue el im-
+mediato à su incendio. Y como la region del ayre, segun te-
+nemos dicho, estuvo devil, y sin fuerças para la expulsi(o)n de di-
+chas exalaciones , à quienes diò buen pasaje, hasta que llegarò
+à la region del fuego, en donde se encendiò, segun estâ expli-
+cado à fojas 6. y este incendio, ò llama fue la causa formal de
+nuestro Cometa; por lo qual llegamos à la vltima, q(ue) es la Final.
+     La causa Final del Cometa, segun los mas, es en dos mane-
+ras: vna es causa final consultiva, y moral, de la qual hablare-
+mos en los pronosticos de dicho Cometa: la otra es causa final
+<term type="oldSp" reg="Física">Phisica</term>, y natural; y esta causa suponen algunos Autores, in-
+t(e)ntada de la naturaleza para guardar, y purificar el Glovo de la 
+tierra de las exalaciones venenosas, y pestiferas, que en ella
+excitaron algunas Conjunciones de los Superiores, como las 
+Conjunciones anteced(e)ntes al nuestro; y elevados estos vapo-
+res, y exalaciones de la machina terrestre, ò por lo menos de
+las partes en d(o)nde tuvier(o)n predomio las C(o)njunciones, y Eclip-
+ses, quemandose todas estas superfluidades dañosas, dexan â 
+la tierra sana, limpia, purificada, y libre de tempestades, guer-
+ras, sediciones, incendios, pestilencias, inundaciones, y terre-
+motos, que antes del Cometa se pudieron seguir, por no averse
+expurgado, y purificado de los recrementos dichos: en don-
+de el fin de esta causa <term type="oldSp" reg="Física">Phisica</term> intentado de la naturaleza, es-
+conservar el vniverso, y repurgar la tierra de dichas exalacio-
+nes venenosas, que pudieran ser causa de su corrupcion.
+     Hasta aqui dura la floxa <term type="oldSp" reg="Filosofía">Philosofia</term> de los que (por no pas-
+sar à delante) se contentan con parecerles, miran à la tierra ya 
+purificada, y sin alçar los ojos: no advierten lo q(ue) se derrite, y se
+derrama sobre sus cabeças, y las nuestras, pues en vn incendio
+de materia etherogenea como del Cometa, las partes calientes,
+y secas se consumen, y como es veneno su leña, toca el ayre de 
+su malignidad, que inspiramos: otras como las frias, y hume-
+das, oleaginosas, y pingues se derriten, y esparcen por toda la
+region del ayre, vajando de peor calidad, que subieron, infe-
+stan-
+</p>
+</div>
+
+<div>
+
+<pb>folio 10 frente</pb>
+<p>
+stando vivientes, plantas, y semillas; y esto como sea malig-
+no, no caen devajo de los sentidos sus efectos, sino que paula-
+tinamente despues de alg(u)n moderado tiempo se manifiestan.
+     Toda mi respuesta se confirma, en el mundo pequeño, ò el
+hombre, en el qual sucede, q(ue) del estomago como parte abun-
+dante de superfluidades, sub(e)n dos generos de vapores, los qua-
+les, si son calientes los llaman nidorosos, que se lev(a)ntan quan-
+do el vientre padece alguna destempl(a)nça caliente, ò inflama-
+matoria, y los mas procedidos del higado, riñones, coraçon,
+estu(a)nte por las venas, y arterias llegan al vertice de la cabeça,
+ò celebro; otros vapores son frios, y humedos, llamados Asi-
+dos, que de las partes infimas dichas con intemperie de su pro-
+porcion suben por los mismos canales à la suprema region de
+la cabeça: estos mismos vapores, ò calientes, ò frios (al modo
+del licor destilado en la alquitara, ò alambique) que se forma-
+r(o)n en la parte superior, cobrando cuerpo los que antes eran vn
+delgado vapor, y embebido en los ventriculos del celebro con
+el mismo calor actual, si es caliente la materia evaporada de
+lo infimo, suscita inflamacion del mismo celebro bolviendo
+à caer à las mismas partes inferiores, de peor calidad la ma-
+teria, que antes avia subido mas benigna, y cayendo lo derre-
+tido à diversas partes, haze diversos achaques de bastante
+consideracion, pues los mas son mortales, como <term type="med">Pulmonia</term>,
+dolor de Costado, Angina, ò <term type="med">Esquilencia</term>, y otros à este modo.
+     Si los vapores congregados, y embevidos en las cabidades, 
+y ventriculos del celebro, son frios por la abundancia de hu-
+medad, y debilidad del calor natural del mismo celebro, se le-
+vantan en aquella suprema region flatos verticosos, ò verti-
+ginosos, con otros accide(n)tes de esta especie, y agitada esta ma-
+teria se derrite, cayendo à las partes infimas, haziendo catar-
+ros, romadiços, y finalmente qualquiera achaque calamitoso;
+pues por <name type="person" reg="Heurnio, Juan">Heurnio</name>, de todas las enfermedades es fu(e)nte el catar-
+ro. Alivio grande tuviera la Medicina ( si como supone la opi-
+nion contraria ) todo lo que sube a lo alto, no bolviera à bajar
+haziendo tantos, y tan graves daños, pues de lo que mas se re-
+zela				        C2
+
+</p>
+</div>
+
+<div>
+
+<pb>folio 10 vuelta</pb>
+<p>
+zela vn Medico, es de lo que sube, por dos razones, ò porque
+allà no se quede, ò porque no baje con peores nuevas, y no se
+tuviera por Medico racional el que viendo vn celebro lleno de 
+los vapores, que hemos dicho, dixera, que el enfermo quedava
+sano, porque le dejava con el cuerpo purificado. Luego si esto 
+no cabe en terminos <term type="oldsp" reg="Fiolosófico">Philosoficos</term>, ni en juicio de moderado
+discurso: Como creeremos la puridad, lo apurado, y purifica-
+do de la opinion contraria? Y aunque el <name type="person" reg="Fernández Rajo, Francisco">Doctor Rajo</name> parece,
+que en algo favorece esta opinion, adelantandoles la confirma-
+cion con el exemplo de la crisis, diziendo, que al modo, que la
+naturaleza opressa de alguna enfermedad, haziendo crisis, ò
+mudança de aquella enfermedad, queda limpia, sana, y purifi-
+cada la naturaleza: assi la tierra oppressa de la exalaciones
+venenosas, procurando expelerlas, haze crisis, ò mudança su-
+bitanea, expeliendolas à la parte superior, donde conglomera-
+das, y juntas en forma de Cometa, se extinguan, y apaguen.
+Pero Yo aseguro al señor <name type="person" reg="Fernández Rajo, Francisco">Rajo Medico Aragones</name>, que si sele
+terminara alguna enfermedad al celebro; no solo no la tuvie-
+ra por buena terminacion, pero en adelante estuviera c(o)n  mu-
+cho rezelo del accidente grave, que le pudiera sobrevenir, de
+lo que esperava vajar; sino es que antes se le iva al enfermo à
+lo mas alto. Y si todo esto es lo que sucede en el Cometa, no 
+se yo porque no se han de atemoriçar tanto los hombres (co-
+mo repugnan otros) aunque no se atemoricen de las estrellas,
+que nos parece, que corren, ò exalaciones, que se encienden 
+cada noche, quando es muy distinta la razon de estas à la de 
+los Cometas, y ay tanto de vnos à otros, como del cielo à la
+tierra; porque si <name type="person" reg="Aristóteles">Aristoteles</name> hizo comparacion entre los Co-
+metas, y exalaciones encendidas, no la hizo respecto de las
+substancias: si respecto del modo de encenderse, como consta
+del mismo <refTitle> capitulo 7 </refTitle>. al modo q(ue) de la fiebre diaria, y Hectica 
+dezimos: Tal calor preternatural tiene la diaria qual la Hectica,
+vale la comparacion de calor à calor; porque ambos son pre-
+ternaturales: mas no de poco durable à persistente con dura-
+cion, porque en esto se distinguen de mil leguas. Diremos por
+esso?
+</p>
+</div>
+
+<div>
+
+<pb>folio 11 frente</pb>
+<p>
+esso? Si vna fibre diaria, que dura tan poco tiempo de vn dia,
+no ha muerto à ninguno, ni jamàs ha sido prenuncio de peli-
+gro en la vida, ni mortandades? Por que lo ha de ser vna fiebre
+<term type="med">humoral</term>, que dura veinte y dos dias, y vna Hectica, que qu(a)ndo
+menos dura tres meses; siendo assi, que el origen de vna, y otra
+es vno mismo. Si huviere quien me concediere esta mi induc-
+cion en buena <term type="oldsp" reg="Fiolosofía">Philosofia</term>, me obligo à concederle la q(ue) me pro-
+pusiere, y sino quedarà el Cometa infausto, por la calidad de 
+su materia, rezeloso por lo que derrite, y temido por su dura-
+cion.
+
+	<head>Proponense los fundamentos Astronomicos, 
+	meramente <term type="oldsp" reg="Fiolosófico">Philosoficos</term>, y naturales, que an-
+	tecedieron, concurrieron, y siguieron à la
+	generacion de este Cometa. </head>
+	
+	
+[Letra capital de dos renglones 15-16]
+EL Doctor de la Iglesia S. <name type="person" reg="San Agustín">Augustin</name>, por el P. Causino lib.
+I. de la Corte Santa, nos amonesta, el que no perturbe-
+mos el orden natural de las cosas con imaginaciones de mila-
+gros sin fundamento: Luego sin fundamento serà el multipli-
+car milagros en este Cometa, quando todo lo que en èl con-
+curriò fue muy regular, y concentaneo al passo que lleva el or-
+den natural de las cosas, como por partes irè refiriendo.
+     Sea el primer fundamento natural, averlo yo pronosticado 
+en mi Diario de Temporales, el <date reg="1678">año inmediato antecedente à
+su producion de 79</date>. fundado en los principios Astronomicos,
+Phisicos, y expetimentados, q(ue) fueron los <term type="astro" reg="eclipse">Eclipses</term>, ya dichos,
+que todos los de esta Ciencia suponen, anteceden â la pro-
+duccion de Cometa, y aver sucedido assi; de donde colijo, no
+ser debiles los fundamentos en que estriva la Astrologia ( co-
+mo afirman otros) sino macisos, y firmes, como los hallè en 
+esta ocasion; las vezes que me han faltado, no lo he atribui-
+do à la Ciencia, sino a mi mala profession en ella: lo qual suce-
+de en otra qualquier Ciencia; y este defecto nos sucede à cada
+passo; pues en tanta machina de luzes, congresso de diversos
+aspe-
+</p>
+</div>
+
+<div>
+
+<pb>folio 11 vuelta</pb>
+<p>
+aspectos, y vn continuo movimiento de tantos orbes; de lo
+que en algo se acierta, se puede admirar, y no por esso pierde la
+Astrologia de su alto origen, y conocida antiguedad; pues aun
+antes que Dios criara al hombre, y à los cielos, y Astros todos
+circungiravan la tierra, como oy en dia, desparramando sus
+luzes para vivificar esta machina inferior mereciendo el obje-
+to desta Ciencia lugar tan alto, y tan cercano à el cielo Empi-
+reo. Y bastava averla professado tantos, y tan ilustres Varo-
+nes, como refiere el <name type="person">P. Maestro Pedro Ciruelo</name>, de la Religion
+Guzmana, en el <refTitle>Proemio sobre la Esphera</refTitle>, pues aviendo repe-
+tido, desde los primeros Nietos de <name type="cathDiv" reg="Adán">Adan</name>, tantas personas su-
+premas Reyes, y Señores, que despues acà la han exercitado, 
+dize: <q><foreign lang="Lat">Guade at igitur Regia, &amp; Imperialis Astrologia, quae tanta
+inventorum, Auctorumque; sanctitae, maiestate, &amp; sublimitate
+c(o)mmendatur</foreign>.</q> Quizà por esso les concediò Dios à aquellos pri-
+meros hombres del mundo tan dilatada vida, para que en lar-
+go tiempo observasen mejor el curso, y pasiones celestes.
+     El segundo fundamento, es, el lugar donde se apareciò el 
+Cometa, pues fue en el inmediato Decano à el donde se cele-
+braron los <term type="astro" reg="eclipse">Eclipses</term>: lugar donde se juntò, vniò, y congregò la
+materia de este Cometa, de q(ue) se coligen convenciadas dos sen-
+tencias: La primera, que no fue de nuevo criado este Cometa,
+porq(ue) si lo fuera, no, parece, se avia de aligar, la omnipot(e)ncia de
+Dios à criarlo en este lugar de los <term type="astro" reg="eclipse">Eclipses</term>, para colegirse na-
+tural, sino q(ue) eligiera en t(a)nto espacio, sitio donde mas repugna-
+ra à el ord(e)n de las cosas naturales; y siendo en el lugar dicho, ya
+no fuera creacion, pues esta no presupone sugeto, sino produc-
+ci(o)n: porq(ue) suponia la materia congregada: La segunda, q(ue) se co-
+lije convencida en este fundam(e)nto, es, que la materia deste Co-
+meta, no fueron las m(a)nchas del Sol; porq(ue) parece, q(ue) si esto suce-
+diera, se avia de mostrar primero el portador de esta materia,
+que manchava al Sol, que limpiandole el rostro: la avia llevado
+desde los vltimos grados de <name type="zodiac" reg="Escorpión">Escorpion</name>, que era el lugar donde
+andava el Sol, hasta el Signo de <name type="zodiac">Virgo</name>, en donde se encendiò.
+     Parece increible (como lo es) que no se encienda vn pedaço
+de
+
+</p>
+</div>
+
+<div>
+
+<pb>folio 12 frente</pb>
+<p>
+de estopa junto à la lumbre, ò en la misma lumbre, y se encien-
+da à distancia de mil leguas. No menos repugna, que esta ma-
+teria, de su naturaleza combustible, estuviesse entera, y firme,
+quando le manchava el rostro al Sol, y quando mas se alejava
+de su incendio, se resolviesse: resolucion es desta sentencia, que 
+se refuta con lo visto, y observado en este Cometa, pues si afir-
+man algunos, que antes de Cometas, no se vido el Sol, ni otras
+estrellas, por los muchos <term type="astro">halitos</term>s, y vapores celestes; en este
+nuestro Cometa, sucediò al reves, que antes del Cometa, se
+vido claramente la Luna, y despues de consumido, se han im-
+pediod à la vista los rayos Lunares; pues he observado, y to-
+dos los mas lo avràn reparado, que el <date>Jueves 6. de Março, 
+Viernes 7. y Sabado 8</date>. aunque  estava por mucho espacio so-
+bre nuestro Horizonte la Luna: no alumbrava, sino que solo
+se veià à modo de vn globo de fuego, y no se dexarà de ver à
+este modo en otras ocasiones en adelante: signo evidente, que
+la crasitud, y densidad de los vapores, es sola sublunar, y no ce-
+leste; porque despues de este Cometa, se huvieran exalado, y
+consumido los vapores, que fingen algunos con Cardano, en
+tan puras criaturas, perdiendole el respecto à su incorruptibi-
+lida. Luego assi el ayre, como el espacio celeste, que pon(e)n los 
+contrarios, no quedò puro, ni limpio; antes si arguye causa
+grande, el que prevalesca el ayre nuestro, y el expanso celeste
+de aquellos con vapores crasos, y densos, impidiendo nuestra
+vista, y luzes, que nos comunican los Astros; y por consiguien-
+te se manifiesta, no aver quedado pura, y limpia la tierra, pues 
+las partes venenosas, que exalò, no se consumieron.
+     Arguye por tercera circunstancia natural de este Cometa
+sublunar, el tiempo de su generacion, pues sino se produxesse
+del concavo de la Luna à bajo, no necesitara de tiempo aco-
+modado del Otoño, e Hibierno, que es quanto este expanso
+està mas apto para su generacion, y el ayre dispuesto con su
+crasitud para tales <term type="astron" reg="meteoro">Metheoros</term>; y si Dios le criara de nuevo, no
+necesitara de tiempo, en que naturalme(n)te suceden siempre ta-
+les appariciones celestes; ò si fuera de materia celeste, no avi(e)n-
+do
+</p>
+</div>
+
+<div>
+
+
+<pb>folio 12 vuelta</pb>
+<p>
+do en aquellos altos Palacios crasitud, ni espicitud de ayre; ên
+el Verano, y Estio se apparecieran muchos, pues no tuviera en-
+tonces depend(e)ncia con el ayre sublunar, y diversidad de tiem-
+po; y esto mismo vemos, q(ue) no sucede, ni ha sucedido con otro
+Cometa, como ni con este: Luego este nuestro Cometa, fue
+sublunar, y no de manchas del Sol, ni materia celeste.
+     No dudo, que me instarà alguno, diziendo: que à no ser la
+materia celeste: como avia de poder dar abasto tan poca mate-
+ria de la tierra al Cometa; pues segun el lugar de mas altura,
+que le ponen suele ser el diametro del Cometa, mas de muchas
+vezes mayor que la tierra? A lo qual respondo, segun Chimi-
+ca, por mas acomodado al intento, que en todas las cosas ay
+tres principios, de que constan, que es el vno el Sulphur, partes
+subtiles, volatiles, ò partes calientes, y secas. El segundo prin-
+cipio, es el Sâl, que son las partes terrestres, crasas, fixas, ò ci-
+nerisias; y como estos dos principios sean t(a)n exdiametro opue-
+stos con tanta diversidad en su substancia, y modo de ella: fue
+necessario tercer principio para vnir, y juntar los dos antece-
+dentes, q(ue) fuesse como gluten, ò vnion <term type="oldSp" reg="Física">Phisica</term>, que fue el Mer-
+curio, ò la humedad, para conseguir vnidas en vna substancia 
+partes en si tan distintas. Con q(ue) resolverse vna cosa; no es otra,
+que consumir esta humedad, que tenia vnidas las partes futi-
+les, y crasas, y tanto duraràn en su apartamiento, ò resolucion
+estas dos cosas, quanto se retardare en ser v(e)ncido el Mercurio
+ò humedad. Lo qual vemos patente en el oro, que aunque
+mas fuego reciva, le resiste du humedad: causa de no reparar-
+se las partes crasas, de las futiles, y al contrario. Lo qual suce-
+diò en nuestro Cometa, q(ue) como se compusiesse de partes hu-
+medas, oleaginosas, y pingues; y estas participassen, como de 
+la tierra nacidas, de tanta humedad methalica, y por la mate-
+ria vntuosa de que consta durò: pues si se mezcla vn poco de 
+açufre c(o)n cosa vntuosa, se retarda tiempo en encerderse el açu-
+fre, por lo vntuoso; y lo mismo sucede en los lechinos, y mu-
+chas Lamparas duraron encendidas en sepulturas, à pesar del
+tiempo, segun Causino; por esso resistiò à no resolverse en tan 
+breve    
+
+</p>
+</div>
+
+<div>
+
+<pb>folio 13 frente</pb>
+<p>
+breve tiempo su materia, assi por lo dicho, como por el fuego,
+que no era voraz, mordaz, ni corruptivo, sino suave, lene, y 
+manso, que todo fue para su mayor duracion, en aquella re-
+gion, q(ue) hemos ya referido; y no es dudable, sino que se le podia
+retorcer el argum(e)nto à los de la opinion de la materia celeste;
+porque les parece imposible, que saliesse de la tierra tanta ma-
+teria para dar abasto à el Cometa; y la conceden mayor en vna
+pureza de los cielos; y assi mas imposible me parece à mi, q(ue) de
+vna arroba de oro, como puro, y limpio, se sacasse vn adarme
+de superfluidades, que de vna libra de otra qualquiera cosa im-
+pura se sacasse otra libra poco menos de lo superfluo.
+     Sea quarta circunstancia natural, la magnitud de su cuerpo
+en la parte Austral, y la que tuvo en la Septenrional, y sobre
+nuestras cabeças; pues alli fue mucho menos, y desde que se
+nos acercò, fue mayor; y mientras fue gan(a)ndo mayor latitud,
+y declinacion Septenrional, ò Aquilonar, fue creciendo mas
+su cauda, como se vido luego que appareciò, despues de puesto
+el Sol, que mientras fue saliendo de sus rayos, saliò con mas la-
+tidud, y longitud en su cauda: todo lo qual es imposible se veri-
+fique en el cielo planetrario; pues allà no ay esta distincion de
+ayre mas crasso, ò menos crasso; pues por ser menos esta circ(u)n-
+st(a)ncia en lo Austral, fue menos su cauda, y c(o)npacto de su mate-
+ria; y mientras mas cercano al Norte, como parte de mas crasi-
+tud en el ayre, fue mayor: por lo qual <cit><name type="person" reg="Séneca">Ceneca</name> <refTitle>lib.7. quest.
+Moralium cap. I &amp; 2.</refTitle> dize: que mas de ordinario aparecen los
+Cometas en el Septentrion, porque en esta parte està el ayre
+mas espeso, y las exalaciones mas vnidas, por lo mas flaco del
+Sol, y demàs Planetas en atraer; porque alli donde continuo se
+pasean, se exalan, consum(e)n, y resuelven qualesquiera vapores.</cit>
+     Es assimismo concentaneo a la razon natural del Cometa,
+lo que sucedio en el curso de su viaje, que fue aum(e)ntarse en lo
+formal cerca del Sol, y disminuirse, y flaquear mientras mas
+lejos del; porque como quando le tuvo mas directo, al hazer 
+c(o)n el Conjuncion, el Sol como mas poderoso en subir, y atraer
+humos, y exalaciones: le ayudó entonces potentemente para 
+el			       D
+
+</p>
+</div>
+
+<div>
+
+
+<pb>folio 13 vuelta</pb>
+<p>
+el fomento. Esta misma razon se hallò en su movimiento; pues
+mas lejos del Sol el Cometa, tuvo menor movimiento, como 
+fue al principio de 2. ò 3.gr. a la postre de solos 5. ò 6. mi. Retrogr.
+Y al llegar al Sol, fue su movimiento mayor, pues fue de 6. à 7.
+gr. cuya razon es muy natural en toda materia c(o)nbustible, que
+lejos de fuego parcial, se quema menos, como al c(o)ntario ayu-
+dada de dos causas combur(e)ntes, se quema mas. Esta raz(o)n en lo
+celeste aunque la suban al cielo no se como la puedan salvar.
+     No menos fue, segun razon natural, y prueba de ser sublu-
+nar, el no centellar la cabeça del Cometa, como las demàs
+estrellas, que es la demonstracion de no estar arriba de la Lu-
+na; porque el centellear las estrellas, y algunos de los Plane-
+tas, es la suma distancia, y longuitud que tienen à la tierra:
+causa de que la vista se desflaquecem de que resulta el parecer
+centellear, segun <name type="person" reg="Aristóteles">Aristoteles</name>; con el qual argumento prueba,
+que los Planetas estàn mas cercanos à nosotros, que las estre-
+llas, porque centellean menos: esto es, porque menos travajan
+la vista al mirarlos, que es lo mismo que sucede en los viejos,
+que por la flaqueza les tiemblan las manos, y demàs partes, y
+estas por la debilidad, aunq(ue) antes les cargavan, y sustentavan
+con virtud fuerte; les es ya carga desproporcionada, que es la 
+causa del tremor, como <cit>dize <name type="person">Galeno</name> <refTitle>2. de Causis symptomatum
+c.2. y lib. de Rigore.</refTitle> Assi la vista quando mira vn objeto lucido
+con distancia improporcionada, juzga que el objeto tiembla,
+ò centellea: De donde se infiere, que el centellear arguye su-
+ma distancia; pues si nuestro Cometa, jamas centelleò, quan-
+do Venus si en su presencia por largo tiempo: Luego la distan-
+cia de este Cometa no era immodica, ò suma como los demás
+Planetas, sino sublunar, como hemos dicho; porque si de su
+movimi(e)nto coligieramos su altura, respecto del que tuvo à sus
+fines: le aviiamos de colocar mas alto que el orbe de <name type="planet">Marte</name>.</cit>
+     Sea vltima circunstancia, y fundamento, lo que <cit>dize <name type="person" reg="Aristóteles">Ari-
+stoteles</name>, por el <name type="person" reg="Fernández Rajo, Francisco">doctor Rajo</name>, <refTitle>cap. 9. lib. 4. de los Cometas</refTitle>, que
+despues de ingentes, y copiosas lluvias, apparecen las mas ve-
+zes los Cometas</cit>; y esto mismo en terminos sucediò en la pro-
+duc
+
+</p>
+</div>
+
+<div>
+
+<pb>folio 14 frente</pb>
+<p>
+duccion de nuestro Cometa, q(ue) en la Luna de Octubre, y mas al
+llenar fuer(o)n las lluvias muy considerables, y copiosas; y al me-
+diar el mes inmediato, q(ue) fue Noviembre se apareciò el Cometa.
+     Estas son las circunstancias, en breves razones, q(ue) ( procu-
+rando passar del orbe de la Luna àrriba) me impidieron el pas-
+so, por las dificultades, q(ue) me representavan; y aunq(ue) muchas no
+he expressado; mientras à las puestas, con buenas respuestas no
+satisfaciere: me he quedar en el ayre, sin poder pasar à del(a)n-
+te. Y mas quando à vn mismo tiempo de estarse viendo el Co-
+meta, se veiàn los montes, y sus cabeças de todo nuestro Hori-  
+zonte, cubiertas de demasiada niebe, como se experim(e)ntò por
+<date reg="1680">fines de de Dizi(e)mbre de 80</date>. y lo mas de <date reg="1681">Enero deste de 81</date>. Los
+ayres solian ser impetuosos, y despues de puesto el Sol, se ad-
+vertiân celajes colorados: indicio, y signo demonstrativo, que
+aquèl <term type="astron" reg="meteoro">Metheoro</term>, con estos, dezia igual naturaleza de sublu-
+nar; pues prevalecer estos quando aquèl, y ò converso; arguye
+mutua dependencia en la materia, de que con igualdad todos
+constan, y se componen.  
+
+	<head>Proponense los Promissores, Significado-
+	res, y Padres en particular de este Come-
+	ta; la especie que tuvo: y en que dia fue 
+	su generacion.</head>
+	
+	
+[Letra capital de dos renglones, del 23-24]
+PAra llegar à los pronosticos de este Cometa, es necessario
+asentar los aspectos singulares, y <term type="astro" reg="eclipse">Eclipses</term>, que antecedie-
+ron à su generacion, para que segun el señorio, y dominio, que
+en ellos tuvieron algunos de los Planetas, se venga en conoci-
+miento de sus significados, que es lo mismo que de ordinario se
+haze para los efectos de los <term type="astro" reg="eclipse">Eclipses</term>, y sus pronosticos, â que
+naturalmente nos podemos estender.
+     Y como para que mejor conste la generacion, y prosapia del
+q(ue) se inquiere, sea necessario recurrir a sus antecessores, y dec(e)n-
+dientes. Si traemos el <term type="astro" reg="eclipse">Eclipse</term> de Sol, de <date reg="1679">4. de Octubre, del año
+passado de 79</date>. le veremos celebrado en el mismo Decano en
+que se celebrò el de <date reg="1680">22 de Septiembre deste año de 80</date>. que an-
+tece-				          D2
+
+</p>
+</div>
+
+<div>
+
+
+<pb>folio 14 vuelta</pb>
+<p>
+tecediò immediato al Cometa: assimismo veremos en aquèl à
+<name type="planet" reg="Marte">Marte</name> Promissor, y Almutam, con tantas prerrogativas, y dig-
+nidades, que sobre vn <name type="zodiac" reg="Escorpión">Escorpion</name> aponçañado hecha vn volcan
+de fuego desde su casa, en que se goza ardiente; y en la facie del
+Sol levant(a)ndo crecidas, y bast(a)ntes exalaciones, y vapores de la
+tierra; y mas qu(a)ndo fue señor de aquèl <date reg="1679">mismo año de 79</date>. como
+diximos vniformes los que escrivimos esta revolucion annua.
+     Sentir es del <name type="person" reg="Barrientos, Bartolomé">Maestro Barrientos</name>, <refTitle>lib. de Cometas, c. 19</refTitle>. de-
+ducido de <name type="person" reg="Albumasar">Albumaçar</name> , y demàs tan cientificos como antiguos
+en esta Ciencia, que quando an algun <term type="astro" reg="eclipse">Eclipse</term> tuviere Marte
+prerrogativa, y fuere señor de aquèl año, se puede esperar pro-
+duccion de Cometa; y mas firme, si <name type="planet">Marte</name> estuviere en Signo
+igneo, como entonces lo estuvo, que fue el Signo de <name type="zodiacal">Leon</name>; y
+mi fundamento principal, para pronosticar poderse esperar la
+produccion deste Cometa, que ya hemos visto, y en este mis-
+mo Signo dicho de Leon repitiò su hospedaje en el <term type="astro" reg="eclipse">Eclipse</term> de
+Sol, que antecediò al Cometa, en los 3 gr. termino de <name type="planet" reg="Júpiter">Jupiter</name>,
+y facie de <name type="planet">Saturno</name>. <name type="planet">Mercurio</name>, en esta misma ocasion, fue Al-
+mutan, ò el que mas prerrogativas, y dignidades obtuvo, des-
+de los 16. gr. de <name type="zodiac">Virgo</name>, (lugar del Cometa) en donde se adju-
+dicò como dueño de casa , el gozo en ella; y como quien esteva
+tan graduado en aquel lugar, no le fue dificil la exaltacion, po-
+niendose en su solio, ò carpento, que es qu(a)nto domino puede
+tener vn Planeta, para ser significador  de este Cometa, segun
+todos los de esta Ciencia afirman; pues conforme a los Eclip-
+ses antecedentes, y Señores de ellos, coligen su naturaleza, y
+especie; como assimesmo los pronosticos, y efectos futuros.
+     Estos dos Planetas fueron los que más fuerza tuvieron en
+la produccion deste Cometa;  y es cierto assi, pues sin estos dos
+con las prerrogativas referidas, jamàs se ha observado Come-
+ta de esta especie, segun <name type="person" reg="Ptolomeo">Tholomeo</name>, <name type="person" reg="Albumasar">Albumaçar</name>, y los moder-
+nos, que les siguen. <q>Mas no contento el <name type="person" reg="Barrientos, Bartolomé">Maestro Barrientos</name>,
+con los <term type="astro" reg="eclipse">Eclipses</term> antecedentes al Cometa, para juzgar de el en-
+carga, que en quanto  fuere posible se escudriñe, y se sepa el dia,
+y hora en que se pudo producir, tomando como se pudiere ra-
+zon</q>
+</p>
+</div>
+
+<div>
+
+<pb>folio 15 frente</pb>
+<p>
+<q>zon de los del campo, y Caminantes, Pastores, y Marineros:
+<foreign lang="Lat">Verum ego in hac sententia persevero, manibus que paessis eam
+amplecti vellem, ut Cometae initium, quantum posss habere cone-
+ris. Sinon vidisti, ab agricolis, pastoribus, &amp; noctu iter facientibus
+illud inquirere, diligentique cur a indaga; tunc exacte, ac sine ulla
+bessitatione, Deo iuvante, iuditia tua clara erunt</foreign>.</q> <refTitle>cap. 18.</refTitle> Halla-
+do el tiempo de la produccion del Cometa, Dios mediante di-
+ze este Autor grave, seràn sus juizios claros; estos seràn à nue-
+stro entender, los que mas llegaren à la verdad; que es lo que
+en estos juizios se pretende. Y assi para que esto mismo, que
+pretende este Autor nos pueda suceder à nosotros. 
+     Digo, que el dia en que pudo tener principio este Cometa,
+fue el dia <date reg="1680">15. del mes de Noviembre, el año de 80. â las 5. hor.
+46. mi.</date> de la tarde; lo qual porque no parezca absoluta prola-
+cion mia, irelo probando con razones <term type="OldSp" reg="Filosófico">Philosoficas</term>, y con ex-
+periencias observadas demonstrando, que son los instrumen-
+tos, con que la Ciencias naturales, como la Astrologia, purifi-
+can, y aclar(a)n sus verdades, para el acenso de sus proposiciones.
+     Hasta aqui tenemos conocidos los Padres del Cometa, que
+fueron los dos <term type="astro" reg="eclipse">Eclipses</term> de Sol, dichos, y con las dignidades, y
+fuerzas, que tuvieron <name type="planet">Marte</name>, y <name type="planet">Mercurio</name>, para levantar exa-
+laciones, ayudados del Sol. Hemos visto assimismo, el modo
+de evaporarse, y subir la materia de la tierra, hasta la region 
+del fuego, y aqui le advertimos ya encendida; pero para ra-
+strear el quando de su incendio, que llevo referido, es necessa-
+rio advertir, que el <date reg="1680">dia 15. de Noviembre de dicho año passado
+de 80</date>. se miraron de aspecto quadrado <name type="planet">Marte</name>, y <name type="planet">Mercurio</name>, se-
+gun la altura, y Horizonte de <name type="place" reg="México">Mexico</name>, à las 5. hor. 37. mi. de la
+tarde, <name type="planet">Marte</name> desde los 3.gr. del Signo de <name type="zodiac">Virgo</name>, y <name type="planet">Mercurio</name>
+desde la rodilla diestra del Ophiuc, que ocupò los 12.gr. de <name type="zodiac" reg="Sagitario">Sa-
+gitario</name>, ambos signos, y lugares de la triplicidad ignea: razon
+bastante para embiar sus luzes bien inflamadas, c(o)nfundiendo-
+se por el Signo de <name type="zodiac">Virgo</name>, como morada Marcial: Luego im-
+mediatamente à las 6. hor. de la tarde, de este mismo dia, llegò
+la Luna, à la cabeça del Dragon, que en aquèl dia estuvo en 
+27-
+
+</p>
+</div>
+
+<div>
+
+
+<pb>folio 15 vuelta</pb>
+<p>
+27.gr. del mismo Signo de <name type="zodiac">Virgo</name>; y como sea delarix, ò por-
+tadora de las luzes, e influencias, que todos los demàs Plane-
+tas, que le son superiores, de quienes la tierra no recibiera los
+influjos, ò por lo menos con mucha debilidad los experimen-
+tara, por la mucha distancia, que se interpone á esta machi-
+na terraquea, sino mediara la Luna, que como substituta de
+las demàs superiores virtudes Planetarias, nos la comunica,
+como mas cercana à la tierra. Altamente conociò esta vecin-
+dad <cit><name type="person">Galeno</name> <refTitle>lib. 3. de Diebus decretor.</refTitle> hablando del Sol, dize:
+<foreign lang="Lat">Sed ipse uelut Rex quidam est, Luna ut Princeps, non mediocris
+inter illum, &amp; nos medius constitutus, terrestrem regionem meritò
+guvernat, n(o)n potentia ceteros Planetas, sed vicinitate exuperans</foreign>.</cit>
+     <cit>El <name type="person">Doctor Nuñes, Medico Salmanticense</name>, en el <refTitle>cap. 4. del
+lib.5. de Cometas</refTitle>, hablado de la necessidad del concurso de la
+Luna, para la generacion del Cometa, dize: Que del concur-
+so de Astros, y configuraciones del cielo, se pueden, como de
+materia leve, eng(e)ndrar Dragones, Lanceas, Faces, Castor, Po-
+lux, y Helena, que de los Navegantes es llamado: Santelmo, y
+otras impressiones Metheorologicas. Pero para la generacion
+del Cometa, es muy necessario el concurso de la Luna: <foreign lang="Lat">Hinc
+censeo, debere necessario Lunam concurrere, aliâs ea deficiente,
+nullo modo causari Cometam ob rationes supra dictas</foreign>:</cit> Con que si
+infiere el dicho Doctor de todos los antiguos, y sus obser-
+vaciones, ser tan necessario el concurso de la Luna , que sin èl
+no puede engendrarse el Cometa. Y en este dia le tenemos en 
+el mismo lugar del Cometa, y sitio de las confussiones de las
+hizes del quarto, celebrado vna hora antes. Que tiempo pode-
+mos buscarle mas al proposito à la Luna, para este incendio?
+Y para el Cometa enc(e)ndido por la Luna, que otro dia? Y que
+hora mas oportuna? Y con mas provable cojetura à la razon?
+Pues como im mediata â la hornilla, atiz(a)ndo la llama de <name type="planet" reg="Marte">Mar-
+te</name>, y avivando el soplo de <name type="planet">Mercurio</name>, y juntamente agitando, y
+conculcando la materia, que hallò ya dispuesta en este mis-
+mo lugar: le diò el vltimo complemento, y disposicion vltima 
+para su primer incendio. Luego si todo esto referido sucediò 
+en
+</p>
+</div>
+
+<div>
+
+
+<pb>folio 16 frente</pb>
+<p>
+en el <date reg="1680">dia 15. de Noviembre, y à dicha hora de las 5. de la tarde</date>
+se celebrò aspecto de quadrado entre <name type="planet">Marte</name>, y <name type="planet">Mercurio</name>, cu-
+yas luzes se encontraron, y vnieron, en los vltimos grados de
+<name type="zodiac">Virgo</name>, donde avia materia combustible; es muy segun razon
+el poderse afirmar conjeturalmente, que fue el dicho dia, el
+principio, incendio, y apparicion de este Cometa.
+     Confirma la razon, que he propuesto, lo que han observado
+en esta materia, sin otros muchos, los quatro Medicos, y emi-
+nentes Astrologos, <name type="person" reg="Fernández Rajo, Francisco">Rajo</name>, <name type="person">Muñoz</name>, <name type="person">Misaldo</name>, y <name type="person">Cardano</name>; pues al
+inquirir el tiempo de muchos Cometas, que observaron: halla-
+ron con provable conjetura, que el aspecto fuerte de <name type="planet">Marte</name>, y 
+<name type="planet">Mercurio</name>, con intervencion de la Luna, averse encendido â
+los dias, y horas de dichos aspectos Marciales, y Mercuriales.
+Y no es mucho, q(ue) Cardano, at(e)ndiendo à estos aspectos veni-
+deros (como sucediò en estos, q(ue) antecedieron à nuestro Come-
+ta) coligiesse, y predixesse vn año antes el Cometa del año de 
+1506. como sucediò, de este presente <date reg="1679">el año de 79</date>. <cit>Refirierelo
+el <name type="person" reg="Barrientos, Bartolomé">Maestro Barrientos</name>, en el <refTitle>cap. 19. lib. de Cometas</refTitle>, por estas
+palabras: <foreign lang="Lat">Hinc non admodum mirandum est Cardanum multis
+ante diebus quam Cometa conspiceretur, vid(e)ndum esse, praedixisse</foreign>.</cit>
+<cit>Y el <name type="person" reg="Fernández Rajo, Francisco">Doctor Rajo</name>, como moderno, y perito, en el <refTitle>libro I.
+de los Cometas, cap. 11.</refTitle> inquiriendo la caussa eficiente de la
+cauda del Cometa, que es lo mismo que su incendio, dize: <foreign lang="Lat">Hoc
+anima advertentes, caudam sine Martis mixtione advenire nun-
+quam, &amp; meo quidem iudico, nec sine Mercurij prefentia. Cum
+Mercuriales Cometae proceritate ceteros antecellant</foreign>.</cit> <name type="planet">Marte</name>, y 
+<name type="planet">Mercurio</name>, dize, son necessarios para la generacion del Come-
+ta, dandole vn distinctivo à la Cauda, en que <name type="planet">Mercurio</name> tuvo
+mas fuerza, que es el mayor tamaño que pued(e)n causar los de-
+mas Planetas, de d(o)nde se collige la especie del Cometa; y sien-
+do, como hemos dicho, Mercurio el que tuvo tantas dignida-
+des en el <term type="astro" reg="eclipse">Eclipse</term> de Sol antecedente: fuerza era, q(ue) como hijo
+de tal Padre sacasse la señal Mercurial de tanta longitud, y en
+el color semej(a)nte; pues era efeto de su casa, gozo, y exaltacion.
+     Esta es de las diferencias, que pone el <name type="person" reg="Fernández Rajo, Francisco">Doctor Fernandez</name>,
+segun
+
+</p>
+</div>
+
+<div>
+
+<pb>folio 16 vuelta</pb>
+<p>
+segun la naturaleza de los Planetas; por lo qual digo: que fue-
+ra de tener, como tuvo, <name type="planet">Mercurio</name> <term type="Astro">Almuten</term>, y prerrogativas
+grandes en este Cometa; tuvolas assimismo <name type="planet">Marte</name>, <name type="planet">Saturno</name>,
+<name type="planet">Venus</name>, y la Luna. Por el color plateado, que mostrava, cono-
+cido esta, arguià similitud, con efectos Lunares; <name type="planet">Marte</name>, por lo
+alegado, y ser causa eficiente en la elevacion de las exalacio-
+nes, y dignidades, que no le faltar(o)n desde su casa, como se dixo
+antes; Uenus, por ser señora del lugar ecliptico antecedente,
+y desde su casa governando en la regia, cuya mixtion en la es-
+pecie planetaria, no es mala mezcla con los adversos, para la
+permistion de los favorables con los amigos.
+     No es dudable haga duda el ver el Color del Cometa, repre-
+sentando colores planetarios, quando de razon natural avian
+de ser terrestre, alegando la region de su origen como patrios
+de la tierra. A lo qual se satisface para el mundo gr(a)nde, lo que
+en el pequeño, y el hombre sucede, que de solo vn <term type="med">humor</term> san-
+guineo, y de color rubio se nutren tantas, y tan diversas par-
+tes del cuerpo, que segun el temperamento de la que le atrae,
+ò el color que le pertenece: assi se haze, y recibe el color al lle-
+gar a la parte que le atruxo, aunque del higado saliò con el co-
+lor rubio, y sanguinolento, mudando el color, al color que se
+llega, como en el huesso, blanco y duro, en el nervio, ligamen-
+tos, y tendones del mismo temperamento, y color; pues de la
+misma suerte sucede en el Cometa, respecto de las exalaciones
+de la tierra, q(ue) aunq(ue) salgan de ella de vna naturaleza, qualidad,
+y color, llegando al termino hasta donde pudo su atracci(o)n, se-
+gun la calidad, temperamento, y naturaleza de los Planetas,
+que tuvier(o)n mas dignidades, y promissores, esto es, estuvieron 
+mas fuertes para elevar los vapores, y materia exalable: se vi-
+stiò el Cometa, el color de los mas plntados en fuerzas â su
+produccion, y gozando de la misma naturaleza, que de sus Pa-
+dres recibiò; y naciendo finalm(e)nte al mundo con los resabios
+heredados, y adquiridos de <name type="planet">Marte</name>, <name type="planet">Mercurio</name>, <name type="planet">Venus</name>, Luna,
+y algo de <name type="planet">Saturno</name>, podemos dezir, que quanto de ellos here-
+do no lo hurtò, Y segun esta difer(e)ncia Planetaria , fue este Co-
+meta
+</p>
+</div>
+
+
+<div>
+
+ 
+<pb>folio 17 frente</pb>
+<p>
+meta Mercurial por lo estendido, y largo, y por el color pla-
+teado de Luna , <name type="planet">Venus</name>, y <name type="planet">Saturno</name>.
+    <q> <name type="person">Plinio</name> trae nueve diferencias de Cometas, que refiere</q>; y Yo
+no digo, por la brevedad. Solo si asiento, que de estas el nue-
+stro tuvo aquella señal que pone; que representando la cauda
+como crines de la cola de vn cavallo bien peynada, <q>segun se re-
+presentò la nuestra, se llama <term type="astron">Hyppeo</term>, como doctamente le de-
+nominò <name type="person">D. Carlos de Siguenza, y Gongora</name>. Cathedratico de
+Mathematicas en la <name type="Inst" reg="Real Universidad">Real Vniversidad</name> de <name type="place" reg="México">Mexico</name>, en su Ma-
+nifiesto <term type="OldSp" reg="Filosófico">PPhilosofico</term> contra los Cometas.</q>
+     Los modernos tra(e)n otras, que refiere el <name type="person">Zamorano</name>, y demàs;
+q(ue) segun ellas podemos denominar al nuestro: magnus milles,
+que es el que tiene vn rayo largo, y al estremo hecha à modo
+de madeja de cabellos, como se vido en este que vimos. Estas
+son las especies de este nuestro nuevo Cometa, de cuyos Pa-
+dres hemos dado informacion, con que se nos appareciò el dia,
+que tenemos con autoridades, y razones demonstrado; y ya
+que, segun terminos Astronomicos, hasta aqui le hemos juz-
+gado: hagamos juizio de lo que en adelante nos puede prome-
+ter como portador de lo determinado de los Superiores cuer-
+pos, en sus juntas, y congressos de luzes planetarias.
+
+	<head>Notanse algunas advertencias necessarias,
+	para los pronosticos de este Cometa.</head>
+	
+	
+[Letra capital de dos renglones, del 24 al 25]
+<cit><name type="person" reg="Séneca">SEneca</name>, en el <refTitle>lib.7. y vltimo de las naturales qu(e)stiones</refTitle> que
+pone; quita la qu(e)stion de lo que sin duda devemos hazer
+llegando à pronosticar, ò inferir efectos, y afectos de aquellas
+tan altas, y supremas lumbreras, atribuyendo à sola la Divi-
+nidad, lo cierto, y verdadero de sus prenuncios:<foreign lang="Lat"> Quae an vera
+sint, Dij sciunt, quibus est sci(e)ntia veri. Nobis rimari illa, &amp; conie-
+cturare in oculto tantum licet, neccum fiducia inveniendi, nec sine
+spe</foreign>.</cit> Pues si estos en su gentilisimo atribuiàn lo mas cierto, y
+verdadero de los efectos de las estrellas, â la divinidad, y Dio-
+ses, que fingian. Los Catholicos, que la mas cierto, è infalible
+verdad (à Dios gracias) conocemos, y Christianamente con-
+fessa-   			          E
+
+</p>
+</div>  
+  
+<div>
+  
+<pb>folio 17 vuelta</pb>
+<p>
+fessamos: à quien sino à esta suma verdad de verdadero Dios,
+y Señor nuestro, podemos atribuir el conocimiento intimo de 
+lo venidero, y futuros efectos, que determinaron en luzidas
+juntas los superiores Astros, en aquellos Alcaçares? que como
+hacedor, y Criador suyo, les govierna, y rige, conforme su vo-
+luntad se sirve; siendolo assimesmo en haver comunicado, y
+mostrado esta Ciencia Astronomica, à los primeros Nietos de
+<name type="cathDiv" reg="Adán">Adan</name>, de quienes hasta oy en dia han corrido en succession las
+mismas reglas, y preceptos Astronomicos, sino en lo intimo
+de sus secretos; si en lo que conjeturalmente se puede adelan-
+tar el discurso:<cit> <foreign lang="Lat">Nobis rimari illa, &amp;coniecturare in oculto tant(u)m
+licet</foreign>. Y à este punto conduce lo mas que diximos en el Prolo-
+go, con <name type="person" reg="Santo Tomás">Santo Thomas</name>, en el <refTitle>parrapho 7.</refTitle></cit> assign(a)ndonos el ter-
+mino hasta donde podemos llegar en los pronosticos natura-
+rales, que frecuentem(e)nte acontecen. Pàra cuyo conocimien-
+to es forçosso notar, y presuponer algunos fundamentos, in-
+strumentos. ò principios, de los quales se vsan en esta Cien-
+cia, con que se infieren los significados como dogmas asenta-
+dos en sus illaciones.
+     El primer principio , ò instrumento, es la observacion, que
+es vn fundamento por el qual nos acercamos à la verdad: no
+por otra razon, sino porque assi està observado; y este princi-
+pio, como dize el <name type="person" reg="Niccolo Cabeo">P. Cabeo.</name> aunq(ue) es mas crasso es el mas cier-
+to. Pongo por exemplo, en los Signos signos radicales (assi les nom-
+bran todos) de las Ciudades del mundo. No ay ninguno que dè
+la razon à priori del porque lo son, esto es, que señale, y mue-
+stre las tablas, y themas celestes al criar Dios el mundo, para
+que conste, que signo ascendia por el Horizonte de cada Ciu-
+dad en aquèl punto de la Creacion. Y assi â posteriori, ò por lo
+que se ha observado en tantos tiempos: se à venido en conoci-
+miento de ser Signos radicales de tal , ò tal Ciudad, aquellos
+en quienes si suceden <term type="astro" reg="eclipse">Eclipses</term>, Conjunciones Magnas, ò otras
+appariciones celestes: imprimen con estraña particularidad
+sus efectos: como ha sucedido à este Hemispherio de <name type="place" reg="México">Mexico</name>
+con su <name type="place" reg="Nueva España">Nueva-España</name>, respecto del Signo de <name type="zodiac">Capricornio</name>, que 
+siem-
+</p>
+</div>
+
+<div>
+
+<pb>folio 18 frente</pb>
+<p>
+siempre que en este Signo han sucedido <term type="astro" reg="eclipse">Eclipses</term>, ò cosas seme-
+jantes dichas: desdichas ha experimentado a poco despues to-
+da esta Americana Monarchia, pues le han sobrevenido cala-
+midades varias de pestes, inundaciones, hambres, y terremo-
+tos. Y segun esta, corre la misma razon en Sagitario, respecto 
+de la mas parte de <name type="place" reg="España">España</name>; y assi de las demàs partes, y Ciuda-
+des del mundo. Por lo qual quedara satisfecho, que quando en 
+adelante se dixere, que los efectos del Cometa, experim(e)ntara
+tal, ò tal Ciudad, esta, ó aquella parte del mundo; serà  dicho se-
+gun este principio de la observacion, con la qual se han cono-
+cido los Signos radicales de todas las Ciudades del mundo, y
+de sus particulares Reynos, que segun extraordinarios aspe-
+ctos, y apariencias celestes, en tales Signos radicales, extraor-
+dinaria, y sensiblemente han experimentado sus infaustos, ò 
+favorables efectos.
+     Lo demàs que concurre al juizio de esta Cometa, como se-
+gundo fundamento, ò principio, es el raciocinio discurso, ò ra-
+zon, que es lo mismo, que en los juizios de los <term type="astro" reg="eclipse">Eclipses</term>, re-
+voluciones annuas, es permitido, para deduzir seg(u)n thema ce-
+leste, Carestias, Pestes, Enfermedades, Sequedades, ò Lluvias.
+De estos dos principios c(o)nstan los pronosticos de este Come-
+ta; de suerte que siguiendo la fee, y creencia, que se le dà a las
+Historias, donde me faltare la razon à priori, proseguirè se-
+gun observaciones, y donde la razon cupiere le harè lugar.
+     Lo segundo, que advierto, para los mismos efectos del Co-
+meta, es, segun buena <term type="OldSp" reg="Filosofía">PPhilosofia</term>, q(ue) los accidentes son en dos
+maneras: vnos son proprios, y otros comunes: estos comunes
+(hablo al proposito) son como en vn achaque patrio, ò regio-
+nal, como en <name type="place" reg="México">Mexico</name> el afecto catarroso. Morir, ò no morir mu-
+chos de este achaque, es ac[c]idente comun; porq(ue) aunq(ue) mueran
+muchos, ò pocos del: siempre es catarro; pero el morbo epide-
+mial tiene por accidente proprio el que mueran muchos, por-
+que le es muy proprio à este achaque pestifero el darle à mu-
+chos, y à estos matarlos; desuerte, que si pocos murieran deja-
+ra de ser morbo pestilente, ò epidemia: lo qual milita con la 
+mis-				      E2
+
+</p>
+</div>
+
+<div>
+
+
+<pb>folio 18 vuelta</pb>
+<p>
+misma razon en los Cometas. Bien es, que siempre mueren
+Potentados, y Grandes, sin preceder Cometas; pero mas cier-
+to quando se apparecen estas señales; que es lo mismo, que si
+dixeramos: de afectos, y achaques comunes, no falta quien se
+muera todo el año; pero de vna Epidemia con mas certidum-
+bre moriràn mas, porque dejara de se Epidemia sino matara à
+muchos, y el Cometa dejara de ser Cometa, si no le siguieran
+varias calamidades de Pestes, Carestias, Hambers, Guerras, y
+Muertes de señalados, y Terremotos, è Inundaciones. Este es
+sentir, c(o)n el sutil <name type="person" reg="Juan Duns Scoto">Scoto</name> de todos los <term type="OldSp" reg="Filósofo">Philosofos</term>, y conformidad
+de todos los Astrologos, de quienes no quiero mas authoridad,
+tray(e)ndo lugares à la memoria, que las muchas memorias, por
+asolados, q(ue) han quedado en diversos Lugares del mundo, pues
+en partes no quedò  Lugar, aunque de ello quedaron memorias
+solamente; porque aunque muchos Astrologos como <name type="person">Pontano</name>,
+<name type="person">Manilio</name>, y la <name type="person">Sybila Erithrea</name> nos hazen m(e)nsion de todas estas
+calamidades, no es dar à los versos exageracion de la cosa mas
+de lo que es, sino de lo que es observado ponerlo con toda ver-
+dad en versos, como versada verdad en muy medida cadencia.
+     De los efectos de los Cometas, vnos hazen mas dificultad,
+que otros, y la causa es, por no desentrañar, y conculcar inti-
+mamente la materia, en que mas se pone en la duda: porque de la
+peste, terremotos, sequedades, y otros à este modo, dificultan
+pocos; pues si de vn solo <term type="astro" reg="eclipse">Eclipse</term>, ò entrada del Sol en Aires, se
+pueden pronosticar sequedades, de que naturalm(e)nte se siguen
+Terremotos, Esterilidad, de q(ue) siempre se sigu(e)n Hambres, Epi-
+demias, y Contagios; dudo Yo la razon del por que no se pue-
+da de vn Cometa, que es infausto efeto, y aborto de aquellos
+primeros; pues si con el ayre infestado, que no està en su na-
+tural temperamento, segun razon, quando despiertos le respi-
+ramos, y dormidos no nos falta, y de este ayre atraido se fo-
+menta el coraçon, se hagan espiritus: dudo que aya espiritu,
+que pueda resistir a tanta malignidad; y assi estos, y semejan-
+ctes accidentes no dudo, que nadie dudarà ser muy conceta-
+neos à la razon natural.
+Los
+</p>
+</div>
+
+<div>
+
+
+<pb>folio 19 frente</pb>
+<p>
+Los demàs efectos, como muertes de Principes, Cabeças,
+Grandes Potentados, y Señores, Guerras, Latrocinios, Opres-
+siones, Tumultos, Muertes violentas, y cassos atroces, son los
+pronosticos, que  ponen dudas à los ojos que miran sobrepeine
+el porque. Y assi empeçando por los primeros, digo: que natu-
+ralmente el Cometa, amenaza Muertes de Principes, Potenta-
+dos, y Señores, para lo qual se hall(a)n muchas razones naturales;
+en cuya confirmacion pondrè por exemplo quatro hombres
+rusticos, y vno delicado, en vn tiempo fatal , en q(ue) el ayre està
+inficionado de preva qualidad, è infestando por la respira-
+cion à todo vivi(e)nte; los quatro rusticos en este tiempo les con-
+sideramos, como assi es, eng(e)ndrados desde el vientre de sus ma-
+dres de principios robustos, sanos, y fuertes. Al delicado todo
+le sucede à la contra por la mayor parte; aquellos vsando ali-
+mentos fuertes dificiles à la corrupcion; este debiles, y faci-
+les de corromperse, con promptitud à obstrucciones muchas;
+aquellos sin cuydados agenos mas de los pocos proprios; este
+con los de la Republica entera, y Govierno de Reynos, pesan-
+do meritos, midiendo justicioa, disimulando ofensas, castigan-
+do delictos; en ocupaciones, y cumplimientos foraneos, y de
+a dentro, ò domesticos, que atrae siempre el puesto, pertur-
+bandose en acciones su naturaleza; y finalmente hecho de to-
+do vn cuydado; de que naturalm(e)nte se siguen molestissimas vi-
+gilias, que resuelven espiritus, consumen <term type="med">humores</term>, y secan to-
+do vn cuerpo humano; lo qual se acrecienta con las tristezas,
+que no suelen faltar de diversas noticias calamitosas, q(ue) acon-
+tecen considerables, de cuyos accidentes estan muy lejos los
+demas hombres, no solo los rusticos, sino los Republicanos, y
+plebeyos: Luego si de los cinco hombres propuestos, el vno
+solo es el mas expuesto à qualquiera leve calamidad en contra
+de la salud, y este es vn Principe, vn Grande, vn Governador, 
+vn Regente, vn Prelado, y finalmente qualquiera Cabeça, que
+govierna? Quien dudarà, que considerada esta causa en su or-
+den, como dicho esta, no conceda concurrir à dicho pronosti
+co naturalmente las subordinaciones referidas? Y si à esto no 
+assen-
+
+</p>
+</div>
+
+<div>
+
+<pb>folio 19 vuelta</pb>
+<p>
+assentimos con los ojos abiertos de la razon, creeremos à ojos
+cerrados ser el Cometa, pronostico de muerte, en especial de
+Principes, Reyes, y grandes Señores, por la voluntad de Dios,
+que assi à sido servido de disponer, precedan primero estas se-
+ñales Cometicas:<cit> como doctamente nos lo enseña el eruditis-
+simo <name type="person">Maestro Fray Juan de Santo Thoma</name> lib. primero de Me-
+theoris cap. de Cometis: <foreign lang="Lat">sed verius est mortem Principum in
+speciaeli significare ex beneplacito Dei, qui Comet(a)m tanquam sig-
+num Mortis exhibet, ut ait Damascenus 2. de fide c. 27. aut sal-
+tem ex usu, quia videmus frequenter sic accidere mortem Prin-
+cipum ex apparientia Cometarum</foreign>.</cit> En esta vltimas palabras de 
+<name type="person">San Damasceno</name>, advierto el segundo pricipio, que arriva pro-
+puse, para los pronosticos, que es la observacion, y dogma, que
+resulta de lo que frequentemente acontece, y del vso: Y pre-
+suponiendo estos dos fundamentos este <name type="person">Santo P. S. Juan Da-
+masceno</name>, me parece, q(ue) sin duda asientan dogma, ù observacion
+de estos pronosticos, y como tales se deven venerar sus autho-
+ridades, respectar sus dichos, y temer sus pronosticos, que co-
+mo Amigos de Dios se llegan mas à la verdad.<cit> Y <name type="person">S. Gregorio</name>,
+sobre el <refTitle>cap.21.de San Lucas homil. I.</refTitle> dize assi: <foreign lang="Lat">Quia haec non 
+longe absunt, ex ipsa aeris mutatione colligimus plusquam Italia
+gentili gladio ferienda tradderetur, igneas in coelo acies vidimus:
+ipsum que, qui postea humani generis fusus est, sanguinem corrus-
+cantes</foreign>.</cit> Todos los efectos, que este Santo Padre insinua en sus 
+palabras sucedidos en su tiempo en la Italia; de la misma mu-
+dança del ayre los collige: y quien collige de mud(a)nça edl ayre
+diversos phenomenos, y figuras celestes como perfecto Phi-
+losofo, y Astrologo collige; y con la estrecha amistad, que con
+Dios tuvieron estos Santos Padres: se hazen sus pronosticos
+dogmas verdaderos, assi para la Ciencia Astronomica por lo
+observado, como en lo doctrinal, y moral, para los Christia-
+nos, amonestandonos como amigos intimos de Dios, y como
+à quienes continuamente les revela sus juizios, el fin de tan
+largo tiempo, y tantas vezes observado, para que Dios antici-
+pa estas particulares señales ostentando por ellas mas clara-
+mente
+</p>
+</div>
+
+<div>
+
+
+<pb>folio 20 frente</pb>
+<p>
+mente su infinita misericordia, de no herir primero antes de la
+prevencion al reparo, de que suele muchas vezes mejorarse
+nuestro provecho, si nos aprovechamos mejor del aviso.
+     Toda esta doctrina en este particular pronostico, c(o)n su eru-
+dicion acostumbrada, <cit>recopila el doctissimo <name type="person" reg="Padre Martín del Rio">Padre Martin
+Del-Rio</name>, en el <refTitle>lib.4. de las Disquisiciones Magicas, c.3. quaest.
+2. </refTitle> por estas palabras: <foreign lang="Lat"> Aliquando vero, &amp; Cometae, quibus omni-
+bus c(o)mmune est, magnam temporis siccitatem denotare; signa quo-
+que esse ventorum diuturniurum, vel violentorum: quod maximè
+Cometis convenit; qui si frequenter fuerint, etiam praesignificant
+sterilitatem, famen, ac pestem, eo quod vis Cometae omnem vapo-
+rum, &amp; exalationum humiditatem absumit: unde consequenter
+mortem minantur biliosis, &amp; que ardentioris sunt naturae, quales
+Principum, &amp; Magnatum: cadem siccitatis causa, ad bella quoque
+&amp; seditiones inclinant</foreign>.</cit> Hasta aqui son los pronosticos de cau- 
+sas naturales: <cit>Y de las sobrenaturales hablando dicho Padre,
+dize: <foreign lang="Lat">Fittamen non rarò, ut Cometarum causa sit supernaturalis
+dumtaxat Dei dispositio, hoc pacto, vollentis admonere homines
+de imminente publica calamitate, vel morte Regum, aut Princi-
+pum, ut ad paenitentiam, &amp; morum emmendationem recurramus.
+Tunc autem Cometae pertinent ad ostenta, ut Dei charitatem no-
+bis egregie commendant, non ferientis , nisi nos prius admonuerit</foreign>.</cit>
+     Los pronosticos en que sobresale mas la dificultad, son los 
+de las Guerras, Injusticias, Sedissiones, Opresiones, Hurtos,
+Salteamientos, y Homicidios, de q(ue) naturalm(e)nte se siguen Car-
+celes, Horcas, Destierros dilatados, è inquietudes populares.
+Todo lo qual si se atiende intimamente: se conocerà suceder 
+segun el regular orden de causas naturales, y segun la varia-
+cion del temperamento, que resulta de la qualidadm q(ue) mas pre-
+valece antes, y despues de vn Cometa, que es la cali(e)nte, y seca.
+Y como en un temperamento de esta qualidad, se sigan parti-
+culares, y especificas acciones por esso en tal tiempo las mas
+acciones del animo en los hombres, son las que nacen del tem-
+peramento colerico, q(ue) es el en que prevalece el calor, y seque-
+dad. Y siendo esta la complexion mas apta, y facil al enojo, 
+muy
+</p>
+</div>
+
+<div>
+
+<pb>folio 20 vuelta</pb>
+<p>
+muy cercana à la ira, y no lejos para la venganza: con mucha
+facilidad acontecen tales accidentes dichos; y mas, ò menos
+segun que en vn hombre antes de la producci(o)n del Cometa, es
+mas, ò menos colerico en su natural temperamento; porque 
+como el ayre caliente, y seco (como en el tiempo dicho) mu-
+de, y altere la sangre, haziendole mas delgada, y tenue, segun
+la diversidad de los sujetos, ò mixtos de otras qualidades: se su-
+citataràn varias, y diversas inclinaciones, à distintos, y diversos
+motivos, y efectos, pues pervertido el natural temperamento
+de la sangre en el hombre, falta la prudencia, con la qual se go-
+viernan las mas acciones naturales del animo; y este caydo se
+ocupa de diversas, y peregrinas opiniones, inclinandole vnas
+vezes à seguir lo que le vino al entendimiento, y otras â mu-
+dar de lo antes intentado; desuerte, que aun de los males pre-
+sentes, que le pueden acaecer, se olvida, por el fin que se le ha
+representado: intentado debajo de la razon de bueno. Toda
+esta mudança de la sangre, en que consiste la prudencia, y el
+animo se pervierte; <cit>con elegancia trae <name type="person" reg="Hipócrates">Hypocrates</name>, en el <refTitle>libro 
+de flactibus, circa medium</refTitle>: <foreign lang="Lat">Opinor autem inter omnia, quae in
+corpore sunt, nihil magis ad prudentiam conferre, quam sangui-
+nem. Hic ergo cum in constanti habitu persistit, cosistit &amp; pruden-
+tia sanguine vero permutate considit simul, &amp; prudentia</foreign>. Y des-
+pues, que esta su acercion confirma con varias cosas, trae el
+sueño, que tiene propriedad de enfriar la sangre, de q(ue) resulta
+el languor de sus canales, por no governarse bien de la natu-
+raleza. Despues prosigue: <foreign lang="Lat">Omnia enim gravia natura ad fun-
+dum deferuntur, &amp; oculi ardent, &amp; prudentia permutatur, opinio-
+nes que peregrinae mentem ocupant, &amp; exercent, sicut etiam per
+ebrietatem aucto repente sanguine, percellitur animus, &amp; in ani-
+mo prudentia, fiuntque praescentium malorum oblibiosi, ac futu-
+rorum bonorum faec(u)nda spe beantur. Possem autem plurima eius-
+modi congerere, inquibus sanguinis permutationes, animi quoque
+prudentiam permutant. Siquidem igitur penitus totus conturba-
+tus est sanguis, &amp; prudentia prosternitur</foreign>.</cit> Aunque este
+lugar de 
+<name type="person" reg="Hipócrates">Hypocrates</name> tengo para mayor asumpto dedicado: no
+es
+</p>
+</div>
+
+<div>
+
+<pb>folio 21 frente</pb>
+<p>
+es menos al proposito de nuestro presente intento, para mo-
+strar las varias inclinaciones de la sangre pervertida. Y en esta
+materia es quanto de mayor consideracion, tanto menos en
+despreciar la authoridad de 
+<name type="person" reg="Hipócrates">Hypocrates</name>, pues mereció del Do-
+ctor de la Iglesia San <name type="person" reg="San Agustín">Augustin</name> vna laudatoria singularissima,
+y casi increible, por el <cit><name type="person">Doctor Bravo de Sobremonte</name> <refTitle>lib. 3. fol.
+74.§. 3. en el 5. de Civitate Dei</refTitle>: <foreign lang="Lat">Creavit Deus Hypocratem tan-
+quam virum in Arte Medica minime errantem</foreign>.</cit> Y siendo por 
+este Santo Padre, <name type="person" reg="Hipócrates">Hypocrates</name> de tal auctoridad, que fueron
+ciertas sus sentencias, como de quien no hierra en lo que dize
+dentro de los terminos Medicos: devemos con el credito que
+San <name type="person" reg="San Agustín">Augustin</name> dà a <name type="person" reg="Hipócrates">Hypocrates</name>, collegir la perturbacion de el
+animo, que pone, nacida la mud(a)nça de la sangre, de que re-
+sultan varias opiniones para diversas inclinaciones. De todo
+lo dicho, pondrè vn exemplo en la inclinacion del hurto, y lo
+mismo correrà por otras inclinaciones â este modo. Pongo, 
+pues, vn hombre ociosso, y de temperamento calido, ò melan-
+colico proporcionalmente, vse assimesmo alim(e)ntos no de bue-
+na substancia, ò que abundan en demasiadas superfluidades.
+Este en el tiempo de vn Cometa apparecido, si antes la sangre
+tenia de mal aparato, despues con la exuperancia del calor, y
+sequedad, se le permuda, y esta con tan mala disposicion haze
+que falte la prud(e)ncia; y esta faltando empieçan à venir, y ocu-
+par diversas, y peregrinas opiniones al entendimiento, repre-
+sentando siempre ojebtos debajo de la razon de buenos,ha-
+ziendose olvidadiços los males, q(ue) le amenazan futuros; como
+la Horca, Carceles, y la paga de su delito, y acordandose solo
+de los bienes presentes, de que les parece, se constituy(e)n ya po-
+sessores del bien imaginado; llegan à poner à su intencion los
+medios, y en el medio de su intencion dan los fines de su vida
+â vna Carcel, y la afrentosa muerte à vna debida Horca. Lo
+qual no sucediera si no le faltara la prudencia, para con ella re-
+frenar sus acciones, y corregir los impulsos de opiniones ad-
+venediças, con el libre advedrio; pues aunque las influencias
+de los cielos nos causan, en quanto es de su parte, propencion 
+à al-					  F
+</p>
+</div>
+
+<div>
+
+<pb>folio 21 vuelta</pb>
+<p>
+à algunas acciones, pero no nos quitan la livertad, con la qual
+las podemos evitar resisti(e)ndo à las inclinaciones, que nos cau-
+san las influ(e)ncias. Y esto es el sentido, que doy qu(a)ndo nombro
+inclinacion de Cometa, ò Astros á diversas acciones. Como à 
+este intento <cit>dixo <name type="person" reg="Ptolomeo">Tholomeo</name>, en el <refTitle>Centiloquio 5</refTitle>. <foreign lang="Lat">Potest qui
+sciens est, multos Stellarum affectus avertere, quando earum na-
+turas noverit, &amp; se ante illorum cuentum preparare</foreign>.</cit> El qual pro-
+loquio abrevia <cit><name type="person" reg="Santo Tomás">S. Thomas</name>, diziendo: <foreign lang="Lat">Vin prudens, &amp; sapiens do-
+minabitur Astris</foreign>.</cit> Y assi la prudencia, con el libre alvedrio, es
+la que refrena las acciones, y con la prudencia se advierten los
+peligros, se huy(e)n las ocasiones, se despreci(a)n malas compañias;
+con la prudencia, se toman consejos buenos, se advierten es-
+carmientos, y se solicita la quietud; y se pide à Dios, que las ac-
+ciones de qualquiera Christiano, sean dirigidas, y encamina-
+das à su mayor servicio, para honra, y gloria suya.
+
+	<head>Traense los pronosticos singulares de este
+	Cometa, segun Thema celeste al tiempo de
+	su produccion, y demas circunstancias.</head>
+	
+	
+ [Letra capital de dos renglones, del 19 al 20]
+HAsta aqui à sido todo lo referido como vna artificiosa ar-
+maçon, para llegar à los pronosticos particulares de este
+Cometa; los quales son en dos maneras: vnos son precissa-
+mente por razon de Cometa, y estos por la mayor parte son
+siempre infaustos, y lugubres, pues prevaleci(e)ndo la sequedad,
+y calor en el ayre, ay mas promptitud en las cosas combusti-
+bles para que à la menor causa, y leve de fuego, acontezcan
+Incendios grandes, que los temo en Haziendas, de campo de
+consideracion; por lo qual serà bueno el cuydado en Ingenios,
+Trojes, y vniversalmente en toda obra de fuego: Terremotos 
+assimismo amenaza este Cometa, en la mayor parte del mun-
+do, pues discurrio por los Signos, que en esta mayor parte son
+radicales, y mayores, con desolaciones en las partes Australes
+(por donde temo enemigos) cuya razon de mayoria, y conti-
+nuidad en dichas partes, | <cit>dirà por mi, el sutil <name type="person" reg="Juan Duns Scoto">Scoto</name>, en el <refTitle>cap.
+de Terremoto, y temblor de tierra</refTitle>; y de estos experimentarà
+la</cit>
+</p>
+</div>
+
+<div>
+
+        
+<pb>folio 22 frente</pb>
+<p>
+<cit cont="1">la  <name type="place" reg="Nueva España"> Nueva-España</name> algunos, en el tiempo de la duracion de los
+efectos de este Cometa, que serà por once Años, tres meses, y
+diez y nueve dias. Sus efectos començaron, aun antes de su in-
+cendio, que fue desde que subia la materia para su generacion.</cit>
+     De las enfermedades, ya estamos experimentando la Epi-
+demia, que referì en mi Diario, que va corri(e)ndo este <date reg="1681">año de 81.</date>
+de ebullicion de sangre, y putrefaccion de ella, con mucha ma-
+lignidad, y flujos de <term type="med">humores</term> colericos à las partes pudendas,
+y muchas Viruelas; y assi como destos achaques en dicho Dia-
+rio puse la curacion precautiva, y curativa, como acostumbro
+siempre; assi en los venideros, segun que mas, ò menos se au-
+mentaren, ó disminuyer(e)n, seguirè el mismo orden: por lo qual
+no me detendrè en este pronostico de temer Epidemia, pues
+la tenemos ya à los ojos tan casera, que se puede c(o)n riguridad
+aumentarse por alguna advenediça, ò extrangera; y si estas
+Epidemias, ò Pestes, no fueran producidas de aquellos con-
+gressos, y juntas de luzes en los Planetas, y Estrellas Errantes,
+no mencionara la Santa Iglesia, en la Oracion propria, que vsa
+en ti(e)mpo de Peste, la guerra de las Estrellas, q(ue) no puede ser otra,
+q(ue) sus mismas naturalezas de opuestas, y c(o)ntarias qualidades
+en si mismas por Conjunciones diversas: Nunc dignetur sidera
+compestere, quor(u)nbella plebem caedunt dirae mortis ulcere. Bueno
+es no falte esta Oracion repetida en nuestros coraçones, pues
+se nos vienen temores de estas desdichas à los ojos  
+     En los frutos de la tierra, mucha calamidad se podia expe-
+rimentar, pues exalado aun el humedo substantisico de la tier-
+ra acompañando las exalaciones, que subier(o)n â la materia Co-
+metica: pudiera esperarse bastante carestia. Pero con algunos
+buenos aspectos (como despues se dirà, y se dixo antes, con <name type="person" reg="Santo Tomás">S.
+Thomas</name>) se humedecerà la tierra, como t(a)mbien por dos Eclip-
+ses totales de Luna, que sucederàn el <date reg="1682">año que viene de 82</date>. sa-
+liendo en el vno la Luna por nuestro Horizonte ya empeça-
+da à eclipsar, que aunque aumentaràn algunos infortunios,
+pero para templar el ayre caliente, y seco, y humedecer à la
+aridez de la tierra, serán favorables.
+Otros 				         F2
+
+</p>
+</div>
+
+<div>
+
+
+<pb>folio 22 vuelta</pb>
+<p>
+Otros efectos son por razon de Cometa, y segun el lugar de
+su generacion, como tambien conforme al thema celeste, que
+se erige al tiempo de su primera produccion, ò incendio, segun
+que se puede conjeturar. Y aviendo probado ser el <date>dia 15. de
+Noviembre, a las 5. hor. 46. mi. de la tarde</date>; se conoce, que fue
+engendrado en la 5. casa, respecto deste Horizonte de <name type="place" reg="México">Mexi-
+co</name>; por lo qual amenaza à los hijos algunos infortunios, por
+que resultaràn à los Padres bastantes, y considerables cuyda-
+dos; les afligiràn assimismo varios achaques mortales, y peli-
+grosos, que ayudarà, y fomentarà <name type="planet" >Marte</name>, desde la 4. señor de
+la sexta, que es el Hospital de las enfermedades, induciendo-
+las breves, y agudas, con bastantissima malignidad.
+     Haviendo, pues, engendradose el Comera del la 5. cafa, res-
+pecto de nuestro Horizonte: vino à caer dicha produccion
+segun circulo de posicion en el Ascendente de <name type="place">Roma</name>, con la
+assistencia assimismo de <name type="planet" >Marte</name>, y en el Signo de <name type="zodiac">Virgo</name>, q(ue) segun
+observado, y razon: es bast(a)nte infortunio para poderse temer
+en los estados Italicos, y Romanos, algunas alteraciones, mu-
+chas de las quales podràn evitarse con la prud(e)nte disposicion,
+y juicio de los que goviernan. No faltaràn Hambres, Pestes, y 
+Muertes de Cabeças grandes, Destierros, y Cautiverios.
+     Assimismo, con poca diferencia, tuvo Constantinopla en
+su Ascendente à <name type="planet">Marte</name>, y produccion del Cometa; mucha
+ruyna le amenaza, y à todo su Imperio: quiera Dios, q(ue) la me-
+nor desdicha, q(ue) padeciere, sea para que su Rey, y vasallos ven-
+gan à su mayor felicidad de la Fè Catholica; que a(u)nque enton-
+ces para estos fuera el pronostico cierto de mudança de nueva
+Ley, siendo en nuestra Santa Fè Catholica: fuera para ellos la
+Ley nueva, y buena; y para nosotros muy buena nueva. Y lo
+mismo corre en las demas gentes, que desseamos los Christia-
+nos vengan al gremio de nuestra Santa Fè Catholica.
+     <name type="place">Mesopotamia</name>, y la <name type="place" reg="Asiria">Assyria</name>, <name type="place">Alemania alta, y baja</name>, <name type="place">altos, y
+bajos Payses</name>, experim(e)ntaràn trabajos con todas sus partes cir-
+cunvezinas, y adiacentes. <name type="place">Francia</name>, <name type="place">Inglaterra</name>, y <name type="place">Portugal</name> con 
+su <name type="place">India Oriental</name>, tocaràn del repartimiento de este Cometa 
+ba-
+</p>
+</div>
+
+<div>
+
+<pb>folio 23 frente</pb>
+<p>
+bastante porcion, y en Lysboa, ò muy cerca de ella, por la
+la parte del Sudueste considerables Temblores de tierra, q(ue) cau-
+sen algun Terremoto grave, como tambien la <name type="place">China</name>, y <name type="place" reg="Japón">Japon.</name>
+     <name type="place" reg="España">Nuestra España</name>, segun tenemos noticia, ya respira por algu-
+nas partes el ayre infestado; y ya à sentido temblar algunas
+partes de tierra de su <name type="place">Europa</name>. Quiera Dios no oyga esta leal
+America mas adversidades, sino que paren à vista de su Patron
+Santo el Señor <name type="cathDiv" reg="San José">San Joseph</name>, como assi se espera.
+     A la hora dicha de las <date reg="1679">5. de la tarde, y 46. mi. del dia 15. de
+Noviembre</date>, subian por nuestro Horizonte, y Seno Mexicano
+los 26. gr. 17. mi. de <name type="zodiac">Tauro</name>, casa, y gozo de <name type="planet">Venus</name>, exaltacion
+de la Luna, significadora de la gente popular, facie, y termino
+de <name type="planet">Saturno</name>, y <name type="planet">Venus</name> al mismo tiempo se halla angular en la
+7. Y assimesmo en el <term type="astro" reg="eclipse">Eclipse</term> antecedente, se hallò angular, y
+en la Regia, Señora del lugar ecliptico, assistida de <name type="planet" reg="Júpiter">Jupiter</name>; co-
+mo tengo dicho en el juizio del Lunario de Temporales, que
+va corriendo este año. Y siendo assimismo <name type="planet">Venus</name>, à la hora
+conjeturada de la primera apparicion, è incendio del Cometa,
+señora del Ascendente: se constituye <name type="planet">Venus</name> señora Promisso-
+ra, y Almutan (respecto de la <name type="place" reg="Nueva España">Nueva-España</name>) de este Come-
+ta: lo qual es muy favorable à todo este Reyno, respecto de los
+pronosticos vniversales de este Cometa; y à lo menos lo mas
+infausto, q(ue) en diversas partes del mundo sucediere, se oyrà so-
+lo en este Reyno; aunque no por esso hemos de confiar tanto,
+que menospreciemos el haver cobrado tanta fuerza el Cometa
+en <name type="zodiac">Capricornio</name>, Signo radical deste Reyno, y celebrado Con-
+juncion con la Luna, el Sol, y <name type="planet">Mercurio</name>, que este es muy astu-
+to para inducir nuevos modos, y trazas para hurtos, engaños, y
+fraudes, y assimismo sucitar enojos de causas leves, para llegar à
+perdimi(e)ntos en todos estados, vejaciones, injurias, y trabajos.
+     <name type="planet" reg="Júpiter">Jupiter</name>, à la hora dicha, se hallava en Signo de figura hu-
+mana, facies suya, y angular en el Ascendente de nuestro Ho-
+rizonte, que con las prerrogativas dichas de Venus; son estas
+dos Fortunas de mucho favor (mediante Dios) para todo este
+Reyno, y con la mutua Recepcion de domicilio con <name type="planet">Mercurio</name>,
+refre-
+
+</p>
+</div>
+
+<div>
+
+
+<pb>folio 23 vuelta</pb>
+<p>
+refrena muchas asversidades, que pudieran ser considerables;
+aunque <name type="planet">Mercurio</name>, y <name type="planet">Marte</name>, segun suposicion aumentan tem-
+blorés de tierra pavorosos, calores grandes ayres, y huracanes
+violentissimos, y cruelissimas tempestades de rayos, truenos
+y relampagos. Satruno desde la 3. señor del medio cielo, y c(o)n
+señorio en el <term type="astro" reg="eclipse">Eclipse</term>; como assimismo con exaltacion en el
+lugar cometico, <q>pues segun <name type="person" reg="Albumasar">Albumaçar</name>, los vltimos 5. gr. del
+Signo antecedente se refutan con la denominacion del subse-
+quente</q>; y siendo la apparicion del Cometa, en los vltimos 5.
+gr. de <name type="zodiac">Virgo</name>, y <name type="zodiac">Libra</name>, que es el Signo immediato: vino Satur-
+no á tener exaltacion en el lugar Cometico; por lo qual se au-
+mentaràn vientos fuertes, que puedan ser dañosos à las semi-
+llas, y causar mociones maritimas, con dificultad en viages
+nauticos, y peligros de sumerciones, à que ayuda <name type="planet">Mercurio</name>, y
+<name type="planet">Marte</name> angulares en aparatos de guerras navales, como t(a)mbien
+para molestissimos yelos, frios intolerables, à su tiempo, es-
+carchas, y neblinas, è inundacion à los fines cuydosa.
+     Mas qualquiera calamidad se haze à vn pecho Christiano
+tolerable qu(a)ndo en medio de los pronosticos dichos topamos
+al primer experimento Cometico, y à los primeros passos de
+su curso c(o)n vna Conjuncion Magna de los dos Superiores <name type="planet" reg="Júpiter">Ju-
+piter</name>, y <name type="planet">Saturno</name>, en triplicidad ignea, q(ue) es en el Signo de Leon;
+cuya triplicidad siempre ha favorecido al estado Eclesiasti-
+co, como vniversalmente à todos los Catholicos, y fallecido à
+este passo el Mahometano Imperio, con sus Sequaces, como
+tantas vezes se à observado: es muy puesto en razon, el que
+esperemos exaltacion de nuestra S. Fè Catholica; y mas qu(a)n
+do, segun observè, el Cometa luego que llegò al Orbe de Jupi-
+ter, retrogradò, que es como si retirara el passo à vista del q(ue) re-
+presenta la Iglesia; d(a)ndo à entender, q(ue) esta, y sus Pastores avian
+de ser extirpacion de su ponçoña, y malicia, por su santo zelo
+y govierno prudente, de que <name type="place" reg="México">Mexico</name> se puede prometer muy
+buenas noticias; como assimismo de la buena posicion de las
+dos Fortunas Venus, y <name type="planet" reg="Júpiter">Jupiter</name>, que prometen alivio en los
+cuydados, y mas à vista de tan <name type="person" reg="Carlos II">Catholica Magestad de CARLOS 
+SE-</name>
+</p>
+</div>
+
+<div>
+
+
+<pb>folio 24 frente</pb>
+<p>
+<name>SEGUNDO</name> nuestro Rey, y Señor (que Dios guarde) y su santo 
+zelo en prolongar, y comunicar la S. Fè Catholica por todo el 
+mundo, à costa de sus Reales haveres, sin mas interes de que
+gozen tan dilatadas Provincias como las de <name type="place">Filipinas</name>, y <name type="place" reg="Nuevo México">Nue-
+vo-Mexico</name>, del pasto santo, y manjar divino de la Fè Cristia-
+na, como her(e)ncia santa de aquèl Catholiquissimo Monarcha
+<name type="person">D. Felipe Segundo</name> nuestro Señor(que Dios aya) quando le 
+consultò el Consejo de Estado, demoliesse, y desertasse las <name type="place">Islas
+Filipinas</name>. Respondiendo Christianamente Politico: Que sino
+bastavan las Rentas, y Tesoros de las Indias à conservar una Er-
+mita, si mas no huviesse, en que se rindie(ß)sen reverentes Cultos, y
+veneraciones sagradas al verdadero Dios, asistiesse <name type="place" reg="España">España</name>, con
+los suyos; que no avia de entender el mundo, que porque carecian
+los rayos resplandecientes de la predicacion Evangelica, fin à que
+principalmete debia dedicarse el poder temporal de los Reyes: que
+reconocia la obligacion Apostolica, que à si, y à sus soberanos Pro-
+genitores avia impuesto la Iglesia Romana. <refTitle>Solorz. de Ind. Jure
+lib. I. C. 16. n. 105. Cum Apostolici muneris. &amp; Gregor. Lopez de
+Excell. Hisp. Monarch. C. 6. fol. 44. &amp; C. 9. fol. 74 &amp;c. </refTitle> Pues si
+en nuestro Rey, y Señor se continua esta Catholica magnani-
+midad por el motivo de la prolongacion de nuestra Santa Fè,
+y el cielo se haze lenguas con aspectos de Planetas venevolos,
+de quienes â observado la experi(e)ncia favores, mediante Dios.
+Que podemos esperar de tal congresso? Sino exaltacion de la 
+Fè Catholica para mayor gloria de la Iglesia Militante, y feil-
+ces sucessos à nuestro Rey, y Monarca, por ser t(a)n piadoso zelo,
+en comunicar a la luz Ev(a)ngelica, en t(a)n dilatado paganismo. No
+menos es de alta consideracion desta int(e)ncion Christiana, lo
+que al presente ha experimentado esta <name type="place" reg="Nueva España">Nueva-España</name>, en el 
+animo fervoroso, y Catholico pecho devotam(e)nte piadoso del
+Ex.mo Señor Marques de la Laguna, <name type="person" reg="Conde de Paredes">Conde de Paredes</name>, Virrey
+de esta <name type="place" reg="Nueva España">Nueva-España</name>, à cerca de la perdicion, y alçamiento
+del <name type="place" reg="Nuevo México">Nuevo-Mexico</name>, (q(ue) afirmo efecto Cometico) pues siendo
+informado del sucesso, y muertes de Religiosos, q(ue) administra-
+van
+</p>
+</div>
+
+<div>
+
+
+<pb>folio 24 vuelta</pb>
+<p>
+van los Santos Sacramentos; con vn fervor precisso, en ocho
+dias excasos con suma providencia allanò gravissimas difi-
+cultades, tomò vltima resolucion, para la regulacion de lo ne-
+cessario, y forçosso à la conduccion, y restauracion de aquel
+Reyno en la brevedad, por el temor de la prevaricacion en 
+nuevamente convertidos: siendo servido desde luego mandar
+se librasen noventa y cinco mil quatrocientos y quarenta y
+seis pesos, para dicha restauracion, y pacificacion.
+     Si esta prerrogativas admirables, hallamos en los pechos, y
+animos de los que goviernan las Republicas Christianas, dan-
+donos bastantissimos exemplos en su inclinacion devota en el
+culto divino? Como podemos no esperar alguna suavidad en 
+lo aspero de los trabajos, que amenazan à nuestras Catholi-
+cas <name type="place" reg="España">Españas</name>; y mas quando es el blanco del amor de su Rey, y
+vasallos el gloriosissimo Patriarcha <name type="cathDiv" reg="San José">San Joseph</name>, debajo de cu-
+yo Patrocinio no se temen Hambres, porque con <name type="cathDiv" reg="San José">Joseph</name> nin-
+gunas se experimentaron, con <name type="cathDiv" reg="San José">Joseph</name> nunca la piedad faltò à
+quien pedimos como vnico Sol, alumbre los ent(e)ndimiento de
+los que goviernan, guardandoles la prudencia, conservando-
+les la salud para el buen govierno, y prosperos sucessos de to-
+do el Pueblo Christiano, que assimesmo en tal Patron confia
+la seguridad de su Catholico Monarcha, felicissima
+sucesion para su Imperio, y bien publico de
+todos sus Basallos. Dios sobre todo
+Soli Deo, honor, &amp; gloria.
+[Imágenes de estrellas a los lados y en medio de esta abreviatura] 
+O. S.C.S.M.E.C.R.
+
+</p>
+
+</div>
+</body>
+
+</text>
+
+
+</TEI>

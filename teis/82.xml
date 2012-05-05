@@ -1,0 +1,947 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="es">
+<schemaSpec ident="TEI-minimal" start="TEI">
+<moduleRef key="tei"/>
+<moduleRef key="header"/>
+<moduleRef key="core"/>
+<moduleRef key="textstructure"/>
+<moduleRef key="namesdates"/>
+</schemaSpec>
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+  <title>
+DISCURSO HECHO SOBRE LA SIGNIFICACION DE DOS IMPRESSIONES METEOROLOGICAS que se vieron el Año passado de 1652.
+  </title>
+  <author>Juan Ruiz</author>
+  </titleStmt>
+  <publicationStmt>
+	<publisher>Universidad Nacional Autónoma de México. Facultad de Filosofía y Letras</publisher>
+	<distributor>Biblioteca Digital del Pensamiento Novohispano</distributor>
+	<respStmt>
+	<name>Liliana Guzmán Olmos</name>
+	<resp>Marcado XML/TEI</resp>
+	</respStmt>
+	</publicationStmt>
+	<sourceDesc>
+	<bibl>DISCURSO HECHO SOBRE LA SIGNIFICACION DE DOS IMPRESSIONES METEOROLOGICAS que se vieron el Año passado de 1652.</bibl>
+	</sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<pb>1 f</pb>
+<docTitle>DISCURSO HECHO SOBRE
+LA SIGNIFICACION DE DOS
+IMPRESSIONES METEOROLOGICAS
+que se vieron el Año passado de 1652.</docTitle>
+<body>
+<div>
+<p>
+La primera de un Arco que se terminava de Oriente
+à Occidente à <date type="comet" reg="18 de noviembre de 1652">18 de Noviembre.</date>
+Y la segunda del <term type="astron">Cometa</term> visto por todo el Orbe ter-
+restre desde <date type="comet" reg="17 de diciembre de 1652">17 de Diciembre del mesmo Año de 1652</date>.
+POR <name type="person" reg="Ruíz, Juan">IVAN RUYZ</name> PROFESSOR DE
+Mathematicas.
+Dirigido al prudente, y discreto Lector.
+(Imagen del arco y del <term type="astron" reg="Cometa">cometa</term>)
+Con licencia de Nuestros Superiores.
+Impresso en <name type="place" reg="México">Mexico</name>: en la imprenta de su Autor. Año de <date>1653</date>.
+</p>
+</div>
+ 
+<div>
+<pb>1 r</pb>
+<p>
+(reverso en blanco)
+</p>
+</div>
+ 
+<div>
+<pb>2 f</pb>
+<p>
+(Anotación manuscrita: (Con?) la letra de <name type="person" reg="Martín, Enrico">Enrrico Martin</name> trasladado a fojas 2 o 2 de su repositorio. Cosa que oy <date reg="26 de mayo de 1755">26 de Mayo de 1755</date> que emprendemos (ilegible))
+</p>
+<p>
+PROEMIO
+(imagen de D)
+</p>
+
+<p>
+Despues que el Autor de Naturaleza
+con su infinito poder, y saber criò en el
+principio todas las cosas, fue servido
+de que la continua succession, y perma-
+nencia de los individuos, y cosas ele-
+mentadas, fuesse por medios naturales;
+y dispuso de tal modo su divina providencia el orden del
+universo, que las cosas inferiores son regidas, y governa-
+das por las superiores; y las menos nobles, por las mas
+nobles, de tal manera, que obrando las activas en las pas-
+sivas, se causa en naturaleza tanta variedad de effectos co-
+mo vemos, que manifiestan la soberana grandeza, y gloria
+de su Criador. Y aunque la infinita Magestad, y potencia de
+Dios Nuestro Señor por si solo puede governar el universo,
+como por si solo le pudo criar, y le conserva; siempre à sido
+servido (que es causa de las causas principal, y primera)
+governar este mundo inferior, por medio de las causas se-
+gundas, que son los cuerpos celestes, en quanto a la gene-
+racion, y corrupcion de las cosas naturales, y à la produccio
+de sus effectos; excepto el Anima racional, con su libre al-
+vedrio, que no entra en esta cuenta, la qual como criatura
+excelente, no sacada de la potencia de la materia, sino pu-
+ramente espiritual trasumpto, y dibuxo de su Criador, no
+està sugeta à las influencias celestes, como lo estan los ele-
+mentos, y cosas elementadas; cuyo ser, conservacion, y
+corrupcion depende naturalmente de la region celeste, co-
+mo de agente universal, (segun siente <name type="person" reg="Aristóteles">Aristoteles</name>, y todos
+los Filosofos) y dellos se sirve Dios Nuestro Señor, como
+de instrumentos en todas las operaciones naturales. Y assi
+diz <name type="person" reg="Alberto Magno">Alberto Magno</name> en el <refTitle>libro primº de las propiedades
+de</refTitle>
+ </p>
+ </div>
+
+<div>
+<pb>2 r</pb>
+<p>
+<refTitle cont="1">de los elementos, tratado 2. Cap. 9.</refTitle> que la voluntad de Dios
+es trarda a effecto por medio de las causas naturales, que
+son los cuerpos celestes de cuyo origen los antiguos sabios
+escudriñadores diligentes de las cosas naturales experimen-
+taron que las destruiciones de las Monarchias, las guerras,
+pestilencias generales, temblores de tierra, inundaciones,
+y otros sucessos semejantes, despues de la voluntad de
+Dios, le causan de las conjunciones, y concurso de los Pla-
+netas, mayormente de los Superiores, de donde procede la
+corrupcion, y destemplança del ayre, à que an precedido
+grandes señales de <term type="astron" reg="Cometa">Cometas</term>, y otras impresiones meteo-
+rologicas. Mas aunque es verdad, que asi lo ha mostrado
+la experiencia en las conjunciones passadas, no por esso se
+puede pronosticar con evidencia de los effectos dellas en lo
+futuro; por que las causas que ocurrieron en cada una de
+las passadas, no concurren de la misma manera en las ve-
+nideras, à cuya causa les podran seguir tambien diferentes
+effectos. Y assi este discurso hecho del <term type="astron">Cometa</term> que apare-
+ciò à <date type="comet" reg="17 de diciembre de 1652">17 de Diziembre del Año passado de 1652</date> à sido
+siguiendo lo que indica el significado de la conjuncion an-
+tecedente de <name type="planet">Saturno</name>, y <name type="planet">Marte</name>, que uuo à <date reg="19 de agosto de 1652">19 de Agosto de
+1652</date> (fecha a mano, rota la hoja) que lo causo; y la siguiente que sucede à <date reg="27 de noviembre de 1653">27 de No-
+viembre de este año de 1653</date> (Alterado el texto, fecha borrada y escrita en manuscrito) de <name type="planet" reg="Júpiter">Iupiter</name>, y <name type="planet">Marte</name>, segun que
+ellas, y otras causas han significado lo preterito, presente,
+y futuro; pues amplia, ò limitadamente no ay <term type="astron">Cometa</term> que
+sea ageno de daño, y quando aparecen son señal, y presagio
+de lo por venir, pues como la curiosidad nacida del temor
+que semejantes accidentes causa aggrega desseos de saber su
+significado; aviendo sido preguntado de muchas personas,
+que significava este <term type="astron">Cometa</term> aparecido à los <date type="comet" reg="17 de diciembre de 1652">17 de Dizim
+bre de 52</date> respondia que à lo escrito en mi Reportorio dese
+Año de <date>1653</date> me remitia: demas de lo qual, su significa-
+cion conformava con la de un Arco que se formò a <date reg="18 de noviembre de 1652">18 de
+Noviembre de dicho Año de 52</date> à hora de las 4 y media
+de
+</p>
+</div>
+ 
+<div>
+<pb>3 f</pb>
+<p>
+de la tarde; à cuya causa anduve remisso en sacar à luz su
+significacion; segun que en este pequeño volumen se hallarà
+dividido en tres Artículos: el primero, del Arco: el se-
+gundo, del <term type="astron">Cometa</term>; y el tercero, lo que significan. Sale aora
+dirigido al prudente, y discreto Lector, para quitar confus-
+siones, y recelos; y que conocida alguna parte de su signifi
+cacion futura, con tiempo lleguemos à implorar el favor,
+y auxilio divino, debaxo de cuya poderosa mano està todo
+el bien, el qual alcança su <name type="DivCath" reg="María">Santisima Madre</name> de todos los fie-
+les; pues en tiempo, y ocasion que con affectuosisimo amor
+celebravan la festividad de la purisima Concepcion en esta
+<name type="place" reg="Ciudad de México">Ciudad de Mexico</name>, sucediò el temblor de tierra tan grande
+à los <date reg="17 de enero de 1653">17 de Enero deste presente Año de 1653</date> que à no ser (Manuscrto al margen: Temblor de tierra año <date>165</date>(tres lineas tachadas)
+por su intercession santissima uviera sido de mayor effecto,
+y mas tremendo espanto, (como se lee en hystorias de ter-
+remotos que à avido en el mundo) segun las causas lo sig-
+nificaron, mayormente la de preceder un <term type="astron">Cometa</term>, y otras
+señales, que lo anunciaron. Y pues va à manos de tan lu-
+cidos, quanto esclarecidos ingenios como este Cielo, y
+Region de la <name type="place" reg="América">America</name> produce, pido suplan con su
+discrecion mis faltas,  con su erudita elo-
+quencia mi corto, y flaco ingenio
+en el dezir. 
+</p>
+
+<p>
+(Linea de Corazones) Corazones
+</p>
+ 
+<p>
+Az  ARTI-
+</p>
+</div>
+
+<div>
+<pb>3 r</pb>
+<p>
+ARTIVULO 1º
+</p>
+ 
+<p>
+(Capital) Començando Primº por el Arco que se formò, y
+apareciò à <date reg="18 de noviembre de 1652">18 de Noviembre de 1652</date>, à  hora de las 4
+y media de la tarde, de cuyo empeño me sacaran mas
+de los que bastan para testificacion de una cosa tan notable, que
+no solo ayan sido curiosos, sino doctos, y leydos, que lo vieran,
+y repararan, pues de mas de ser como fue vistoso, que parecia
+salir de Oriente llegando hasta el Occidente; su forma, gran-
+dor, y espectaculo era para dar gracias al Criador de todo.
+</p>
+
+<p>
+(Capital) A los <date reg="18 de noviembre de 1652">18 de Noviembre</date> se puso el <name type="planet">Sol</name> a las 5 horas y media de la tar-
+de con los 27 gr. 20 mi. del signo de <name type="zodiacal" reg="Escorpión">Escorpio</name>, (signo aquatico) à que
+se siguiò inmediatamente quadrado de <name type="planet">Venus</name>, y <name type="planet">Luna</name> a las 6 hor. 50 mi.
+de la mesma tarde, estando la <name type="planet">Luna</name> en los 10 gr. 46 mi. de <name type="zodiacal" reg="Cáncer">Cancer</name> su do-
+micilio, que es aquatico, y signo donde tuvo principio la aparicion del
+<term type="astron">Cometa</term> à los <date type="comet" reg="17 de diciembre de 1653">17 de Diziembre</date> siguiente. A la dicha hora de las 5 y me-
+dia en que el <name type="planet">Sol</name> se puso con los 27 gr. 20 mi. de <name type="zodiacal" reg="Escorpión">Escorpio</name>, el grado cor-
+respondiente à èl, por el Oriente, fueron los mesmos 27 grados 20 min del
+signo de <name type="zodiacal">Tauro</name>, que es terrestre, y de la triplicidad del signo dominante (subrayado y un trazo del signo de capricornio)
+deste Reyno; y assi mismo en el que feneciò el <term type="astron">Cometa</term> à <date type="coemt" reg="6 de enero de 1653">6 de Enero</date> del
+Año siguiente, que es este de <date>1653</date> punto digno de notar.
+</p>
+
+<p>
+La forma que el Arco tenia fue, que una hora antes de ponerse el
+<name type="planet">Sol</name>, se le puso delante una grande, y espessa nube (que segun una men-
+sura comparable seria de quatro varas en quadro, y de altor la distancia
+que faltava para ponerse el <name type="planet">Sol</name>, algo mas debaxo de Oriente, estando
+el cuerpo Solar mas arriba,) y sobre esta mesma nube grande en medio de
+ella otra menor, que estava delante del <name type="planet">Sol</name> cubriendo su luz, de altor, y
+toda ella de una vara en quadro, que nacia de la mayor, y de esta mesma
+(fo)rma de la nube menor se terminava: el Arco Poniente à Oriente, y
+por el contrario de Oriente à Poniente saliendo por el Oriente lo açul que
+representava el referido Arco tan obscuro, que causaba admiracion. Y
+aunque es assi, que en todo el Año ay varias impresiones en el ayre, qua-
+les son estrellas bolantes, bolas de fuego, y otras semejantes, por su poca
+duracion consumiendose luego, no son tan notables, como lo fue esta del
+Arco, (excepto las que por algun tiempo duran, y son grandes, y notables,
+como suelen averlas, à que se siguen diferentes effectos, de los que aora
+indicaron, y señalan al presente estas dos del Arco, y el <term type="astron">Cometa</term>.)
+Pues
+</p>
+</div>
+
+<div>
+<pb>4 f</pb>
+<p>
+Pues para sacar su significado busque la raiz del, y fue, que à la re-
+ferida hora de las 4 y media de la tarde puesta la Esfera material en la
+postura que estaba la celeste nacian por el Orizonte Mexicano la imagen
+de <name type="constelation">Perseo</name> (junto del qual feneciò el <term type="astron">Cometa</term>;) la <name type="constelation" reg="Cabeza de Medusa">Cabeça de Medusa</name> con
+las estrellas, que segun sus longitudes, y latitudes estan en <name type="constelation">Tauro</name>; y las
+<name type="constelation" reg="Pléyades">Pleyades</name> estellas pluviosas, y constelacion donde se causan temblores
+de tierra aconteciendo junto à ellas algun eclipse de <name tyoe="planet">Sol</name>, ò <name tyoe="planet">Luna</name>, ò co-
+juncion de Planetas superiores, ò algunas señales sublimes que los signi-
+fiquen, qual es esta del Arco, que significó el temblor de tierra tan gran-
+de, tan notable, que sucedió à <date reg="17 de enero de 1653">17 de Enero en la noche este año de
+1653</date>. Y no es de menor consideracion la de ponerse como se iba ponien-
+do à este tiempo en que el <name type="planet">Sol</name> se ponia por Orizonte Occidental la ima-
+gen de <term type="astron">Arturo</term>, estrella que en sus Ortos, y Occasos causa vientos tempes-
+tuosos: con lo qual tenemos conocida la mitad del Emispherio Mexicano
+hazia la parte Oriental con esta señal, anuncio, y liga de los effectos que
+significaron, y significan.
+</p>
+  
+<p>
+ARTICULO, 2º
+</p>
+ 
+<p>
+(Capital) Vemos, y experimentamos, que mediante las causas
+segundas, que son los cuerpos celestes es traida à effecto
+y execucion la voluntad divina, para los fines que es ser-
+vido, y ve que convienen. Y trayendolas por su orden, aviendo
+començado primero de hazia el Oriente por la señal del Arco
+que se vido; aora la parte Occidental se conocerà en la segunda
+señal, que fue el <term type="astron">Cometa</term> que apareció à <date type="comet" reg="17 de diciembre de 1652">17 de Diziembre del
+Año passado de 1652</date>, para lo qual referirè las antecedentes
+causas que precedieron, y fueron fomento dèl, con <name type="person">Ptolomeo</name> que
+dize, que la causa de los <term type="astron" reg="Cometa">Cometas</term> es por los <term type="astron" reg="Eclipse">eclipses</term> de <name type="planet">Sol</name>, y
+<name type="planet">Luna</name>, y también por las conjunciones de <name type="planet">Saturno</name>, <name type="planet" reg="Júpiter">Iupiter</name>, y
+<name type="planet">Marte</name>, suponiendo, que no se aya notado, ni reparado en el Re-
+portorio del año passado de <date>1652</date> ni en lo dicho en el de <date>1653</date>.
+</p>
+
+<p>
+(Capital) El año passado de <date>1652</date> uvo conjuncion de <name type="planet">Saturno</name> y <name type="planet">Marte</name>, à <date reg="19 de  agosto de 1652">19 de Agosto</date> a las 7 hor. 44 mi. de la noche en los 5 gr. 43 mi. del signo
+de <name type="zodiacal" reg="Leo">León</name>, concurriendo otros aspectos de no menor consideracion y avie-
+do precedido oposicion de <name type="planet">Sol</name>, y <name type="planet">Luna</name> á las 3 horas 44 mi. de la mañana
+del mesmo dia <date reg="19 de agosto de 1652">19 de Agosto</date>, en los 27 gr. De <name type="zodiacal" reg="Acuario">Aquario</name> (domicilio, triplici-
+dad
+</p>
+</div>
+
+<div>
+<pb>4 r</pb>
+<p>
+dad, y termino de <name type="planet">Saturno</name>) Ascendiendo el primero gr de <name type="zodiacal" reg="Leo">Leon</name>, hallan-
+dose à la hora de la oposicion en el Oriente los dos Planetas <name type="planet">Saturno</name>, y
+<name type="planet">Marte</name> en conjuncion partil. Por lo qual dixe en mi Reportorio del Año
+passado de <date>1652</date> en la foj 3. plana 1 linea 24. Lo siguiente. Tambien se
+colige del concurso de los Planetas, que en este Año se levantaran de la tierra
+exhalaciones calidas, y viscosas de que se engendrarà algun <term type="astron">Cometa</term>, o otra vision
+en el ayre: pues bien à a la clara emos visto se traxeron por delante su hijo
+el <term trpe="astron">Cometa</term> levantado con sus influxos entrando ambos à ser señores del
+Año siguiente de <date>1653</date> con tan evidentes muestras dello, que el <term type="astron">Cometa</term>
+salió primero por el Oriente a las 7 de la noche, y succesiuamente Satur-
+no tras del à las 8 horas y tres quartos de la noche; y <name type="planet">Marte</name> à la una, y
+media de la mesma noche siguiente, sin que otro Planeta estiuviese delantero,
+ni intermedio entre <name type="planet">Marte</name> y <name type="planet">Saturno</name>; excepto la <name type="planet">Luna</name> que à este tiempo
+aunava las calidades destos dos Planetas de la forma siguiente.
+</p>
+
+<p>
+Martes a <date reg="17 de diciembre de 1652">17 de Diziembre</date> à las 7 de la noche en que el <term type="astron">Cometa</term> na-
+ciò por el Oriente có los 19 gr. de <name type="constelation" reg="Cáncer">Cancer</name> se aplicava la <name type="planet">Luna</name> señora del
+Ascendente al quadrado de <name type="planet">Venus</name>, y inmediatamente se aplicò à la con-
+juncion de <name type="planet">Saturno</name>, y succesiuamente al fextil de <name type="planet">Marte</name>, (à que se siguiò
+quadrado de <name type="planet">Saturno</name>, y <name type="planet">Venus</name>) <name type="planet">Venus</name> en <name type="zodiacal" reg="Escorpión">Escorpio</name> casa de <name type="planet">Marte</name>,  <name type="planet" reg="Marte">mar-
+te</name> en <name type="zodiacal">Libra</name> (casa de <name type="planet">Venus</name>) mirando de quadrado al <term type="astron">Cometa</term>, y al Ascen-
+dente desde el angulo de la quarta casa adonde se effectuò el temblor de
+tierra de <date type="comet" reg="17 de enero de 1653">17 de Enero siguiente de 1653</date> como en su lugar se dirà.
+</p>
+
+<p>
+    Para ver como se cerrò el Emispherio Mexicano con dos señales tan
+notables, y venir en conocimiento de los effectos que significan, dire aora
+de este <term type="astron">Cometa</term>, no donde se engendran, el respecto que tienen al <name type="planet">Sol</name>, de
+su materia, ni de otras muchas causas, que à este proposito se traen; sino
+del discurso hecho acerca de su significacion. (Aunque hablando gene-
+ralmente segun <name type="person" reg="Cardano, Girolamo">Geronimo Cardano</name>, y otros autores modernos, <term type="astron">Cometa</term>
+no es otra cosa, que una copiosa cantidad de exhalaciones calientes, y fe-
+cas, gruessas, oleaginosas, viscosas, è inflamables, que atraydas de la <name type="planet" reg="Tierra">tierra</name>
+à lo alto por la virtud, y fuerza de los cuerpos celestes levantando dichas
+exhalaciones à la suprema region del ayre adonde por la cercania à la es-
+fera del fuego se encienden inflamandose por la ventilacion de ayre, y co-
+forme lo denso que posseen assi duran poco, ò mucho, hasta deshazerse.)
+Y assi mismo por aver sido, y ser entre todos los Mathematicos, y filoso-
+fos antiguos, y modernos una question bien ventilada, y reñida, que pedia
+cumplidos libros. De lo qual à tratado eruditamente explicando este punto
+el muy R. P. Maestro <name type="person" reg="Rodríguez, Fray Diego">Fr. Diego Rodriguez</name>, de la Orden de Nra. Señora
+de la Merced Redempcion de Captivos, Cathedratico de Mathematicas
+en
+</p>
+</div>
+ 
+<div>
+<pb>5 f</pb>
+<p>
+en propiedad en esta <name type="Inst" reg="Real y Pontificia Universidad de México">Real Universidad de Mexico</name>, en su <refTitle>discurso Etheo-
+rologico</refTitle> del nuevo <term type="astron">Cometa</term>, &c. que sacó à luz este Año de <date>1653</date> donde
+lo podrà vèr el que quisiere.
+</p>
+
+<p>
+    Començando por el lugar, y lugares que fue ocupando desde su prin-
+cipio hasta su fin, puesta la Esfera material en la posicion que estava la
+Celeste à la hora en que nació este <term type="astron">Cometa</term> por el Oriente al tiempo sobre
+dicho, se hallò estar cerca de la Estrella reluziente del Can mayor, de pri-
+mera magnitud, y naturaleça del <name type="planet" reg="Júpiter">Iupiter</name>, y <name type="planet">Marte</name>, la qual tiene de latitud
+y declinacion Meridional 39 gr. 10 mi. y de longitud 71 gr. á los quales
+añadido el precessio de los <term type="astron" reg="Equinoccio">Equinoccios</term> suman 99 gr. 36 mi. 20 seg de los
+quales restados los (mancha) 90 q son 3.signos (cötando desde el principio de <name type="zodiacal">Aries</name>)
+quedan 9 gr. 36 mi.20 seg del signo de <name type="zodiacal" reg="Cáncer">Cancer</name>: segun esta cuenta avien-
+do tomado la altura del <term type="astron">Cometa</term> à la hora que lo observè sobre el Orizonte
+Oriental de <name type="place" reg="México">Mexico</name> à los <date type="comet" reg="17 de diciembre de 1652">17 de Diziembre</date>, no hize mas de añadir tres gr. que tuvo mas de latitud, y declinacion, que juntados con los (mancha) gr.
+10 mi sumaron 4(mancha) gr 10 mi que se hallò tener de latitud, y declinacion
+Meridional; y segun longitud ocupó el <term type="astron">Cometa</term> los 8 gr. de <name type="zodiacal" reg="Cáncer">Cancer</name>. El
+Can mayor sale por el Orizonte de <name type="place" reg="México">Mexico</name> có 20 gr. y medio de <name type="zodiacal" reg="Cáncer">Cancer</name>;    
+y el <term type="astron">Cometa</term> salió con los 19 gr. del mesmo signo de <name type="zodiacal" reg="Cáncer">Cancer</name>, con que vi-
+nieron à estar en conjuncion dentro del quinto gr. Ascendiendo ambos
+por el Oriente el día de su aparicion à las 7 de la noche con diferencia de
+solos 6 mi.de hora (que aun no hazen medio quarto de hora) en que As-
+cendiò el <term type="astron">Cometa</term> primero, dando el primer broton, y luz muy resplan-
+deciente que echò de si, assi que se fue encendiendo sobre el mismo Ori-
+zonte Oriental de <name type="place" reg="México">Mexico</name>, y luego se fue recogiendo en si, hasta que que-
+dò en la forma que se vido, y los 6 mi. despues tras dèl el Can mayor.
+</p>
+
+<p>
+        De la primera estrella que se separó el <term type="astron">Cometa</term> fue desta del Can ma-
+yor, desde donde se fue desvaneciendo de Oriente à Occidente, yendo de
+la pate Meridional de donde començo para el Septentrion, atravesando
+las dos lineas de la Equinocial, y Ecliptica, aplicandose con la union que
+se vido à la imagen de <name type="constelation" reg="Orión">Orion</name>, passando por las <name type="contelation">Hiades</name>, y las <name type="contelation" reg="Pléyades">Pleyades</name>, (q'
+el vulgo llama Cabrillas) siempre al movimiento de la Decima Esfera, fue-
+ra del suyo propio natural, que tuvo contra la succesion de los signos, re-
+trocediendo desde los 8 gr. de <name type="zodiacal" reg="Cáncer">Cancer</name> (en que se halló en su principio)
+hazia <name type="zodiacal" reg="Géminis">Geminis</name>, y de <name type="zodiacal" reg="Géminis">Geminis</name> à <name type="zodiacal">Tauro</name> donde parò en los 19 gr. del, fene-
+ciendo, y acabandose de consumir à <date>6 de enero de 1653</date> junto a la lu-
+ciente del lado dextro de <name type="constelation">Perseo</name>, estrella de segunda magnitud de natu-
+raleza de <name type="planet" reg="Júpiter">Iupiter</name>, y <name type="planet">Saturno</name>: durando de principio à fin veinte dias; que
+à la cuenta de los Filosofos naturales dando à cada un dia de los de la du-
+racion
+</p>
+ </div>
+
+<div>
+<pb>5 r</pb>
+<p>
+racion de un <term type="astron">Cometa</term> un mes de effectos, viene à ser un año, y ocho meses.
+</p>
+
+<p>
+    Conocido el lugar en que el <term type="astron">Cometa</term> tuvo su principio, que fueron
+los 8 gr. de <name type="zodiacal" reg="Cáncer">Cancer</name>, y los 19 gr. del mesmo signo con que Ascendiò por el
+Oriente, el gr. opuesto, que es el que se ocultava por el Orizonte Occidéntal
+fueron los 19 gr. de <name type="zodiacal">Capricornio</name>, signo de tierra, y el que domina en este
+Reyno, hallandose Iupiter participe por accidente en el dominio de este Año
+de <date>1653</date>, en su cayda, que es <name type="zodiacal">Capricornio</name> de oposicion con el <term type="astron">Cometa</term>, en-
+trando <name type="planet">Mercurio</name> (Planeta de convertible naturaleza) en los primeros
+grados del mesmo signo. (dibujo del signo de <name type="zodiacal">Capricornio</name>) (Manuscrito: signo dominante.)
+</p>
+
+<p>
+    Quedó con esto cercado el Emispherio Mexicano à <date reg="17 de diciembre de 1652">17 de Diziembre
+de 1652</date>.  A<date reg="18 de noviembre de 1652">18 de Noviembre de este mesmo Año</date> que fue un mes antes,
+en la aparicion del Arco, Ascendió por el Oriente como queda dicho, el
+signo de  <name type="zodiacal">Tauro</name> (que es terrestre) con la imagen de <name type="constelation">Perseo</name> donde feneciò
+el <term type="astron">Cometa</term> quando se acabò de consumir; y el opuesto de <name type="zodiacal">Tauro</name> es <name type="zodiacal" reg="Escorpión">Escor-
+pio</name>, signo aquatico, y el que ocupava el <name type="planet">Sol</name>, al ponerse a los <date reg="18 de noviembre de 1652">18 de Noviem-
+bre</date>. Aora por el contrario vemos como en la aparicion del <term type="astron">Cometa</term> ocu-
+pò el Oriente con signo acuatico, (que lo es <name type="zodiacal" reg="Cáncer">Cancer</name>,) y su opuesto por el
+Occidente signo terreo, que es <name type="zodiacal">Capricornio</name>, y el que como es notorio, y
+queda dicho domina en este Reyno. (dibujo del signo de <name type="zodiazal">Capricornio</name>) (Manuscrito: dominante)
+</p>
+
+<p>
+    Y para que se repare en la regualridad tan uniforme, y compassada
+con que obran los cuerpos celestes en estos inferiores, segun que assi lo
+ordenó, y dispuso el soberano Artifice de todo lo criado, se recorrerá la
+via que llevò el <term type="astron">Cometa</term> por el transito que hizo conforme al movimiento
+propio que se le conociò desde su principio hasta su fin; y se hallará, que
+junto de la primera estrella que se halló el <term type="astron">Cometa</term> (como queda dicho)
+fue la del Can mayor de naturaleza de <name type="planet" reg="Júpiter">Iupiter</name>, y <name type="planet">Marte</name>. Y donde feneciò.
+y se acabó de consumir en la luciente del lado diestro de <name type="constelation">Perseo</name> de natu-
+raleza de <name type="planet" reg="Júpiter">Iupiter</name>, y <name type="planet">Saturno</name>; ambas estrellas de Naturaleza de los dos
+Planetas <name type="planet">Saturno</name>, y <name type="planet">Marte</name>, que como originarios del, lo levantaron; tra-
+yendoselo <name type="planet">Saturno</name> por delante el dia de su aparicion, siempre reconocien-
+dole el <term type="astron">Cometa</term> con la extremidad de sus rayos, que los fue rebolviendo
+hazia el: cosa digna de admiracion!
+</p>
+
+<p>
+    Aora resta ver de que naturaleza son las estrellas quefue passando
+retrocediendo contra la succession de los signos, y se hallarà conforme al
+Catàlogo de las estrellas fixas, que de todas las de la imagen del <name type="constelation" reg="Orión">Orion</name>, que
+se numeran ser de la calidad, y naturaleza de los Planetas, son de natura-
+leza de <name type="planet" reg="Júpiter">Iupiter</name>, y <name type="planet">Saturno</name>, excepto una de primera magnitud, que está en
+el ombro derecho del <name type="constelation" reg="Orión">Orion</name>, que es de Naturaleza de <name type="planet">Marte</name>, y <name type="planet">Mercurio</name>.
+</p>
+
+<p>
+Y otra que está en la rodilla diestra de <name type="constelation">Perseo</name> de la mesma naturaleza de
+<name type="planet">Marte</name>
+</p>
+</div>
+ 
+<div>
+<pb>6 f</pb>
+<p>
+<name type="planet">Marte</name>, y <name type="planet">Mercurio</name>, en la una levantando, y en la otra portandose à fe-
+necer. Y las estrellasde la imagen de <name type="constelation">Perseo</name>, que assi mismo se numeran
+ser de la calidad de los Planetas, se hallaran q´ todas son de naturaleza de
+<name type="planet">Saturno</name>, y <name type="planet" reg="Júpiter">Iupiter</name>; por donde parece có evidencia muy claro fue siem-
+pre llevado, y atraydo el <term type="astron">Cometa</term> de las estrellas de su mesma naturaleza
+Saturninas, y Marciales, con participacion de <name type="planet" reg="Júpiter">Iupiter</name> que assi mismo có
+<name type="planet">Saturno</name>, y <name type="planet">Marte</name> disponen el ayre segun dixe en mi Reportorio de este
+Año de <date>1653</date>. Y de que el <term type="astron">Cometa</term> fue de Naturaleza de <name type="planet">Saturno</name>, y solo
+dueño dèl, digalo el color aplomado algo obscuro tirante à verde, que
+le vieron: con que en esta materia no dirè mas.
+</p>
+
+<p>
+    Tenemos el Emispherio de <name type="place" reg="México">Mexico</name> cercado có toda la circunferen-
+cia de su circulo Orizontal de la forma referida: aora por estas mesmas
+señales conocidos ya sus passos, y lugares mediante ellas se vendrà en co-
+nocimiento de alguna razon de los effectos que significan, y emos visto,
+como provenidos de sus causas; dexando para despues los demas q´ vé
+mos, y los que significan en adelante, pues quieren los Filosofos natura-
+les que à cada un dia de los de la duracion de un <term type="astron">Cometa</term> se le sigan un
+mes de effectos, segun que lo experimentaron (en que no suelen dexar de
+engañarse) y sea el primero, el temblor de tierra que uvo por <date reg="enero de 1653"> Enero
+de este Año de 1653</date>. 
+</p>
+<p>
+
+    A <date reg="17 de enero de 1653">17 de Enero de este Año de 1653</date> a las diez horas, 9 mi. de la no-
+che (segun, que por la altura de una <term type="astro" reg="Estrella fija">estrella fixa</term> se pudo saber) hecho el
+plan della, de la forma que estava la posicion celeste Ascendian por el
+Orizonte Oriental de <name type="place" reg="México">Mexico</name> los 3 gr. 15 mi del signo de <name type="zodiacal">Libra</name>, casa diur-
+na de <name type="constelation">Venus</name> (à esta hora) señora de la octava casa, y en ella morando la
+parte de fortuna, siendo <name type="planet">Saturno</name> señor della, y mas có exaltacion, y ter-
+mino de el Ascendente, estando como estava impedido assi por retrogra-
+dacion, como por estar en su detrimento. Y la <name type="planet">Luna</name> en los (mancha de tinta) (29 gr. 19) mi (corregido a mano los números)
+de <name type="zodiacal">Virgo</name> (signo terrestre) separandose del quadrado de <name type="constelation">Venus</name>, y aplican-
+dose al trino de <name type="planet" reg="Júpiter">Iupiter</name>, y successivamente al trino del <name type="planet">Sol</name>, ambos Plane-
+tas assistentes en el angulo de la quarta casa, en <name type="zodiacal">Capricornio</name>, que demas
+de ser cayda de <name type="planet" reg="Júpiter">Iupiter</name>, estava combusto debajo de los rayos del <name type="planet" reg="Sol">sol</name>, q´
+estava en su facie. Y <name type="planet">Marte</name> tan corroborado en fuerças, q´ obrò al punto
+que la <name type="planet">Luna</name> mirò à <name type="planet" reg="Júpiter">Iupiter</name> de trino desde signo de tierra o que signi-
+ficò quando mirò de quadrado al <term type="astron">Cometa</term> desde el mesmo angulo de la
+quarta casa, q´ fue el temblor de tierra que à la dicha hora sucediò; estan-
+do entonces <name type="planet" reg="Júpiter">Iupiter</name> de oposicion có el <term type="astron">Cometa</term> al tiempo de su nacimien-
+to; como assi mismo queda referido. Y esto del temblor de tierra ya esta-
+ba dicho en mi <refTitle>Reportorio deste año de <date>1653</date></refTitle> en la foj. 4 linea (mancha)  plana 1
+que
+</p>
+</div>
+ 
+<div>
+<pb>6 r</pb>
+<p>
+que dize: <name type="planet">Marte</name> señor del <term type="astron" reg="Eclipse">eclipse</term> de <date reg="13 de marzo de 1653">13 de Março</date>, y otras causas amenaçan
+con temblores de tierra: donde es de notar una cosa digna de toda admi-
+racion, y es, que el signo donde se avia de effectuar el <term type="astron" reg="Eclipse">eclipse</term> de <name type="planet">Luna</name>
+de <date reg="13 de marzo de 1653">13 de Março</date>, que fue <name type="zodiacal">Virgo</name>, ocupava la <name type="planet">Luna</name> al tiempo del temblor
+de tierra, y <name type="planet">Marte</name> señor dèl, començando à obrar con su malicia assi
+que entrò el Escorpio su domicilio nocturno, y aplicandose al quadrado
+de <name type="planet">Saturno</name> Señor del Año, y del <term type="astron">Cometa</term>; con lo qual ambas infortunas
+obravan con vehemencia lo que con las dos señales despertaron primero:
+pues de la una, que fue el <term type="astron">Cometa</term>, puedo dezir, que <date reg="23 de diciembre de 1652"> Lunes à 23. de Di-
+ziembre de dicho Año de 52</date> (manuscrito) assi que llegò al Meridiano desta Ciudad
+de <name type="place" reg="México">Mexico</name> estando en conjuncion de las <name type="constelation" reg="Pléyades">Pleyades</name> à horas de las 9. y tres
+quartos de la noche hizo sensiblemente mocion la tierra espacio de dos
+credos (lo qual fue notorio à muchos) Ascendiendo por el Orizonte los
+dos gr de <name type="constelation">Virgo</name>; y estando ya el <name type="planet">Sol</name> en los primeros grados de <name type="constelation" reg="Capricornio">Capricor-
+nio</name>: todo primicias del temblor grande de tierra que se siguiò; avien-
+do antes precedido otro temblor de tierra de la mesma manera à 16. de
+dicho mes, y año, à las 8. y media de la mañana, de Oriente à Occidente,
+espacio de un credo, Ascendiendo à esta hora <name type="constelation">Capricornio</name>. No baste lo
+dicho, sino que bolviendo à recorrer todo lo referido al principio se
+verá como se à ydo seguidamente por los mesmos passos que los Astros
+fueron guiando, è indicando; y sea lo primero.
+</p>
+
+<p>
+
+    A <date reg="18 de noviembre de 1652">18. de Noviembre de 52.</date> à hora de las 4. y media de la tarde en q´
+se formò el Arco que fue vido; el primero aquien la <name type="planet">Luna</name> se aplicò de
+quadrado fue à <name type="constelation">Venus</name> señora del Ascendente, y luego à <name type="planet" reg="Júpiter">Iupiter</name> en Ca-
+pricornio de oposicion siendo à esta hora señor de la octava casa, y se-
+guidamente à <name type="planet">Mercurio></name> (que estava en su termino) de trino, siendo dis-
+positor de <name type="planet">Marte</name>. Y à <date reg="17 de diciembre de 1652">17. de Diziembre de dicho Año de 52</date>. q´ fue luego
+un mes despues, nació el <term type="astron">Cometa</term> por el Orizonte de <name type="place">Mexico</name>, y el primero
+à quien la <name type="planet">Luna</name> miró de quadrado fue à <name type="constelation">Venus</name>, y luego seguidamente a
+la conjuncion de <name type="planet">Saturno</name> y successivamente al sextil de <name type="planet">Marte</name>, estando
+<name type="planet">Marte</name> de quadrado con el <term type="astron">Cometa</term>, y con el Ascendente de la Ciudad de
+<name type="place" reg="México">Mexico</name>. Estando assi mismo <name type="planet" reg="Júpiter">Iupiter</name> de oposicion con el <term type="astron">Cometa</term> desde
+<name type="zodiacal">Capricornio</name>, y siendo à este tiempo <name type="planet">Saturno</name> señor de la octava casa. Y
+consecutivamente à otro mes cumplido, que fue à <date reg="17 enero de 1653">17. de Enero deste
+Año de 1653</date>. se effectuò el temblor de tierra; y como queda dicho se-
+parandose la <name type="planet">Luna</name> del quadrado de <name type="planet">Venus</name>, y aplicandose al trino de <name type="planet" reg="Júpiter">Iu-
+piter</name>, y <name type="planet">Sol</name>, ambos Planetasen <name type="constelation">Capricornio</name> à la sobredicha hora de las
+diez, y 9. mi. de la noche.
+</p>
+
+<p>
+    Todo lo dicho hasta aqui à sido à fin de dar primero las causa de
+effec
+</p>
+</div>
+
+ 
+<div>
+<pb>7 f</pb>
+<p>
+effectos que se an visto, se ven, y prometen; siendo assi, q´ aun à este pro-
+posito se dexan, por no alargar mucho estos puntos, otras circunstancias
+que en ellos ocurren; y como se aplicó la <name type="planet">Luna</name> siempre à <name type="planet">Venus</name>, parti-
+cipe en el dominio deste Año de <date>1653</date>. à los tiempos referidos, y conse-
+cutivamente à los otros tres Planetas <name type="planet">Saturno</name>, <name type="planet">Marte</name>, y <name type="planet" reg="Júpiter">Iupiter</name>, unien-
+do la calidad de los unos con la de los otros, todos quatro dispositores
+del ayre en este Año de <date>1653</date>. como en mi Reportorio deste Año se halla-
+rà; para cuyo fin se note, que toda esta <name type="place">Nueva España</name> està dentro de la
+Torrida Zona; y lo principal della con la <name type="place" reg="Ciudad de México">Ciudad de Mexico</name> cae en el fin
+del primer Clima, y principio del segundo; sus signos verticales desde al-
+tura de 11. grados, y medio hasta veinte grados, y un quinto, son <name type="constelation">Tauro</name>
+Casa de <name type="planet">Venus</name>, y Leon Casa del <name type="planet">Sol</name>. El Planeta que tiene particular do-
+minio en este Reyno es <name type="planet">Venus</name>, con participacion del <name type="planet" reg="Sol">sol</name>. La primera vez
+siendo Señora del Ascendente que fue <name type="zodiacal">Tauro</name>, al tiempo de la formacion
+del Arco à <date reg="18 de noviembre de 1652">18. de Noviembre de dicho Año de 52.</date> su casa, y donde fe-
+neciò el <term type="astron">Cometa</term>, y triplicidad del signo dominante deste Reyno. La se-
+gunda, en la aparicion del <term type="astron">Cometa</term>. La tercera, el dia, y à la hora del tem-
+blor de tierra à <date reg="17 de enero de 1652">17. de Enero</date>. Causas muy bastantes para la mucha parte
+de que el Emispherio Mexicano participa de sus effectos, por la destem-
+plança del ayre causada de la plena, y pesada influencia de <name type="planet">Saturno</name>, y
+<name type="planet">Marte</name>; y à <name type="planet" reg="Júpiter">Iupiter</name> en su cayda sobrevenirle la oposicon del <term type="astron">Cometa</term>
+es daño, sobre daño, estando impedidos assi <date reg="1652">el Año de 52.</date> de que vamos
+hablando, como en la rebolucion Annua deste de <date>1653</date>. del qual podremos
+dezir al presente tiempo lo que dixo <name type="person">Alberto Magno</name> en <refTitle>el libro de las
+propiedades de los elementos</refTitle>, &c. que aquel será buen Año, por malo q´
+sea, que en el no se viere <term type="astron">Cometa</term>, particularmente aquienes conforme al
+signo en que començo les amenaça; desuerte que si <name type="planet">Saturno</name> no aflige con
+graniços y tiempos tenebrosos, la lucha de las infortunas con la favora-
+ble influencia de las dos fortunas en las manisiones templadas que se han
+hallado, van ocupando, y otras causas que ayudan, son parte para la
+mucha templança favorable à los frutos de la tierra, que significa; por q´
+à no ser esto assi, que daños no uviera causado mayores de los que se an
+experimentado en las ortaliças ? y todas las cosas que son sugetas al Pla-
+neta <name type="planet">Saturno</name> con su preferente pesada influencia: excepto en lo tocante
+à la salud general como lo prometiò, y promete el estado en que se a ha-
+llado assi antes de venir el <term type="astron">Cometa</term> por delante, como despues que na-
+ciò por el Orizonte de <name type="place" reg="México">Mexico</name>.
+</p>
+<p>
+
+    Llegando ya cerca del significado de lo referido hasta aqui dan-
+do las causas segun los Astros, y el <term type="astron">Cometa</term> indican, para venir en
+conoci
+</p>
+ </div>
+
+<div>
+<pb>7 r</pb>
+<p>
+conocimiento de los effectos, se pondran primero al pie de la letra los
+Aphorismos que en el Reportorio deste Año de <date>1653</date>. se citaron para la
+significacion de lo que prometian los Planetas señores dèl, segun el esta-
+do en que se hallavan, añadiendo dos que se dexaron de poner, por no
+parecer era salir el rio de mas de madre; y sea el primero segun <name type="person">Hali</name> de
+<refTitle>iud. astr.</refTitle> pues es conforme à la rebolucion Annual, que dize: <q><foreign lang="lat" reg="Apta ascendens, &c. Sedsi Dñi horum dominorum Asendentium, et Luna, et Dñi ioci oppositionis: si omnes isti, vel maior pars eorum fuerint infortunati [como lo estuvieron] significat mortalitates, et hoc erit secundum posse infortunarum, et secundum naturam eius, et locum in quo fuerit.">Apta as-
+cendens, &c. Sedsi Dñi horum dominorum Asendentium, et <name type="planet">Luna</name>, et Dñi
+ioci oppositionis: si omnes isti, vel maior pars eorum fuerint infortunati [co-
+mo lo estuvieron] significat mortalitates, et hoc erit secundum posse infortu-
+narum, et secundum naturam eius, et locum in quo fuerit.</foreign></q> El segundo
+dize: <q><foreign lang="lat" reg="Atsi quando Luna iuncta fuerit cum Marte (como se hallaron) multos terremotus, et aeris combustiones significat, et multas rixas, et lites.">Atsi quando <name type="planet">Luna</name> iuncta fuerit cum <name type="planet">Marte</name> (como se hallaron) mul-
+tos terremotus, et aeris combustiones significat, et multas rixas, et lites.</foreign></q>
+</p>
+
+<p>
+    El tercero, <name type="planet" reg="Saturno">Saturnus</name><q><foreign lang="lat" reg="in Leone predictum obtinens dominium, significat Multas infirmitates in mulieribus, vt febres, tercianas, et quotidianas, et mortem earum, incesantem flatum ventorum calidorum. Si fuerit illic retrogradus, significat corruptionem aëris, et mortalitaten.">in Leone predictum obtinens dominium, significat
+Multas infirmitates in mulieribus, vt febres, tercianas, et quotidianas, et mor-
+tem earum, incesantem flatum ventorum calidorum. Si fuerit illic retrogra-
+dus, significat corruptionem aëris, et mortalitaten.</foreign></q> El cuarto siendo
+<name type="planet">Marte</name> como fue señor del <term type="astron" reg="Eclipse">eclipse </term>de <name type="planet">Luna</name> de <date reg="13 de marzo de 1653">13. de Março deste Año de 53.</date>
+dize: <q><foreign lang="lat" reg="Mars si fuerit in Scorpione significat multos dolores oculorum in hominibus, et bubones, et egritudines multas, et precipuè iuuenibus, etc."><name type="planet" reg="Marte">Mars</name> si fuerit in <term type="zodiacal" reg="Escorpión">Scorpione</term> significat multos dolores oculorum in homi-
+nibus, et bubones, et egritudines multas, et precipuè iuuenibus, etc.</foreign></q> Y à  
+la fin de lo dicho en el indice de todo el Año en la <cit><refTitle>foja 4. plana 2. linea 27.</refTitle>
+dize: Y desde los <date reg="19 de noviembre de 1652">19. de Noviembre hasta fin del Año</date> se reforçaran ayres cor-
+ruptos, y pestilentes, muy dañosissimos à la salud. Dios Nuestro señor sea
+servido de remediarlo como puede.</cit>
+</p>
+
+<p>
+    Segun la causa, se busca el effecto, dando la razon en que se funda
+el dezir lo sobredicho A los <date reg="19 de noviembre de 1653">19. de Noviembre</date> etc. es, que à este tiempo
+à los <date reg="27 de noviembre de 1953">27. de Noviembre desde Año de 53.</date> ay una conjuncion de <name type="planet" reg="Júpiter">Iupiter</name>, y
+<name type="planet">Marte</name>, de la qual al fin se hara mencion, por no anteponer la significa-
+cion desto à la del <term type="astron">Cometa</term> origen de aver escrito dèl: dando principio
+à su significado como se sigue.
+</p>
+ 
+<p>
+ARTICULO, 3º
+DE LOS EFFECTOS QUE SE SIGNIFICAN
+EL ARCO, Y EL <term type="astron" reg="Cometa">COMETA</term>.
+</p>
+ 
+<p>
+Quanto à lo primero, por aver aparecido el <term type="astron">Cometa</term> por
+la parte Oriental, sus effectos começaron luego desde
+los <date reg="17 de diciembre de 1652">17. de Diziembre de 1652.</date> en que se vido, hasta
+cumplido el Año, y ocho meses como queda dicho, que viene
+a ser por el mes de <date>agosto de 1654</date>. en que fenecen.
+El
+</p>
+</div>
+
+<div>
+<pb>8 f</pb>
+<p>
+El significado se toma siempre segun el signo en que aparece un <term type="astron" reg="Cometa">Co-
+meta</term>, y la Ciudad, ò Provincia sugeta a su dominio alli se sienten sus
+effectos. El signo en que apareciò el <term type="astron">Cometa</term> es el de <name type="zodiacal" reg="Cáncer">Cancer</name>, el qual do-
+mina sobre el <name type="place" reg="Portugal">Reyno de Portugal</name>, y el signo de <name type="zodiacal">Libra </name>sobre <name type="place">Lisboa</name> a Ca-
+beça dèl. El signo particular dominador de <name type="place">España</name>, es <name type="zodiacal">Sagitario</name>, el qual
+hallarà libre de infortunio el que entendiere de esta sciencia. Y el signo
+de <name type="constelation" reg="Géminis">Geminis</name> tiene particular dominio sobre la Villa de <name type="place">Madrid</name>, donde
+ya el <term type="astron">Cometa</term> iba desvaneciendose cayendo al ombro diestro del Orion.
+El comun dezir delos Filosofos naturales es, que nunca faltan guerras;
+pero al presente el <term type="astron">Cometa</term> da lugar a que se busque en este particular
+el significado destas tres estrellas quales son: la del <name type="constelation">Can mayor</name>. La del
+Ombro diestro del <name type="constelation" reg="Orión">Orion</name>. La dela rodilla diestra de <name type="constelation">Perseo</name>: segun los
+lugares que fue mudando: de qual se separò primero, con qual mediò;
+y con qual dellas feneciò.
+</p>
+
+<p>
+Para este fin es de saber, que de la estrella que primero se apartò el
+<term type="astron">Cometa</term> (como ya queda referido) fue de <name type="constelation" reg="Can mayor">la Constelacion de un Can</name> en
+cuya boca está una luciente estrella de primera magnitud, que cae en los
+9. grados 36. mi. 20. seg de <name type="zodiacal" reg="Cáncer">Cancer</name>, de naturaleza de <name type="planet" reg="Júpiter">Iupiter</name>, y <name type="planet">Marte</name>; y
+aviendo començado segun su movimiento à seguir su via, passò diminu-
+yendose por el Ombro diestro del <name type="constelation" reg="Orión">Orion</name>, donde està otra estrella de pri-
+mera magnitud, de naturaleza de <name type="planet">Marte</name> y <name type="planet">Mercurio</name>, cuyas estrellas for-
+man la fabula de un hombre armado con una porra en la mano diestra,
+y rodela en la siniestra. Y yendo ya à los fines, llegò à la <name type="star" reg="Esrella Boreal">estrella Boreal</name>
+de quinta magnitud, informe en la rodilla diestra de <name type="constelation">Perseo</name>, (de la mes-
+ma naturaleza de <name type="planet">Marte</name> y <name type="planet">Mercurio</name>,) cuyas estrellas forman la fabula
+de un hombre con alas en los pies, y un Alfange en su mano diestra; y
+en la siniestra una cabeça cortada, que llaman de Medusa.
+</p>
+
+<p>
+    Bien clara está su significacion; la qual pedia la pluma de un claro
+ingenio para su explicacion, pues es digna de ponderacion,  no ficcion
+mia, pues va a manos de tan lucidos, quanto esclarecidos entendimien-
+tos como el cielo Mexicano cubre; y pues à de ser comun à todos dirè
+lo que mi cortissimo entender alcança: sugetandome en todo à la cor-
+reccion de la <name type="inst" reg="Iglesia Católica Romana">Santa Madre Yglesa Catholica Romana</name>.
+</p>
+
+<p>
+    La <name type="star" reg="Can mayor">estrella del Can</name> es de dos naturalezas, de <name type="planet" reg="Júpiter">Iupiter</name>, y <name type="planet">Marte</name>: Mar-
+te es significador de guerras, y <name type="planet" reg="Júpiter">Iupiter</name> es señor de <name type="zodiacal">Sagitario</name>, demas de
+aver tenido el <term type="astron">Cometa</term> por opuesto al mesmo Planeta <name type="planet" reg="Júpiter">Iupiter</name>: por lo qual
+significa, que las contiendas, y discordias entre los mesmos naturales
+de <name type="place">Portugal</name> será notable: los unos en favor de los Sagitarios y los
+otros en favor de sus mesmos naturales.
+</p>
+</div>
+
+<div>
+<pb>8 r</pb>
+<p>
+    Separòse el <term type="astron">Cometa</term> desta <name type="star" reg="Can mayor">estrella</name>, y yendo con violencia contra la
+succession de los signos passando el signo de <name type="zodiacal" reg="Géminis">Geminis</name>, (que como queda
+dicho tiene dominio sobre la Villa de <name type="place">Madrid</name>) yendo ya no solo dismi-
+nuyendole, sino reconociendo con sus rayos, ò cola haziatras apuntan-
+do à la mesma Ciudad que amenaça, q´ es <name type="place">Lisboa</name>, llegó al ombro diestro
+del <name type="constelation" reg="Orión">Orion</name>, donde està la estrella de primera magnitud de naturaleza de
+<name type="planet">Marte</name> y <name type="planet">Mercurio</name>, que se computa por dos vezes <name type="planet">Marte</name>, donde hallò
+resistencia: yendo desde alli en su mayor desvanecimiento, y diminucion:
+Significado, de que todas las fuerças de Armas de <name type="place">Portugal</name> (que signi-
+fica el Can mayor) aunque se levanten con la violencia, y estruendo que
+quieren contra los Sagitarios an de llegar diminutas a manos del dos
+vezes <name type="planet">Marte</name>, que son las Armadas Españolas.
+</p>
+<p>
+    Passando la imagen del <name type="constelation" reg="Orión">Orion</name>, llegò à fenecer frontero, y junto à
+la luciente del lado diestro de  <name type="constelation">Perseo</name>; y la <name type="star" reg="Estrella Boreal">Boreal</name> informe à esta imagen
+q´ cae en la rodilla derecha, de quinta magnitud, de naturaleza de <name type="planet">Marte</name>,
+y <name type="planet">Mercurio</name>, que es dos vezes <name type="planet">Marte</name>; donde es de notar, q´ siendo todas
+tres estrellas Marciales en la una començò con fuerça sin medra, y en la
+segunda, que le es contraria desflaqueciendo, y en la tercera acabando.
+</p>
+
+<p>
+    Nuestro Catholicissimo <name type="person">Perseo</name>, <name type="person" reg="Felipe IV">Don Felipe Quarto el Grande</name> Nro
+Señor (que Dios guarde) con pies Alados corre todo el mundo arrancan-
+do rayzes de tantas Sectas como cada dia se levantan; y postrando à sus
+Reales pies animos levantados, cortando las Cabeças q´ son origen dello,
+y sugetando rebeldes, è iniquos, que desobedientes quieren levantarse
+contra su Real Corona, con la espada de su justicia en la mano diestra,
+defendiendo la Santa Fè Catolica; experimentando en premio de su san-
+to zelo el favor, y ayuda del que todo lo puede. Y passando por todos sus
+Reynos, Señorios, y mandos, lo halla todo tan ajustado, y tan à su obe-
+diencia, por medio de sus fieles Ministros, y Vasallos, assi de guerra, co-
+mo de justicia; que no halla cosa, que sea agena de estar exerciendo cada
+qual lo que le està ordenado; hasta estos ofendidos Reynos de la <name type="place" reg="Nueva-España">Nue-
+va España</name>, donde à manos llenas comunican tan explendidamente
+tantos bienes assi espirituales, como temporales: premiando lo bueno,
+y con su poderoso braço castigando lo malo.
+</p>
+
+<p>
+    Puesto, que el conocimiento del significado de un <term type="astron">Cometa</term> se saca por
+el signo en que aparece, y en el Reyno, Provincia, ò Ciudad sugeta à èl,
+alli se sienten sus effectos; aqui se ha(ll)a aver sido el de <name type="zodiacal" reg="Cáncer">Cancer</name>, el qual do-
+minando como domina sobre <name type="place">Portugal</name>, y el signo de <name type="zodiacal">Libra</name> sobre <name type="place">Lisboa</name>
+Cabeça del Reyno de <name type="place">Portugal</name>: en la aparicion del <term type="astron">Cometa</term> no solo el
+signo de <name type="zodiacal" reg="Cáncer">Cancer</name> estuvo infortunado por averse originado en el; sino el
+signo
+</p>
+ </div>
+
+<div>
+<pb>9 f</pb>
+<p>
+signo de <name type="zodiacal">Libra</name> tambien, por aver estado alli el Planeta <name type="planet">Marte</name> mirando de
+quadrado al <term type="astron">Cometa</term> al tiempo, y hora de su aparicion. A que se offrece
+ocasion de dezir lo que sucedio el Año de <date>1577</date>. en los primeros dias de
+Noviembre, que aviendo aparecido un gran <term type="astron">Cometa</term> en el signo de <name type="zodiacal">Libra</name>,
+luego el Año siguiente fue la rota del <name type="person">Rey Don Sebastian</name> en <name type="place" reg="África">Africa</name>, su-
+cediendo la mudança que se à visto del Reyno de <name type="place">Portugal</name>.    
+</p> 
+
+<p>
+    Segun nuestro Meridiano, y Emispherio Mexicano corre este discur-
+so por la via, que las dos señales que aparecieron sobre èl, significaron.
+Y por la Rebolucion anual desde Año de <date>1653.</date> para lo qual de solos los
+quatro Planetas, <name type="planet">Saturno</name>, <name type="planet">Marte</name>, <name type="planet" reg="Júpiter">Iupiter</name>, y Venus se à hecho, y se harà
+mencion, por ser los que demas de aver sido dispositiores del ayre en este
+Año de <date>1653</date>. (como en el Reportorio deste Año se dize) an sido los
+que se an hallado significando lo que en razon desto se à dicho y se di-
+xere. (Y aunque de <name type="planet">Mercurio</name> se harà mencion, es solo en el significado
+del daño, que causò, y causarà en la salud de los niños de tierna edad.)
+<name type="planet">Saturno</name> como Señor del Año, y <name type="planet">Marte</name> como su participe; y de las dos for-
+tunas <name type="planet" reg="Júpiter">Iupiter</name>, y Venus, por acidente, que es lo mismo que dezir, que
+aunque tienen à tales tiempos de entre Año fuerça para la templança del
+ayre con sus favorables influxos, no es bastante à quitar del todo la cor-
+rupcion dèl; emanada del mal estado en que se hallò <name type="planet">Saturno</name> segun la
+Rebolucion Anual, y successivamente aparecer el <term type="astron">Cometa</term> levantado por
+el mismo <name type="planet">Saturno</name>, ello propio se lo está diziendo.
+</p>
+
+<p>
+    La primera señal, que es la de la aparicion del Arco à<date reg="18 de noviembre de 1652"> 18. de Noviem-
+bre de 52</date>. por Ascender por el Oriente signo terrestre, que fue en el que
+feneciò el <term type="astron">Cometa</term> despues que naciò por el, significò temblores de tier-
+ra. Y al ponerse el <name type="planet">Sol</name>, por ser signo aquatico el que se ocultava por el
+Occidente, que fue <name type="zodiacal" reg="Escorpión">Escorpio</name> Casa Nocturna de <name type="planet">Marte</name> significò copia de
+aguas; y en el tiempo dellas à vezes superfluas. La razon desto es, que
+las señales meteorologicas conforman su significado con el de la calidad
+del signo que Asciende por el Orizonte; y con el que se pone ocultandose
+por el Occidente al tiempo en que aparecen. Significan los temblores
+dezir el segundo Aphorismo: <q><foreign lang="lat">At si quando <name type="planet">Luna</name> iuncta fuerit cum <name type="planet">Marte</name>
+mulios terremotus, etc..</foreign></q> Significolos assi mismo <name type="planet">Marte</name> en <name type="zodiacal" reg="Escorpión">Escorpio</name> al tiem-
+po, y hora del <term type="astron" reg="Eclipse">eclipse</term> de <name type="planet">Luna</name> de <date reg="13 de marzo de 1653">13. de Março desde año de 53.</date> siendo
+Señor dèl, y averse eclipsado en signo terrestre, que fue <name type="constelation">Virgo</name>; es (pergamino roto)
+qual se hallò la <name type="planet">Luna</name> a tiempo, y hora en que succediò el temblor (pergamino roto)(de)
+tierra de <date reg="17 de enero de 1653">17. de Enero de este año de 53.</date> aun antes deste <term type="astron" reg="Eclipse">eclipse</term>, m (pergamino roto)
+cercana al grado en que se effectuò despuès. La copia de aguas lo signi
+fica el aplicarse la <name type="planet">Luna</name> de quadrado a <name type="planet">Venus</name> la referida hora de (pergamino roto) (las)   
+</p>
+</div>
+ 
+<div>
+<pb>9 r</pb>
+<p>
+quatro, y media de la tarde en q´ apareciò el Arco à los <date type="comet" reg="18 de noviembre de 1652">18. de Noviembre
+de dicho año de 52.</date> siendo Señora del Ascendete, y mas lo antes dicho.
+</p>
+
+<p>
+    Aora por el contrario significò los temblores, y las aguas la apari-
+cion del <term type="astron">Cometa</term>a los <date type="comet" reg="17 de diciembre de 1652">17. de Diziembre</date>, por aplicarse la <name type="planet">Luna</name> a la hora
+de su aparicion al quadrado de <name type="planet">Venus</name>en <name type="zodiacal" reg="Escorpión">Escorpio</name>; y consecutivamente
+à la conjuncion de <name type="planet">Saturno</name> Señor del Año, ocupando el <term type="astron">Cometa</term> el Ascen-
+dente con sigo acuatico, y por el Occidente ponerese signo terrestre, que
+fue <name type="zodiacal">Capricornio</name>, y <name type="planet" reg="Júpiter">Iupiter</name> alli de oposicion con el <term type="astron">Cometa</term>el qual estan-
+do trino desde signo terreno, que fue <name type="constelation">Virgo</name>, se effectuò el temblor de tier-
+ra; y otros aspectos ya dichos, que se dexan de referir por no confundir
+con ellos.
+</p>
+
+<p>
+    Significaron, y significan muertes apresuradas, y repentinas, quatro
+señales. La primera, la apariciòn del Arco. La segunda, la apariciòn del
+<term type="astron">Cometa</term>. La tercera, ocurrir los Planetas al mesmo effecto, que à las dos
+antecedentes al tiempo, y hora del temblor de tierra. La quarta, segun la
+Rebolucion Anual deste Año de <date reg="1653">53</date>. cosa digna de admiraciòn ! irse au-
+nando, y uniendo las causas en contrinua succession à que se sigue la pro-
+duccion de sus effectos, à la manera de unirse un licor con otro de una
+mesma calidad, y especie.
+</p>
+
+<p>
+1     A los <date reg="18 de noviembre de 1652">18. de Noviembre</date> à hora de las quatro, y media de la tarde
+en que se formò el Arco, <name type="planet" reg="Júpiter">Iupiter</name> en <name type="constelation">Capricornio</name> impedido por ser alli
+su  cayda, y uno de los Planetas dispositores de ayre en este Año de 53.
+fue <name type="plant" reg="Marte">Señor de la octava Casa</name>.
+</p>
+
+<p>
+2    A los <date type="comet" reg="17 de diciembre de 1652">17. de Diziembre siguiente de 52.</date> en la aparicion del <term type="astron">Cometa</term>
+fue donde totalmente uvo este significado, por q´ <name type="planet">Saturno</name> Señor del Año
+siguiente de <date reg="1653">53.</date> fue Señor del <term type="astron">Cometa</term>, y Señor de la octava Casa; y cerca
+desta cuspide, la parte de fortuna, siendo <name type="planet">Mercurio</name> señor della, y assi mis-
+mo estar <name type="planet">Mercurio</name> de oposicion con el <term type="astron">Cometa</term>. Y <name type="planet">Marte</name> mirando de qua-
+drado al <name type="astron">Cometa</name>; y <name type="planet" reg="Júpiter">Iupiter</name> estar de oposicion con el <term type="astron">Cometa</term>; aviendo
+sido antes <name type="planet" reg="Júpiter">Iupiter</name> señor de la octava casa à los <date type="comet" reg="18 de noviembre de 1652">18. de Noviembre de 52</date>.
+como queda dicho.
+</p>
+
+<p>
+3    A <date reg="17 de enero de 1653">17 de Enero deste Año de 53</date>. al tiempo, y hora del temblor de
+tierra, <name type="planet">Venus</name> Señora del Ascendente, lo fue de la octava Casa, demas de
+se hallado alli la parte de fortuna, y aver sido Señor della <name type="planet">Saturno</name>
+(texto ilegible) del Año.
+En la Rebolucion Anual fue Señora del Ascendente <name type="planet">Venus</name>, y jun-
+nte <name type="planet" reg="Marte">Señora de la Octava Casa</name>; y <name type="constelation">Venus</name> antecedentemente en las pri-
+tres vezes siempre mirada de la <name type="planet">Luna</name> de quadrado como queda
+dicho
+</p>
+</div>
+
+<div>
+<pb>10 f</pb>
+<p>
+dicho; blanco en que se halla lo que el Aphorismo Anual dize,
+de enfermedades en las mugeres, con muertes dellas. Y las enfer-
+medades, y muertes de niños que dize, lo significa, por aver su-
+cedido el <term type="astron" reg="Eclipse">eclipse</term>de <name type="planet">Luna</name> de <date reg="13 de marzo de 1653">13. de Março deste Año de 53</date>. en
+<name type="zodiacal">Virgo</name> casa nocturna, y exaltacion de <name type="planet">Mercurio</name>, y hallarse en
+oposicion del, en su cayda, y detrimento, y ser Señor de la octava
+casa; y al tiempo de la aparicion del <term type="astron">Cometa</term> aver estado de opo-
+sicion con el; como queda dicho.
+</p>
+
+<p>
+(Dibujo de una manita) Por ultimo y fin, significa una grandissima peste, ò
+por lo menos graves y agudas enfermedades, emanadas de las
+señales, y causas siguientes, que an corrompido, y corromperan
+el ayre inficcionandolo.
+</p>
+<p>
+    La primera es, q´ el <term type="astron">Cometa</term> se separò del Can mayor, y por
+la via que llevò arrimandose con la union que se vido à la ima-
+gen del <name type="constelation" reg="Orión">Orion</name> fue passando por las estrellas que se numeran ser
+de la salidad, y naturaleça de los <term type="astron">Planetas</term> <name type="planet" reg="Júpiter">Iupiter</name>, y <name type="planet">Saturno</name>.
+Successiuamente passando à la imagen de Perseo donde feneciò
+el <term type="astron">Cometa</term>, todas las estrellas della, que se numeran ser de la ca-
+lidad de los Planetas, son assi mismo de naturaleza de <name type="planet" reg="Júpiter">Iupiter</name>,
+y <name type="planet">Saturno</name>. Con lo qual la calidad de <name type="planet">Saturno</name> Señor del Año de
+<date reg="1653">53</date>. se aumenta, y corrobora en fuerças; y assi mismo las de Iupi-
+ter. La naturaleza de <name type="planet">Saturno</name>, es enfriar, coagular, y defecar; y
+medecer, pues como esto sea en abundancia, siguese, que todo ex-
+cesso es dañoso: como pongo por exemplo. El frio ayda à la tem-
+plança de la calor, y humidad, y siendo en demasia es dañoso. La
+sangre es muy benigna, y necessaria al cuerpo humano, por que
+da fuerça à los miembros, alimenta los sentidos, y sustenta la
+vida; pero siendo demasiada, causa enfermedad, y muere: pues
+siendo assi, que el <term type="astron">Cometa</term> fue inficionando el ayre dexadole cor-
+rupto, por aver corrido, y passado por estrellas de naturaleza de
+<name type="planet" reg="Júpiter">Iupiter</name>, que tiene dominio sobre la sangre, y su naturaleza es ca-
+lentar, y humedecer; y la de <name type="planet">Saturno</name>, es enfriar, y defecar, sien-
+do ambas cosas con excesso como parece, de aqui resultaran gra-
+ves, y agudas enfermedades difficiles de curar. Demas de lo qual
+el Otoño demuestra ser de muchas, y abundantes aguas, (con
+vientos abregos) despues de las quales se sigue la conjuncion de
+Iupi-
+</p>
+</div>
+
+<div>
+<pb>10 r</pb>
+<p>
+<name type="planet" reg="Jupiter">Iupiter</name>, y <name type="planet">Marte</name>à <date reg="27 de noviembre de 1653">27. de Noviembre deste Año de 53</date>. en los 12.
+gr. de <name type="zodiacal" reg="Acuario">Aquario</name>; con lo qual totalmente se acaba de arraigar el so-
+bredicho significado, à que dize <name type="person">Alberto Magno</name> en el<refTitle>libr. 2. de
+las propiedades de los elementos, tratado 2. cap. I.</refTitle> que la con-
+juncion de <name type="planet" reg="Jupiter">Iupiter</name>, y <name type="planet">Marte</name> en el signo de <name type="zodiacal" reg="Acuario">Aquario</name> causa ayres
+corruptos, y pestilenciales. De que nos libre Dios, por su santa
+misericordia, pues esta todo debajo de su poderosa mano, y de
+mayores peligros libra à sus criaturas. <foreign lang="lat">Sub C. S. Matris Ecclesie.
+Soli Deo Gloria</foreign>
+</p>
+
+<p>
+Dibujo bonito de garigoleados.
+Texto añadido por los transcriptores
+</p>
+</div>
+</body>
+</text>
+</TEI>
