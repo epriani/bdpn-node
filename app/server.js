@@ -1,12 +1,29 @@
-define(['express','db'], function (express, db) {
-	var app = express.createServer();
+define(['express','db','conf'], function (express, db, conf) {
+	var app = express.createServer(),
+		RedisStore = require('connect-redis')(express);
 
+	//Static files
 	app.use(express.static('./public'));
 
+	//Session
+	app.use(express.bodyParser());
+	app.use(express.cookieParser());
+	app.use(express.session({
+		secret : conf.redis.secret,
+		store  : new RedisStore({
+			host : conf.redis.host,
+			port : conf.redis.port,
+			user : conf.redis.user,
+			pass : conf.redis.pass
+		})
+	}));
+
+	//View engine
 	app.set("view engine", "html");
 	app.set('views', './app/views');
 	app.register(".html", require("jqtpl").express);
 
+	//Router
 	app.get('/', function(req, res){
 	    res.render('index/index',{});
 	});
@@ -71,6 +88,25 @@ define(['express','db'], function (express, db) {
 	app.get('/contact'       , function(req, res){ res.render('static/contact')       });
 	app.get('/documentation' , function(req, res){ res.render('static/documentation') });
 	app.get('/criteria'      , function(req, res){ res.render('static/criteria')      });
+
+	// For testing session.
+	// ToDo.
+	// After languaje are implemented, remove.
+	app.get('/env', function(req, res){ 
+		if (!req.session.items) {
+			req.session.items = 1;
+		}else{
+			req.session.items++;
+		}
+
+		res.send( req.session );
+	});
+
+	app.get('/clear', function(req, res){
+		delete req.session.items;
+
+		res.send( req.session );
+	})
 
 	return app;
 });

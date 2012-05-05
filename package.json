@@ -15,9 +15,10 @@
     "underscore": "*",
     "requirejs": "*",
     "express": "*",
-    "jqtpl": "*"
+    "jqtpl": "*",
+    "connect-redis": "*"
   },
-  "version": "0.0.0-8",
+  "version": "0.0.0-14",
   "engines": {
     "node": "0.6.x"
   }
