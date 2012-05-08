@@ -34,7 +34,7 @@ define( function () {
 		}
  	}
  	
- 	if( process.env.NODE_ENV === production ){
+ 	if( process.env.NODE_ENV === 'production' ){
  		enviroment = production;
  	}else{
  		enviroment = development;
