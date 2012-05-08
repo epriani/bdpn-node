@@ -15,67 +15,44 @@
 	</div>
 
 	<div class="media float marginright20">
-		<div class="tei-content texto">{{html folio.lines}}</div>
-		<div class="bloque">
-			<span class="numeralia">1</span>
-			<p class="texto">Question ha sido muy ventilada entre los observadores Astronomos si todos los cometas son elementares,
-		esto es sublunares, ò inferiores â la Luna. ò si son
-		celestes, esto es superiores, ê independientes de toda materia de</p>
-		</div>
+		<div class="tei-content texto">{{html folio.lined}}</div>
+		<script>
+			var folio = {
+				startLine : parseInt( ${folio.startLine}, 10 )
+			}
 
-		<div class="bloque">
-			<span class="numeralia">10</span>
-			<p class="texto">los elementos, question digo de toda consequencia porque de su
-		decision depende el juizio de sus effectos naturales si son elemen-
-		tares, ò sobrenaturales, si son celestes, y formados en aquel al-
-		tissimo ethere por sola la disposicion divina sin intervension de
-		las segundas causas, y aunque en esto se ha exercitado mucho la</p>
-		</div>
+			$(window).bind('load',function(){			
+				$('.tei-content').find('br').each(function(i,item){
+					var line = i + 1 + folio.startLine;
+					if( ( (line + 1) % 5 == 0 && line !== 0) ){
+						console.log('yep',line,item);
 
-		<div class="bloque">
-			<span class="numeralia">15</span>
-			<p class="texto">industria humana con exactissimas observaciones de los mas in-
-		signes cometas en todos tiempos con todo no se le â podido dar
-		definitiva sentencia con exclusion del sentir contrario, por quan-
-		to consta por las subtilissimas observaciones de sus paralaxes,
-		que algunos ha avido superiores á la Luna, y otros inferiores, co-</p>
-		</div>
+						var spacer = $('<div class="spacer"/>').insertAfter(item);
+						var number = $('<span class="numeralia">'+ (line + 1) +'</span>').appendTo( $('body') );
 
-		<div class="bloque">
-			<span class="numeralia">20</span>
-			<p class="texto">mo el del año del Señor de 396. del qual afirma San Agustin "in-"
-		ficiònaba â Constantinopla, con hedor de azufre, y con mas evi-
-		dencia el del año de 1450. que aseguran las observaciones haver
-		eclypsado à la Luna
-		Para cuya inteligencia es de notar, que los vapores, y exala-</p>
-		</div>
+						number.css({
+							'position' : 'absolute',
+							'top'      : spacer.offset().top  + 13,
+							'left'     : spacer.offset().left - 48
+						});
+					}else{
+						console.log('not', line, item)
+					}
+				});
 
-		<div class="bloque">
-			<span class="numeralia">25</span>
-			<p class="texto">ciones de los elementos tierra, agua, fuego, y ayre, no llegan,
-		quantos menos passan del Cielo, por donde gira la Luna, y conse-
-		cutivamente en los Cielos superiores no ay causa, ni materia pa-
-		ra producirlos naturalmente, con que solo alli se forman por la
-		disposicion divina, como portentos sobre naturales, pregones</p>
-		</div>
+				$('.tei-content').find('br').first().each(function(i,item){
+					var line = i + 1 + folio.startLine;
+					var number = $('<span class="numeralia">'+line+'</span>').appendTo( $('body') );
 
-		<div class="bloque">
-			<span class="numeralia">30</span>
-			<p class="texto">de su ira, y amenasas de su vengança, y assi solo de los inferiores
-		discurre el juizio Astrologico en quanto â sus influencias, y efec-
-		tos naturales
-		De su forma segun consta por las succesivas historias, y lo que
-		han escrito los Astrologos, y Philosophos se han observado siem-</p>
-		</div>
+					number.css({
+						'position' : 'absolute',
+						'top'      : $('.tei-content').offset().top  - 5,
+						'left'     : $('.tei-content').offset().left 
+					});			
+				});
 
-		<div class="bloque">
-			<span class="numeralia">35</span>
-			<p class="texto">pre varias especies, y diferencias, por que unos aparecieron con
-		caudas, ò colas excesivas, como fue el passado de 1681. otros ca-
-		belludos, ò melenudos que llaman crinitos, otros con mucho
-		menor efluviò, que dizen Barbatos, otros en forma de flecha, es-
-		pada, escoba (como es el presente) hacha encendida, y lança, que</p>
-		</div>
+			})
+		</script>
 	</div>
 
 	<div class="media float margintop15">
@@ -119,6 +96,3 @@
 
 	<a href="#" target="_self" class="top">arriba</a>
 </div>
-<script type="text/javascript">
-	$('.tei-content p br').each(function(i,line){ if(i % 5 == 0){$('<div class="spacer"/>').insertAfter(line)} });
-</script>

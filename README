@@ -3,6 +3,11 @@ jqtpl https://github.com/kof/node-jqtpl
 
 ToDos:
 - Add slugs to books
-- Add english static views
+- Show tags on tag box
+- Highligh tags by type
+- Add Index page
+
+Done
+- Add english static views( also added dictionaries).
 - Add line counter to parser
 - Add line bubbles to books single

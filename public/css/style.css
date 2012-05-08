@@ -376,6 +376,11 @@ div.texto, p.texto {
 	float: left;
 }
 
+div.tei-content{
+	padding-left: 48px;
+	font-size: 17px;
+}
+
 span.numeralia {
 	display: block;
 	width: 40px;

@@ -64,7 +64,8 @@ define(['express','db','conf','dictionaries'], function (express, db, conf, dict
 				var prevFolio = null;
 				var nextFolio    = 2;
 
-				folio.lines = folio.raw.replace(/\n/g,'</br>');
+				folio.lined = folio.raw.replace(/\n/g,'</br>');
+				console.log(folio);
 		    	res.render('books/single',{ 
 			    	book      : book, 
 			    	folio     : folio,
@@ -94,7 +95,8 @@ define(['express','db','conf','dictionaries'], function (express, db, conf, dict
 				var prevFolio    = 1 < currentFolio ? currentFolio - 1 : null;
 				var nextFolio    = revision.folios[currentFolio + 1] ? currentFolio + 1 : null;
 
-				folio.lines = folio.raw.replace(/\n/g,'</br>');
+				folio.lined = folio.raw.replace(/\n/g,'</br>');
+				console.log(folio);
 		    	res.render('books/single',{
 			    	book      : book, 
 			    	folio     : folio,
