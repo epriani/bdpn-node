@@ -743,12 +743,9 @@ div#widget div.valores ul li {
 	margin: 0;
 }
 
-div#widget div.valores ul li.term-odd a:link, 
-div#widget div.valores ul li.term-odd a:visited, 
-div#widget div.valores ul li.term-odd a:active,
-div#widget div.valores ul li.term-even a:link, 
-div#widget div.valores ul li.term-even a:visited, 
-div#widget div.valores ul li.term-even a:active {
+div#widget div.valores ul li a:link, 
+div#widget div.valores ul li a:visited, 
+div#widget div.valores ul li a:active {
 	display: block;
 	width: 492px;
 	background-color: #E6E3DE;
@@ -759,15 +756,15 @@ div#widget div.valores ul li.term-even a:active {
    	padding: 6px 0 6px 18px;
 }
 
-div#widget div.valores ul li.term-odd a:link, 
-div#widget div.valores ul li.term-odd a:visited, 
-div#widget div.valores ul li.term-odd a:active {
+div#widget div.valores ul li:nth-child(2N+1) a:link, 
+div#widget div.valores ul li:nth-child(2N+1) a:visited, 
+div#widget div.valores ul li:nth-child(2N+1) a:active {
 	background-color: #E6E3DE;
 }
 
-div#widget div.valores ul li.term-even a:link, 
-div#widget div.valores ul li.term-even a:visited, 
-div#widget div.valores ul li.term-even a:active {
+div#widget div.valores ul li:nth-child(2N) a:link, 
+div#widget div.valores ul li:nth-child(2N) a:visited, 
+div#widget div.valores ul li:nth-child(2N) a:active {
 	background-image: url('../images/unam_bdpn_bgd_block.jpg');
 	background-position: 0 -217px;
 }

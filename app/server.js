@@ -1,6 +1,7 @@
 define(['express','db','conf','dictionaries'], function (express, db, conf, dictionaries) {
-	var app = express.createServer(),
-		RedisStore = require('connect-redis')(express);
+	var app        = express.createServer(),
+		RedisStore = require('connect-redis')(express),
+		_          = require('underscore');
 
 	//Static files
 	app.use(express.static('./public'));
@@ -60,18 +61,23 @@ define(['express','db','conf','dictionaries'], function (express, db, conf, dict
 					return;
 				}
 
-				var folio        = revision.folios[0] || revision.folios[1];
-				var prevFolio = null;
+				var folio        = revision.folios[0].raw ? revision.folios[0] : revision.folios[1];
+				var prevFolio    = null;
 				var nextFolio    = 2;
 
 				folio.lined = folio.raw.replace(/\n/g,'</br>');
-				console.log(folio);
-		    	res.render('books/single',{ 
+
+				var tags = _.uniq(folio.tags, null, function(item){return item.id});
+
+				console.log('Folio 0',revision.folios[0]);
+				console.log('Folio 1',revision.folios[1]);
+		    	res.render('books/single',{
+		    		rawTags   : JSON.stringify(tags) ,
 			    	book      : book, 
 			    	folio     : folio,
 			    	nextFolio : nextFolio,
 			    	prevFolio : prevFolio
-			    });
+			    });			    
 			});
 		});
 	});	
@@ -96,8 +102,11 @@ define(['express','db','conf','dictionaries'], function (express, db, conf, dict
 				var nextFolio    = revision.folios[currentFolio + 1] ? currentFolio + 1 : null;
 
 				folio.lined = folio.raw.replace(/\n/g,'</br>');
-				console.log(folio);
+
+				var tags = _.uniq(folio.tags, null, function(item){return item.id});
+
 		    	res.render('books/single',{
+		    		rawTags   : JSON.stringify(tags) ,
 			    	book      : book, 
 			    	folio     : folio,
 			    	nextFolio : nextFolio,
@@ -128,12 +137,53 @@ define(['express','db','conf','dictionaries'], function (express, db, conf, dict
 	});
 
 	//Static views
-	app.get('/project'       , function(req, res){ res.render('static/project')       });
-	app.get('/collaborators' , function(req, res){ res.render('static/collaborators') });
-	app.get('/collaborate'   , function(req, res){ res.render('static/collaborate')   });
-	app.get('/contact'       , function(req, res){ res.render('static/contact')       });
-	app.get('/documentation' , function(req, res){ res.render('static/documentation') });
-	app.get('/criteria'      , function(req, res){ res.render('static/criteria')      });
+	app.get('/project', function(req, res){
+		if (req.session.lang == "en") {
+			res.render('static/project-en');
+		}else{
+			res.render('static/project');
+		}		
+	});
+
+	app.get('/collaborators', function(req, res){
+		if (req.session.lang == "en") {
+			res.render('static/collaborators-en');
+		}else{
+			res.render('static/collaborators');
+		}		
+	});
+	
+	app.get('/collaborate', function(req, res){
+		if (req.session.lang == "en") {
+			res.render('static/collaborate-en');
+		}else{
+			res.render('static/collaborate');
+		}		
+	});
+
+	app.get('/contact', function(req, res){
+		if (req.session.lang == "en") {
+			res.render('static/contact-en');
+		}else{
+			res.render('static/contact');
+		}		
+	});	
+
+	app.get('/documentation', function(req, res){
+		if (req.session.lang == "en") {
+			res.render('static/documentation-en');
+		}else{
+			res.render('static/documentation');
+		}		
+	});
+
+	app.get('/criteria', function(req, res){
+		if (req.session.lang == "en") {
+			res.render('static/criteria-en');
+		}else{
+			res.render('static/criteria');
+		}		
+	});
 
 
 	//Dictionary change

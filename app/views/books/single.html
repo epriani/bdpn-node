@@ -18,6 +18,7 @@
 		<div class="tei-content texto">{{html folio.lined}}</div>
 		<script>
 			var folio = {
+		 		tags      : {{html rawTags}},
 				startLine : parseInt( ${folio.startLine}, 10 )
 			}
 
@@ -25,7 +26,6 @@
 				$('.tei-content').find('br').each(function(i,item){
 					var line = i + 1 + folio.startLine;
 					if( ( (line + 1) % 5 == 0 && line !== 0) ){
-						console.log('yep',line,item);
 
 						var spacer = $('<div class="spacer"/>').insertAfter(item);
 						var number = $('<span class="numeralia">'+ (line + 1) +'</span>').appendTo( $('body') );
@@ -35,8 +35,6 @@
 							'top'      : spacer.offset().top  + 13,
 							'left'     : spacer.offset().left - 48
 						});
-					}else{
-						console.log('not', line, item)
 					}
 				});
 
@@ -51,7 +49,30 @@
 					});			
 				});
 
-			})
+				folio.tags.forEach(function(item){
+					var li = $('<li><a href="#" target="_self">Barbato</a></li>');
+					li.find('a').html(item.reg || item.content);
+					li.appendTo('.'+item.tag);
+
+					if( !$('.'+item.tag).length ){
+						console.warn(item.tag, 'not present');
+					};
+				});
+
+				$('.tag-type').click(function(e){
+					e.preventDefault();
+
+					$('.valores ul').hide();
+					$('#'+this.id+'-tags').show();
+
+					var tagsTypes = $('#'+this.id+'-tags')[0].className;
+
+					$('*','.tei-content').css('color', '');
+					$(tagsTypes,'.tei-content').css('color', 'red');
+				});
+
+				$('#name').click();
+			});
 		</script>
 	</div>
 
@@ -59,25 +80,18 @@
 		
 		<div id="widget">
 			<ul id="options">
-				<li><a href="#" target="_self">Nombres</a></li>
-				<li><a href="#" target="_self">Fechas</a></li>
-				<li><a href="#" target="_self">Referencias</a></li>
-				<li><a href="#" target="_self">Términos</a></li>
-				<li><a href="#" target="_self">Comentarios</a></li>
+				<li><a id="name" class="tag-type" href="#" target="_self">Nombres</a></li>
+				<li><a id="date" class="tag-type" href="#" target="_self">Fechas</a></li>
+				<li><a id="ref"  class="tag-type" href="#" target="_self">Referencias</a></li>
+				<li><a id="term" class="tag-type" href="#" target="_self">Términos</a></li>
+				<li><a class="tag-type" href="#" target="_self">Comentarios</a></li>
 			</ul>
 			
-			<div class="valores">
-				<ul>
-					<li class="term-odd"><a href="#" target="_self">Barbato</a></li>
-					<li class="term-even"><a href="#" target="_self">Cauda</a></li>
-					<li class="term-odd"><a href="#" target="_self">Celeste</a></li>
-					<li class="term-even"><a href="#" target="_self">Cometa Celeste</a></li>
-					<li class="term-odd"><a href="#" target="_self">Crinito</a></li>
-					<li class="term-even"><a href="#" target="_self">Elementar</a></li>
-					<li class="term-odd"><a href="#" target="_self">Juicio Astrológico</a></li>
-					<li class="term-even"><a href="#" target="_self">Paralaje</a></li>
-					<li class="term-odd"><a href="#" target="_self">Inficionaba a Constantinopla con hedor de azufre</a></li>
-				</ul>
+			<div class="valores">		
+				<ul id="name-tags" class="name"    style="display:none"></ul>
+				<ul id="date-tags" class="date"    style="display:none"></ul>
+				<ul id="ref-tags"  class="q , ref" style="display:none"></ul>
+				<ul id="term-tags" class="term"    style="display:none"></ul>
 			</div>
 		</div>	
 		
@@ -88,9 +102,13 @@
 
 	<div id="folios" class="foliaje">
 		<img src="/images/hr.png" alt="BDPN" />
-		<a href="#" target="_self" class="folink">Anterior</a>
+		{{if prevFolio}}
+			<a href="/books/${book.id}/${prevFolio}" target="_self" class="folink">Anterior</a>
+		{{/if}}
 		<span class="fol">${folio.pb}</span> 
-		<a href="#" target="_self" class="folink">Siguiente</a>
+		{{if nextFolio}}
+			<a href="/books/${book.id}/${nextFolio}" target="_self" class="folink">Siguiente</a>
+		{{/if}}
 		<img src="/images/hr.png" alt="BDPN" />
 	</div><!-- / foliaje-->
 

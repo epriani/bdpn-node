@@ -2,12 +2,17 @@ Documentation from packages
 jqtpl https://github.com/kof/node-jqtpl
 
 ToDos:
-- Add slugs to books
-- Show tags on tag box
-- Highligh tags by type
 - Add Index page
+- Add slugs to books
+- Conect contact form
+- Make headers in english from Books and Authors
+
+Doing
+- Add english static views
 
 Done
-- Add english static views( also added dictionaries).
+- Add dictionaries
 - Add line counter to parser
 - Add line bubbles to books single
+- Show tags on tag box
+- Highligh tags by type
