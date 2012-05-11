@@ -61,7 +61,7 @@ define(['express','db','conf','dictionaries'], function (express, db, conf, dict
 					return;
 				}
 
-				var folio        = revision.folios[0].raw ? revision.folios[0] : revision.folios[1];
+				var folio        = revision.folios[0] && revision.folios[0].raw ? revision.folios[0] : revision.folios[1];
 				var prevFolio    = null;
 				var nextFolio    = 2;
 

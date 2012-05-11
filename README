@@ -5,10 +5,11 @@ ToDos:
 - Add Index page
 - Add slugs to books
 - Conect contact form
-- Make headers in english from Books and Authors
+- Add fronts to books/single
+- Add fronts to parser
 
 Doing
-- Add english static views
+- Make headers in english from Books(index and single) and Authors
 
 Done
 - Add dictionaries
@@ -16,3 +17,4 @@ Done
 - Add line bubbles to books single
 - Show tags on tag box
 - Highligh tags by type
+- Add english static views
