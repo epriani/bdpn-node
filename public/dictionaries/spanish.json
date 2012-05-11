@@ -17,5 +17,13 @@
 	"criteria"      : "Criterios editoriales",	
 	"licence"       : "Creative Commons Atribución No Comercial",
 	"council"       : "Consejo Nacional de Ciencia y Tecnología",
-	"academic"      : "Dirección General de Asuntos del Personal Académico"
+	"academic"      : "Dirección General de Asuntos del Personal Académico",
+	"top"           : "arriba",
+	"next"          : "Siguiente",
+	"previous"      : "Anterior",
+	"name"          : "Nombres",
+	"date"          : "Fechas",
+	"reference"     : "Referencias",
+	"term"          : "Términos",
+	"comments"      : "Comentarios"
 }

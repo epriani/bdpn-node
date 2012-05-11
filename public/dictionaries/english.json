@@ -17,5 +17,14 @@
 	"criteria"      : "Editorial criteria",
 	"licence"       : "Creative Commons Atribution Non Commercial",
 	"council"       : "National Council for Science and Technology of Mexico",
-	"academic"      : "Director of General Support for the Academic Personnel"
+	"academic"      : "Director of General Support for the Academic Personnel",
+	"top"           : "top",
+	"next"          : "Next",
+	"previous"      : "Previous",
+	"name"          : "Names",
+	"date"          : "Dates",
+	"reference"     : "References",
+	"term"          : "Terms",
+	"comments"      : "Comments"
+
 }

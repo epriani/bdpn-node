@@ -1,6 +1,6 @@
 {{layout "../layout"}}
 <div id="container">
-	<h1>Obras</h1><br/>
+	<h1>${ dictionary.books }</h1><br/>
 	{{each(i, book) books}}
 		<div class="block float">
 			<h1><a href="/books/${book.id}" target="_self">${book.value.name}</a></h1>
@@ -8,5 +8,5 @@
 		</div>
 	{{/each}}	
 	<div class="clear"></div>
-	<a href="#" target="_self" class="top">arriba</a>
+	<a href="#" target="_self" class="top">${ dictionary.top }</a>
 </div>
