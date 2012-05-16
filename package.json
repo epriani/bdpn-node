@@ -18,7 +18,7 @@
     "jqtpl": "*",
     "connect-redis": "*"
   },
-  "version": "0.0.0-33",
+  "version": "0.0.0-34",
   "engines": {
     "node": "0.6.x"
   }

@@ -15,8 +15,8 @@ requirejs.config({
     nodeRequire: require
 });
 
-requirejs(['db','server'],
-function (db, server) {
+requirejs(['db','server','models/terms'],
+function (db, server, terms) {
     app.use(flatiron.plugins.cli, {
         usage : [
             'I would say RTFM, but you would say, write the fucking manual'
@@ -205,9 +205,15 @@ function (db, server) {
         console.log( util.inspect( parser.getFolios(), false, 4 ) );
     });
 
+    app.cmd('getUsedTerms', function(){
+        console.log('terms intance', terms); 
+
+        console.log('used terms', terms.getUsedTerms() );
+    });
+
     //If no routes passed, uses default "start";
     if(!app.argv._.length){
-        app.argv._ = ["start"];
+        app.argv._ = ["getUsedTerms"];
     }
 
     app.start();    

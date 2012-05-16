@@ -68,7 +68,7 @@ Medicina.
 <p>
 AL <abbr>Mro</abbr> de Campo <name type="person" reg="Zabalburu (de), Domingo">D Domingo de Zabalbu=
 Ru</name>, cavallero del <name type="inst">orden de santiago</name>, Gover=
-Nador, y Capitán General de las <name type="Place" reg="Filipinas">yslas Phili=
+Nador, y Capitán General de las <name type="place" reg="Filipinas">yslas Phili=
 Pinas</name>, y Presidente de la <name type="inst" reg="Real Audiencia de Manila">Real Audien=
 Cia de Manila</name>.
 Estas lineas que en la esfera de sus límites llegaron
@@ -141,9 +141,9 @@ tando en el Horizonte Oriental, 25 gr. 59 mi. de <name type="constelation" reg="
 y en el occidental los mismos de <name type="constelation">Capricornio</name>, de quien
 dista el sol 85 gr. 28 mi. y siendo el angulo de la <term type="Astron" reg="Eclíptica">E=
 cliptica</term>, y Horizonte 80 gr. 1 mi. sera la altura del
-<name type="planet">Sol</name>, 79 gr. 3 mi. la distancia de la <name type="planer" reg="Luna">luna</name> a la <name type="planer" reg="Tierra">tierra</name>
-55 semid. 4 mi. (Consta Vn semidia muxo de la <name type="planer" reg="Tierra">tierra</name> de
-1003 leguas Españolas) y la <term type="Astro" reg="paralaje">parallaxis</term> de la <name type="planer" reg="Luna">luna</name> al <name type="planer">Sol</name>
+<name type="planet">Sol</name>, 79 gr. 3 mi. la distancia de la <name type="planet" reg="Luna">luna</name> a la <name type="planet" reg="Tierra">tierra</name>
+55 semid. 4 mi. (Consta Vn semidia muxo de la <name type="planet" reg="Tierra">tierra</name> de
+1003 leguas Españolas) y la <term type="Astro" reg="paralaje">parallaxis</term> de la <name type="planet" reg="Luna">luna</name> al <name type="planet">Sol</name>
 en el Vertical 11 mi. 31 seg. mediante esta, y el angulo
 de la <term type="Astron" reg="Eclíptica">Eclpitica</term>, y <term type="Astron">Vertical</term>, que es 65 gr. 52 mi. sera la
 diversidad de aspecto de latitud 10 mi. 30 seg. que su=
