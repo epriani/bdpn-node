@@ -1,4 +1,4 @@
-define(['express','db','conf','dictionaries'], function (express, db, conf, dictionaries) {
+define(['express','db','conf','dictionaries','models/terms'], function (express, db, conf, dictionaries, terms) {
 	var app        = express.createServer(),
 		RedisStore = require('connect-redis')(express),
 		_          = require('underscore');
@@ -23,6 +23,9 @@ define(['express','db','conf','dictionaries'], function (express, db, conf, dict
 	app.set("view engine", "html");
 	app.set('views', './app/views');
 	app.register(".html", require("jqtpl").express);
+
+	//Prefetch used terms
+	terms.getUsedTerms();
 
 	//Router
 	app.get('/', function(req, res){
@@ -133,7 +136,14 @@ define(['express','db','conf','dictionaries'], function (express, db, conf, dict
 	});
 
 	app.get('/terms',function(req, res){
-	    res.render('terms/index',{});
+		console.log(terms.usedTerms)
+
+	    res.render('terms/index',{ usedTerms: JSON.stringify( terms.usedTerms ) });
+	});
+
+	app.get('/terms/expire',function(req, res){
+		terms.getUsedTerms();		
+		res.send('Cache expire');
 	});
 
 	//Static views

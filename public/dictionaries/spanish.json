@@ -25,5 +25,7 @@
 	"date"          : "Fechas",
 	"reference"     : "Referencias",
 	"term"          : "Términos",
-	"comments"      : "Comentarios"
+	"comments"      : "Comentarios",
+	"abbr"			: "Abreviaturas",
+	"foreign"   	: "Foreign"
 }

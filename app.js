@@ -213,7 +213,7 @@ function (db, server, terms) {
 
     //If no routes passed, uses default "start";
     if(!app.argv._.length){
-        app.argv._ = ["getUsedTerms"];
+        app.argv._ = ["start"];
     }
 
     app.start();    

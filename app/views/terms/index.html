@@ -1,47 +1,8 @@
 {{layout "../layout"}}
 <div id="container">
-	<h1 id="indices">Índices:</h1>
+	<h1>Índices:</h1>
 
-	<div id="sidebar">
-		<ul id="indices">
-			<li><a href="#" target="_self">Nombres</a>
-				<ul class="dropdown">
-					<li><a href="type.html" target="_self">Personas</a></li>
-					<li><a href="type.html" target="_self">Planetas</a></li>
-					<li><a href="type.html" target="_self">Dioses</a></li>
-					<li><a href="type.html" target="_self">Lugares</a></li>
-					<li><a href="type.html" target="_self">Instituciones</a></li>
-					<li><a href="type.html" target="_self">Constelaciones</a></li>
-					<li><a href="type.html" target="_self">Signos del zodiaco</a></li>
-					<li><a href="type.html" target="_self">Divinidades católicas</a></li>
-				</ul>
-			</li>
-			<li><a href="#" target="_self">Términos</a>
-				<ul class="dropdown">
-					<li><a href="type.html" target="_self">Médicos</a></li>
-					<li><a href="type.html" target="_self">Astrológicos</a></li>
-					<li><a href="type.html" target="_self">Astronómicos</a></li>
-					<li><a href="type.html" target="_self">Filosóficos</a></li>
-					<li><a href="type.html" target="_self">Matemáticos</a></li>
-					<li><a href="type.html" target="_self">Teológicos</a></li>
-					<li><a href="type.html" target="_self">Español antiguo</a></li>
-					<li><a href="type.html" target="_self">Abreviaturas</a></li>
-				</ul>
-			</li>
-			<li><a href="#" target="_self">Referencias</a>
-				<ul class="dropdown">
-					<li><a href="type.html" target="_self">Fuentes</a></li>
-					<li><a href="type.html" target="_self">Citas no textuales</a></li>
-					<li><a href="type.html" target="_self">Citas textuales</a></li>
-				</ul>
-			</li>
-			<li><a href="#" target="_self">Fechas</a>
-				<ul class="dropdown">
-					<li><a href="type.html" target="_self">Cometas</a></li>
-				</ul>
-			</li>	
-		</ul>
-	</div><!-- / SIDEBAR -->
+	{{partial({usedTerms:usedTerms, dictionary:dictionary}) "./partials/sidebar"}}
 
 	<div id="colright">
 		<p class="indices">En esta sección se encuentran varios índices. Estos se forman recuperando automáticamente las palabras o frases marcadas con etiquetas TEI dentro de los textos. Por la forma en que se realiza el marcado, cada índice agrupa una categoría y dentro de ella se encuentran las palabras o frases identificadas con distintos atributos dentro de esa categoría.</p>

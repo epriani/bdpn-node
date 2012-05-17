@@ -1,0 +1,28 @@
+<div id="sidebar">
+	
+	<ul id="indices">
+	</ul>
+
+</div><!-- / SIDEBAR -->
+<script type="text/javascript">
+(function(){
+	var usedTerms  = {{html data.usedTerms }};
+	window.dictionaty = {{html JSON.stringify(data.dictionary) }};
+		
+	_.each(usedTerms, function(subtypes, type){
+		var container = $('#indices'),
+			keyEl     = $('<li><a href="/terms/'+type+'" target="_self">'+dictionaty[type]+'</a><ul class="dropdown"></ul></li>'),
+			dropdown  = keyEl.find('.dropdown');
+
+		keyEl.appendTo(container);
+
+		_.each(subtypes, function(ammount, subtype){
+			var subtypeEl = $('<li><a href="/terms/'+type+'/'+subtype+'" target="_self">'+subtype+'</a></li>');
+
+			if(subtype != "plain"){
+				subtypeEl.appendTo( dropdown )
+			}
+		}, this);
+	});
+})();
+</script>
