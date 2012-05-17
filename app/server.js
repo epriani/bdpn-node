@@ -136,8 +136,6 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 	});
 
 	app.get('/terms',function(req, res){
-		console.log(terms.usedTerms)
-
 	    res.render('terms/index',{ usedTerms: JSON.stringify( terms.usedTerms ) });
 	});
 
