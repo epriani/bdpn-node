@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Lancelot';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lancelot'), url('http://localhost:8080/fonts/Lancelot.woff') format('woff');
+}

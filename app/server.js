@@ -11,8 +11,6 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 	app.use(express.cookieParser());
 
 	if( process.env.NODE_ENV === 'production' ){
-		app.use(express.session({ secret: "keyboard cat" }));
-	}else{
 		app.use(express.session({
 			secret : conf.redis.secret,
 			store  : new RedisStore({
@@ -22,6 +20,8 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 				pass : conf.redis.pass
 			})
 		}));
+	}else{
+		app.use(express.session({ secret: "keyboard cat" }));
 	}
 
 	//View engine
@@ -34,12 +34,14 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 
 	//Router
 	app.get('/', function(req, res){
+		console.log('start request');
 		db.view('books/publishedList', function (err, books) {
 			if(err){
 	    		res.render('400',{});
 	    		return;
 			}
 
+			console.log('send response');
 	    	res.render('index/index',{ books : books });
 		});
 		

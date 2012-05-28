@@ -15,8 +15,8 @@ requirejs.config({
     nodeRequire: require
 });
 
-requirejs(['db','server','models/terms'],
-function (db, server, terms) {
+requirejs(['db','models/terms'],
+function (db, terms) {
     app.use(flatiron.plugins.cli, {
         usage : [
             'I would say RTFM, but you would say, write the fucking manual'
@@ -37,6 +37,7 @@ function (db, server, terms) {
     });	
 
     app.cmd('start',function () {
+        var server = requirejs('server');
         console.log('start server');
 
         server.listen(8080);
@@ -45,7 +46,7 @@ function (db, server, terms) {
 
 
     // node app createBook --book "ESPECULACION ASTROLOGICA, Y PHYSICA DE LA NATURALEZA DE LOS COMETAS, Y JUIZIO DEL QUE ESTE Año de 1682 Se vè en todo el Mundo" --author "Gaspar Juan Evelino"
-    app.cmd('createBook',function () {
+    app.cmd('bookCreate',function () {
         var book = {
             type : "book",
             name : app.argv.book,            
@@ -64,8 +65,34 @@ function (db, server, terms) {
         });
     });
 
-    app.cmd('addXMLtoBook', function(){
-        console.log('adding XML to book'); 
+    app.cmd('bookAddAttachment', function(){
+        var bookId   = app.argv.bookId,
+            fileName = app.argv.file,
+            file     = fs.readFileSync(app.argv.file).toString();
+
+        if(!bookId || !fileName){
+            console.log('You need to provide a bookId and a fileName');
+            return;
+        }
+
+        console.log('adding attachment to book', bookId, fileName); 
+
+        db.get(bookId, function(err, doc){
+            if(err){
+                console.log(err);
+                return;
+            }
+
+            console.log(doc);
+
+            db.addAttachment(doc, {
+                name : fileName,
+                body : file
+            },function(err, result){
+                console.log('attachment callback')
+                console.log(err, result);
+            });
+        });
     });
 
     app.cmd('booksList',function () {
