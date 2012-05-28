@@ -64,6 +64,10 @@ function (db, server, terms) {
         });
     });
 
+    app.cmd('addXMLtoBook', function(){
+        console.log('adding XML to book'); 
+    });
+
     app.cmd('booksList',function () {
         console.log('');
         console.log('Books:');
@@ -212,7 +216,8 @@ function (db, server, terms) {
     });
 
     //If no routes passed, uses default "start";
-    if(!app.argv._.length){
+    if(!app.argv._.length && !app.argv.help){
+        console.log('app.argv', app.argv.help );
         app.argv._ = ["start"];
     }
 

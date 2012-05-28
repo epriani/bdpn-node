@@ -9,15 +9,20 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 	//Session
 	app.use(express.bodyParser());
 	app.use(express.cookieParser());
-	app.use(express.session({
-		secret : conf.redis.secret,
-		store  : new RedisStore({
-			host : conf.redis.host,
-			port : conf.redis.port,
-			user : conf.redis.user,
-			pass : conf.redis.pass
-		})
-	}));
+
+	if( process.env.NODE_ENV === 'production' ){
+		app.use(express.session({ secret: "keyboard cat" }));
+	}else{
+		app.use(express.session({
+			secret : conf.redis.secret,
+			store  : new RedisStore({
+				host : conf.redis.host,
+				port : conf.redis.port,
+				user : conf.redis.user,
+				pass : conf.redis.pass
+			})
+		}));
+	}
 
 	//View engine
 	app.set("view engine", "html");
@@ -211,6 +216,9 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 		},
 		currentDictionary : function(req, res){
 			return req.session.lang || "sp";
+		},
+		env : function(req,res){
+			return process.env.NODE_ENV;
 		}
 	});	
 
