@@ -146,6 +146,28 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 	    res.render('terms/index',{ usedTerms: JSON.stringify( terms.usedTerms ) });
 	});
 
+	app.get('/terms/:type', function(req, res){
+		console.log('fetchinb ', req.params.type);
+
+		db.view('terms/byType',{
+			startkey : [req.params.type, null],
+			endkey   : [req.params.type, "Z"],
+			group    : true
+		},function(err, docs){
+			if(err){
+				console.log(err);
+				res.send('err');
+				return;
+			}
+
+			res.render('terms/list',{
+				usedTerms : JSON.stringify( terms.usedTerms ),
+				terms     : JSON.stringify( docs )
+			});
+		});
+
+	});
+
 	app.get('/terms/expire',function(req, res){
 		terms.getUsedTerms();		
 		res.send('Cache expire');
