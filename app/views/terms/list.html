@@ -1,0 +1,43 @@
+{{layout "../layout"}}
+<div id="container">
+	<h1>Índices:</h1>
+
+	{{partial({usedTerms:usedTerms, dictionary:dictionary}) "./partials/sidebar"}}
+
+	<div id="colright"></div><!-- / COLRIGHT -->
+	<div class="clear"></div>
+	<a href="#" target="_self" class="top">arriba</a>
+
+	<script type="text/javascript">
+	(function(){
+		window.terms = _.sortBy({{html terms }}, function(term){ return term.key[2][0] });
+		
+		var capital     = $('<ul class="capital"><span class="label"></span></ul>'),
+			capitalItem = $('<li><a href=""></a></li>'),
+			clear		= $('<div class="clear"></div>');
+
+		_.each(terms, function (term, sum) {
+			var capitalLetter = term.key[2][0].toUpperCase();
+			if( !$('#capital-'+ capitalLetter).length ){
+				var ul = capital.clone();
+				ul.find('.label').html(capitalLetter+'.');
+				ul.attr('id','capital-'+ capitalLetter);
+				ul.appendTo('#colright');
+			}
+						
+			var li = capitalItem.clone();
+
+			li.find('a').attr('href','terms/single/'+term.key[2]).html(term.key[2]);
+			li.appendTo( $('#capital-'+ capitalLetter) );
+		});
+
+		$('.capital').each(function(i,item){
+			if(i > 0 && i% 3 === 2){
+				var clearItem = clear.clone();
+				clearItem.insertAfter(item);
+			}
+		});
+
+	})();
+	</script>
+</div><!-- / CONTAINER -->

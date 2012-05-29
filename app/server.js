@@ -34,14 +34,12 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 
 	//Router
 	app.get('/', function(req, res){
-		console.log('start request');
 		db.view('books/publishedList', function (err, books) {
 			if(err){
 	    		res.render('400',{});
 	    		return;
 			}
 
-			console.log('send response');
 	    	res.render('index/index',{ books : books });
 		});
 		
