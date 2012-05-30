@@ -238,13 +238,11 @@ function (db, terms) {
 
     app.cmd('getUsedTerms', function(){
         console.log('terms intance', terms); 
-
         console.log('used terms', terms.getUsedTerms() );
     });
 
     //If no routes passed, uses default "start";
     if(!app.argv._.length && !app.argv.help){
-        console.log('app.argv', app.argv.help );
         app.argv._ = ["start"];
     }
 

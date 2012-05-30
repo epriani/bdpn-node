@@ -1,0 +1,63 @@
+{{layout "../layout"}}
+<div id="container">
+	<h1>Índices: 
+		<span class="term">
+			${ dictionary[type] || type } 
+			{{if subtype}}
+				${ dictionary[subtype] || subtype } 
+			{{/if}}
+			{{if term}}
+				${ term } 
+			{{/if}}			
+		</span>
+	</h1>
+
+	{{partial({usedTerms:usedTerms, dictionary:dictionary}) "./partials/sidebar"}}
+
+	<div id="colright">
+		<img src="/images/hr.png" class="indices">
+	</div><!-- / COLRIGHT -->
+	<div class="clear"></div>
+	<a href="#" target="_self" class="top">arriba</a>
+
+	<script type="text/javascript">
+	(function(){
+		window.terms = {{html terms }};
+		window.books = {};
+		window.currentTerm = '${ term }';
+
+		var bookTemplate  = $('<dl class="accordion"><dt><a href="#"></a></dt><dd><ul></ul></dd><dl>'),
+			folioTemplate = $('<li/>');
+
+		_.each({{html books }},function(book){
+			books[book.key] = book.value;
+		});
+
+		_.each(terms, function(term){
+			console.log(term.value);
+			if( !$('#folio'+term.value[0]).length ){			
+				if( !$('#book'+term.value[2]).length ){
+					var book = bookTemplate.clone();
+					book.attr('id', 'book'+term.value[2]);
+					book.find('a').html( books[ term.value[2]] );
+					book.appendTo('#colright');
+				}
+
+				var folio = folioTemplate.clone();
+				folio.attr('id', 'folio'+term.value[0]);
+				folio.append('<h4>'+term.value[3]+'</h4>')
+				folio.append('<p>'+term.value[4].replace(/-(\s)(\n)?/g, '')+'</p>')
+
+				folio.appendTo( $('#book'+term.value[2]).find('ul') );
+
+				folio.find('p *').each(function(i,item){
+					var $item= $(item);
+					if( item.textContent == currentTerm || $item.attr('reg') == currentTerm ){ 
+						$item.addClass('highlight');
+					}
+				});
+			}
+		});
+	})();
+	</script>
+</div><!-- / CONTAINER -->

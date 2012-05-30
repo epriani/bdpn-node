@@ -1,6 +1,13 @@
 {{layout "../layout"}}
 <div id="container">
-	<h1>Índices:</h1>
+	<h1>Índices: 
+		<span class="term">
+			${ dictionary[type] || type } 
+			{{if subtype}}
+				${ dictionary[subtype] || type } 
+			{{/if}}
+		</span>
+	</h1>
 
 	{{partial({usedTerms:usedTerms, dictionary:dictionary}) "./partials/sidebar"}}
 
@@ -17,6 +24,7 @@
 			clear		= $('<div class="clear"></div>');
 
 		_.each(terms, function (term, sum) {
+			console.log(term.key[2][0]);
 			var capitalLetter = term.key[2][0].toUpperCase();
 			if( !$('#capital-'+ capitalLetter).length ){
 				var ul = capital.clone();
@@ -27,7 +35,11 @@
 						
 			var li = capitalItem.clone();
 
-			li.find('a').attr('href','terms/single/'+term.key[2]).html(term.key[2]);
+			if(term.key[1]){
+				li.find('a').attr('href', encodeURI('/terms/single/'+term.key[0]+'/'+term.key[1]+'/'+term.key[2]) ).html(term.key[2]+'('+term.value+')');
+			}else{
+				li.find('a').attr('href', encodeURI('/terms/single/'+term.key[0]+'/'+term.key[2]) ).html(term.key[2]+'('+term.value+')');
+			}
 			li.appendTo( $('#capital-'+ capitalLetter) );
 		});
 

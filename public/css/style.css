@@ -696,7 +696,7 @@ ul.capital li a:hover {
 	color: #8E121C;	
 }
 
-span.highlight {
+.highlight {
 	font-family: 'Lancelot', cursive;
     color: #8E121C;
     font-size: 24px;

@@ -41,8 +41,7 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 			}
 
 	    	res.render('index/index',{ books : books });
-		});
-		
+		});		
 	});
 
 	app.get('/books',function(req, res){
@@ -145,11 +144,11 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 	});
 
 	app.get('/terms/:type', function(req, res){
-		console.log('fetchinb ', req.params.type);
+		console.log('fetching ', req.params.type);
 
 		db.view('terms/byType',{
 			startkey : [req.params.type, null],
-			endkey   : [req.params.type, "Z"],
+			endkey   : [req.params.type, "ZZZZZZZZZZ"],
 			group    : true
 		},function(err, docs){
 			if(err){
@@ -159,11 +158,91 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 			}
 
 			res.render('terms/list',{
+				type      : req.params.type,
 				usedTerms : JSON.stringify( terms.usedTerms ),
 				terms     : JSON.stringify( docs )
 			});
 		});
+	});
 
+	app.get('/terms/:type/:subtype', function(req, res){
+		db.view('terms/byType',{
+			startkey : [req.params.type, req.params.subtype, null],
+			endkey   : [req.params.type, req.params.subtype, "ZZZZZZZZZZ"],
+			group    : true
+		},
+		function(err, docs){
+			if(err){
+				console.log(err);
+				res.send('err');
+				return;
+			}
+						
+			res.render('terms/list',{
+				type      : req.params.type,				
+				subtype   : req.params.subtype,				
+				usedTerms : JSON.stringify( terms.usedTerms ),
+				terms     : JSON.stringify( docs )
+			});
+		});
+	});
+
+	app.get('/terms/single/:type/:term', function(req, res){
+		db.view('terms/byContent',{
+			key : [req.params.type, null, req.params.term]
+		},
+		function(err, docs){
+			if(err){
+				console.log(err);
+				res.send('err on term by content');
+				return;
+			}
+			
+			db.view('books/list',function(err,books){
+				if(err){
+					console.log(err);
+					res.send('err on term by content');
+					return;
+				}
+							
+				res.render('terms/single',{
+					type      : req.params.type,
+					term      : req.params.term,
+					terms     : JSON.stringify( docs ),
+					books	  : JSON.stringify( books ),
+					usedTerms : JSON.stringify( terms.usedTerms ),				
+				});
+			});
+		});
+	});
+
+	app.get('/terms/single/:type/:subtype/:term', function(req, res){
+		db.view('terms/byContent',{
+			key : [req.params.type, req.params.subtype, req.params.term]
+		},
+		function(err, docs){
+			if(err){
+				console.log(err);
+				res.send('err on term by content');
+				return;
+			}
+			
+			db.view('books/list',function(err,books){
+				if(err){
+					console.log(err);
+					res.send('err on term by content');
+					return;
+				}
+							
+				res.render('terms/single',{
+					type      : req.params.type,
+					term      : req.params.term,
+					terms     : JSON.stringify( docs ),
+					books	  : JSON.stringify( books ),
+					usedTerms : JSON.stringify( terms.usedTerms ),				
+				});
+			});
+		});		
 	});
 
 	app.get('/terms/expire',function(req, res){
