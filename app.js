@@ -45,7 +45,7 @@ function (db, terms) {
     });    
 
 
-    // node app createBook --book "ESPECULACION ASTROLOGICA, Y PHYSICA DE LA NATURALEZA DE LOS COMETAS, Y JUIZIO DEL QUE ESTE Año de 1682 Se vè en todo el Mundo" --author "Gaspar Juan Evelino"
+    // node app bookCreate --book "ESPECULACION ASTROLOGICA, Y PHYSICA DE LA NATURALEZA DE LOS COMETAS, Y JUIZIO DEL QUE ESTE Año de 1682 Se vè en todo el Mundo" --author "Gaspar Juan Evelino"
     app.cmd('bookCreate',function () {
         var book = {
             type : "book",
@@ -224,7 +224,7 @@ function (db, terms) {
 		});
     });
 
-    // node app testParser -f teis/62.xml -b 9029ed07d153210314e74b1f97003264
+    // node app testParser -f teis/62.xml
     app.cmd('testParser',function () {
         var fileName = app.argv.file,
             tei      = fs.readFileSync(app.argv.file).toString(),
@@ -233,7 +233,7 @@ function (db, terms) {
         
         var parsedTei = parser.getTei();        
         
-        console.log( util.inspect( parser.getFolios(), false, 4 ) );
+        console.log( util.inspect( parser.getTei(), false, 4 ) );
     });
 
     app.cmd('getUsedTerms', function(){

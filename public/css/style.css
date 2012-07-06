@@ -102,6 +102,10 @@ div#container {
 	margin: 0 auto 20px auto;
 	padding: 0 20px;
 	text-align: left;
+	min-height: 625px;
+}
+div#container h1{
+	line-height: 120%;
 }
 
 div#header {

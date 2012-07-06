@@ -25,15 +25,6 @@ define(['db'], function (db) {
 				}
 			});
 
-
-			data.reference = {
-				cit : data.cit.plain,
-				q   : data.q.plain
-			}
-
-			delete data.cit;
-			delete data.q;
-
 			terms.usedTerms = data;
 		});
 		

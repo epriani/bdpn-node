@@ -7,4 +7,12 @@ $(document).ready(function () {
 
 		location = origin + '/lang?path=' + path;
 	});
+
+	$('#contacto').submit(function(){
+		console.log('form been submited');
+	});
+
+	$('#enviar').click(function(){
+		console.log('click on submit');
+	});	
 });

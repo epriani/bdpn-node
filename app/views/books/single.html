@@ -2,6 +2,7 @@
 <div id="container">
 	<h1>${book.name}</h1>
 	<h3>${book.author}</h3>
+	<p>${book.description}</p>
 	<div id="folios" class="foliaje">
 		<img src="/images/hr.png" alt="BDPN" />
 			{{if prevFolio}}
@@ -19,7 +20,7 @@
 		<script>
 			var folio = {
 		 		tags      : {{html rawTags}},
-				startLine : parseInt( ${folio.startLine}, 10 )
+				startLine : parseInt( ${folio.startLine || 0 }, 10 )
 			}
 
 			$(window).bind('load',function(){			
@@ -38,7 +39,7 @@
 					}
 				});
 
-				$('.tei-content').find('br').first().each(function(i,item){
+				$($('.tei-content').find('br')[0]).each(function(i,item){
 					var line = i + 1 + folio.startLine;
 					var number = $('<span class="numeralia">'+line+'</span>').appendTo( $('body') );
 

@@ -68,7 +68,7 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 					return;
 				}
 
-				var folio        = revision.folios[0] && revision.folios[0].raw ? revision.folios[0] : revision.folios[1];
+				var folio        = revision.folios[0];
 				var prevFolio    = null;
 				var nextFolio    = 2;
 
@@ -165,6 +165,11 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 		});
 	});
 
+	app.get('/cache/expire',function(req, res){
+		terms.getUsedTerms();		
+		res.send('Cache expire');
+	});	
+
 	app.get('/terms/:type/:subtype', function(req, res){
 		db.view('terms/byType',{
 			startkey : [req.params.type, req.params.subtype, null],
@@ -245,11 +250,6 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 		});		
 	});
 
-	app.get('/terms/expire',function(req, res){
-		terms.getUsedTerms();		
-		res.send('Cache expire');
-	});
-
 	//Static views
 	app.get('/project', function(req, res){
 		if (req.session.lang == "en") {
@@ -276,12 +276,25 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 	});
 
 	app.get('/contact', function(req, res){
+		console.log('get /contact', req.query.success);
 		if (req.session.lang == "en") {
-			res.render('static/contact-en');
+			res.render('static/contact-en', {success : req.query.success});
 		}else{
-			res.render('static/contact');
+			res.render('static/contact',{success : req.query.success});
 		}		
 	});	
+
+	app.post('/contact', function(req, res){
+		console.log('post /contact');
+		var contact = _.extend({}, req.body);
+		contact.type = 'contact';
+		//req.body.type = 'contact';
+
+		console.log('sending to db', contact);
+		db.save(contact, function (err, doc) {
+			res.redirect('/contact?success=true');
+		});
+	});
 
 	app.get('/documentation', function(req, res){
 		if (req.session.lang == "en") {

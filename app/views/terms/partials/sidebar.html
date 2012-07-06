@@ -6,8 +6,8 @@
 </div><!-- / SIDEBAR -->
 <script type="text/javascript">
 (function(){
-	var usedTerms  = {{html data.usedTerms }};
-	window.dictionaty = {{html JSON.stringify(data.dictionary) }};
+	var usedTerms  = {{html usedTerms }};
+	window.dictionaty = {{html JSON.stringify(dictionary) }};
 		
 	_.each(usedTerms, function(subtypes, type){
 		var container = $('#indices'),

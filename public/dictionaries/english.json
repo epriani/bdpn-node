@@ -25,6 +25,9 @@
 	"date"          : "Dates",
 	"reference"     : "References",
 	"term"          : "Terms",
-	"comments"      : "Comments"
-
+	"comments"      : "Comments",
+	"abbr"			: "Abbreviations",
+	"foreign"   	: "Foreign",	
+	"q"             : "Quote",
+	"cit"			: "Citation"
 }

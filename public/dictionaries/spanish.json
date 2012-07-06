@@ -27,5 +27,7 @@
 	"term"          : "Términos",
 	"comments"      : "Comentarios",
 	"abbr"			: "Abreviaturas",
-	"foreign"   	: "Foreign"
+	"foreign"   	: "Foreign",
+	"q"             : "Citas",
+	"cit"			: "Citas textuales"	
 }
