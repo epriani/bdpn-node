@@ -11,15 +11,16 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 	app.use(express.cookieParser());
 
 	if( process.env.NODE_ENV === 'production' ){
-		app.use(express.session({
-			secret : conf.redis.secret,
-			store  : new RedisStore({
-				host : conf.redis.host,
-				port : conf.redis.port,
-				user : conf.redis.user,
-				pass : conf.redis.pass
-			})
-		}));
+		// app.use(express.session({
+		// 	secret : conf.redis.secret,
+		// 	store  : new RedisStore({
+		// 		host : conf.redis.host,
+		// 		port : conf.redis.port,
+		// 		user : conf.redis.user,
+		// 		pass : conf.redis.pass
+		// 	})
+		// }));
+		app.use(express.session({ secret: "keyboard cat" }));
 	}else{
 		app.use(express.session({ secret: "keyboard cat" }));
 	}
@@ -29,8 +30,10 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 	app.set('views', './app/views');
 	app.register(".html", require("jqtpl").express);
 
-	//Prefetch used terms
-	terms.getUsedTerms();
+	//Add Controllers
+	var api   = require('controllers/api')(app);
+	var books = require('controllers/books')(app);
+	var terms = require('controllers/terms')(app);
 
 	//Router
 	app.get('/', function(req, res){
@@ -42,86 +45,7 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 
 	    	res.render('index/index',{ books : books });
 		});		
-	});
-
-	app.get('/books',function(req, res){
-		db.view('books/publishedList', function (err, books) {
-			if(err){
-	    		res.render('400',{});					
-	    		return;
-			}
-
-	    	res.render('books/index',{ books : books });
-		});
-	});
-
-	app.get('/books/:bookId',function(req, res){
-		db.get(req.params.bookId, function (err, book) {
-			if(err){
-				res.render('404.html');
-				return;
-			}
-
-			db.get(book.revisionId, function(err, revision){
-				if(err){
-					res.render('404.html');
-					return;
-				}
-
-				var folio        = revision.folios[0];
-				var prevFolio    = null;
-				var nextFolio    = 2;
-
-				folio.lined = folio.raw.replace(/\n/g,'</br>');
-
-				var tags = _.uniq(folio.tags, null, function(item){return item.id});
-
-				console.log('Folio 0',revision.folios[0]);
-				console.log('Folio 1',revision.folios[1]);
-		    	res.render('books/single',{
-		    		rawTags   : JSON.stringify(tags) ,
-			    	book      : book, 
-			    	folio     : folio,
-			    	nextFolio : nextFolio,
-			    	prevFolio : prevFolio
-			    });			    
-			});
-		});
 	});	
-
-	app.get('/books/:bookId/:folioId',function(req, res){
-		db.get(req.params.bookId, function (err, book) {
-			if(err){
-				res.render('404.html');
-				return;
-			}
-
-			db.get(book.revisionId, function(err, revision){
-				if(err){
-					res.render('404.html');
-					return;
-				}
-
-				var currentFolio = parseInt(req.params.folioId);
-
-				var folio        = revision.folios[currentFolio];
-				var prevFolio    = 1 < currentFolio ? currentFolio - 1 : null;
-				var nextFolio    = revision.folios[currentFolio + 1] ? currentFolio + 1 : null;
-
-				folio.lined = folio.raw.replace(/\n/g,'</br>');
-
-				var tags = _.uniq(folio.tags, null, function(item){return item.id});
-
-		    	res.render('books/single',{
-		    		rawTags   : JSON.stringify(tags) ,
-			    	book      : book, 
-			    	folio     : folio,
-			    	nextFolio : nextFolio,
-			    	prevFolio : prevFolio
-			    });
-			});
-		});
-	});
 
 	app.get('/authors',function(req, res){
 		db.view('books/publishedByAuthor', function (err, books) {
@@ -139,116 +63,90 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 	    res.render('collections/index',{});
 	});
 
-	app.get('/terms',function(req, res){
-	    res.render('terms/index',{ usedTerms: JSON.stringify( terms.usedTerms ) });
-	});
-
-	app.get('/terms/:type', function(req, res){
-		console.log('fetching ', req.params.type);
-
-		db.view('terms/byType',{
-			startkey : [req.params.type, null],
-			endkey   : [req.params.type, "ZZZZZZZZZZ"],
-			group    : true
-		},function(err, docs){
-			if(err){
-				console.log(err);
-				res.send('err');
-				return;
-			}
-
-			res.render('terms/list',{
-				type      : req.params.type,
-				usedTerms : JSON.stringify( terms.usedTerms ),
-				terms     : JSON.stringify( docs )
-			});
-		});
-	});
-
 	app.get('/cache/expire',function(req, res){
 		terms.getUsedTerms();		
 		res.send('Cache expire');
 	});	
 
-	app.get('/terms/:type/:subtype', function(req, res){
-		db.view('terms/byType',{
-			startkey : [req.params.type, req.params.subtype, null],
-			endkey   : [req.params.type, req.params.subtype, "ZZZZZZZZZZ"],
-			group    : true
-		},
-		function(err, docs){
-			if(err){
-				console.log(err);
-				res.send('err');
-				return;
-			}
+	// app.get('/terms/:type/:subtype', function(req, res){
+	// 	db.view('terms/byType',{
+	// 		startkey : [req.params.type, req.params.subtype, null],
+	// 		endkey   : [req.params.type, req.params.subtype, "ZZZZZZZZZZ"],
+	// 		group    : true
+	// 	},
+	// 	function(err, docs){
+	// 		if(err){
+	// 			console.log(err);
+	// 			res.send('err');
+	// 			return;
+	// 		}
 						
-			res.render('terms/list',{
-				type      : req.params.type,				
-				subtype   : req.params.subtype,				
-				usedTerms : JSON.stringify( terms.usedTerms ),
-				terms     : JSON.stringify( docs )
-			});
-		});
-	});
+	// 		res.render('terms/list',{
+	// 			type      : req.params.type,				
+	// 			subtype   : req.params.subtype,				
+	// 			usedTerms : JSON.stringify( terms.usedTerms ),
+	// 			terms     : JSON.stringify( docs )
+	// 		});
+	// 	});
+	// });
 
-	app.get('/terms/single/:type/:term', function(req, res){
-		db.view('terms/byContent',{
-			key : [req.params.type, null, req.params.term]
-		},
-		function(err, docs){
-			if(err){
-				console.log(err);
-				res.send('err on term by content');
-				return;
-			}
+	// app.get('/terms/single/:type/:term', function(req, res){
+	// 	db.view('terms/byContent',{
+	// 		key : [req.params.type, null, req.params.term]
+	// 	},
+	// 	function(err, docs){
+	// 		if(err){
+	// 			console.log(err);
+	// 			res.send('err on term by content');
+	// 			return;
+	// 		}
 			
-			db.view('books/list',function(err,books){
-				if(err){
-					console.log(err);
-					res.send('err on term by content');
-					return;
-				}
+	// 		db.view('books/list',function(err,books){
+	// 			if(err){
+	// 				console.log(err);
+	// 				res.send('err on term by content');
+	// 				return;
+	// 			}
 							
-				res.render('terms/single',{
-					type      : req.params.type,
-					term      : req.params.term,
-					terms     : JSON.stringify( docs ),
-					books	  : JSON.stringify( books ),
-					usedTerms : JSON.stringify( terms.usedTerms ),				
-				});
-			});
-		});
-	});
+	// 			res.render('terms/single',{
+	// 				type      : req.params.type,
+	// 				term      : req.params.term,
+	// 				terms     : JSON.stringify( docs ),
+	// 				books	  : JSON.stringify( books ),
+	// 				usedTerms : JSON.stringify( terms.usedTerms ),				
+	// 			});
+	// 		});
+	// 	});
+	// });
 
-	app.get('/terms/single/:type/:subtype/:term', function(req, res){
-		db.view('terms/byContent',{
-			key : [req.params.type, req.params.subtype, req.params.term]
-		},
-		function(err, docs){
-			if(err){
-				console.log(err);
-				res.send('err on term by content');
-				return;
-			}
+	// app.get('/terms/single/:type/:subtype/:term', function(req, res){
+	// 	db.view('terms/byContent',{
+	// 		key : [req.params.type, req.params.subtype, req.params.term]
+	// 	},
+	// 	function(err, docs){
+	// 		if(err){
+	// 			console.log(err);
+	// 			res.send('err on term by content');
+	// 			return;
+	// 		}
 			
-			db.view('books/list',function(err,books){
-				if(err){
-					console.log(err);
-					res.send('err on term by content');
-					return;
-				}
+	// 		db.view('books/list',function(err,books){
+	// 			if(err){
+	// 				console.log(err);
+	// 				res.send('err on term by content');
+	// 				return;
+	// 			}
 							
-				res.render('terms/single',{
-					type      : req.params.type,
-					term      : req.params.term,
-					terms     : JSON.stringify( docs ),
-					books	  : JSON.stringify( books ),
-					usedTerms : JSON.stringify( terms.usedTerms ),				
-				});
-			});
-		});		
-	});
+	// 			res.render('terms/single',{
+	// 				type      : req.params.type,
+	// 				term      : req.params.term,
+	// 				terms     : JSON.stringify( docs ),
+	// 				books	  : JSON.stringify( books ),
+	// 				usedTerms : JSON.stringify( terms.usedTerms ),				
+	// 			});
+	// 		});
+	// 	});		
+	// });
 
 	//Static views
 	app.get('/project', function(req, res){
