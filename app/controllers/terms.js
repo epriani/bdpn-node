@@ -6,7 +6,7 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 	termsModel.getUsedTerms();
 
 	terms.get('',function(req, res){
-	    res.render('terms/index',{ usedTerms: JSON.stringify( termsModel.usedTerms ) });
+	    res.show('terms/index',{ usedTerms: termsModel.usedTerms });
 	});
 
 	terms.get('/:type', function(req, res){
@@ -23,10 +23,10 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 				return;
 			}
 
-			res.render('terms/list',{
+			res.show('terms/list',{
 				type      : req.params.type,
-				usedTerms : JSON.stringify( termsModel.usedTerms ),
-				terms     : JSON.stringify( docs )
+				usedTerms : termsModel.usedTerms,
+				terms     : docs
 			});
 		});
 	});
@@ -44,11 +44,11 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 				return;
 			}
 						
-			res.render('terms/list',{
+			res.show('terms/list',{
 				type      : req.params.type,				
 				subtype   : req.params.subtype,				
-				usedTerms : JSON.stringify( termsModel.usedTerms ),
-				terms     : JSON.stringify( docs )
+				usedTerms : termsModel.usedTerms,
+				terms     : docs
 			});
 		});
 	});
@@ -71,12 +71,12 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 					return;
 				}
 							
-				res.render('terms/single',{
+				res.show('terms/single',{
 					type      : req.params.type,
 					term      : req.params.term,
-					terms     : JSON.stringify( docs ),
-					books	  : JSON.stringify( books ),
-					usedTerms : JSON.stringify( termsModel.usedTerms ),				
+					terms     : docs,
+					books	  : books,
+					usedTerms : termsModel.usedTerms,
 				});
 			});
 		});
@@ -100,12 +100,12 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 					return;
 				}
 							
-				res.render('terms/single',{
+				res.show('terms/single',{
 					type      : req.params.type,
 					term      : req.params.term,
-					terms     : JSON.stringify( docs ),
-					books	  : JSON.stringify( books ),
-					usedTerms : JSON.stringify( termsModel.usedTerms ),				
+					terms     : docs,
+					books	  : books,
+					usedTerms : termsModel.usedTerms
 				});
 			});
 		});		

@@ -34,10 +34,10 @@ define(['lib/controllers','db'], function (Controller,db) {
 
 				var tags = _.uniq(folio.tags, null, function(item){return item.id});
 
-				console.log('Folio 0',revision.folios[0]);
-				console.log('Folio 1',revision.folios[1]);
-		    	res.render('books/single',{
-		    		rawTags   : JSON.stringify(tags) ,
+				// console.log('Folio 0',revision.folios[0]);
+				// console.log('Folio 1',revision.folios[1]);
+		    	res.show('books/single',{
+		    		rawTags   : tags,
 			    	book      : book, 
 			    	folio     : folio,
 			    	nextFolio : nextFolio,
@@ -70,8 +70,8 @@ define(['lib/controllers','db'], function (Controller,db) {
 
 				var tags = _.uniq(folio.tags, null, function(item){return item.id});
 
-		    	res.render('books/single',{
-		    		rawTags   : JSON.stringify(tags) ,
+		    	res.show('books/single',{
+		    		rawTags   : tags,
 			    	book      : book, 
 			    	folio     : folio,
 			    	nextFolio : nextFolio,

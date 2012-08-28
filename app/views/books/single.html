@@ -18,8 +18,10 @@
 	<div class="media float marginright20">
 		<div class="tei-content texto">{{html folio.lined}}</div>
 		<script>
+		$(document).ready(function (argument) {
+
 			var folio = {
-		 		tags      : {{html rawTags}},
+		 		tags      : window.data.rawTags,
 				startLine : parseInt( ${folio.startLine || 0 }, 10 )
 			}
 
@@ -74,6 +76,8 @@
 
 				$('#name').click();
 			});
+
+		});
 		</script>
 	</div>
 

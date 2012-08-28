@@ -5,11 +5,10 @@
 
 </div><!-- / SIDEBAR -->
 <script type="text/javascript">
-(function(){
-	var usedTerms  = {{html usedTerms }};
+$(document).ready(function(){
 	window.dictionaty = {{html JSON.stringify(dictionary) }};
-		
-	_.each(usedTerms, function(subtypes, type){
+
+	_.each(window.data.usedTerms, function(subtypes, type){
 		var container = $('#indices'),
 			keyEl     = $('<li><a href="/terms/'+type+'" target="_self">'+dictionaty[type]+'</a><ul class="dropdown"></ul></li>'),
 			dropdown  = keyEl.find('.dropdown');
@@ -24,5 +23,19 @@
 			}
 		}, this);
 	});
-})();
+
+	$('.dropdown').each(function () {
+		$(this).parent().eq(0).hoverIntent({
+			timeout: 100,
+			over: function () {
+				var current = $('.dropdown:eq(0)', this);
+				current.slideDown(100);
+			},
+			out: function () {
+				var current = $('.dropdown:eq(0)', this);
+				current.fadeOut(200);
+			}
+		});
+	});	
+});
 </script>

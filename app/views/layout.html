@@ -29,5 +29,10 @@
 	{{partial() "header"}}
 	{{html body}}
 	{{partial() "footer"}}	
+
+
+<script type="text/javascript">
+	window.data = {{html typeof viewData !== "undefined"? viewData : '{}' }}
+</script>	
 </body>
 </html>

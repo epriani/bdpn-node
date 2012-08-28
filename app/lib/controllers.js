@@ -13,7 +13,7 @@ define(function () {
 		controller.add = function(route, method, callback){
 			var routeHandler = function(req, res){
 				if(req.query.asJson){
-					res.render = function(view, data){
+					res.show = function(view, data){
 						if(req.query.callback){
 							var viewData = req.query.callback + '(' + JSON.stringify(data) + ');'
 						}else{
@@ -22,7 +22,15 @@ define(function () {
 
 						res.send(viewData);
 					}
+				}else{
+					res.show = function (view, data) {
+						data.viewData = JSON.stringify(data);
+
+						res.render(view, data);
+					}
 				}
+
+
 
 				callback(req, res);
 			}

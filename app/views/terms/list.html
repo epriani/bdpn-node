@@ -16,8 +16,8 @@
 	<a href="#" target="_self" class="top">arriba</a>
 
 	<script type="text/javascript">
-	(function(){
-		window.terms = _.sortBy({{html terms }}, function(term){ return term.key[2][0] });
+	$(document).ready(function(){
+		window.terms = _.sortBy(window.data.terms, function(term){ return term.key[2][0] });
 		
 		var capital     = $('<ul class="capital"><span class="label"></span></ul>'),
 			capitalItem = $('<li><a href=""></a></li>'),
@@ -49,7 +49,6 @@
 				clearItem.insertAfter(item);
 			}
 		});
-
-	})();
+	});
 	</script>
 </div><!-- / CONTAINER -->

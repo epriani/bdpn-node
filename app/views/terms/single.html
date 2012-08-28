@@ -34,7 +34,6 @@
 		});
 
 		_.each(terms, function(term){
-			console.log(term.value);
 			if( !$('#folio'+term.value[0]).length ){			
 				if( !$('#book'+term.value[2]).length ){
 					var book = bookTemplate.clone();
