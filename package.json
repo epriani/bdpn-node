@@ -17,11 +17,11 @@
     "express": "2.5.9",
     "jqtpl": "1.1.0",
     "connect-redis": "1.3.0",
-    "request" : "*",
-    "JSONStream"   : "*",
-    "event-stream" : "*"    
+    "request": "*",
+    "JSONStream": "*",
+    "event-stream": "*"
   },
-  "version": "0.1.0-5",
+  "version": "0.1.0-6",
   "engines": {
     "node": "0.6.x"
   }

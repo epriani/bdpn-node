@@ -42,6 +42,10 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 				key   : key.splice(1,3),
 				value : value
 			};
+		}).filter(function (item) {
+			if(item.key[0] === type){
+				return item
+			}
 		});
 
 		return terms;
