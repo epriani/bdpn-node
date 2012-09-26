@@ -1,0 +1,42 @@
+<div id="book-dropdown">
+	<dl class="root">
+	    <dt><a href="#"><span>Todos</span></a></dt>
+	    <dd>
+	        <ul>
+	        	<li><a href="/terms">Todos</a></li>
+	        </ul>
+	    </dd>
+	</dl>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	var query = window.location.searchToObject();
+	
+	window.data.books.forEach(function(book){
+		bookEl = $('<li><a href="">'+book.value.name+'</a></li>');
+		bookEl.find('a').attr('href', window.location.pathname + '?book=' + book.id);
+
+		$('#book-dropdown ul').append(bookEl);
+
+		if(query.book === book.id){
+			$('#book-dropdown dt a').html(book.value.name)
+		}
+	});
+
+	$(".root dt a").click(function() {
+	    $(".root dd ul").toggle();
+	});
+	            
+	$(".root dd ul li a").click(function() {
+	    var text = $(this).html();
+	    $(".root dt a span").html(text);
+	    $(".root dd ul").hide();
+	});
+
+	$(document).bind('click', function(e) {
+	    var $clicked = $(e.target);
+	    if (! $clicked.parents().hasClass("root"))
+	        $(".root dd ul").hide();
+	});
+});
+</script>

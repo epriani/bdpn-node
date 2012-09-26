@@ -49,7 +49,7 @@ function (db, terms) {
     app.cmd('bookCreate',function () {
         var book = {
             type : "book",
-            name : app.argv.book,            
+            name : app.argv.book,
             author : app.argv.author
         }
 
@@ -246,5 +246,5 @@ function (db, terms) {
         app.argv._ = ["start"];
     }
 
-    app.start();    
+    app.start();
 });

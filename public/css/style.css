@@ -580,6 +580,7 @@ div#colright {
 	width: 750px;
 	float: left;
 	margin-top: 10px;
+	position: relative;
 }
 
 div#colright p {
@@ -946,7 +947,26 @@ form#session input#entrar:hover, form#contacto input#enviar:hover {
 }	
 
 
-
+/***************************************************************/
+/************************* Drop down css ***********************/
+/***************************************************************/
+/* General dropdown styles */
+#book-dropdown {position: absolute;top: -75px;right: 0; }
+#book-dropdown .root dd, #book-dropdown .root dt, #book-dropdown .root ul { margin:0px; padding:0px; }
+#book-dropdown .root dd { position:relative; }
+/* DT styles for sliding doors */
+#book-dropdown .root dt a {background:transparent url(/images/arrow.png) no-repeat scroll right center;
+    display:block; padding-right:20px; width:500px; text-align: right; }
+#book-dropdown .root dt a span {cursor:pointer; display:block; padding:5px;}
+/* UL styles */
+#book-dropdown .root dd ul { background:#e4dfcb none repeat scroll 0 0; display:none;
+    list-style:none; padding:5px 0px; position:absolute; 
+    right:0px; top:2px; width:auto; min-width:420px;}
+#book-dropdown .root span.value { display:none;}
+#book-dropdown .root dd ul li a { padding:5px; display:block;}
+/***************************************************************/
+/*********************** End Drop down css *********************/
+/***************************************************************/
 
 
 

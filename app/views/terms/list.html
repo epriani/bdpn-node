@@ -11,20 +11,24 @@
 
 	{{partial({usedTerms:usedTerms, dictionary:dictionary}) "./partials/sidebar"}}
 
-	<div id="colright"></div><!-- / COLRIGHT -->
+	<div id="colright">
+		{{partial({books:books,dictionary:dictionary}) "./partials/dropdown"}}
+	</div><!-- / COLRIGHT -->
 	<div class="clear"></div>
 	<a href="#" target="_self" class="top">arriba</a>
 
 	<script type="text/javascript">
 	$(document).ready(function(){
-		window.terms = _.sortBy(window.data.terms, function(term){ return term.key[2][0] });
+		window.terms = _.sortBy(window.data.terms, function(term){ 
+			console.log(term.key);
+			return term.key[2][0] 
+		});
 		
 		var capital     = $('<ul class="capital"><span class="label"></span></ul>'),
 			capitalItem = $('<li><a href=""></a></li>'),
 			clear		= $('<div class="clear"></div>');
 
 		_.each(terms, function (term, sum) {
-			console.log(term.key[2][0]);
 			var capitalLetter = term.key[2][0].toUpperCase();
 			if( !$('#capital-'+ capitalLetter).length ){
 				var ul = capital.clone();
