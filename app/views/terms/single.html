@@ -38,7 +38,7 @@
 				if( !$('#book'+term.value[2]).length ){
 					var book = bookTemplate.clone();
 					book.attr('id', 'book'+term.value[2]);
-					book.find('a').html( books[ term.value[2]] );
+					book.find('a').html( books[ term.value[2]].name );
 					book.appendTo('#colright');
 				}
 

@@ -28,7 +28,7 @@ define(['lib/controllers','db'], function (Controller,db) {
 
 				var folio        = revision.folios[0];
 				var prevFolio    = null;
-				var nextFolio    = 2;
+				var nextFolio    = 1;
 
 				folio.lined = folio.raw.replace(/\n/g,'</br>');
 
@@ -63,7 +63,7 @@ define(['lib/controllers','db'], function (Controller,db) {
 				var currentFolio = parseInt(req.params.folioId);
 
 				var folio        = revision.folios[currentFolio];
-				var prevFolio    = 1 < currentFolio ? currentFolio - 1 : null;
+				var prevFolio    = 0 !== currentFolio ? currentFolio - 1 : null;
 				var nextFolio    = revision.folios[currentFolio + 1] ? currentFolio + 1 : null;
 
 				folio.lined = folio.raw.replace(/\n/g,'</br>');

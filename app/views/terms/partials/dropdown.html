@@ -2,15 +2,16 @@
 	<dl class="root">
 	    <dt><a href="#"><span>Todos</span></a></dt>
 	    <dd>
-	        <ul>
-	        	<li><a href="/terms">Todos</a></li>
-	        </ul>
+	        <ul></ul>
 	    </dd>
 	</dl>
 </div>
 <script type="text/javascript">
 $(document).ready(function(){
 	var query = window.location.searchToObject();
+
+	var allEl = $('<li><a href="'+ window.location.pathname +'">Todos</a></li>');
+	$('#book-dropdown ul').append(allEl);
 	
 	window.data.books.forEach(function(book){
 		bookEl = $('<li><a href="">'+book.value.name+'</a></li>');

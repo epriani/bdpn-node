@@ -5,7 +5,7 @@
 	<p>${book.description}</p>
 	<div id="folios" class="foliaje">
 		<img src="/images/hr.png" alt="BDPN" />
-			{{if prevFolio}}
+			{{if prevFolio !== null}}
 				<a href="/books/${book.id}/${prevFolio}" target="_self" class="folink">${ dictionary.previous }</a>
 			{{/if}}
 			<span class="fol">${folio.pb}</span> 
@@ -107,7 +107,7 @@
 
 	<div id="folios" class="foliaje">
 		<img src="/images/hr.png" alt="BDPN" />
-		{{if prevFolio}}
+		{{if prevFolio !== null}}
 			<a href="/books/${book.id}/${prevFolio}" target="_self" class="folink">${ dictionary.previous }</a>
 		{{/if}}
 		<span class="fol">${folio.pb}</span> 

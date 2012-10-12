@@ -82,7 +82,6 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 					books     : books
 				});
 			});
-
 		}else{
 			db.view('terms/byType',{
 				startkey : [req.params.type, null],
