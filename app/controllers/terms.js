@@ -51,6 +51,23 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 		return terms;
 	}
 
+	var filterBySubtype = function (type, subtype, data) {
+		var terms = [];
+
+		terms = data.map(function (key, value) {
+			return {
+				key   : key.splice(1,3),
+				value : value
+			};
+		}).filter(function (item) {
+			if(item.key[0] === type && item.key[1] === subtype){
+				return item
+			}
+		});
+
+		return terms;		
+	}
+
 
 	// Paths
 	terms.get('',function(req, res){
@@ -106,26 +123,47 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 	});	
 
 	terms.get('/:type/:subtype', function(req, res){
-		db.view('terms/byType',{
-			startkey : [req.params.type, req.params.subtype, null],
-			endkey   : [req.params.type, req.params.subtype, "ZZZZZZZZZZ"],
-			group    : true
-		},
-		function(err, docs){
-			if(err){
-				console.log(err);
-				res.send('err');
-				return;
-			}
-						
-			res.show('terms/list',{
-				type      : req.params.type,
-				subtype   : req.params.subtype,
-				usedTerms : termsModel.usedTerms,
-				terms     : docs,
-	    		books     : books
+		if(req.query.book){
+			db.view('terms/usedTagsByBook', {
+				group_level : 4,
+				startkey    : [ req.query.book ],
+				endkey      : [ req.query.book  , {}],
+			},function (err, docs) {
+				if(err){
+					console.log(err);
+					res.send('err');
+					return;
+				}
+
+				res.show('terms/list',{
+					type      : req.params.type,
+					usedTerms : usedTermsByBook(docs),
+					terms     : filterBySubtype(req.params.type, req.params.subtype, docs),
+					books     : books
+				});
 			});
-		});
+		}else{		
+			db.view('terms/byType',{
+				startkey : [req.params.type, req.params.subtype, null],
+				endkey   : [req.params.type, req.params.subtype, "ZZZZZZZZZZ"],
+				group    : true
+			},
+			function(err, docs){
+				if(err){
+					console.log(err);
+					res.send('err');
+					return;
+				}
+							
+				res.show('terms/list',{
+					type      : req.params.type,
+					subtype   : req.params.subtype,
+					usedTerms : termsModel.usedTerms,
+					terms     : docs,
+		    		books     : books
+				});
+			});
+		}
 	});	
 
 	terms.get('/single/:type/:term', function(req, res){

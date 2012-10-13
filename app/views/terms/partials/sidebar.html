@@ -13,10 +13,17 @@ $(document).ready(function(){
 			keyEl     = $('<li><a href="/terms/'+type+'" target="_self">'+dictionaty[type]+'</a><ul class="dropdown"></ul></li>'),
 			dropdown  = keyEl.find('.dropdown');
 
+		if(window.location.search){
+			keyEl.find('a').attr('href', keyEl.find('a').attr('href') + window.location.search);
+		}
+
 		keyEl.appendTo(container);
 
 		_.each(subtypes, function(ammount, subtype){
 			var subtypeEl = $('<li><a href="/terms/'+type+'/'+subtype+'" target="_self">'+subtype+'</a></li>');
+			if(window.location.search){
+				subtypeEl.find('a').attr('href', subtypeEl.find('a').attr('href') + window.location.search);
+			}
 
 			if(subtype != "plain"){
 				subtypeEl.appendTo( dropdown )
