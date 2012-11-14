@@ -24,6 +24,10 @@
 	<script type="text/javascript" src="/js/underscore-min.js"></script>
 	<script type="text/javascript" src="/js/fancydropdown.js"></script>		
 	<script type="text/javascript" src="/js/main.js"></script>
+	<script type="text/javascript">
+		console.log('data loaded')
+		window.data = {{html typeof viewData !== "undefined"? viewData : '{}' }}
+	</script>
 </head>
 <body>
 	{{partial() "header"}}
@@ -31,8 +35,5 @@
 	{{partial() "footer"}}	
 
 
-<script type="text/javascript">
-	window.data = {{html typeof viewData !== "undefined"? viewData : '{}' }}
-</script>	
 </body>
 </html>

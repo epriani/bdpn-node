@@ -40,9 +40,9 @@
 			var li = capitalItem.clone();
 
 			if(term.key[1]){
-				li.find('a').attr('href', encodeURI('/terms/single/'+term.key[0]+'/'+term.key[1]+'/'+term.key[2]) ).html(term.key[2]+'('+term.value+')');
+				li.find('a').attr('href', encodeURI('/terms/single/'+term.key[0]+'/'+term.key[1]+'/'+term.key[2].replace('?','%3F').replace('?','%26') ) ).html(term.key[2]+'('+term.value+')');
 			}else{
-				li.find('a').attr('href', encodeURI('/terms/single/'+term.key[0]+'/'+term.key[2]) ).html(term.key[2]+'('+term.value+')');
+				li.find('a').attr('href', encodeURI('/terms/single/'+term.key[0]+'/'+term.key[2].replace('?','%3F').replace('?','%26')) ).html(term.key[2]+'('+term.value+')');
 			}
 			li.appendTo( $('#capital-'+ capitalLetter) );
 		});

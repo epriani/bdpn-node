@@ -168,7 +168,7 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 
 	terms.get('/single/:type/:term', function(req, res){
 		db.view('terms/byContent',{
-			key : [req.params.type, null, req.params.term]
+			key : [req.params.type, null, req.params.term.replace(/\n/g,"\n").replace(/\t/g,"\t")]
 		},
 		function(err, docs){
 			if(err){
@@ -176,6 +176,7 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 				res.send('err on term by content');
 				return;
 			}
+
 									
 			res.show('terms/single',{
 				type      : req.params.type,
