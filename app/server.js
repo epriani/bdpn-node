@@ -1,7 +1,11 @@
-define(['express','db','conf','dictionaries','models/terms'], function (express, db, conf, dictionaries, terms) {
+define(['express','db','conf','dictionaries','models/terms', 'connections/passport', 'connections/twitter'], 
+	function (express, db, conf, dictionaries, terms, passport, twitterStrategy) {
 	var app        = express.createServer(),
 		RedisStore = require('connect-redis')(express),
 		_          = require('underscore');
+
+	//Add services to passports
+	passport.use(twitterStrategy);
 
 	//Static files
 	app.use(express.static('./public'));
@@ -22,8 +26,21 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 		// }));
 		app.use(express.session({ secret: "keyboard cat" }));
 	}else{
-		app.use(express.session({ secret: "keyboard cat" }));
+		app.use(express.session({
+			secret : "keyboard cat",
+			store  : new RedisStore({})
+		}));		
+		//app.use(express.session({ secret: "keyboard cat" }));
 	}
+
+	//Add passport to express
+	app.configure(function() {
+	    app.use(express.logger());
+	    app.use(express.methodOverride());
+	    app.use(passport.initialize());
+	    app.use(passport.session());
+	});
+
 
 	//View engine
 	app.set("view engine", "html");
@@ -34,6 +51,8 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 	var api   = require('controllers/api')(app);
 	var books = require('controllers/books')(app);
 	var terms = require('controllers/terms')(app);
+	var admin = require('controllers/administrator')(app);
+
 
 	//Router
 	app.get('/', function(req, res){
@@ -130,6 +149,22 @@ define(['express','db','conf','dictionaries','models/terms'], function (express,
 		}		
 	});
 
+
+	//User login with twitter
+	app.get('/login', function (req, res) {
+		res.render('login/index', {user : req.user});
+	});
+
+	app.use('/auth/twitter',passport.authenticate('twitter'),
+	function(req, res){
+	    // The request will be redirected to Twitter for authentication, so this
+	    // function will not be called.
+	});
+
+	app.get('/auth/twitter/callback', passport.authenticate('twitter', { failureRedirect: '/login?admin' }),
+	function(req, res) {
+	      res.redirect('/admin/');
+	});	
 
 	//Dictionary change
 	app.get('/lang',function(req, res){ 

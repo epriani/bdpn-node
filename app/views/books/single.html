@@ -100,7 +100,9 @@
 			</div>
 		</div>	
 		
-		<img src="/images/facsimil.jpg" class="facsimil" />
+		{{if book.images && book.images[folio.hash] }}
+		<img src="${book.images[folio.hash]}" class="facsimil" style="width:510px"/>
+		{{/if}}
 	</div><!-- / media float marginright20-->
 
 	<div class="clear"></div>

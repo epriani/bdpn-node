@@ -6,12 +6,13 @@ define(function () {
 		var controller =  function(app){
 			for(var path in routes){
 				var route = routes[path];
-				app[route.method](path, route.callback);
+				app[route.method](route.path, route.callback);
 			}
 		};
 
 		controller.add = function(route, method, callback){
 			var routeHandler = function(req, res){
+				console.log('got request to ', method, route);
 				if(req.query.asJson){
 					res.show = function(view, data){
 						if(req.query.callback){
@@ -30,12 +31,11 @@ define(function () {
 					}
 				}
 
-
-
 				callback(req, res);
 			}
 
-			routes[prefix + route] = {
+			routes[prefix + route + method] = {
+				path     : prefix + route,
 				method   : method,
 				callback : routeHandler
 			}
