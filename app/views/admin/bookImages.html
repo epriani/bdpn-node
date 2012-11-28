@@ -1,0 +1,45 @@
+{{layout "../layout"}}
+<div id="container">
+	<h2>${book.value.name}</h2>
+	<h4>${book.value.author}</h4>
+	<div class="images-selector-wrapper">
+		{{each(i, folio) revision.folios}}
+		<div class="image-selector">
+			<span>${folio.pb}</span>
+			<input folio-hash="${folio.hash}" type="text" value="${book.value.images[folio.hash]}"/>
+		</div>
+		{{/each}}
+		<div class="button-container">
+			<button class="save">Salvar</button>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+$('.button-container .save').click(function (e) {
+	var $button = $(this);
+
+	$button.text('Salvando...');
+
+	var images = {};
+
+	$('.image-selector input').each(function(i, item){
+		var $item = $(item);
+		images[$item.attr("folio-hash")] = $item.val();
+	});
+
+	var xhr = $.post("/admin/books/"+ window.data.book.id +"/images", { images : images }); 
+
+	xhr.done(function (data) {
+		$button.text('Salvado');
+
+		setTimeout(function () {
+			$button.text('Salvar');
+		}, 10000);
+	});
+
+	xhr.fail(function (data) {
+		$button.text('Fallo, intentalo de nuevo mas tarde');
+	});
+
+});
+</script>

@@ -1,0 +1,13 @@
+{{layout "../layout"}}
+<div id="container">
+	<h2>${user.username}(${user.role})</h2>
+	{{if user.role === "waiting" || user.role === "bloqued"}}
+		<p>Usuario creado, esperando autorizacion</p>
+	{{else}}
+		<ul>
+		{{each(i, book) books}}
+			<li><a href="/admin/books/${book.id}">${book.value.name}</a></li>
+		{{/each}}
+		</ul>
+	{{/if}}
+</div>
