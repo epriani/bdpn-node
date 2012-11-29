@@ -29,7 +29,7 @@ define(['express','db','conf','dictionaries','models/terms', 'connections/passpo
 		app.use(express.session({
 			secret : "keyboard cat",
 			store  : new RedisStore({})
-		}));		
+		}));
 		//app.use(express.session({ secret: "keyboard cat" }));
 	}
 

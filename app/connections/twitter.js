@@ -1,4 +1,4 @@
-define(['passport-twitter', 'models/user'], function (passportTwitter, User) {
+define(['passport-twitter', 'models/user', 'conf'], function (passportTwitter, User, conf) {
 	TwitterStrategy = passportTwitter.Strategy;
 
 	var TWITTER_CONSUMER_KEY = "ipO3vaFSrRGJA1MSmU8A";
@@ -7,9 +7,10 @@ define(['passport-twitter', 'models/user'], function (passportTwitter, User) {
 	var twitterStrategy = new TwitterStrategy({
 	    consumerKey: TWITTER_CONSUMER_KEY,
 	    consumerSecret: TWITTER_CONSUMER_SECRET,
-	    callbackURL: "http://127.0.0.1:8080/auth/twitter/callback"
+	    callbackURL: conf.twitter.callbackUrl
 	},function(token, tokenSecret, profile, done) {
-	    User.find({username:profile.username.toLowerCase()}, function(err, docs){
+
+		User.byTwitterUser(profile.username.toLowerCase() , function (err, docs){
 	        if(err){
 	            done(err, docs);
 	            return;

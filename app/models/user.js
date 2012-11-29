@@ -6,6 +6,14 @@ define(['models/models'], function(models){
 			default : "waiting"
 		});
 		this.object('twitter');
+
+		this.filter('byTwitterUser',{include_docs:true}, {
+			map : function(doc) {
+				if (doc.resource === "User") {
+					emit( doc.username, null )
+				}
+			}
+		})
 	});
 
 	return User;	

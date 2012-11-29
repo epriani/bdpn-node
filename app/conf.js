@@ -14,6 +14,9 @@ define( function () {
 			host : 'http://localhost',
 			port : 5984,
 			db   : 'bdpn'
+		},
+		twitter : {
+			callbackUrl : "http://127.0.0.1:8080/auth/twitter/callback"
 		}
 	}
 
@@ -31,6 +34,9 @@ define( function () {
 			host : 'http://siedrix.cloudant.com',
 			port : 5984,
 			db   : 'bdpn'
+		},
+		twitter : {
+			callbackUrl : "http://bdpn.nodejitsu.com/auth/twitter/callback"
 		}
  	}
  	
