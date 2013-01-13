@@ -1025,6 +1025,71 @@ form#session input#entrar:hover, form#contacto input#enviar:hover {
 /******************** End Image selector css *******************/
 /***************************************************************/
 
+/***************************************************************/
+/******************** Revision selector css ****************** */
+/***************************************************************/
+#revision-container{}
+
+#revision-container .schema{
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid;	
+}
+#revision-container .schema h2{
+	font-size: 24px;
+	padding-bottom: 5px;
+}
+
+#revision-container .header, #revision-container .folio{
+	position: relative;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid;
+}
+#revision-container .header .content{
+	width:     600px;
+}
+#revision-container .folio .content{
+	font-size: 14px;
+	width:     600px;
+}
+
+#revision-container .folio .content term,
+#revision-container .folio .content date,
+#revision-container .folio .content name,
+#revision-container .folio .content abbr,
+#revision-container .folio .content cit,
+#revision-container .folio .content q,
+#revision-container .folio .content foreign
+{
+	font-weight: bold
+}
+
+#revision-container .header .tags, #revision-container .folio .tags{
+	list-style-type: none;
+	position: absolute;
+	top:   0px;
+	right: 0px;
+	padding: 10px;
+	width: 320px;
+	background-color: #000000;
+	color : white;
+}
+
+#revision-container .header .tags{
+	font-size: 14px;
+}
+
+#revision-container .header .tags li, #revision-container .folio .tags li{
+	text-transform: capitalize;
+}
+
+
+
+/***************************************************************/
+/***************** End revision selector css *******************/
+/***************************************************************/
+
 
 
 

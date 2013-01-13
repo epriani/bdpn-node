@@ -45,6 +45,90 @@ define(['lib/controllers', 'db'], function (Controller, db) {
 		res.show('admin/bookSingle',{user:req.user, book:book});
 	});
 
+	admin.get('/books/:bookId/revisions', function(req, res){
+		if (!req.user) { 
+			res.redirect('/login');
+			return;
+		}
+
+		if (req.user === "waiting" || req.user === "bloqued"){
+			res.redirect('/admin');
+			return;			
+		}
+
+		var book = books.filter(function(book){return book.id === req.params.bookId});
+
+		if(!book.length){
+			res.send(404);
+			return;
+		}
+
+		book = book[0];
+
+		db.view('books/info', { 
+            startkey     : [book.id],
+            endkey       : [book.id, 1],
+            include_docs : true
+        }, function (err, docs) {
+			if(err){
+				res.send(503);
+				return
+			}
+
+			var revisions = docs.map(function(item){
+			  	return {
+			  		humanDate : item.parseDate ? new Date([item.parseDate] * 1000) : 'N/A',
+			  		date : item.parseDate || 'old',
+			  		id   : item._id
+			  	}
+			});
+
+			revisions.sort(function(a,b){return a.date === 'old' ? 1 : b.date - a.date})
+
+			res.show('admin/bookRevisions',{book: book, revisions : revisions});
+        });
+	});
+
+	admin.get('/books/:bookId/revisions/single/:revisionId', function(req, res){
+		if (!req.user) { 
+			res.redirect('/login');
+			return;
+		}
+
+		if (req.user === "waiting" || req.user === "bloqued"){
+			res.redirect('/admin');
+			return;			
+		}
+
+		var book = books.filter(function(book){return book.id === req.params.bookId});
+
+		if(!book.length){
+			res.send(404);
+			return;
+		}
+
+		book = book[0];
+
+		debugger;
+
+		// res.send(book);
+
+		db.get(book.value.revisionId, function (err, revision) {
+			if(err){
+				res.send(503);
+				return
+			}
+
+			if(!revision){
+				res.send(404);
+				return
+			}
+
+			res.show('admin/bookRevisionSingle',{book: book, revision : revision});
+			// res.send({book: book, revision : revision});	
+		});		
+	});
+
 	admin.get('/books/:bookId/images', function(req, res){
 		if (!req.user) { 
 			res.redirect('/login');
