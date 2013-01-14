@@ -1,0 +1,94 @@
+{{layout "../layout"}}
+<div id="container">
+	<h2>${book.value.name}</h2>
+	<h4>${book.value.author}</h4>
+	<div id="revision-container"></div>
+</div>
+
+
+<script type="text/template" id="folio-template">
+	<div class="folio">
+		<h2><%= pb %></h2>
+		<div class="content"><%= content %></div>
+		<ul class="tags">
+			<% for(var i=0; i< tags.length; i++) {%>
+				<li><%= tags[i].reg || tags[i].content %>(<%= tags[i].tag %><%= tags[i].type ? ' - '+tags[i].type : '' %>)</li>
+			<% } %>
+		</ul>
+	</div>
+</script>
+
+<script type="text/template" id="front-template">
+	<div class="folio front">
+		<h2>Front</h2>
+		<h2><%= pb %></h2>
+		<div class="content"><%= content %></div>
+		<ul class="tags">
+			<% for(var i=0; i< tags.length; i++) {%>
+				<li><%= tags[i].reg || tags[i].content %>(<%= tags[i].tag %><%= tags[i].type ? ' - '+tags[i].type : '' %>)</li>
+			<% } %>
+		</ul>
+	</div>
+</script>
+
+
+<script type="text/template" id="header-template">
+	<div class="header">
+		<h2>Header</h2>
+		<div class="content"><%= header.raw %></div>
+		<ul class="tags">
+			<% for(var key in header) {%>
+				<% if(key !== "raw") {%>
+					<li><%= key %>:<%= header[key] %></li>
+				<% } %>
+			<% } %>
+		</ul>
+	</div>
+</script>
+
+<script type="text/template" id="schema-template">
+	<div class="schema">
+		<h2>Schema<%= isTeiLite ? ': Tei Lite' : '' %></h2>
+		<div class="content"><b>Modulos:</b> <%= schema %></div>
+	</div>
+</script>
+
+
+
+<script type="text/javascript" src="/js/ejs.js"></script>
+<script type="text/javascript" src="/js/revision.js"></script>
+<script type="text/javascript">
+window.schemaTemplate = new EJS({text: $("#schema-template").html() });
+window.headerTemplate = new EJS({text: $("#header-template").html() });
+window.frontTemplate  = new EJS({text: $("#front-template").html()  });
+window.folioTemplate  = new EJS({text: $("#folio-template").html()  });
+
+window.revision.render(window.data.revision, $('#revision-container'));
+// $('.button-container .save').click(function (e) {
+// 	var $button = $(this);
+
+// 	$button.text('Salvando...');
+
+// 	var images = {};
+
+// 	$('.image-selector input').each(function(i, item){
+// 		var $item = $(item);
+// 		images[$item.attr("folio-hash")] = $item.val();
+// 	});
+
+// 	var xhr = $.post("/admin/books/"+ window.data.book.id +"/images", { images : images }); 
+
+// 	xhr.done(function (data) {
+// 		$button.text('Salvado');
+
+// 		setTimeout(function () {
+// 			$button.text('Salvar');
+// 		}, 10000);
+// 	});
+
+// 	xhr.fail(function (data) {
+// 		$button.text('Fallo, intentalo de nuevo mas tarde');
+// 	});
+
+// });
+</script>

@@ -1,0 +1,20 @@
+{{layout "../layout"}}
+<div id="container">
+	<h2>${book.value.name}</h2>
+	<h4>${book.value.author}</h4>
+	<div class="images-selector-wrapper">
+		{{each(i, revision) revisions}}
+		<div class="image-selector">
+			<a href="/admin/books/${book.id}/revisions/single/${revision.id}">${revision.humanDate} [${revision.id}]</a>
+		</div>
+		{{/each}}
+		<div class="button-container">
+			<button id="new-version" class="save">Agregar una nueva versión</button>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+$('#new-version').click(function(){
+	window.location = window.location.pathname + '/new';
+});
+</script>

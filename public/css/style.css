@@ -1084,6 +1084,11 @@ form#session input#entrar:hover, form#contacto input#enviar:hover {
 	text-transform: capitalize;
 }
 
+#uploader {
+	border: 1px solid;
+	padding: 10px;
+	background: lightgray;
+}
 
 
 /***************************************************************/

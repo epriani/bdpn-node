@@ -1,0 +1,136 @@
+{{layout "../layout"}}
+<div id="container">
+	<h2>${book.value.name}</h2>
+	<h4>${book.value.author}</h4>
+	<div class="images-selector-wrapper">
+		<div id="uploader">
+			<h2>Selecciona un Tei</h2>
+			<input type="file" id="files" name="files[]" multiple />
+		</div>
+		<div id="revision-container"></div>
+		<div class="button-container" style="display:none">
+			<button class="save" style="width:100%">Salvar</button>
+		</div>
+	</div>
+</div>
+
+<script type="text/template" id="folio-template">
+	<div class="folio">
+		<h2><%= pb %></h2>
+		<div class="content"><%= content %></div>
+		<ul class="tags">
+			<% for(var i=0; i< tags.length; i++) {%>
+				<li><%= tags[i].reg || tags[i].content %>(<%= tags[i].tag %><%= tags[i].type ? ' - '+tags[i].type : '' %>)</li>
+			<% } %>
+		</ul>
+	</div>
+</script>
+
+<script type="text/template" id="front-template">
+	<div class="folio front">
+		<h2>Front</h2>
+		<h2><%= pb %></h2>
+		<div class="content"><%= content %></div>
+		<ul class="tags">
+			<% for(var i=0; i< tags.length; i++) {%>
+				<li><%= tags[i].reg || tags[i].content %>(<%= tags[i].tag %><%= tags[i].type ? ' - '+tags[i].type : '' %>)</li>
+			<% } %>
+		</ul>
+	</div>
+</script>
+
+
+<script type="text/template" id="header-template">
+	<div class="header">
+		<h2>Header</h2>
+		<div class="content"><%= header.raw %></div>
+		<ul class="tags">
+			<% for(var key in header) {%>
+				<% if(key !== "raw") {%>
+					<li><%= key %>:<%= header[key] %></li>
+				<% } %>
+			<% } %>
+		</ul>
+	</div>
+</script>
+
+<script type="text/template" id="schema-template">
+	<div class="schema">
+		<h2>Schema<%= isTeiLite ? ': Tei Lite' : '' %></h2>
+		<div class="content"><b>Modulos:</b> <%= schema %></div>
+	</div>
+</script>
+
+<script type="text/javascript" src="/js/parser.js"></script>
+<script type="text/javascript" src="/js/sha1.js"></script>
+<script type="text/javascript" src="/js/ejs.js"></script>
+<script type="text/javascript" src="/js/revision.js"></script>
+<script type="text/javascript">
+window.schemaTemplate = new EJS({text: $("#schema-template").html() });
+window.headerTemplate = new EJS({text: $("#header-template").html() });
+window.frontTemplate  = new EJS({text: $("#front-template").html()  });
+window.folioTemplate  = new EJS({text: $("#folio-template").html()  });
+
+window.sha1 = SHA1;
+
+Parser.setStructure({
+	header : ['title','author','publisher','distributor','bibl'],
+    front  : ['pb','docTitle'],
+    tags   : ['name','term','abbr','cit','q','foreign','date']	
+});
+
+document.getElementById('files').addEventListener('change', function(e){
+    var file = e.target.files[0];
+    console.log('File:', file);
+
+    if (!file.type.match('text.*')) {
+        alert('No text file');
+        return
+    }
+
+    var reader = new FileReader();
+
+    reader.onload = function(e) {
+        var content = e.target.result;
+        var parser = new Parser( $(content) );
+
+        $('#revision-container').html('');
+
+        console.log('tei', parser.getTei() );
+        window.revision.render(parser.getTei(), $('#revision-container'));
+        window.currentRevision = parser.getTei();
+
+        document.getElementById('files').value = "";
+        $(".button-container").show();
+        $("#uploader h2").html('Selecciona otro Tei');
+    }
+
+    reader.readAsText(file);	
+});
+
+$('.button-container .save').click(function (e) {
+	if(window.saving || !window.currentRevision){
+		return;
+	}
+
+	var $button = $(this);
+	$button.text('Salvando...');
+
+	window.saving = true;
+
+	var xhr = $.post(window.location.pathname, window.currentRevision); 
+
+	xhr.done(function (data) {
+		$button.text('Salvado');
+
+		window.location = '/admin/books/:bookId/revisions/single/:revisionId'.replace(':bookId', window.data.book.id)
+			.replace(':revisionId', data.id);
+	});
+
+	xhr.fail(function (data) {
+		$button.text('Fallo, intentalo de nuevo mas tarde');
+		window.saving = false;
+	});
+
+});
+</script>
