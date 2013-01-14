@@ -4,9 +4,11 @@
 	<h4>${book.value.author}</h4>
 	<div class="images-selector-wrapper">
 		{{each(i, revision) revisions}}
-		<div class="image-selector">
-			<a href="/admin/books/${book.id}/revisions/single/${revision.id}">${revision.humanDate} [${revision.id}]</a>
-		</div>
+			{{if revision.id !== book.id}}
+			<div class="image-selector">
+				<a href="/admin/books/${book.id}/revisions/single/${revision.id}">${revision.id === book.value.revisionId ? "Publicado" : ""} ${revision.humanDate} [${revision.id}]</a>
+			</div>
+			{{/if}}
 		{{/each}}
 		<div class="button-container">
 			<button id="new-version" class="save">Agregar una nueva versión</button>

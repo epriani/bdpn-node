@@ -90,13 +90,11 @@ define(['lib/controllers', 'db'], function (Controller, db) {
 	});
 
 	admin.post('/books/:bookId/revisions/new', function(req, res){
-		debugger;
 		req.body.type = 'revision';
 		req.body.bookId = req.params.bookId;
 		req.body.parseDate = (new Date).getTime();		
 
 		db.save(req.body, function (err, doc) {
-			debugger;
 			if(err){
 				res.send(500);
 			}else{
@@ -131,6 +129,44 @@ define(['lib/controllers', 'db'], function (Controller, db) {
 		res.show('admin/bookRevisionNew',{book: book});
 	});
 
+	admin.post('/books/:bookId/revisions/single/:revisionId/publish', function(req, res){
+		if (!req.user) { 
+			res.redirect('/login');
+			return;
+		}
+
+		if (req.user === "waiting" || req.user === "bloqued"){
+			res.redirect('/admin');
+			return;			
+		}
+
+		var book = books.filter(function(book){return book.id === req.params.bookId});
+
+		if(!book.length){
+			res.send(404);
+			return;
+		}
+
+		book = book[0];
+
+		book.value.revisionId = req.params.revisionId;
+		delete book.value.id;
+		delete book.value.rev;
+
+		db.save(book.value, function (err, doc) {
+			if(err){
+				res.send(500);
+				return;
+			}
+			
+			res.send({success : true});
+			db.view('books/publishedList', function (err, docs) {
+				console.log('refetch books');
+				books = docs;
+			});			
+		});
+	});
+
 	admin.get('/books/:bookId/revisions/single/:revisionId', function(req, res){
 		if (!req.user) { 
 			res.redirect('/login');
@@ -151,7 +187,7 @@ define(['lib/controllers', 'db'], function (Controller, db) {
 
 		book = book[0];
 
-		db.get(book.value.revisionId, function (err, revision) {
+		db.get(req.params.revisionId, function (err, revision) {
 			if(err){
 				res.send(503);
 				return

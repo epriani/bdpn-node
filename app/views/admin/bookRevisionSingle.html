@@ -3,6 +3,9 @@
 	<h2>${book.value.name}</h2>
 	<h4>${book.value.author}</h4>
 	<div id="revision-container"></div>
+	<div class="button-container">
+		<button class="save" style="width:100%">Publicar</button>
+	</div>
 </div>
 
 
@@ -64,31 +67,22 @@ window.frontTemplate  = new EJS({text: $("#front-template").html()  });
 window.folioTemplate  = new EJS({text: $("#folio-template").html()  });
 
 window.revision.render(window.data.revision, $('#revision-container'));
-// $('.button-container .save').click(function (e) {
-// 	var $button = $(this);
+$('.button-container .save').click(function (e) {
+	var $button = $(this);
+	$button.text('Publicando...');
 
-// 	$button.text('Salvando...');
+	var xhr = $.post("/admin/books/"+ window.data.book.id +"/revisions/single/" + window.data.revision._id + "/publish"); 
 
-// 	var images = {};
+	xhr.done(function (data) {
+		$button.text('Publicado');
 
-// 	$('.image-selector input').each(function(i, item){
-// 		var $item = $(item);
-// 		images[$item.attr("folio-hash")] = $item.val();
-// 	});
+		setTimeout(function () {
+			$button.text('Publicar');
+		}, 10000);
+	});
 
-// 	var xhr = $.post("/admin/books/"+ window.data.book.id +"/images", { images : images }); 
-
-// 	xhr.done(function (data) {
-// 		$button.text('Salvado');
-
-// 		setTimeout(function () {
-// 			$button.text('Salvar');
-// 		}, 10000);
-// 	});
-
-// 	xhr.fail(function (data) {
-// 		$button.text('Fallo, intentalo de nuevo mas tarde');
-// 	});
-
-// });
+	xhr.fail(function (data) {
+		$button.text('Fallo, intentalo de nuevo mas tarde');
+	});
+});
 </script>
