@@ -25,7 +25,8 @@ define(function () {
 					}
 				}else{
 					res.show = function (view, data) {
-						data.viewData = JSON.stringify(data);
+						data = data || {};
+						data.viewData = JSON.stringify(data)  || '{}';
 
 						res.render(view, data);
 					}

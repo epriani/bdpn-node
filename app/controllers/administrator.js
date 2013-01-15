@@ -5,7 +5,7 @@ define(['lib/controllers', 'db'], function (Controller, db) {
 
 	console.log('ensureAuthenticated', Controller.ensureAuthenticated);
 
-	db.view('books/publishedList', function (err, docs) {
+	db.view('books/list', function (err, docs) {
 		console.log('Prefetch books');
 		books = docs;
 	});
@@ -19,6 +19,37 @@ define(['lib/controllers', 'db'], function (Controller, db) {
 		res.show('admin/index',{
 			user  : req.user,
 			books : books
+		});
+	});
+
+	admin.get('/books/new', function (req,res) {
+		res.show('admin/bookNew');
+	})
+
+	admin.post('/books/new', function (req,res) {
+		if(!req.body.author || !req.body.name){
+			res.send(403);
+			return;
+		}
+
+		var book = {
+			name   : req.body.name,
+			author : req.body.author,
+			type   : "book"
+		}
+
+		db.save(book, function (err, doc) {
+			if(err){
+				res.send(err);
+				return;
+			}
+
+			db.view('books/list', function (err, docs) {
+				console.log('Refetch books');
+				books = docs;
+				res.redirect('/admin/books/'+ doc._id)
+			});			
+			
 		});
 	});
 
@@ -160,7 +191,7 @@ define(['lib/controllers', 'db'], function (Controller, db) {
 			}
 			
 			res.send({success : true});
-			db.view('books/publishedList', function (err, docs) {
+			db.view('books/list', function (err, docs) {
 				console.log('refetch books');
 				books = docs;
 			});			

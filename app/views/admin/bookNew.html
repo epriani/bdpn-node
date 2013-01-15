@@ -1,0 +1,38 @@
+{{layout "../layout"}}
+<div id="container">
+	<div class="images-selector-wrapper">
+		<form action="/admin/books/new" method="POST">
+			<div class="image-selector">
+				<span>Nombre del Libro</span>
+				<input type="text" id="name" name="name"/>
+			</div>
+			<div class="image-selector">
+				<span>Autor</span>
+				<input type="text" id="author" name="author"/>
+			</div>		
+			<div class="button-container">
+				<button class="save">Salvar</button>
+			</div>
+		</form>
+	</div>
+</div>
+<script type="text/javascript">
+$('.button-container .save').click(function (e) {
+	var error = false;
+
+	if( !$('#name').val() ){
+		error = true;
+		$('#name').css('background', 'red');
+	}
+
+	if( !$('#author').val() ){
+		error = true;
+		$('#author').css('background', 'red');
+	}
+
+	if(error){
+		e.stopPropagation();
+		e.preventDefault();
+	}
+});
+</script>
