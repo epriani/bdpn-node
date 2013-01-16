@@ -10,7 +10,7 @@ define(['lib/controllers', 'db'], function (Controller, db) {
 		books = docs;
 	});
 
-	admin.get('/', function (req, res) {
+	admin.get('/', function(req, res) {
 		if (!req.user) { 
 			res.redirect('/login');
 			return;
@@ -22,11 +22,11 @@ define(['lib/controllers', 'db'], function (Controller, db) {
 		});
 	});
 
-	admin.get('/books/new', function (req,res) {
+	admin.get('/books/new', function(req,res) {
 		res.show('admin/bookNew');
-	})
+	});
 
-	admin.post('/books/new', function (req,res) {
+	admin.post('/books/new', function(req,res) {
 		if(!req.body.author || !req.body.name){
 			res.send(403);
 			return;
@@ -74,6 +74,73 @@ define(['lib/controllers', 'db'], function (Controller, db) {
 		book = book[0];
 
 		res.show('admin/bookSingle',{user:req.user, book:book});
+	});
+
+	admin.get('/books/:bookId/edit', function(req, res) {
+		if (!req.user) { 
+			res.redirect('/login');
+			return;
+		}
+
+		if (req.user === "waiting" || req.user === "bloqued"){
+			res.redirect('/admin');
+			return;			
+		}
+
+		var book = books.filter(function(book){return book.id === req.params.bookId});
+
+		if(!book.length){
+			res.send(404);
+			return;
+		}
+
+		book = book[0];
+
+		res.show('admin/bookEdit', book);		
+	});
+
+	admin.post('/books/:bookId/edit', function(req, res) {
+		if (!req.user) { 
+			res.redirect('/login');
+			return;
+		}
+
+		if (req.user === "waiting" || req.user === "bloqued"){
+			res.redirect('/admin');
+			return;			
+		}
+
+		if (!req.body.name || !req.body.author ){
+			res.send(403);
+			return;
+		}
+
+		var book = books.filter(function(book){return book.id === req.params.bookId});
+
+		if(!book.length){
+			res.send(404);
+			return;
+		}
+
+		book = book[0];
+
+		book.value.name   = req.body.name;
+		book.value.author = req.body.author;
+
+		db.save(book.value, function (err, doc) {
+			if(err){
+				res.send(500);
+				return;
+			}
+			
+			res.send({success : true});
+			db.view('books/list', function (err, docs) {
+				console.log('refetch books');
+				books = docs;
+			});			
+		});		
+
+		res.send(book);		
 	});
 
 	admin.get('/books/:bookId/revisions', function(req, res){
