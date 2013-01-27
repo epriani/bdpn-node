@@ -21,6 +21,7 @@
 
 		revision.folios.forEach(function (folio) {
 			folio.content = folio.raw.replace(/\n/g, '<br>')
+			folio.tags    = folio.tags || {};
 
 			if(folio.isFront){
 				var html = frontTemplate.render(folio);				

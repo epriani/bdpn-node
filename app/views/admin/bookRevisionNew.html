@@ -96,9 +96,10 @@ document.getElementById('files').addEventListener('change', function(e){
 
         $('#revision-container').html('');
 
-        console.log('tei', parser.getTei() );
-        window.revision.render(parser.getTei(), $('#revision-container'));
-        window.currentRevision = parser.getTei();
+        var currentRevision = parser.getTei();
+
+        window.revision.render(currentRevision , $('#revision-container'));
+        window.currentRevision = currentRevision;
 
         document.getElementById('files').value = "";
         $(".button-container").show();
