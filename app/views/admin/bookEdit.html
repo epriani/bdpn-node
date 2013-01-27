@@ -1,0 +1,65 @@
+{{layout "../layout"}}
+<div id="container">
+	<div class="images-selector-wrapper">
+		<div class="image-selector">
+			<span>Nombre del Libro</span>
+			<input type="text" id="name" name="name" value="${value.name}"/>
+		</div>
+		<div class="image-selector">
+			<span>Autor</span>
+			<input type="text" id="author" name="author" value="${value.author}"/>
+		</div>		
+		<div class="button-container">
+			<button id="save" class="save">Editar</button>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+$('#save').click(function (e) {
+	if(window.saving){
+		return;
+	}
+
+	var error = false;
+
+	if( !$('#name').val() ){
+		error = true;
+		$('#name').css('background', 'red');
+	}
+
+	if( !$('#author').val() ){
+		error = true;
+		$('#author').css('background', 'red');
+	}
+
+	if(error){
+		return;
+	}
+
+	window.saving = true;
+
+	var $button = $(this);
+	$button.text('Salvando...');
+
+	window.saving = true;
+
+	var xhr = $.post(window.location.pathname, {
+		name   : $('#name').val(),
+		author : $('#author').val() 
+	}); 
+
+	xhr.done(function (data) {
+		$button.text('Salvado');
+
+		setTimeout(function (argument) {
+			$button.text('Editar');			
+			window.saving = false;
+		}, 10000);
+	});
+
+	xhr.fail(function (data) {
+		$button.text('Fallo, intentalo de nuevo mas tarde');
+		window.saving = false;
+	});
+});
+</script>
