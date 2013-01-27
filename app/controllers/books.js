@@ -31,6 +31,7 @@ define(['lib/controllers','db'], function (Controller,db) {
 				var nextFolio    = 1;
 
 				folio.lined = folio.raw.replace(/\n/g,'</br>');
+				folio.tags  = folio.tags || {};
 
 				var tags = _.uniq(folio.tags, null, function(item){return item.id});
 
@@ -67,6 +68,7 @@ define(['lib/controllers','db'], function (Controller,db) {
 				var nextFolio    = revision.folios[currentFolio + 1] ? currentFolio + 1 : null;
 
 				folio.lined = folio.raw.replace(/\n/g,'</br>');
+				folio.tags  = folio.tags || {};
 
 				var tags = _.uniq(folio.tags, null, function(item){return item.id});
 
