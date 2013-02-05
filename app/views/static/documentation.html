@@ -43,306 +43,341 @@
 	</dd>
 
 	<dt>2.- <a href="#">TEI Header</a></dt>
-	<dd><p>A continuación del esquema aparece el TEI Header. Respecto a las funciones y cualidades del TEI Header puede verse <a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html">http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html</a>.</p>
-	<p>El Header que presentamos a continuación corresponde al utilizado en la Especulación Astrológica y Física</p>
+	<dd>
+	<p>Después del esquema aparece el TEI Header. Respecto a las funciones y cualidades del TEI Header puede verse <a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html.">http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html.</a></p>
+	<p>El Header que presentamos a continuación corresponde al utilizado en la Especulación Astrológica y Física:</p>
 	<ul>
-	<li>&lt;teiHeader&gt;</li>
-	<li>&lt;fileDesc&gt;</li>
-	<li>&lt;titleStmt&gt;</li>
-	<li>&lt;title&gt;ESPECULACION ASTROLOGICA, Y PHYSICA DE LA NATURALEZA DE LOS COMETAS, Y JUIZIO DEL QUE ESTE Año de 1682 Se vè en todo el Mundo.&lt;/title&gt;</li>
-	<li>&lt;author&gt;Gaspar Juan Evelino&lt;/author&gt;</li>
-	<li>&lt;/titleStmt&gt;</li>
-	<li>&lt;publicationStmt&gt;</li>
-	<li>&lt;publisher&gt;Universidad Nacional Autónoma de México. Facultad de Filosofía y Letras&lt;/publisher&gt;</li>
-	<li>&lt;distributor&gt;Biblioteca Digital del Pensamiento Novohispano&lt;/distributor&gt;</li>
-	<li>&lt;respStmt&gt;</li>
-	<li>&lt;name&gt;Ernesto Priani Saisó&lt;/name&gt;</li>
-	<li>&lt;resp&gt;Marcado XML/TEI&lt;/resp&gt;</li>
-	<li>&lt;/respStmt&gt;</li>
-	<li>&lt;respStmt&gt;</li>
-	<li>&lt;name&gt;Alí Martínez Albarran&lt;/name&gt;</li>
-	<li>&lt;resp&gt;Transcripción&lt;/resp&gt;</li>
-	<li>&lt;/respStmt&gt;</li>
-	<li>&lt;/publicationStmt&gt;</li>
-	<li>&lt;sourceDesc&gt;</li>
-	<li>&lt;bibl&gt;ESPECULACION</li>
-	<li>ASTROLOGICA, Y PHYSICA DE LA NATURALEZA DE LOS COMETAS, Y JUIZIO DEL QUE ESTE A de 1682 Se vè en todo el Mundo</li>
-	<li>Por Gaspar Juan Evelino (Por la Viuda de Bernardo Calderon, 1682.)&lt;/bibl&gt;</li>
-	<li>&lt;/sourceDesc&gt;</li>
-	<li>&lt;/fileDesc&gt;</li>
-	<li>&lt;/teiHeader&gt;</li>
+		<li>&lt;teiHeader&gt;</li>
+		<li>&lt;fileDesc&gt;</li>
+		<li>&lt;titleStmt&gt;</li>
+		<li>&lt;title&gt;ESPECULACION ASTROLOGICA, Y PHYSICA DE LA NATURALEZA DE LOS COMETAS, Y JUIZIO DEL QUE ESTE Año de 1682 Se vè en todo el Mundo.&lt;/title&gt;</li>
+		<li>&lt;author&gt;Gaspar Juan Evelino&lt;/author&gt;</li>
+		<li>&lt;/titleStmt&gt;</li>
+		<li>&lt;publicationStmt&gt;</li>
+		<li>&lt;publisher&gt;Universidad Nacional Autónoma de México. Facultad de Filosofía y Letras</li>
+		<li>&lt;/publisher&gt;</li>
+		<li>&lt;distributor&gt;Biblioteca Digital del Pensamiento Novohispano&lt;/distributor&gt;</li>
+		<li>&lt;respStmt&gt;</li>
+		<li>&lt;name&gt;Ernesto Priani Saisó&lt;/name&gt;</li>
+		<li>&lt;resp&gt;Marcado XML/TEI&lt;/resp&gt;</li>
+		<li>&lt;/respStmt&gt;</li>
+		<li>&lt;respStmt&gt;</li>
+		<li>&lt;name&gt;Alí Martínez Albarran&lt;/name&gt;</li>
+		<li>&lt;resp&gt;Transcripción&lt;/resp&gt;</li>
+		<li>&lt;/respStmt&gt;</li>
+		<li>&lt;/publicationStmt&gt;</li>
+		<li>&lt;sourceDesc&gt;</li>
+		<li>&lt;bibl&gt;ESPECULACION ASTROLOGICA, Y PHYSICA DE LA NATURALEZA DE LOS COMETAS, Y JUIZIO DEL QUE ESTE A de 1682 Se vè en todo el Mundo</li>
+		<li>Por Gaspar Juan Evelino (Por la Viuda de Bernardo Calderon, 1682.)&lt;/bibl&gt;</li>
+		<li>&lt;/sourceDesc&gt;</li>
+		<li>&lt;/fileDesc&gt;</li>
+		<li>&lt;/teiHeader&gt;</li>
 	</ul>
 	<p>Las categorías utilizadas dentro del Header son las siguientes:</p>
 	<ul>
-	<li><strong>&lt;teiHeader&gt;&lt;/teiHeader&gt;</strong> Declara que se trata del encabezado del documento.</li>
-					<li><strong>&lt;fileDesc&gt; &lt;/fileDesc&gt;</strong> Declara el inicio de la descripción del documento.</li>
-
-					<li><strong>&lt;titleStmt&gt;&lt;/titleStmt&gt;</strong> (title statement). Declara el grupo de información sobre el título de la obra y quienes son los responsables de su contenido intelectual.</li>
-					<li><strong>&lt;title&gt;&lt;/title&gt;</strong> Declara que es el título de la obra. Sólo se utiliza en el caso del título de la obra marcada, y no en el del resto de títulos de obras evocados dentro de la obra. Para ellos se utiliza la categoría refTitle&gt;&lt;/1title&gt;</li>
-					<li><strong>&lt;author&gt;&lt;/author&gt;</strong> Declara al autor de la obra. Sólo se usa en el caso del autor de la obra marcada.</li>
-
-					<li><strong>&lt;publicationStmt&gt;&lt;/publicationStmt&gt;</strong> (publication statement) Declara el grupo de información sobre la publicación de la obra marcada y tanto a su publicación electrónica como a su fuente impresa.</li>
-					<li><strong>&lt;publisher&gt;&lt;/publisher&gt;</strong> Se refiere a quién publica la obra electrónica. En todos los casos será la Universidad Nacional Autónoma de México. Facultad de Filosofía y Letras</li>
-					<li><strong>&lt;distributor&gt;&lt;/distributor&gt;</strong> Se refiere al distribuidor de la obra. En este caso será siempre la Biblioteca Digital del Pensamiento Novohispano.</li>
-
-					<li><strong>&lt;respStmt&gt;&lt;/respStmt&gt;</strong> Establece una responsabilidad en la publicación.</li>
-					<li><strong>&lt;name&gt;&lt;/name&gt;</strong> Establece el nombre del responsable</li>
-					<li><strong>&lt;resp&gt;&lt;/resp&gt;</strong> Establece la responsabilidad</li>
-
-					<li><strong>&lt;sourceDesc&gt;&lt;/sourceDesc&gt;</strong> Se refiere a la descripción de la fuente impresa del texto marcado.</li>
-					<li><strong>&lt;bibl&gt;&lt;/bibl&gt;</strong> Corresponde a la referencia bibliográfica del texto marcado. Debe ir toda la ficha catalográfica del texto…</li>
-				</ul>		
-				
-				</dd>
+		<li>&lt;teiHeader&gt;&lt;/teiHeader&gt; Declara que se trata del encabezado del documento.</li>
+		<li>&lt;fileDesc&gt; &lt;/fileDesc&gt; Declara el inicio de la descripción del documento.</li>
+		<li>&lt;titleStmt&gt;&lt;/titleStmt&gt; (title statement). Declara el grupo de información sobre el título de la obra y quienes son los responsables de su contenido intelectual.</li>
+		<li>&lt;title&gt;&lt;/title&gt; Declara que es el título de la obra. Sólo se utiliza en el caso del título de la obra marcada. No se utiliza para el del resto de títulos de obras evocados dentro del texto marcado, para ellos se utiliza la categoría &lt;refTitle&gt;&lt;/refTitle&gt;</li>
+		<li>&lt;author&gt;&lt;/author&gt; Declara al autor de la obra. Sólo se usa en el caso del autor de la obra marcada.</li>
+		<li>&lt;publicationStmt&gt;&lt;/publicationStmt&gt; (publication statement) Declara el grupo de información sobre la publicación de la obra marcada y tanto a su publicación electrónica como a su fuente impresa.</li>
+		<li>&lt;publisher&gt;&lt;/publisher&gt; Se refiere a quién publica la obra electrónica. En todos los casos será la Universidad Nacional Autónoma de México, Facultad de Filosofía y Letras.</li>
+		<li>&lt;distributor&gt;&lt;/distributor&gt; Se refiere al distribuidor de la obra. Siempre será la Biblioteca Digital del Pensamiento Novohispano.</li>
+		<li>&lt;respStmt&gt;&lt;/respStmt&gt; Establece una responsabilidad en la publicación.</li>
+		<li>&lt;name&gt;&lt;/name&gt; Establece el nombre del responsable. </li>
+		<li>&lt;resp&gt;&lt;/resp&gt; Establece la responsabilidad.</li>
+		<li>&lt;sourceDesc&gt;&lt;/sourceDesc&gt; Se refiere a la descripción de la fuente impresa del texto marcado.</li>
+		<li>&lt;bibl&gt;&lt;/bibl&gt; Corresponde a la referencia bibliográfica del texto marcado. Debe ir toda la ficha catalográfica del texto.</li>
+	</ul>
+	</dd>
 
 	<dt>3.- <a href="#">Marcado del texto</a></dt>
 	<dd>
-	<p>Para marcar el texto se utilizan las siguientes categorías, que encontraremos en el siguiente orden.</p>
-
-				<p>a) El texto <strong>&lt;text&gt;&lt;/text&gt;</strong> Declara el inicio y el fin de el texto marcado.</p>
-				<p>b) La portada <strong>&lt;front&gt;&lt;/front&gt;</strong> Declara que lo que sigue corresponde a la portada o frente del documento impreso.</p>
-				<p><strong>&lt;titlePage&gt;&lt;/titlePage&gt;</strong> Declara que se trata de la página de titulo, que puede corresponder a la portada del texto.</p>
-
-				<p><strong>&lt;docTitle&gt;&lt;/docTitle&gt;</strong> Marca el título del documento marcado en la portada.</p>
-				<p><strong>&lt;docImprint&gt;&lt;docImprint&gt;</strong> Declara el lugar y el impresor del texto.</p>
-				<p><strong>&lt;docDate&gt;&lt;/docDate&gt;</strong> Marca la fecha del texto.</p>
-
-				<p><strong>c) El cuerpo del documento</strong></p>
-				<p><strong>&lt;body&gt;&lt;/body&gt;</strong> Corresponde al cuerpo del texto. Abre y cierra la totalidad de este.</p>			
-				<p><strong>&lt;p&gt;&lt;/p&gt;</strong> Es una categoría central. Marca el inicio y el final de cada párrafo. En lo documentos de la biblioteca, cuando los párrafos no cierran en la página sino que continúa en la siguiente, debe cerrarse el párrafo al terminar la página, justo antes de &lt;/div&gt; y abrirse de nuevo en la siguiente, después de &lt;div&gt;.</p>
-
-				<p><strong>&lt;div&gt;&lt;/div&gt;</strong> declara el inicio de una división. En la biblioteca se utiliza para establecer el inicio y el final de un folio. El folio es, junto con el párrafo, la unidad de referencia de los textos de la biblioteca.</p>
-				<p><strong>&lt;term&gt;&lt;/term&gt;</strong> Marca una palabra, varias palabras, una designación simbólica o el uso de un término técnico. Es una categoría de marcado central, porque permite identificar cierto tipo de palabras y expresiones en el texto cuyo estudio y recuperación es relevante. Acepta 7 atributos Type: Médico (Med), Astrológico (Astro) Astronómico (Astron), Filosófico (Philo), Matemático (Mathe), Theológico (Theolo) y Español antiguo (OldSp). En todos los caso, se puede incluir un “reg" para unificar los términos a partir de la ortografía moderna. Esto es especialmente importante en el caso de las palabras en español antiguo, donde el uso del “reg" es obligatorio.</p>
-				<p>Ejemplos:</p>
-				<ul>
-
-					<li>&lt;term type="astro" Reg="Juicio"&gt;juizio&lt;/term&gt;</li>
-					<li>&lt;term type="astro" Reg="Venéreo"&gt;Venereo&lt;/term&gt;</li>
-					<li>&lt;term type="med"&gt;peste&lt;/term&gt; (No utiliza “reg" porque no es necesario estandarizar la ortografía de la palabra)</li>
-
-				</ul>
-				<p><strong>&lt;foreign&gt;&lt;/foreign&gt;</strong> Identifica términos o grupos de términos en un idioma diferente al de la redacción del texto. Acepta el atributo lang (Idioma). Para el idioma que más aparece, el latín, se utiliza el atributo lat.</p>
-				<p>Ejemplo:</p>
-				<ul>
-					<li>&lt;foreign lang="lat"&gt;Laus Deo&lt;/foreign&gt;</li>
-
-				</ul>
-				<p><strong>&lt;date&gt;&lt;/date&gt;</strong> Sirve para marcar una fecha. Se marca sólo el año en numeral, cuando aparecen expresiones como "año del señor de 1654" o "el año de 1204". Cuando en el texto se hace una referencia si expresarla en numeral como: “el año pasado", “hace dos años", se marcará la expresión completa como fecha, pero deberá incluirse un “reg", para fijar el año en numeral. Cuando la expresión de la fecha indique día y mes, o día, mes y año, mes y año, se incluyen todos estos elementos.</p>
-				<p>Ejemplos:</p>
+	<p>Para marcar el texto se utilizan las siguientes categorías:</p>
+	<p>a) El texto &lt;text&gt;&lt;/text&gt; Declara el inicio y el fin de el texto marcado.</p>
+	<p>b) La portada &lt;front&gt;&lt;/front&gt; Declara que lo que sigue corresponde a la portada o frente del documento impreso.</p>
+	<ul>
+		<li>&lt;titlePage&gt;&lt;/titlePage&gt; Declara que se trata de la página del título, que puede corresponder a la portada del texto.</li>
+		<li>&lt;docTitle&gt;&lt;/docTitle&gt; Marca el título del documento señalado en la portada.</li>
+		<li>&lt;docImprint&gt;&lt;docImprint&gt; Declara el lugar y el impresor del texto.</li>
+		<li>&lt;docDate&gt;&lt;/docDate&gt; Marca la fecha del texto.</li>
+	</ul>
+	<p>c) El cuerpo del documento</p>
+	<ul>
+		<li>&lt;body&gt;&lt;/body&gt; Corresponde al cuerpo del texto. Abre y cierra la totalidad de este.</li>
+		<li>&lt;p&gt;&lt;/p&gt; Es una categoría central. Marca el inicio y el final de cada párrafo. En lo documentos de la biblioteca, cuando los párrafos no cierran en la página sino que continúa en la siguiente, debe cerrarse el párrafo al terminar la página, justo antes de &lt;/div&gt; y abrirse de nuevo en la siguiente, después de &lt;div&gt;.</li>
+		<li>&lt;div&gt;&lt;/div&gt; declara el inicio de una división. En la biblioteca se utiliza para establecer el inicio y el final de un folio. El folio es, junto con el párrafo, la unidad de referencia de los textos de la biblioteca.</li>
+		<li>&lt;term&gt;&lt;/term&gt; Marca una palabra, varias palabras, una designación simbólica o el uso de un término técnico. Es una categoría de marcado central, porque permite identificar cierto tipo de palabras y expresiones en el texto cuyo estudio y recuperación es relevante. Acepta 7 atributos Type: Médico (Med), Astrológico (Astro) Astronómico (Astron), Filosófico (Philo), Matemático (Mathe), Theológico (Theolo) y Español antiguo (OldSp). En todos los casos, se puede incluir un reg para unificar los términos a partir de la ortografía moderna. </li>
+		Salvo excepciones los plurales se regularizan en el singular y con la primera letra en mayúscula. Ejemplo:
+		<li>&lt;term type=“astron” reg=“Cometa”&gt;cometas&lt;/term&gt;</li>
+		<li>&lt;foreign&gt;&lt;/foreign&gt; Identifica términos o grupos de términos en un idioma diferente al de la redacción del texto. Acepta el atributo lang (Idioma). Para el idioma que más aparece, el latín, se utiliza el atributo lat.<br>
+		Ejemplo:
+		<ul>
+			<li>&lt;foreign lang="lat"&gt;Laus Deo&lt;/foreign&gt;</li>
+		</ul>
+		</li>
+		<li>
+			&lt;date&gt;&lt;/date&gt; Sirve para marcar una fecha. Se marca sólo el año en numeral, cuando aparecen expresiones como "año del señor de 1654" o "el año de 1204". Cuando en el texto se hace una referencia si expresarla en numeral como: “el año pasado", “hace dos años", se marcará la expresión completa como fecha, pero deberá incluirse un reg, para fijar el año en numeral. Cuando la expresión de la fecha indique día y mes, o día, mes y año, mes y año, se incluyen todos estos elementos.<br>
+			Ejemplos:
+			<ul>
+				<li>Este año de &lt;date&gt;1682&lt;/date&gt;</li>
+				<li>…año del Señor de &lt;date&gt;396&lt;/date&gt;</li>
+			</ul>
+			<li>Se debe regularizar utilizando los siguientes criterios:</li>
+			<li>* Si se tiene sólo el año no hay regularización. Ejemplo:
 				<ul>
 					<li>Este año de &lt;date&gt;1682&lt;/date&gt;</li>
-
-					<li>…año del Señor de &lt;date&gt;396&lt;/date&gt;</li>
 				</ul>
-	<p>Como la gran mayoría de los cometas son nombrados por la fecha en que pasan. Utilizaremos “type" y “comet" para señalar que se trata de un cometa.</p>
-				<p>Ejemplos:</p>
+			</li>
+			<li>* Si se tiene el mes y el año, pero estos se mencionan dentro de una oración, se recoge únicamente el mes y el año. Ejemplo:</li>
+			<li>
+				<ul>
+					<li>&lt;date reg=”Septiembre de 1682&gt;Septiembre del año del Señor 1682&lt;/date&gt;</li>
+				</ul>
+			</li>
+			<li>* Si se tiene el día y el año, pero estos se mencionan dentro de una oración, se recoge únicamente el número del día, el mes y el año. Ejemplo:</li>
+			<li>
+				<ul>
+					<li>&lt;date reg=“24 de noviembre de 1680”&gt;24 de noviembre del año de 1680&lt;/date&gt;</li>
+				</ul>
+			</li>
+			<li>Como la gran mayoría de los cometas son nombrados por la fecha en que pasan. Utilizaremos “type" y “comet" para señalar que se trata de un cometa. Ejemplo:</li>
+			<li>
 				<ul>
 					<li>como el del año del señor de &lt;date type="comet"&gt;396&lt;/date&gt;</li>
-
 				</ul>
-				<p><strong>&lt;abbr&gt;&lt;/abbr&gt;</strong>Marca una abreviatura. La abreviaturas no se regularizan ni se expanden en el marcado  es decir, se etiqueta la abreviatura tal cual está en el texto:</p>
-				<ul>
-					<li>&lt;abbr&gt;Vmd.&lt;/abbr&gt;</li>
-					<li>&lt;abbr&gt;N.S.R.E.&lt;/abbr&gt;</li>
+			</li>
+		</li>
+		</li>&lt;abbr&gt;&lt;/abbr&gt;Marca una abreviatura. La abreviaturas no se regularizan ni se expanden en el marcado es decir, se etiqueta la abreviatura tal cual está en el texto:
+		<ul>
+			<li>&lt;abbr&gt;Vmd.&lt;/abbr&gt;</li>
+			<li>&lt;abbr&gt;N.S.R.E.&lt;/abbr&gt;</li>
+		</ul>
+		</li>
+		<li>&lt;pb&gt;&lt;/pb&gt; Marca el numeral del folio o el número de página, en los casos en que exista.</li>
+		<li>&lt;name&gt;&lt;/name&gt; Marca los nombres propios de personas, dioses, lugares acepta el uso del atributo “type" con los siguientes elementos: person (persona); planet (Planeta); god (Dios); place (lugar); inst (institución); constelation (Constelación); zodiacal (Signo del zodiaco);  Utiliza reg para estandarizar el nombre a su uso contemporáneo. Ejemplos:
+		<ul>	
+			<li>&lt;name type="person" reg="Aristóteles"&gt;Aristoteles&lt;/name&gt;</li>
+			<li>&lt;name type="constelation"&gt;Capricorno&lt;/name&gt;</li>
+			<li>&lt;name type="planet"&gt;Saturno&lt;/name&gt; En todos los casos se marcan como planeta Luna 		y Sol, además del resto de los planetas mencionados</li>
+			<li>&lt;name type="place" reg="Holanda"&gt;Olanda&lt;/name&gt;</li>
+		</ul>
+		</li>
+		<li>&lt;q&gt;&lt;/q&gt; Identifica las citas textuales dentro de los textos, en las que no aparece la referencia bibliográfica. Deben colocarse al iniciar y al terminar la cita.</li>
+		<li>&lt;cit&gt;&lt;/cit&gt; Se utiliza para citas textuales claramente identificadas con su referencia bibliográfica.</li>
+		<li>&lt;refTitle&gt;&lt;/refTitle&gt; Se utiliza para marcar el titulo de una obra dentro de un texto. Acepta reg para estandarizar el nombre moderno de la obra.<br>
+		En los casos en que no se tenga completamente identificada la obra en una edición moderna pero se conozca el título, se debe regularizar utilizando la ortografía moderna del título. Ejemplo:
+		<ul>
+			<li>&lt;name type="person" reg="Sibila Eritrea"&gt;Sibyla Erithrea&lt;/name&gt;</li>
+		</ul>
+		</li>
+		<li>&lt;head&gt;&lt;/head&gt; Se usa para identificar subtítulos en la obra.<br>
+		En caso de que haya más niveles dentro de los subtítulos se utiliza el atributo &lt;type= “subtitle + el numeral que marca la jerarquía del subtítulo”&gt; Ejemplo:
+		<ul>
+			<li>&lt;head type ="subtitle1"&gt;&lt;/head&gt;</li>
+		</ul>
+		Dependiendo del nivel se pondrá el número consecutivo.
+		<ul>
+			<li>&lt;head type ="subtitle2"&gt;&lt;/head&gt;</li>
+		</ul>
+		</li>
+		<li>
+			&lt;place&gt;&lt;/place&gt; Marca el nombre de lugares geográficos. Acepta el atributo los atributos: reg, xml:id y type. Ejemplo: 
+			<ul>
+				<li>&lt;place xml:id="LYON1" type=“city” reg=“Lyon”&gt;lion&lt;/place&gt;<li>
+			</ul>
+		</li>
 
-				</ul>
-				<p><strong>&lt;pb&gt;&lt;/pb&gt;</strong> Marca el numeral del folio o el número de página, si existe.</p>
-				<p><strong>&lt;name&gt;&lt;/name&gt;</strong> Marca los nombres propios de personas, dioses, lugares acepta el uso del atributo “type" con los siguientes elementos: person (persona); planet (Planeta); god (Dios); place (lugar); inst (institución); constelation (Constelación); zodiacal (Signo del zodiaco); CathDiv (Divinidad católica) Utiliza “reg" para estandarizar el nombre a su uso contemporáneo.</p>
-				<p>Ejemplos:</p>
-
-				<ul>
-					<li>&lt;name type="person" reg="Aristóteles"&gt;Aristoteles&lt;/name&gt;</li>
-					<li>&lt;name type="constelation""&gt;Capricorno&lt;/name&gt;</li>
-					<li>&lt;name type="planet"&gt;Saturno&lt;/name&gt; En todos los casos se marcan como planeta Luna  y Sol, además del resto de los planetas mencionados</li>
-
-					<li>&lt;name type="place" reg="Holanda"&gt;Olanda&lt;/name&gt;</li>
-				</ul>
-				<p><strong>&lt;q&gt;&lt;/q&gt;</strong> Identifica las citas textuales dentro de los textos, en las que no aparece la referencia bibliográfica. Deben colocarse al iniciar y al terminar la cita.</p>
-				<p><strong>&lt;cit&gt;&lt;/cit&gt;</strong> Se utiliza para citas textuales claramente identificadas con su referencia bibliográfica.</p>
-
-				<p><strong>&lt;refTitle&gt;&lt;/refTitle&gt;</strong> Se utiliza para marcar el titulo de una obra dentro de un texto. Acepta reg para estandarizar el nombre moderno de la obra.</p>
-				<p><strong>&lt;head&gt;&lt;/head&gt;</strong> Se usa para identificar subtitulos en la obra.</p>
-
+		<li>&lt;location&gt;&lt;/location&gt; Se utiliza para marcar la ubicación geográfica de un lugar. Dentro de esta etiqueta se puede utilizar la etiqueta &lt;geo&gt;. Ejemplo:
+			<ul>
+				<li>&lt;location&gt; </li>
+				<li>&lt;geo&gt;45.769559 4.834843&lt;/geo&gt;</li>
+				<li>&lt;/location&gt;</li>
+				<li>&lt;geo&gt;&lt;/geo&gt;Sirve para introducir las coordenadas geográficas de un lugar. Ejemplo: </li>
+				<li>&lt;geo&gt;45.769559 4.834843&lt;/geo&gt;</li>
+			</ul>
+			Dentro de la etiqueta &lt;place&gt; se pueden colocar las etiquetas &lt;location&gt; y &lt;geo&gt; para marcar la ubicación geográfica de un lugar. Ejemplo: 
+			<ul>
+				<li>&lt;place xml:id="LYON1" type=“city” reg=“Lyon”&gt;lion&lt;/place&gt;</li>
+				<li>&lt;location&gt; </li>
+				<li>&lt;geo&gt;45.769559 4.834843&lt;/geo&gt;</li>
+				<li>&lt;/location&gt;</li>
+			</ul>
+		</li>
+		<li>
+			&lt;seg&gt;&lt;/seg&gt; Marca un segmento específico del texto, puede ser una oración, un párrafo o un conjunto de párrafos. Acepta el atributo type para indicar de qué tipo de segmento se trata. También acepta el atributo ana para indicar que se está haciendo una interpretación del texto, puede enunciarse que se trata de una interpretación sobre el género del discurso agregando gender así: &lt;ana=“gender”&gt;. Ejemplo:
+			<ul>
+				<li>&lt;seg ana= “gender”&gt;los padres de la Compañía: uno que me confesaba viendo que mis padres esta ban remisos me conçertó en el conbento de Jesús María; dentro de un día tomé el ábito, aunque con gran dolor de mi coraçon por no ser en las descalças.&lt;/seg&gt;</li>
+			</ul>
+			En este caso se marca este segmento del texto pues al mencionar su pertenencia a un convento se puede saber que se trata de un texto redactado por una monja, es decir por alguien del género femenino.
+		</li>
+		<li>
+			&lt;interp&gt;&lt;/interp&gt;Se utiliza para marcar una frase o párrafo e indicar que se trata de una interpretación que hacemos sobre el texto. Se puede utilizar el atributo xml:id con el valor “decipher” para los casos en que el texto se interprete como una predicción astrológica. Ejemplo:
+			<ul>
+				</li>&lt;interp xml:id="decipher"&gt;Y no es de menor consideracion la de ponerse como se iba ponien-
+				do à este tiempo en que el &lt;name type="planet"&gt;Sol&lt;/name&gt; se ponia por Orizonte Occidental la ima-
+				gen de &lt;term type="astron"&gt;Arturo&lt;/term&gt;, estrella que en sus Ortos, y Occasos causa vientos tempes-
+				tuosos: con lo qual tenemos conocida la mitad del Emispherio Mexicano
+				hazia la parte Oriental con esta señal, anuncio, y liga de los effectos que
+				significaron, y significan.&lt;/interp&gt;</li>
+			</ul>
+			En el ejemplo se marca este párrafo con la etiqueta &lt;interp&gt; ya que se atribuye al movimiento del Sol la aparición de vientos.
+		</li>
+		<li>&lt;distinct&gt;&lt;/distinct&gt;Marca un segmento del texto que busca destacarlo de la totalidad del texto. Con esta etiqueta se pueden marcar oraciones o párrafos. Se puede utilizar, por ejemplo, para señalar el lenguaje técnico de algún fragmento del texto.</li>
+	</ul>
 	</dd>
 
 	<dt>4.- <a href="#">Atributos de las etiquetas</a></dt>
 	<dd>
-	<p><strong>Reg:</strong> sirve para regularizar los nombres o los términos. Se utiliza también en los siguientes casos.</p>
-				<ol>
-					<li>Cuando se marca una palabra que está cortada en el texto (Por ejemplo: Agus- tín) debe incluirse “reg" y en él debe ponerse entre comillas, el nombre completo sin corte.</li>
-					<li>Cuando las citas rebasen un renglón hay que incluir “reg" y en él poner la cita completa de la forma como deberá aparecer al recuperar la información.</li>
-					<li>Los reg de los términos en plural van en singular</li>
-
-				</ol>
-				<p><strong>Type:</strong> establece atributos específicos para termino o una palabra y se utiliza para identificar con más precisión que clase de nombre o término es el que se ha marcado. Ver ejemplo de usos en los casos de nonbres y términos. </p>
-				<p></p>
+	<p><b>Reg:</b> sirve para regularizar los nombres o los términos. Se utiliza también en los siguientes casos.</p>
+	<p>Cuando se marca una palabra que está cortada en el texto (Por ejemplo: Agus- tín) debe incluirse reg y en él debe ponerse entre comillas, el nombre completo sin corte.</p>
+	<p>Cuando las citas rebasen un renglón hay que incluir reg y en él poner la cita completa de la forma como deberá aparecer al recuperar la información.</p>
+	<p>Los reg de los términos en plural van en singular.</p>
+	<p>Los reg deben comenzar con la primera letra mayúscula.</p>
+	<p><b>Type:</b> establece atributos específicos para termino o una palabra y se utiliza para identificar con más precisión que clase de nombre o término es el que se ha marcado. Ver ejemplo de usos en los casos de nombres y términos.</p>
+	<p>Cont=“1”: permite unir un texto que está dividido por la etiqueta &lt;div&gt; en dos folios. Puede aplicarse para unir textos marcados con las etiquetas &lt;q&gt; &lt;cit&gt; y &lt;refTitle&gt; y se coloca el atributo cont=“1” en la parte donde continúa. Ejemplo:</p>
+	<ul>
+		</li>
+			el Angelico Doctor &lt;cit&gt; &lt;name type="person" reg="Santo Tomás"&gt;Santo
+			Thomas&lt;/name&gt;, como verdadero &lt;term type="OldSp" reg="Filósofo"&gt;Philosofo&lt;/term&gt;, 		y Astrologo, en la 2.a 2.ae
+			quest. 95.artic. I. in corpore, & 2. sentent. distinct. 17. q. ad
+			secund . &lt;foreign lang="Lat"&gt;Si autem determinentur (conviene à saber los futuros)
+			in causis,ut ex quibus frequenter contingunt, cu potestate tamen,
+			deficiendi in minori parte propter impedimentu ex parte agentis,
+			vel ex parte recipientis actione, eoru cognitio non certitudinalis,
+			sed coniecturalis haberi potest. Et hoc modo Astrologus dicit, quae-
+			dam futura, quae consequutur ex motu coelesti in istis interioribus:
+			quae tamen impediri possunt propter deffectu inferiori causarum
+			& baecpraecognitio tanto magis ad certitudin? accedit, quanto ad
+			vnum &lt;/foreign&gt;&lt;/cit&gt; A2
+			&lt;/p&gt;		
+			&lt;/div&gt;
+		</li>
+		<li>
+			&lt;div&gt;
+			&lt;pb&gt;2 vuelta&lt;/pb&gt;
+			&lt;p&gt;
+			&lt;cit cont="1"&gt;&lt;foreign lang="Lat"&gt;unum effectu cognoseuntur & quanto virtus causae 		mellius scitur&lt;/foreign&gt;&lt;/cit&gt;.
+			Y assimesmo el Santo, en estas palabras, me defiende y es-
+			cusa de temeroso
+		</li>
+	</ul>
 	</dd>
 
 	<dt>5.- <a href="#">Estandarización de nombres</a></dt>
-	<dd><p>Para la estandarización de nombres estamos siguiendo estos criterios: </p>
-				<p><strong>Nombres propios:</strong></p>
-
-				<p>Apellido y nombre. Los "de", "von" etc... van entre paréntesis después del apellido. Si se trata de santos, el san se coloca antes del nombre. Se utilizará siempre la ortografía contemporánea del nombre. </p>
-				<ul>
-					<li>Hipona (de), San Agustín</li>
-					<li>Aquino (de), Santo Tomás</li>
-					<li>Escobar Salmerón y Castro, José (de)</li>
-					<li>Aristóteles</li>
-
-					<li>Séneca</li>
-					<li>Júpiter</li>
-					<li>Real Universidad se regulariza siempre como Real y Pontificia Universidad de México a menos que se trate de otra universidad.</li>
-					<li>Febo y Phoebo se regularizan siempre como Apolo</li>
-					<li>Ptolomeo se regulariza como Ptolomeo, Claudio</li>
-				</ul>
-
-				<p>En el caso de nombres de obras o de instituciones, se regularizan utilizando el nombre por el que son conocidas actualmente</p>
-				<p>Salvo excepciones los plurales se regularizan en el singular. Los verbos conjugados en el infinitivo.</p>
-				
+	<dd>
+	<p>Para la estandarización de nombres seguimos estos criterios:</p>
+	<p>Nombres propios:</p>
+	<p>Apellido y nombre. Los "de", "von" etc. van entre paréntesis después del apellido. Si se trata de santos, el “san” se coloca antes del nombre. Se utilizará siempre la ortografía contemporánea del nombre.</p>
+	<ul>
+		<li>Hipona (de), San Agustín</li>
+		<li>Aquino (de), Santo Tomás</li>
+		<li>Escobar Salmerón y Castro, José (de)</li>
+		<li>Aristóteles</li>
+		<li>Séneca</li>
+		<li>Júpiter</li>
+		<li>Real Universidad se regulariza siempre como Real y Pontificia Universidad de México a 		menos que se trate de otra universidad.</li>
+		<li>Febo y Phoebo se regularizan siempre como Apolo</li>
+		<li>Ptolomeo se regulariza como Ptolomeo, Claudio</li>
+	</ul>
+	</p>En el caso de nombres de obras o de instituciones, se regularizan utilizando el nombre por el que son conocidas actualmente. </p>
+	</p>Si el nombre está escrito en minúsculas se debe utilizar un reg para escribir la primera letra en mayúsculas. Ejemplo:</p>
+	<ul>
+		<li>&lt;name reg=“Séneca”&gt;séneca&lt;/name&gt;</li>
+	<ul>
 	</dd>
 
-	<dt>6.- <a href="#">Criterios para marcar palabras como Español Antiguo</a></dt>
-	<dd><ol class="star">
-					<li>Primero, habrá que leer el texto completo para familiarizarse con el vocabulario y saber qué tipo de palabras utiliza el autor de cada uno de ellos y cómo las utiliza.</li>
-					<li>Para la selección de palabras que se tendrán que marcar, se podrían señalar las que no parezcan comunes dentro del vocabulario cotidiano.</li>
 
-					<li>Después de eso, se podría revisar la palabra en el Diccionario de la Real Academia Española (se encuentra en línea); si no está en el Diccionario habrá que marcarla; si sí está, habrá que valorarla según el criterio de quien la haya revisado, y lo poco o muy frecuente que sea utilizar dicha palabra.</li>
-					<li>Para saber si la palabra es comúnmente utilizada o no, pueden meterla en el buscador de ‘Google’ y, así, revisar los contextos en los que aparece.</li>
-				</ol>
-				<p>Usos de “u" y de “v" hay que respetar cómo aparecen en el original…</p>
+	<dt>6.- <a href="#">Criterios para marcar palabras como Español Antiguo &lt;OldSp&gt;</a></dt>
+	<dd>
+	<p>Primero, habrá que leer el texto completo para familiarizarse con el vocabulario y saber qué tipo de palabras utiliza el autor de cada uno de ellos y cómo las utiliza.</p>
+	<p>Para la selección de palabras que se tendrán que marcar, se podrían señalar las que no parezcan comunes dentro del vocabulario cotidiano.</p>
+	<p>Después de eso, se podría revisar la palabra en el Diccionario de la Real Academia Española (se encuentra en línea); si no está en el Diccionario habrá que marcarla; si sí está, habrá que valorarla según el criterio de quien la haya revisado, y lo poco o muy frecuente que sea utilizar dicha palabra.</p>
+	<p>Para saber si la palabra es comúnmente utilizada o no, pueden meterla en el buscador de ‘Google’ y revisar los contextos en los que aparece.</p>
+	<p>Usos de “u" y de “v" hay que respetar cómo aparecen en el original. </p>
 	</dd>
 
-	<dt>7.- <a href="#">Criterios para marcar palabras como astrológicas o astronómicas</a></dt>
-	<dd>			<p>Aunque el criterio no es preciso, marcaremos como astrológicas todos aquellos términos  que no son utilizados por la astronomía moderna para caracterizar a los fenómenos celestes, como pueden serlo, por ejemplo, los relativos al tipo de cometas o a la definición de algunos de sus atributos. Reservaremos el marcado de términos astronómicos a aquellos que son utilizados contemporáneamente por la astronomía. por ejemplo, términos como eclipse, cometa, paralaje, meteoros se etiqutará como astronómico como sigue:<p>
-				<ul>
-					<li>&lt;term type="Astron"&gt;Cometa&lt;/term&gt;</li>
-				</ul>
-				<p>O en el caso de las estrellas sí se hace referencia al nombre de la estrella:</p>
-				<ul>
-
-					<li>la &lt;term type="Astro"&gt;Estrella &lt;foreing lang="lat"&gt;Capud Medusae&lt;/foreing&gt;&lt;/term&gt;, en que feneciò el Cometa</li>
-				</ul>
-				<p>En cambio si el término no es utilizado por la ciencia astronómica contemporánea y en su defecto hace referencia a la división del cosmos, se etiquetará como astrológico, por ejemplo región de fuego, juicio del año, conjunción magna; se marcarán como sigue:</p>
-				<ul>
-
-					<li>&lt;term type="Astro" reg="Región de fuego"&gt;region de fuego&lt;/term&gt;</li>
-				</ul>
-				<p>Existen otros términos, principalmente astrológicos, que tienen que etiquetarse completos como se muestra en el ejemplo:</p>
-				<ul>
-					<li>&lt;term type="Astro"&gt;Cometa Sublunar&lt;/term&gt;</li>
-
-				</ul></dd>
 
 
+	<dt>7.- <a href="#">Criterios para marcar palabras como astrológicas &lt;astro&gt; o astronómicas &lt;astron&gt;</a></dt>
+	<dd>
+	<p>Aunque el criterio no es preciso, marcaremos como astrológicas todos aquellos términos que no son utilizados por la astronomía moderna para caracterizar a los fenómenos celestes, como pueden serlo, por ejemplo, los relativos al tipo de cometas o a la definición de algunos de sus atributos. Reservaremos el marcado de términos astronómicos a aquellos que son utilizados contemporáneamente por la astronomía. Por ejemplo, términos como eclipse, cometa, paralaje, meteoros se etiquetará como astronómico como sigue:</p>
+	<ul>
+		<li>&lt;term type="Astron"&gt;Cometa&lt;/term&gt;</li>
+	</ul>
+	<p>O en el caso de las estrellas sí se hace referencia al nombre de la estrella:</p>
+	<ul>
+		<li>la &lt;term type="Astro"&gt;Estrella &lt;foreing lang="lat"&gt;Capud Medusae&lt;/foreing&gt;&lt;/term&gt;, en que feneciò el Cometa</li>
+	</ul>	
+	<p>En cambio si el término no es utilizado por la ciencia astronómica contemporánea y hace referencia a la división del cosmos, se etiquetará como astrológico, por ejemplo región de fuego, juicio del año, conjunción magna. Ejemplo:</p>
+	<ul>
+		<li>&lt;term type="Astro" reg="Región de fuego"&gt;region de fuego&lt;/term&gt;</li>
+	</ul>
+	<p>Existen otros términos, principalmente astrológicos, que tienen que etiquetarse completos como se muestra en el ejemplo:</p>
+	<ul>
+		<li>&lt;term type="Astro"&gt;Cometa Sublunar&lt;/term&gt;</li>
+	</ul>
+	</dd>
 	<dt>8.- <a href="#">Criterios para marcar alusiones</a></dt>
 	<dd>
-	<p>Las alusiones, como por ejemplo, El filósofo, el profeta, etcétera, se marcan como nombre, com type person y se regularizan con el nombre del aludido. Por ejemplo:</p>
+	<p>Las alusiones, como por ejemplo, El filósofo, el profeta, etcétera, se marcan como nombre, con type person y se regularizan con el nombre del aludido. Por ejemplo:</p>
 				<ul>
-					<li>como señal &lt;name type="peroson" ref="Aristóteles"&gt;el filósofo&lt;/name&gt; en Metafísica.</li>
+					<li>como señal &lt;name type="person" ref="Aristóteles"&gt;el filósofo&lt;/name&gt; en Metafísica.</li>
 
 				</ul>
 	</dd>
 
-
-	<dt>9.- <a href="#">Criterios para utilizar las etiquetas quote y citation</a></dt>
+	<dt>9.- <a href="#">Criterios para utilizar las etiquetas &lt;q&gt; (quote) &lt;cit&gt; (citation)</a></dt>
 	<dd>
-	<p>Criterios para utilizar las etiquetas &lt;q&gt; (quote) &lt;cit&gt; (citation) </p>
-
-				<p>&lt;q&gt; corresponde a una referencia en el texto que no es explícita, esto es, puede haber referencias que hagan sólo mención del autor o mención de la fuente pero no sea de manera exacta. He aquí un ejemplo:</p>
-				<ul>
-					<li>A cuyo intento &lt;name type="person" reg="Ovidio"&gt;el Poeta&lt;/name&gt;:</li>
-					<li>&lt;q reg="Ovidio. Metamorifosis. Libro I. 80-85 &gt;&lt;foreign lang="Lat"&gt;Pronaque; cum soectent animalia cetera terram, Os homini sublime dedit, coelumque, uidere Iussit, &amp; erectos ad sydera tollere ultus&lt;/foreign&gt;.&lt;/q&gt;</li>
-
-				</ul>
-				<p>Como vemos en este caso hay una referencia a "el Poeta", sabemos que es Ovidio y por eso se regulariza el nombre, y luego hay una cita en latín (etiquetada con &lt;foreign lang="Lat"&gt;&lt;/foreign&gt;) pero no dice ni de qué texto ni en qué parte del texto está tomada la cita. En este caso, como sabemos cuál es la fuente, la ponemos en un "reg" dentro de la etiqueta  &lt;q&gt; como referencia moderna, es decir, autor, obra, y parte específica de la obra; en caso de que no se tengan los  datos simplemente se dejará la etiqueta &lt;q&gt; sin el atributo "reg".</p>
-				<p>Otro ejemplo del uso de la etiqueta &lt;q&gt; es el siguiente:</p>
-
-				<ul>
-					<li>Y la &lt;name type="person" reg="Sibila Eritrea"&gt;Sibyla Erithrea&lt;/name&gt; en estos sus versos.</li>
-					<li>&lt;q reg="Oráculos sibilinos. Libro III. 334-336" &gt;&lt;foreign lang="lat"&gt;Sole sub neciduo veré vocitata Cometes stella refulgebit Galdij mortalibus index;</li>
-					<li>Et Fames; & mortes, preclarorumque virorum</li>
-
-					<li>Adque Ducum interitus marnorum nobilium que</li>
-					<li>Maxima praeterea mortales signa monebunt.&lt;/foreign&gt;&lt;/q&gt;</li>
-				</ul>
-				<p>Como vemos en estos dos ejemplos hay una mención a algún personaje y una cita en latín, pero en ningún momento se nos dice de dónde se toma esta cita o de qué parte de la obra se retomo. Por ello este tipo de menciones se etiquetarán como &lt;q&gt;</p>
-				<p>En cuanto al uso de la etiqueta &lt;cit&gt; los siguentes ejemplos lo muestran:</p>
-
-				<ul>
-					<li>lo dizen muchos Autores, y principalmente el venerable  &lt;cit reg="Beda, el Venerable. De Natura Rerum Liber. Cap XXIV"&gt; &lt;name type="person" reg="Beda, el Venerable"&gt;Beda&lt;/name&gt;</li>
-					<li>&lt;refTitle reg="De Natura Rerum Liber"&gt;lib de natura rerum&lt;/refTitle&gt;. &lt;foreign lang="lat" reg="Cometae sunt stellae flamis Crinitae repente nascentes regni mutationem aut pestilentiam; aut bella; aut ventos aestus ve portendentes"&gt;Cometae sunt stella flamis Crinitae repente nascen-</li>
-
-					<li>tes regni mutationem aut pestilentiam; aut bella; aut ventos aestus ve por-</li>
-					<li>tendentes&lt;/foreign&gt;&lt;/cit&gt;</li>
-				</ul>
-				<p>En este ejemplo tenemos varias etiquetas. Como principal tenemos la etiqueta &lt;cit&gt; que tiene el atributo "reg" porque tenemos la fuente de la cita (en este caso es Beda el Venerable y se pone como Autor, Título y referencia exacta de la obra), luego tenemos la etiqueta &lt;name&gt;, después la etiqueta &lt;refTitle&gt;, ambas etiquetas están regularizadas porque conocemos a la persona que se nombra y conocemos el nombre completo de la obra a la que se hace referencia. Por último tenemos la etiqueta &lt;foreign lang&gt; con el "reg" esto se hace porque la cita está dividida en renglones y para que el sistema de índices la pueda recuperar de manera completa sin las particiones, necesitamos juntarla toda en el atributo "reg". </p>
-
-				<ul>
-					<li>servido de disponer, precedan primero estas se-ñales Cometicas: como doctamente nos lo enseña el eruditis-</li>				
-					<li>simo&lt;cit&gt; Maestro&lt;name type="person"&gt; Fray Juan de Santo Thoma&lt;/name&gt; &lt;refTitle&gt;lib. primero de Me-</li>
-
-					<li>theoris cap. de Cometis&lt;/refTitle&gt;: &lt;foreign lang="Lat"&gt;sed verius est mortem Principum in</li>
-					<li>speciaeli significare ex beneplacito Dei, qui Comet(a)m tanquam sig-</li>
-					<li>num Mortis exhibet, ut ait Damascenus 2. de fide c. 27. aut sal-</li>
-					<li>tem ex usu, quia videmus frequenter sic accidere mortem Prin-</li>
-					<li>cipum ex apparientia Cometarum&lt;/foreign&gt;.&lt;/cit&gt; </li>
-
-				</ul>
-				<p>Aquí tenemos otro ejemplo de la etiqueta &lt;cit&gt;, excepto que ninguno de los elementos que están dentro de ella tiene el atributo "reg" debido a que desconocemos la fuente exacta.</p>
-				<p>En el caso de que una cita se encuentre en dos folios, es decir, partida  con la etiqueta &lt;div&gt; se pondrá el atributo cont="1" en la parte donde continua</p>
-				<ul>
-					<li>el Angelico Doctor &lt;cit&gt; &lt;name type="person" reg="Santo Tomás"&gt;Santo</li>
-
-					<li>Thomas&lt;/name&gt;, como verdadero &lt;term type="OldSp" reg="Filósofo"&gt;Philosofo&lt;/term&gt;, y Astrologo, en la 2.a 2.ae</li>
-					<li>quest. 95.artic. I. in corpore, &amp; 2. sentent. distinct. 17. q. ad</li>
-					<li>secund . &lt;foreign lang="Lat"&gt;Si autem determinentur (conviene à saber los futuros)</li>
-
-					<li>in causis,ut ex quibus frequenter contingunt, cu potestate tamen,</li>
-					<li>deficiendi in minori parte propter impedimentu ex parte agentis,</li>
-					<li>vel ex parte recipientis actione, eoru cognitio non certitudinalis,</li>
-					<li>sed coniecturalis haberi potest. Et hoc modo Astrologus dicit, quae-</li>
-					<li>dam futura, quae consequutur ex motu coelesti in istis interioribus:</li>
-					<li>quae tamen impediri possunt propter deffectu inferiori causarum</li>
-
-					<li>&amp; baecpraecognitio tanto magis ad certitudin? accedit, quanto ad</li>
-					<li>vnum	&lt;/foreign&gt;&lt;/cit&gt;			           A2      </li>
-					<li>&lt;/p&gt; </li>
-					<li></li>
-
-					<li>&lt;/div&gt;</li>
-					<li></li>
-					<li></li>
-					<li>&lt;div&gt;</li>
-					<li></li>
-					<li>&lt;pb&gt;2 vuelta&lt;/pb&gt;</li>
-
-					<li>&lt;p&gt;</li>
-					<li>&lt;cit cont="1"&gt;&lt;foreign lang="Lat"&gt;unum effectu cognoseuntur &amp; quanto virtus causae mellius scitur&lt;/foreign&gt;&lt;/cit&gt;.</li>
-					<li>Y assimesmo el Santo, en estas palabras, me defiende y es-</li>
-					<li>cusa de temeroso</li>
-
-				</ul>
-				<p>Igualmente para el caso de la etiqueta &lt;q&gt;, o algún nombre, o algún &lt;refTitle&gt; se pone el atributo cont="1"</p>
+	<p>&lt;q&gt; Corresponde a una referencia en el texto que no es explícita, es decir, puede haber referencias que sólo hagan mención del autor o sólo de la fuente pero no sea de manera exacta. Ejemplo:</p>
+	<ul>
+		<li>A cuyo intento &lt;name type="person" reg="Ovidio"&gt;el Poeta&lt;/name&gt;:</li>
+		<li>&lt;q reg="Ovidio. Metamorifosis. Libro I. 80-85 &gt;&lt;foreign lang="Lat"&gt;Pronaque; cum soectent animalia cetera terram, Os homini sublime dedit, coelumque, uidere Iussit, & erectos ad sydera tollere ultu.s&lt;/foreign&gt;&lt;/q&gt;</li>
+	</ul>
+	<p>En el ejemplo hay una referencia a "el Poeta", en este caso se investiga el nombre del autor al que se refiere y se regulariza con él, en este ejemplo, se escribe Ovidio. Después hay una cita en latín (etiquetada con &lt;foreign lang="Lat"&gt;&lt;/foreign&gt;) pero no dice ni de qué texto ni en qué parte del texto está tomada la cita, esto puede ser investigado y cuando se ubica, como en este caso, de qué fuente proviene la cita la ponemos en un "reg" dentro de la etiqueta &lt;q&gt;</p>
+	<p>Esta identificación de la cita se coloca con el formato de una referencia moderna, es decir, autor, obra, y parte específica de la obra.</p>
+	<p>Otro ejemplo del uso de la etiqueta &lt;q&gt; es el siguiente:</p>
+	<ul>
+		<li>Y la &lt;name type="person" reg="Sibila Eritrea"&gt;Sibyla Erithrea&lt;/name&gt; en estos sus versos.</li>
+		<li>&lt;q reg="Oráculos sibilinos. Libro III. 334-336" &gt;&lt;foreign lang="lat"&gt;Sole sub neciduo veré 		vocitata Cometes stella refulgebit Galdij mortalibus index;</li>
+		<li>Et Fames; & mortes, preclarorumque virorum</li>
+		<li>Adque Ducum interitus marnorum nobilium que</li>
+		<li>Maxima praeterea mortales signa monebunt.&lt;/foreign&gt;&lt;/q&gt;</li>
+	</ul>
+	<p>Como vemos en estos dos ejemplos hay una mención a algún personaje y una cita en latín, pero en ningún momento se nos dice de dónde se toma esta cita o de qué parte de la obra se retomo. Por ello este tipo de menciones se etiquetarán como &lt;q&gt;</p>
+	</p>En los casos en que no pueda ser identificado la totalidad de datos de la cita, se debe regularizar utilizando los siguientes criterios:</p>
+	<ul>
+		<li>* Si se cuenta con el nombre del autor se coloca dentro del atributo “reg”.<br>
+			&lt;q reg=“Séneca”&gt;&lt;foreign lang="lat"&gt;nunquam volui populo placere&lt;/foreign&gt;, 		que dixo &lt;name type="person" reg="Séneca"&gt;Seneca&lt;/name&gt;&lt;/q&gt;</li>
+		<li>* Si sólo se cuenta con el nombre de la obra al que pertenece la cita, pero no se tiene 	el autor, se coloca el título dentro del atributo “reg”. Ejemplo:<br>
+			&lt;q reg=“Concilio Lateranense”&gt;&lt;refTitle&gt;Concilio Lateranense, session II.&lt;/refTitle&gt; ay 		este edicto: &lt;foreign lang="lat" reg="Mandamus que omnibus qui hoc onus praedicandi 		sustinent, qui que in futuram sustinebant ut tempus quoque prefixum suturorum malorum, 		vel Antichristi adventum, aut certum diem indicij praedicare, vel afferere nequaquam 		praesumant, sum veritas dicat: non esse nostrum nosse tempora vel momenta."&gt;Manda-
+			mus que omnibus qui hoc onus praedicandi sustinent, qui que in futu-
+			ram sustinebant ut tempus quoque prefixum suturorum malorum, vel
+			Antichristi adventum, aut certum diem indicij praedicare, vel afferere
+			nequaquam praesumant, sum veritas dicat: non esse nostrum nosse tem-
+			pora vel momenta.&lt;/foreign&gt;&lt;/q&gt;</li>
+		<li>* Si sólo se tiene la cita, pero no se conoce ni el nombre del autor ni la obra a la que 	pertenece, se colocan las tres primeras palabras seguidas por tres puntos suspensivos 	dentro del atributo “reg”. Ejemplo:<br>
+			viendo esto, el doctor le dixo a otro oydor, muy sierbo de Dios:
+			&lt;q reg= “¿por qué quiere...”&gt;“¿por qué quiere dar contento al diablo en ynpedir esta
+			fundaçión? &lt;/q&gt;; tubo escrúpu lo y mobimiento de Dios</li>
+	</ul>
+	<p>&lt;cit&gt;Se utiliza en aquellas referencias que indiquen de manera explícita su ubicación en un texto. A continuación se muestran algunos ejemplos del uso de la etiqueta &lt;cit&gt;:</p>
+	<ul>
+		<li>
+			lo dizen muchos Autores, y principalmente el venerable &lt;cit reg="Beda, el Venerable. De 		Natura Rerum Liber. Cap XXIV"&gt; &lt;name type="person" reg="Beda, el Venerable"&gt;Beda
+			&lt;/name&gt;
+			&lt;refTitle reg="De Natura Rerum Liber"&gt;lib de natura rerum&lt;/refTitle&gt;. &lt;foreign lang="lat" 		reg="Cometae sunt stellae flamis Crinitae repente nascentes regni mutationem aut 		pestilentiam; aut bella; aut ventos aestus ve portendentes"&gt;Cometae sunt stella flamis 		Crinitae repente nascen-
+			tes regni mutationem aut pestilentiam; aut bella; aut ventos aestus ve por-
+			tendentes&lt;/foreign&gt;&lt;/cit&gt;
+		</li>
+	</ul>
+	<p>En este ejemplo tenemos varias etiquetas, pero la de mayor jerarquía es la etiqueta &lt;cit&gt;. Se le coloca el atributo reg porque conocemos la fuente de la cita y se debe colocar con el orden: Autor, Título y referencia exacta de la obra. Luego tenemos las etiquetas &lt;name&gt; y &lt;refTitle&gt;, ambas están regularizadas porque conocemos a la persona que se nombra y conocemos el nombre completo de la obra a la que se hace referencia. Por último tenemos la etiqueta &lt;foreign lang&gt; con el atributo reg esto se hace porque la cita abarca más de un renglón y para que el sistema de índices la pueda recuperar de manera completa necesitamos juntarla toda en la forma de la regularización.</p>
+	<p>Aún cuando las citas marcadas con &lt;cit&gt; tienen una referencia explícita estas pueden no ser identificadas en su totalidad en una edición moderna. En estos casos no se podrá ubicar dentro del atributo reg la referencia con el formato de una cita moderna, pero se coloca el nombre del autor dentro del atributo reg con el orden indicado para escribir la regularización de nombres. Ejemplo:</p>
+	<ul>
+		<li>recopila el doctissimo &lt;cit reg=“Río (del), Martín”&gt;Padre Martin Del-Rio, en el lib.4. de las Disquisiciones Magicas, c.3. quaest. 2. por estas palabras: Aliquando vero, & Cometae, quibus omni- bus c(o)mmune est, magnam temporis siccitatem denotare; signa quo- que esse ventorum&lt;/cit&gt;</li>
+	</ul>
 	</dd>
 
-	<dt>10.- <a href="#">Uso de la etiqueta de subtítulos</a></dt>
-	<dd>
-	<p>&lt;head&gt;&lt;/head&gt;</p>
-
-				<p>En caso de que haya más niveles dentro de los subtítulos se utilizará la siguiente etiqueta:</p>
-				<ul>
-					<li>&lt;head type ="subtitle1"&gt;&lt;/head&gt;<li>
-				</ul>
-				<p>Y dependiendo del nivel se pondrá el número consecutivo.</p>
-				<ul>
-					<li>&lt;head type ="subtitle2"&gt;&lt;/head&gt;</li>
-
-				</ul>
-				<p>La ficha bibliográfica, esto es, en la etiqueta &lt;bibl&gt; se pondrá el estandar bibliográfico </p>
-				<p>de Autor, Título y Datos de la publicación. En el título se pondrá la etiqueta &lt;abrTitle&gt;&lt;/abrTitle&gt; para abreviar el título y que no aparezca</p>
-				<p>más que una parte del título completo.</p>
-
-	</dd>
 
 
 
