@@ -1,5 +1,5 @@
-define(['express','db','conf','dictionaries','models/terms', 'connections/passport', 'connections/twitter'], 
-	function (express, db, conf, dictionaries, terms, passport, twitterStrategy) {
+define(['express','db','conf','dictionaries','models/terms', 'models/collection','connections/passport', 'connections/twitter'], 
+	function (express, db, conf, dictionaries, terms, Collections, passport, twitterStrategy) {
 	var app        = express.createServer(),
 		RedisStore = require('connect-redis')(express),
 		_          = require('underscore');
@@ -79,7 +79,24 @@ define(['express','db','conf','dictionaries','models/terms', 'connections/passpo
 	});
 
 	app.get('/collections',function(req, res){
-	    res.render('collections/index',{});
+		Collections.all(function(err, collections){
+			if(err){
+				res.send(500);
+				return;
+			}
+
+			db.view('books/list', function (err, books) {
+		    	res.render('collections/index', {
+		    		collections : collections,
+		    		allBooks : books,
+		    		viewData : JSON.stringify({
+		    			collections : collections,
+		    			books : books
+		    		})
+		    	});
+			});			
+
+		});
 	});
 
 	app.get('/cache/expire',function(req, res){
@@ -154,6 +171,12 @@ define(['express','db','conf','dictionaries','models/terms', 'connections/passpo
 	app.get('/login', function (req, res) {
 		res.render('login/index', {user : req.user});
 	});
+
+	app.get('/logout', function (req, res) {
+		req.session.destroy();
+
+		res.redirect('/');
+	})
 
 	app.use('/auth/twitter',passport.authenticate('twitter'),
 	function(req, res){

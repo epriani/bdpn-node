@@ -1,3 +1,16 @@
 {{layout "../layout"}}
 <div id="container" class="atenea">
+	{{each(i, collection) collections}}
+		<h2>${collection.name}</h2>
+		<div style="display: inline-block;">
+			{{each(i, book) allBooks}}
+				{{if collection.books.indexOf(book.id) >= 0}}
+					<div class="block float">
+						<h1><a href="/books/${book.id}" target="_self">${book.value.name}</a></h1>
+						<h2>${book.value.author}</h2>
+					</div>
+				{{/if}}
+			{{/each}}	
+		</div>
+	{{/each}}
 </div>

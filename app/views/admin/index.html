@@ -4,15 +4,10 @@
 	{{if user.role === "waiting" || user.role === "bloqued"}}
 		<p>Usuario creado, esperando autorizacion</p>
 	{{else}}
-		<h2>Libros</h2>
 		<ul>
-		{{each(i, book) books}}
-			<li><a href="/admin/books/${book.id}">${book.value.name}</a></li>
-		{{/each}}
+			<li><a href="/admin/books">Libros</a>
+			<li><a href="/admin/collections">Colecciones</a>
 		</ul>
-		<div class="button-container">
-			<button id="new-book" class="save">Agregar nuevo libro</button>
-		</div>		
 	{{/if}}
 </div>
 <script type="text/javascript">

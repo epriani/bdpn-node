@@ -1,7 +1,8 @@
-define(['lib/controllers', 'db'], function (Controller, db) {
+define(['lib/controllers', 'db', 'models/collection'], function (Controller, db, Collection) {
 	console.log('Terms controller added');
 	var admin = Controller({prefix : '/admin'}),
-		books = {};
+		books = {},
+		collections = [];
 
 	console.log('ensureAuthenticated', Controller.ensureAuthenticated);
 
@@ -10,23 +11,47 @@ define(['lib/controllers', 'db'], function (Controller, db) {
 		books = docs;
 	});
 
-	admin.get('/', function(req, res) {
+	Collection.all(function (err, docs) {
+		if(docs){
+			console.log('Prefetch collections');
+			collections = docs
+		}
+	});
+
+	admin.get('/', function (req, res) {
+		res.show('admin/index',{
+			user  : req.user
+		})
+	});
+
+	// Books
+	admin.get('/books', function(req, res) {
 		if (!req.user) { 
 			res.redirect('/login');
 			return;
 		}
 
-		res.show('admin/index',{
+		res.show('admin/bookList',{
 			user  : req.user,
 			books : books
 		});
 	});
 
 	admin.get('/books/new', function(req,res) {
+		if (!req.user) { 
+			res.redirect('/login');
+			return;
+		}
+
 		res.show('admin/bookNew');
 	});
 
 	admin.post('/books/new', function(req,res) {
+		if (!req.user) { 
+			res.redirect('/login');
+			return;
+		}
+
 		if(!req.body.author || !req.body.name){
 			res.send(403);
 			return;
@@ -372,8 +397,107 @@ define(['lib/controllers', 'db'], function (Controller, db) {
 				res.send(200);
 			});
 		});
-
 	});
+
+	//Collections
+	admin.get('/collections', function (req, res) {
+		if (!req.user) { 
+			res.redirect('/login');
+			return;
+		}
+
+		console.log(collections);
+		
+		res.show('admin/collectionList',{
+			user  : req.user,
+			collections : collections
+		});
+	});
+
+	admin.get('/collections/new', function (req, res) {
+		if (!req.user) { 
+			res.redirect('/login');
+			return;
+		}
+
+		res.show('admin/collectionNew');
+	});
+
+	admin.post('/collections/new', function (req, res) {
+		if (!req.user) { 
+			res.redirect('/login');
+			return;
+		}
+		
+		if(!req.body.name){
+			res.send(403);
+			return;
+		}
+
+		var book = {
+			name   : req.body.name
+		}
+
+		var collection = new Collection({
+			name : req.body.name
+		});
+
+		collection.save(function (err, collection) {
+			Collection.all(function (err, docs) {
+				console.log('Refetch collections');
+				collections = docs;
+				res.redirect('/admin/collections/'+ collection.id)
+			});				
+		});
+	});
+
+	admin.get('/collections/:id', function (req, res) {
+		if (!req.user) { 
+			res.redirect('/login');
+			return;
+		}
+
+		var collection = collections.filter(function(c){
+			return c.id === req.params.id
+		});
+
+		if(collection.length){
+			res.show('admin/collectionSingle',{
+				collection : collection[0],
+				books      : books
+			});
+		}else{
+			res.send(404)
+		}
+	});
+
+	admin.post('/collections/:id/update-books', function (req, res) {
+		console.log(Collection);
+
+		Collection.get(req.params.id, function (err, doc) {
+			if(err){
+				res.send(500);
+				return;
+			}
+
+			if(!doc){
+				res.send(404);
+				return;
+			}
+
+			doc.books = req.body.books;
+			doc.save(function(err, doc){
+				Collection.all(function (err, docs) {
+					console.log('Refetch collections');
+					collections = docs;
+					res.send(200)
+				});	
+			});
+		})
+
+		res.send('lolz');
+	});
+
 
 	return admin;
 });

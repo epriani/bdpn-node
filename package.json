@@ -24,7 +24,7 @@
     "passport": ">= 0.0.0",
     "passport-twitter": ">= 0.0.0"
   },
-  "version": "0.1.0-30",
+  "version": "0.1.0-31",
   "engines": {
     "node": "0.6.x"
   }
