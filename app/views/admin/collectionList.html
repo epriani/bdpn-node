@@ -1,0 +1,22 @@
+{{layout "../layout"}}
+<div id="container">
+	<h2>${user.username}(${user.role})</h2>
+	{{if user.role === "waiting" || user.role === "bloqued"}}
+		<p>Usuario creado, esperando autorizacion</p>
+	{{else}}
+		<h2>Colecciones</h2>
+		<ul>
+		{{each(i, collection) collections}}
+			<li><a href="/admin/collections/${collection.id}">${collection.name}</a></li>
+		{{/each}}
+		</ul>
+		<div class="button-container">
+			<button id="new-collection" class="save">Agregar nueva colección</button>
+		</div>		
+	{{/if}}
+</div>
+<script type="text/javascript">
+$('#new-collection').click(function () {
+	window.location = "/admin/collections/new"
+});
+</script>

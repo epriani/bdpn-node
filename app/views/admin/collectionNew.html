@@ -1,0 +1,29 @@
+{{layout "../layout"}}
+<div id="container">
+	<div class="images-selector-wrapper">
+		<form action="/admin/collections/new" method="POST">
+			<div class="image-selector">
+				<span>Nombre de la Coleccion</span>
+				<input type="text" id="name" name="name" style="width:850px"/>
+			</div>
+			<div class="button-container">
+				<button class="save">Salvar</button>
+			</div>
+		</form>
+	</div>
+</div>
+<script type="text/javascript">
+$('.button-container .save').click(function (e) {
+	var error = false;
+
+	if( !$('#name').val() ){
+		error = true;
+		$('#name').css('background', 'red');
+	}
+
+	if(error){
+		e.stopPropagation();
+		e.preventDefault();
+	}
+});
+</script>

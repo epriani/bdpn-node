@@ -68,10 +68,14 @@
 					$('.valores ul').hide();
 					$('#'+this.id+'-tags').show();
 
-					var tagsTypes = $('#'+this.id+'-tags')[0].className;
+					var tagsTypes = $('#'+this.id+'-tags');
 
-					$('*','.tei-content').css('color', '');
-					$(tagsTypes,'.tei-content').css('color', 'red');
+					if(tagsTypes.length){
+						tagsTypes = tagsTypes[0].className;
+						$('*','.tei-content').css('color', '');
+						$(tagsTypes,'.tei-content').css('color', 'red');
+					}
+
 				});
 
 				$('#name').click();
@@ -89,7 +93,7 @@
 				<li><a id="date" class="tag-type" href="#" target="_self">${ dictionary.date }</a></li>
 				<li><a id="ref"  class="tag-type" href="#" target="_self">${ dictionary.reference }</a></li>
 				<li><a id="term" class="tag-type" href="#" target="_self">${ dictionary.term }</a></li>
-				<li><a class="tag-type" href="#" target="_self">${ dictionary.comments }</a></li>
+				<li><a class="tag-type" href="#" target="_self">${ dictionary.close }</a></li>
 			</ul>
 			
 			<div class="valores">		

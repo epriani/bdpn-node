@@ -1,0 +1,49 @@
+{{layout "../layout"}}
+<div id="container">
+	<h2>${collection.name}</h2>
+	<div class="book-selector-wrapper">
+		{{each(i, book) books}}
+		<div class="book-selector">
+			<input id="book-${book.id}" book-hash="${book.id}" type="checkbox"/>
+			<span>${book.value.name}</span>
+		</div>
+		{{/each}}
+		<div class="button-container">
+			<button class="save">Salvar</button>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+window.data.collection.books.forEach(function(bookId){
+	$('#book-'+bookId).click();
+});
+
+$('.button-container .save').click(function (e) {
+	var $button = $(this);
+
+	$button.text('Salvando...');
+
+	var books = $('.book-selector-wrapper input').map(function(i,item){
+		var $item = $(item);
+
+		if( $item.is(':checked') ){
+			return $(item).attr('book-hash');
+		} 
+	});
+
+	var xhr = $.post("/admin/collections/"+ window.data.collection.id +"/update-books", { books : books.toArray() }); 
+
+	xhr.done(function (data) {
+		$button.text('Salvado');
+
+		setTimeout(function () {
+			$button.text('Salvar');
+		}, 10000);
+	});
+
+	xhr.fail(function (data) {
+		$button.text('Fallo, intentalo de nuevo mas tarde');
+	});
+
+});
+</script>
