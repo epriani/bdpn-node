@@ -9,7 +9,7 @@ define(['lib/controllers','db'], function (Controller,db) {
 	    		return;
 			}
 
-	    	res.render('books/index',{ books : books });
+	    	res.show('books/index',{ books : books });
 		});
 	});
 
