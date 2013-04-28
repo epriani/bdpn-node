@@ -104,7 +104,7 @@ function (db, terms) {
 
             for (var i = 0; i < docs.length; i++) {
                 doc = docs[i]
-                console.log(doc.id, doc.value.substr(0,70) + "..");
+                console.log(doc.id, doc.value.toString().substr(0,70) + "..");
             };
             console.log('');
         });
