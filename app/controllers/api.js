@@ -18,8 +18,6 @@ define(['lib/controllers', 'db'], function (Controller, db) {
                     if(!folio.tags) return;
 
                     folio.tags.forEach(function(item){
-                        console.log(item);
-
                         if(!tags[item.tag]){
                             tags[item.tag] = [];
                         }
@@ -27,6 +25,10 @@ define(['lib/controllers', 'db'], function (Controller, db) {
                         tags[item.tag].push(item);
                     });
                 });
+
+                if(req.query.callback){
+                    tags = req.query.callback + '(' + JSON.stringify(tags) + ');';
+                }
 
                 res.send(tags);
             });
