@@ -44,6 +44,69 @@ function (db, terms) {
         console.log('Server ready at 8080');
     });    
 
+    app.cmd('check', function () {
+        console.log('Checking data-integrity');
+
+        db.all({include_docs : true},function (err, docs) {
+            if(err){
+                console.log('Error:', err);
+                return;
+            }
+
+            var books = [],
+                revisions = [],
+                publishedRevisionIds = [];
+
+            docs.forEach(function(item){
+                if(item.type === "book"){
+                    books.push(item);
+                }
+
+                if(item.type === "revision"){
+                    revisions.push(item);
+                }
+            });
+
+            console.log('Books', books.length);
+            console.log('Revision ids on books:');
+            books.forEach(function(book){
+                console.log(book.revisionId);
+                publishedRevisionIds.push(book.revisionId);
+            });
+
+            console.log("publishedRevisionIds", publishedRevisionIds.length);
+
+            console.log('***********************');
+
+            console.log('Revisions that are publish:');
+            revisions.forEach(function(rev){
+                if(rev.publish){
+                    console.log('is publish', rev._id );
+                }
+
+                if(rev.publish && publishedRevisionIds.indexOf(rev._id) === -1){
+                    console.log("shoudnt be");
+                    rev.publish = false;
+
+                    db.save(rev);
+                }
+            });
+
+            console.log('***********************');
+
+            console.log('Published Revision that arent published and should be:');
+            revisions.forEach(function(rev){
+                if(publishedRevisionIds.indexOf(rev._id) >= 0 && !rev.publish){
+                    rev.publish = true;
+                    db.save(rev);
+                }
+            });
+
+
+
+
+        });
+    });
 
     // node app bookCreate --book "ESPECULACION ASTROLOGICA, Y PHYSICA DE LA NATURALEZA DE LOS COMETAS, Y JUIZIO DEL QUE ESTE Año de 1682 Se vè en todo el Mundo" --author "Gaspar Juan Evelino"
     app.cmd('bookCreate',function () {

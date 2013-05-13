@@ -253,17 +253,19 @@ define(['lib/controllers', 'db', 'models/collection'], function (Controller, db,
 	});
 
 	admin.post('/books/:bookId/revisions/single/:revisionId/publish', function(req, res){
-		if (!req.user) { 
+		if (!req.user) {
 			res.redirect('/login');
 			return;
 		}
 
 		if (req.user === "waiting" || req.user === "bloqued"){
 			res.redirect('/admin');
-			return;			
+			return;
 		}
 
-		var book = books.filter(function(book){return book.id === req.params.bookId});
+		debugger;
+
+		var book = books.filter(function(book){return book.id === req.params.bookId;});
 
 		if(!book.length){
 			res.send(404);
@@ -272,21 +274,35 @@ define(['lib/controllers', 'db', 'models/collection'], function (Controller, db,
 
 		book = book[0];
 
+		if(req.params.revisionId !== book.value.revisionId){
+			// Set revision publish values in the correr place;
+			db.get(req.params.revisionId, function(err, rev){
+				rev.publish = true;
+				db.save(rev);
+			});
+
+			db.get(book.value.revisionId, function(err, rev){
+				rev.publish = false;
+				db.save(rev);
+			});
+		}
+
 		book.value.revisionId = req.params.revisionId;
 		delete book.value.id;
 		delete book.value.rev;
+
 
 		db.save(book.value, function (err, doc) {
 			if(err){
 				res.send(500);
 				return;
 			}
-			
+
 			res.send({success : true});
 			db.view('books/list', function (err, docs) {
 				console.log('refetch books');
 				books = docs;
-			});			
+			});
 		});
 	});
 

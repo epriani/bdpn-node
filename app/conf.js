@@ -1,12 +1,12 @@
 define( function () {
- 	var enviroment;
+	var enviroment;
 	var development = {
 		redis   : {
 			secret : 'paas/tools',
 			host   : 'bass.redistogo.com',
 			port   : '9275',
 			user   : 'Siedrix',
-			pass   : '45ceecbaed479ac08b8e9b78d3a67756'				
+			pass   : '45ceecbaed479ac08b8e9b78d3a67756'
 		},
 		couchDb : {
 			user : '',
@@ -18,17 +18,17 @@ define( function () {
 		twitter : {
 			callbackUrl : "http://127.0.0.1:8080/auth/twitter/callback"
 		}
-	}
+	};
 
- 	var production = {
+	var production = {
 		redis   : {
 			secret : 'paas/tools',
 			host   : 'bass.redistogo.com',
 			port   : '9275',
 			user   : 'Siedrix',
-			pass   : '45ceecbaed479ac08b8e9b78d3a67756'				
-		}, 		
- 		couchDb : {
+			pass   : '45ceecbaed479ac08b8e9b78d3a67756'
+		},
+		couchDb : {
 			user : 'siedrix',
 			pass : 'CgVmtJUkQRDD',
 			host : 'http://siedrix.cloudant.com',
@@ -38,13 +38,13 @@ define( function () {
 		twitter : {
 			callbackUrl : "http://bdpn.nodejitsu.com/auth/twitter/callback"
 		}
- 	}
- 	
- 	if( process.env.NODE_ENV === 'production' ){
- 		enviroment = production;
- 	}else{
- 		enviroment = development;
- 	}
+	};
 
-	return enviroment
+	// if( process.env.NODE_ENV === 'production' ){
+		enviroment = production;
+	// }else{
+	// 	enviroment = development;
+	// }
+
+	return enviroment;
 });
