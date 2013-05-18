@@ -19,17 +19,14 @@
 
 	<script type="text/javascript">
 	$(document).ready(function(){
-		window.terms = _.sortBy(window.data.terms, function(term){ 
-			console.log(term.key);
-			return term.key[2][0] 
-		});
+		window.terms = _.sortBy(window.data.terms, function(term){return term.label})
 		
 		var capital     = $('<ul class="capital"><span class="label"></span></ul>'),
 			capitalItem = $('<li><a href=""></a></li>'),
 			clear		= $('<div class="clear"></div>');
 
-		_.each(terms, function (term, sum) {
-			var capitalLetter = term.key[2][0].toUpperCase();
+		_.each(terms, function (term) {
+			var capitalLetter = term.label[0].toUpperCase();
 			if( !$('#capital-'+ capitalLetter).length ){
 				var ul = capital.clone();
 				ul.find('.label').html(capitalLetter+'.');
@@ -37,13 +34,16 @@
 				ul.appendTo('#colright');
 			}
 						
-			var li = capitalItem.clone();
+			var li = capitalItem.clone(),
+				url = encodeURI(
+					'/terms/single/'+window.data.type+'/'+ (window.data.subtype || term.subtype) +'/' + term.label
+					.replace('?','%3F')
+					.replace('?','%26') 
+				);
 
-			if(term.key[1]){
-				li.find('a').attr('href', encodeURI('/terms/single/'+term.key[0]+'/'+term.key[1]+'/'+term.key[2].replace('?','%3F').replace('?','%26') ) ).html(term.key[2]+'('+term.value+')');
-			}else{
-				li.find('a').attr('href', encodeURI('/terms/single/'+term.key[0]+'/'+term.key[2].replace('?','%3F').replace('?','%26')) ).html(term.key[2]+'('+term.value+')');
-			}
+			li.find('a').attr('href', url )
+			 .html(term.label+'('+term.count+')');
+
 			li.appendTo( $('#capital-'+ capitalLetter) );
 		});
 

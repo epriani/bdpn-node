@@ -1,6 +1,7 @@
 define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, termsModel) {
 	var terms = Controller({prefix : '/terms'}),
-		books = {};
+		books = {}
+		_     = require('underscore');
 
 	// Prefetch used terms and books
 	// termsModel.getUsedTerms();
@@ -68,6 +69,35 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 		return terms;
 	};
 
+	var flatType = function(indexes){
+		var flattenIndexes = [];
+
+		_(indexes).each(function(terms, subtype){
+			_(terms).each(function(count, term){
+				flattenIndexes.push({
+					label : term,
+					count : count,
+					subtype : subtype
+				});
+			});
+		});
+
+		return flattenIndexes;
+	};
+
+	var flatSubtype = function(indexes){
+		var flattenIndexes = [];
+
+		_(indexes).each(function(count, term){
+			flattenIndexes.push({
+				label : term,
+				count : count
+			});
+		});
+
+		return flattenIndexes;
+	};
+
 	// Paths
 	terms.get('',function(req, res){
 		res.show('terms/index',{
@@ -99,26 +129,15 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 				});
 			});
 		}else{
-			db.view('terms/byType',{
-				startkey : [req.params.type, null],
-				endkey   : [req.params.type, "ZZZZZZZZZZ"],
-				group    : true
-			},function(err, docs){
-				if(err){
-					console.log(err);
-					res.send('err');
-					return;
-				}
+			var flattenIndexes = flatType(termsModel.indexes[req.params.type]);
 
-				res.show('terms/list',{
-					type      : req.params.type,
-					usedTerms : termsModel.indexes,
-					terms     : docs,
-					books     : books
-				});
+			res.show('terms/list',{
+				type      : req.params.type,
+				usedTerms : termsModel.indexes,
+				terms     : flattenIndexes,
+				books     : books
 			});
 		}
-
 	});
 
 	terms.get('/:type/:subtype', function(req, res){
@@ -142,26 +161,37 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 				});
 			});
 		}else{
-			db.view('terms/byType',{
-				startkey : [req.params.type, req.params.subtype, null],
-				endkey   : [req.params.type, req.params.subtype, "ZZZZZZZZZZ"],
-				group    : true
-			},
-			function(err, docs){
-				if(err){
-					console.log(err);
-					res.send('err');
-					return;
-				}
+			var flattenIndexes = flatSubtype(termsModel.indexes[req.params.type][[req.params.subtype]]);
 
-				res.show('terms/list',{
-					type      : req.params.type,
-					subtype   : req.params.subtype,
-					usedTerms : termsModel.indexes,
-					terms     : docs,
-					books     : books
-				});
-			});
+			res.show('terms/list',{
+				type      : req.params.type,
+				subtype   : req.params.subtype,
+				usedTerms : termsModel.indexes,
+				terms     : flattenIndexes,
+				books     : books
+			});			
+
+
+			// db.view('terms/byType',{
+			// 	startkey : [req.params.type, req.params.subtype, null],
+			// 	endkey   : [req.params.type, req.params.subtype, "ZZZZZZZZZZ"],
+			// 	group    : true
+			// },
+			// function(err, docs){
+			// 	if(err){
+			// 		console.log(err);
+			// 		res.send('err');
+			// 		return;
+			// 	}
+
+			// 	res.show('terms/list',{
+			// 		type      : req.params.type,
+			// 		subtype   : req.params.subtype,
+			// 		usedTerms : termsModel.indexes,
+			// 		terms     : docs,
+			// 		books     : books
+			// 	});
+			// });
 		}
 	});
 
