@@ -1,5 +1,5 @@
 define(['lib/controllers', 'db'], function (Controller, db) {
-    console.log('Api added');
+
     var api = Controller({prefix : '/api'}),
             _   = require('underscore');
 

@@ -1,10 +1,7 @@
 define(['lib/controllers', 'db', 'models/collection'], function (Controller, db, Collection) {
-	console.log('Terms controller added');
 	var admin = Controller({prefix : '/admin'}),
 		books = {},
 		collections = [];
-
-	console.log('ensureAuthenticated', Controller.ensureAuthenticated);
 
 	db.view('books/list', function (err, docs) {
 		console.log('Prefetch books');

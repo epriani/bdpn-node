@@ -638,7 +638,7 @@ ul#indices li a:hover {
 ul.dropdown {
 	position: absolute;
 	top: 0;
-	left: 120px;
+	left: 140px;
 	z-index: 999;
 	display: none;
 }

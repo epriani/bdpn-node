@@ -1,8 +1,11 @@
 define(['db'], function (db) {
+	var fs = require('fs'),
+		utils = require('util');
+
 	var Terms = function(){
 		this.db = db;
 		this.usedTerms = {};
-	}
+	};
 
 	Terms.prototype.getUsedTerms = function(clearCache) {
 		var data = {},
@@ -11,6 +14,7 @@ define(['db'], function (db) {
 		db.view('terms/usedTags',{group:true,group_level:2}, function (err, res) {
 			if(err){
 				console.log('err', err);
+				return;
 			}
 
 			res.forEach(function(i,item){
@@ -19,17 +23,66 @@ define(['db'], function (db) {
 				}
 
 				if(i[1]){
-					data[ i[0] ][ i[1] ] = item;		
+					data[ i[0] ][ i[1] ] = item;
 				}else{
-					data[ i[0] ]['plain'] = item;		
+					data[ i[0] ]['plain'] = item;
 				}
 			});
 
 			terms.usedTerms = data;
 		});
-		
+
 		return this;
 	};
 
-	return new Terms;
+	Terms.prototype.generateIndexes = function(fn){
+		db.view('reviews/published', {include_docs: true}, function(err, reviews){
+			if(err){
+				console.log('err', err);
+				return;
+			}
+
+			var indexes = {};
+
+			reviews.forEach(function(review){
+				var tagCount = 0;
+
+				review.folios.forEach(function(folio){
+					if(!folio.tags){
+						return;
+					}
+
+					tagCount = tagCount + folio.tags.length;
+
+					folio.tags.forEach(function(item){
+						if(!indexes[item.tag]){
+							indexes[item.tag] = {};
+						}
+
+						var type = item.type || "plain";
+
+						if(!indexes[item.tag][type]){
+							indexes[item.tag][type] = {};
+						}
+
+						if(!indexes[item.tag][type][item.reg || item.content]){
+							indexes[item.tag][type][item.reg || item.content] = 0;
+						}
+
+						indexes[item.tag][type][item.reg || item.content] ++;
+					});
+				});
+			});
+
+			terms.indexes = indexes;
+
+			if(fn){
+				fn();
+			}
+		});
+	};
+
+	var terms = new Terms();
+
+	return terms;
 });

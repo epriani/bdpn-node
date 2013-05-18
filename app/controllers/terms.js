@@ -1,10 +1,10 @@
 define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, termsModel) {
-	console.log('Terms controller added');
 	var terms = Controller({prefix : '/terms'}),
 		books = {};
 
 	// Prefetch used terms and books
-	termsModel.getUsedTerms();
+	// termsModel.getUsedTerms();
+	termsModel.generateIndexes();
 
 	db.view('books/publishedList', function (err, docs) {
 		console.log('Prefetch books');
@@ -16,9 +16,9 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 		var book = {};
 
 		data.rows.forEach(function (row) {
-		  	var tagName = row.key[1],
-		  		subType = row.key[2] || 'plain',
-		  		content = row.key[3];
+			var tagName = row.key[1],
+				subType = row.key[2] || 'plain',
+				content = row.key[3];
 
 			if(!book[tagName]){
 				book[tagName] = {};
@@ -26,13 +26,13 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 
 			if(!book[tagName][subType]){
 				book[tagName][subType] = {};
-			}	
+			}
 
 			book[tagName][subType][content] = row.value;
-		});		
+		});
 
 		return book;
-	}
+	};
 
 	var filterByType = function (type, data) {
 		var terms = [];
@@ -44,12 +44,12 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 			};
 		}).filter(function (item) {
 			if(item.key[0] === type){
-				return item
+				return item;
 			}
 		});
 
 		return terms;
-	}
+	};
 
 	var filterBySubtype = function (type, subtype, data) {
 		var terms = [];
@@ -61,20 +61,19 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 			};
 		}).filter(function (item) {
 			if(item.key[0] === type && item.key[1] === subtype){
-				return item
+				return item;
 			}
 		});
 
-		return terms;		
-	}
-
+		return terms;
+	};
 
 	// Paths
 	terms.get('',function(req, res){
-	    res.show('terms/index',{
-	    	usedTerms : termsModel.usedTerms,
-	    	books     : books
-	    });
+		res.show('terms/index',{
+			usedTerms : termsModel.indexes,
+			books     : books
+		});
 	});
 
 	terms.get('/:type', function(req, res){
@@ -84,7 +83,7 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 			db.view('terms/usedTagsByBook', {
 				group_level : 4,
 				startkey    : [ req.query.book ],
-				endkey      : [ req.query.book  , {}],
+				endkey      : [ req.query.book  , {}]
 			},function (err, doc) {
 				if(err){
 					console.log(err);
@@ -113,21 +112,21 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 
 				res.show('terms/list',{
 					type      : req.params.type,
-					usedTerms : termsModel.usedTerms,
+					usedTerms : termsModel.indexes,
 					terms     : docs,
-		    		books     : books
+					books     : books
 				});
 			});
 		}
 
-	});	
+	});
 
 	terms.get('/:type/:subtype', function(req, res){
 		if(req.query.book){
 			db.view('terms/usedTagsByBook', {
 				group_level : 4,
 				startkey    : [ req.query.book ],
-				endkey      : [ req.query.book  , {}],
+				endkey      : [ req.query.book  , {}]
 			},function (err, docs) {
 				if(err){
 					console.log(err);
@@ -142,7 +141,7 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 					books     : books
 				});
 			});
-		}else{		
+		}else{
 			db.view('terms/byType',{
 				startkey : [req.params.type, req.params.subtype, null],
 				endkey   : [req.params.type, req.params.subtype, "ZZZZZZZZZZ"],
@@ -154,17 +153,17 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 					res.send('err');
 					return;
 				}
-							
+
 				res.show('terms/list',{
 					type      : req.params.type,
 					subtype   : req.params.subtype,
-					usedTerms : termsModel.usedTerms,
+					usedTerms : termsModel.indexes,
 					terms     : docs,
-		    		books     : books
+					books     : books
 				});
 			});
 		}
-	});	
+	});
 
 	terms.get('/single/:type/:term', function(req, res){
 		db.view('terms/byContent',{
@@ -177,13 +176,12 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 				return;
 			}
 
-									
 			res.show('terms/single',{
-				type      : req.params.type,
-				term      : req.params.term,
-				terms     : docs,
-				books	  : books,
-				usedTerms : termsModel.usedTerms,
+				type : req.params.type,
+				term : req.params.term,
+				terms : docs,
+				books : books,
+				usedTerms : termsModel.indexes
 			});
 		});
 	});
@@ -198,17 +196,16 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 				res.send('err on term by content');
 				return;
 			}
-						
-			res.show('terms/single',{
-				type      : req.params.type,
-				term      : req.params.term,
-				terms     : docs,
-				books	  : books,
-				usedTerms : termsModel.usedTerms
-			});
-		});		
-	});
 
+			res.show('terms/single',{
+				type : req.params.type,
+				term : req.params.term,
+				terms : docs,
+				books : books,
+				usedTerms : termsModel.indexes
+			});
+		});
+	});
 
 	return terms;
 });

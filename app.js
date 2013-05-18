@@ -42,7 +42,15 @@ function (db, terms) {
 
         server.listen(8080);
         console.log('Server ready at 8080');
-    });    
+    });  
+
+    app.cmd('generateIndexes', function(){
+        console.log('generating used items');
+
+        terms.generateIndexes(function(){
+            console.log(terms.indexes);
+        });
+    });
 
     app.cmd('check', function () {
         console.log('Checking data-integrity');
