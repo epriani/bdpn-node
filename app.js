@@ -7,7 +7,7 @@ var requirejs = require('requirejs'),
 Parser.setStructure({
 	header : ['title','author','publisher','distributor','bibl'],
     front  : ['pb','docTitle'],
-    tags   : ['name','term','abbr','cit','q','foreign','date']	
+    tags   : ['name','term','abbr','cit','q','foreign','date']
 });
 
 requirejs.config({
@@ -20,7 +20,7 @@ function (db, terms) {
     app.use(flatiron.plugins.cli, {
         usage : [
             'I would say RTFM, but you would say, write the fucking manual'
-        ],        
+        ],
         argv: {
             file: {
                 alias: 'f'
@@ -30,11 +30,11 @@ function (db, terms) {
                 alias: 'b'
             },
             revisionId : {
-                alias: 'r'  
+                alias: 'r'
             },
             author : {}
         }
-    });	
+    });
 
     app.cmd('start',function () {
         var server = requirejs('server');
@@ -42,13 +42,26 @@ function (db, terms) {
 
         server.listen(8080);
         console.log('Server ready at 8080');
-    });  
+    });
 
     app.cmd('generateIndexes', function(){
         console.log('generating used items');
 
         terms.generateIndexes(function(){
             console.log(terms.indexes);
+        });
+    });
+
+    app.cmd('generateIndexesByBook', function(){
+        if(!app.argv.bookId){
+            console.log('Usage: node app generateIndexesByBook -b bookId');
+            console.log('Run: "node app booksList" to get book ids');
+            return;
+        }
+
+        console.log('get indexes for ', app.argv.bookId);
+        terms.generateIndexes(function(){
+            console.log( terms.indexesByBook[app.argv.bookId] );
         });
     });
 
@@ -175,7 +188,7 @@ function (db, terms) {
 
             for (var i = 0; i < docs.length; i++) {
                 doc = docs[i]
-                console.log(doc.id, doc.value.toString().substr(0,70) + "..");
+                console.log(doc.id, doc.value.name.toString().replace('\n',' ').substr(0,70) + "..");
             };
             console.log('');
         });

@@ -42,10 +42,15 @@ define(['db'], function (db) {
 				return;
 			}
 
+			terms.reviews = reviews;
+			terms.indexesByBook = {};
+
 			var indexes = {};
 
 			reviews.forEach(function(review){
 				var tagCount = 0;
+
+				terms.indexesByBook[review.bookId] = {};
 
 				review.folios.forEach(function(folio){
 					if(!folio.tags){
@@ -59,10 +64,20 @@ define(['db'], function (db) {
 							indexes[item.tag] = {};
 						}
 
+						// By book
+						if(!terms.indexesByBook[review.bookId][item.tag]){
+							terms.indexesByBook[review.bookId][item.tag] = {};
+						}
+
 						var type = item.type || "plain";
 
 						if(!indexes[item.tag][type]){
 							indexes[item.tag][type] = {};
+						}
+
+						// By book
+						if(!terms.indexesByBook[review.bookId][item.tag][type]){
+							terms.indexesByBook[review.bookId][item.tag][type] = {};
 						}
 
 						if(!indexes[item.tag][type][item.reg || item.content]){
@@ -70,6 +85,14 @@ define(['db'], function (db) {
 						}
 
 						indexes[item.tag][type][item.reg || item.content] ++;
+
+						// By book
+						if(!terms.indexesByBook[review.bookId][item.tag][type][item.reg || item.content]){
+							terms.indexesByBook[review.bookId][item.tag][type][item.reg || item.content] = 0;
+						}
+
+						terms.indexesByBook[review.bookId][item.tag][type][item.reg || item.content] ++;						
+
 					});
 				});
 			});

@@ -25,7 +25,7 @@
     "passport-twitter": ">= 0.0.0",
     "teiparser": "0.0.x"
   },
-  "version": "0.1.0-40",
+  "version": "0.1.0-41",
   "engines": {
     "node": "0.6.x"
   }

@@ -1,6 +1,6 @@
 define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, termsModel) {
 	var terms = Controller({prefix : '/terms'}),
-		books = {}
+		books = {},
 		_     = require('underscore');
 
 	// Prefetch used terms and books
@@ -98,6 +98,30 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 		return flattenIndexes;
 	};
 
+	var flatTermsWithFolios = function(data){
+		var flatTermsWithFolios = [];
+
+		_(data.reviews).each(function(review){
+			_(review.doc.folios).each(function(folio){
+				_(folio.tags).forEach(function(item){
+					if(
+						item.tag === data.type &&
+						(!data.subtype || item.type === data.subtype) &&
+						(item.reg === data.content || item.content === data.content)
+					){
+						item.bookId = review.doc.bookId;
+						item.folioId = folio.hash;
+						item.folioContent = folio.raw;
+						item.folioTitle = folio.pb;
+						flatTermsWithFolios.push(item);
+					}
+				});
+			});
+		});
+
+		return flatTermsWithFolios;
+	};
+
 	// Paths
 	terms.get('',function(req, res){
 		res.show('terms/index',{
@@ -169,71 +193,42 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 				usedTerms : termsModel.indexes,
 				terms     : flattenIndexes,
 				books     : books
-			});			
-
-
-			// db.view('terms/byType',{
-			// 	startkey : [req.params.type, req.params.subtype, null],
-			// 	endkey   : [req.params.type, req.params.subtype, "ZZZZZZZZZZ"],
-			// 	group    : true
-			// },
-			// function(err, docs){
-			// 	if(err){
-			// 		console.log(err);
-			// 		res.send('err');
-			// 		return;
-			// 	}
-
-			// 	res.show('terms/list',{
-			// 		type      : req.params.type,
-			// 		subtype   : req.params.subtype,
-			// 		usedTerms : termsModel.indexes,
-			// 		terms     : docs,
-			// 		books     : books
-			// 	});
-			// });
+			});
 		}
 	});
 
 	terms.get('/single/:type/:term', function(req, res){
-		db.view('terms/byContent',{
-			key : [req.params.type, null, req.params.term.replace(/\n/g,"\n").replace(/\t/g,"\t")]
-		},
-		function(err, docs){
-			if(err){
-				console.log(err);
-				res.send('err on term by content');
-				return;
-			}
+		var termsWithFolios = flatTermsWithFolios({
+			reviews : termsModel.reviews,
+			type : req.params.type,
+			content : req.params.term
+		});
 
-			res.show('terms/single',{
-				type : req.params.type,
-				term : req.params.term,
-				terms : docs,
-				books : books,
-				usedTerms : termsModel.indexes
-			});
+		res.show('terms/single',{
+			type : req.params.type,
+			subtype : req.params.subtype,
+			term : req.params.term,
+			terms : termsWithFolios,
+			books : books,
+			usedTerms : termsModel.indexes
 		});
 	});
 
 	terms.get('/single/:type/:subtype/:term', function(req, res){
-		db.view('terms/byContent',{
-			key : [req.params.type, req.params.subtype, req.params.term]
-		},
-		function(err, docs){
-			if(err){
-				console.log(err);
-				res.send('err on term by content');
-				return;
-			}
+		var termsWithFolios = flatTermsWithFolios({
+			reviews : termsModel.reviews,
+			type : req.params.type,
+			subtype : req.params.subtype,
+			content : req.params.term
+		});
 
-			res.show('terms/single',{
-				type : req.params.type,
-				term : req.params.term,
-				terms : docs,
-				books : books,
-				usedTerms : termsModel.indexes
-			});
+		res.show('terms/single',{
+			type : req.params.type,
+			subtype : req.params.subtype,
+			term : req.params.term,
+			terms : termsWithFolios,
+			books : books,
+			usedTerms : termsModel.indexes
 		});
 	});
 

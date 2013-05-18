@@ -35,20 +35,20 @@
 		});
 
 		_.each(terms, function(term){
-			if( !$('#folio'+term.value[0]).length ){			
-				if( !$('#book'+term.value[2]).length ){
+			if( !$('#folio'+term.folioId).length ){			
+				if( !$('#book'+term.bookId).length ){
 					var book = bookTemplate.clone();
-					book.attr('id', 'book'+term.value[2]);
-					book.find('a').html( books[ term.value[2]].name );
+					book.attr('id', 'book'+term.bookId);
+					book.find('a').html( books[ term.bookId].name );
 					book.appendTo('#colright');
 				}
 
 				var folio = folioTemplate.clone();
-				folio.attr('id', 'folio'+term.value[0]);
-				folio.append('<h4>'+term.value[3]+'</h4>')
-				folio.append('<p>'+term.value[4].replace(/-(\s)(\n)?/g, '')+'</p>')
+				folio.attr('id', 'folio'+term.folioId);
+				folio.append('<h4>'+term.folioTitle+'</h4>')
+				folio.append('<p>'+term.folioContent.replace(/-(\s)(\n)?/g, '')+'</p>')
 
-				folio.appendTo( $('#book'+term.value[2]).find('ul') );
+				folio.appendTo( $('#book'+term.bookId).find('ul') );
 
 				folio.find('p *').each(function(i,item){
 					var $item= $(item);
