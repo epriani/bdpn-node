@@ -1,0 +1,192 @@
+{{layout "../layout"}}
+<div id="container">
+	<h2>${user.username}(${user.role})</h2>
+	{{if user.role === "waiting" || user.role === "bloqued"}}
+		<p>Usuario creado, esperando autorizacion</p>
+	{{else}}
+		<div class="button-container">
+			<button id="save" class="save">Salvar</button>
+		</div>
+	{{/if}}
+</div>
+<script>
+var dictionaries = [
+	{
+		name : "Espanol",
+		id : 'es'
+	},
+	{
+		name : "Ingles",
+		id : 'en'
+	}
+];
+</script>
+<script id="tagTemplate" type="text/template">
+	<div class="tagAdmin colapse" data-name="<%= tagName %>">
+		<h2>Etiqueta : <span><%= tagName %><span/></h2>
+		<p class="menu">
+			<span class="add">Agregar</span>
+			<span class="toggle">Abrir</span>
+		</p>
+		<% _.each(types, function(type) { %> 
+			<%= window.typeTemplate(type) %>
+		<% }); %>
+	</div>
+</script>
+<script id="typeTemplate" type="text/template">
+	<div class="typeAdmin">
+		<p class="typeName">Tipo: <input class="name" type="text" placeholder="Agrega type" value="<%= name %>"/></p> 
+		<span class="delete">Borrar</span>
+		<ul>
+		<% _.each(dictionaries, function(dictionary) { %> 
+			<li><%= dictionary.name %> : <input placeholder="Agrega como se mostrara en <%= dictionary.name %>" class="<%= dictionary.id %>" type="text" value="<%= labels[dictionary.id] || "" %>"/></li>
+		<% }); %>
+		</ul>
+	</div>
+</script>
+
+
+<script type="text/javascript">
+
+$(document).ready(function () {
+	window.termsUI = {}
+
+	termsUI.validate = function(){
+		var err = false;
+
+		termsUI.$el.find('input').each(function(i, item){
+			var $item = $(item);
+
+			console.log( !$item.val(), $item.val(), $item);
+
+			if( !$item.val() ){
+				err =true;
+				$item.css('background', 'red');
+				$item.closest('.tagAdmin').removeClass('colapse');
+				$item.closest('.tagAdmin').find('.toggle').text('Cerrar')
+			}else{
+				$item.css('background', '');
+			}
+		});
+
+		return !err;
+	}
+
+	termsUI.toJSON = function(){
+		var data = [];
+		this.$el.each(function(i, tag){
+			var $tag = $(tag),
+				tagData = {};
+
+			tagData.tagName = $tag.attr('data-name');
+			tagData.types = [];
+
+			console.log(tagData, tag);
+
+			$tag.find('.typeAdmin').each(function(i, type){
+				var $type = $(type),
+					typeData = {};
+
+				console.log(typeData, type);
+				typeData.name = $type.find('.name').val();
+				typeData.labels = {};
+
+				_(dictionaries).each(function(dictionary){
+					typeData.labels[dictionary.id] = $type.find('.'+ dictionary.id).val();
+
+					$type, typeData;
+				})
+
+				tagData.types.push(typeData);
+			});
+
+			data.push(tagData);
+		});
+
+		return data;
+	}
+
+	window.tagTemplate = _.template( $('#tagTemplate').html() );
+	window.typeTemplate = _.template( $('#typeTemplate').html() );
+
+
+	_(window.data.structure).each(function(tag){
+		if(!tag.types){
+			tag.types = [];
+		}
+		
+		var tagEl = $( tagTemplate(tag) );
+
+		tagEl.appendTo('#container');
+
+		tagEl.delegate('.add', 'click', function(e){
+			var menuEl = tagEl.find('.menu');
+
+			var typeEl = $( window.typeTemplate({
+				tagName : "",
+				labels : {}
+			}) );
+
+			typeEl.insertAfter( menuEl );
+
+			if( tagEl.hasClass('colapse') ){
+				tagEl.find('.toggle').text('Close');
+				tagEl.removeClass('colapse');
+			}
+
+		});
+
+		tagEl.delegate('.toggle', 'click', function(e){
+			if( !tagEl.hasClass('colapse') ){
+				tagEl.find('.toggle').text('Abrir');
+				tagEl.addClass('colapse');
+			}else{
+				tagEl.find('.toggle').text('Cerrar');
+				tagEl.removeClass('colapse');
+			}
+		});
+
+		tagEl.delegate('.delete', 'click', function(e){
+			var typeEl = $(e.target).closest('.typeAdmin');
+			typeEl.remove();
+		});
+	});
+
+	termsUI.$el = $('.tagAdmin');
+
+	$('#save').click(function (e) {
+		if(window.saving){
+			return;
+		}
+
+		var $button = $(this),
+			valid = termsUI.validate();
+
+		if(valid){
+			var json = termsUI.toJSON();
+			
+			$button.text('Salvando...');
+
+			var xhr = $.post('/admin/terms',{
+				terms : json
+			});
+
+			xhr.done(function(data){
+				console.log(data);
+
+				$button.text('Salvado');
+
+				setTimeout(function (argument) {
+					$button.text('Salvar');			
+					window.saving = false;
+				}, 10000);				
+			});
+
+			xhr.fail(function (data) {
+				$button.text('Fallo, intentalo de nuevo mas tarde');
+				window.saving = false;
+			});
+		}
+	});
+});
+</script>

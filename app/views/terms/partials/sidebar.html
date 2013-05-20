@@ -7,28 +7,24 @@
 <script type="text/javascript">
 $(document).ready(function(){
 	window.dictionaty = {{html JSON.stringify(dictionary) }};
+	window.currentDictionary = "{{html currentDictionary }}";
 
-	_.each(window.data.usedTerms, function(subtypes, type){
+	var dictionatyExt = currentDictionary === "sp" ? "es" : "en";
+
+	_.each(window.data.structure, function(tag){
 		var container = $('#indices'),
-			keyEl     = $('<li><a href="/terms/'+type+'" target="_self">'+dictionaty[type]+'</a><ul class="dropdown"></ul></li>'),
+			keyEl     = $('<li><a href="/terms/'+tag.tagName+'" target="_self">'+dictionaty[tag.tagName]+'</a><ul class="dropdown"></ul></li>'),
 			dropdown  = keyEl.find('.dropdown');
-
-		if(window.location.search){
-			keyEl.find('a').attr('href', keyEl.find('a').attr('href') + window.location.search);
-		}
 
 		keyEl.appendTo(container);
 
-		_.each(subtypes, function(ammount, subtype){
-			var subtypeEl = $('<li><a href="/terms/'+type+'/'+subtype+'" target="_self">'+subtype+'</a></li>');
-			if(window.location.search){
-				subtypeEl.find('a').attr('href', subtypeEl.find('a').attr('href') + window.location.search);
-			}
+		_(tag.types).each(function(type){
+			var subtypeEl = $('<li><a href="/terms/'+tag.tagName+'/'+type.name+'" target="_self">'+type.labels[dictionatyExt]+'</a></li>');
 
-			if(subtype != "plain"){
-				subtypeEl.appendTo( dropdown )
-			}
-		}, this);
+			subtypeEl.appendTo( dropdown )
+
+			console.log(type)
+		});
 	});
 
 	$('.dropdown').each(function () {

@@ -1,0 +1,71 @@
+{
+   "_id": "termsStructure",
+   "structure": [
+       {
+           "tagName": "name",
+           "types": [
+               {
+                   "name": "person",
+                   "labels": {
+                       "es": "Persona",
+                       "en": "Person"
+                   }
+               },
+               {
+                   "name": "place",
+                   "labels": {
+                       "es": "Place",
+                       "en": "Lugar"
+                   }
+               }
+           ]
+       },
+       {
+           "tagName": "term",
+           "types": [
+               {
+                   "name": "med",
+                   "labels": {
+                       "es": "Medico",
+                       "en": "Medical"
+                   }
+               },
+               {
+                   "name": "philo",
+                   "labels": {
+                       "es": "Filosofico",
+                       "en": "Philosophical"
+                   }
+               }
+           ]
+       },
+       {
+           "tagName": "cit",
+           "types": []
+       },
+       {
+           "tagName": "q",
+           "types": []
+       },  
+       {
+           "tagName": "date",
+           "types": [
+               {
+                   "name": "comet",
+                   "labels": {
+                       "es": "Cometa",
+                       "en": "Comet"
+                   }
+               }           
+           ]
+       },            
+       {
+           "tagName": "abbr",
+           "types": []
+       },
+       {
+           "tagName": "foreign",
+           "types": []
+       }
+   ]
+}

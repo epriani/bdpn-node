@@ -126,73 +126,61 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 	terms.get('',function(req, res){
 		res.show('terms/index',{
 			usedTerms : termsModel.indexes,
-			books     : books
+			books     : books,
+			structure : termsModel.structure
 		});
 	});
 
 	terms.get('/:type', function(req, res){
-		console.log('fetching ', req.params.type);
+		var flattenIndexes;
 
 		if(req.query.book){
-			db.view('terms/usedTagsByBook', {
-				group_level : 4,
-				startkey    : [ req.query.book ],
-				endkey      : [ req.query.book  , {}]
-			},function (err, doc) {
-				if(err){
-					console.log(err);
-					res.send('err');
-					return;
-				}
-
-				res.show('terms/list',{
-					type      : req.params.type,
-					usedTerms : usedTermsByBook(doc),
-					terms     : filterByType(req.params.type, doc),
-					books     : books
-				});
-			});
-		}else{
-			var flattenIndexes = flatType(termsModel.indexes[req.params.type]);
+			flattenIndexes = flatType(termsModel.indexesByBook[req.query.book][req.params.type]);
 
 			res.show('terms/list',{
 				type      : req.params.type,
 				usedTerms : termsModel.indexes,
 				terms     : flattenIndexes,
-				books     : books
+				books     : books,
+				structure : termsModel.structure
+			});
+		}else{
+			flattenIndexes = flatType(termsModel.indexes[req.params.type]);
+
+			res.show('terms/list',{
+				type      : req.params.type,
+				usedTerms : termsModel.indexes,
+				terms     : flattenIndexes,
+				books     : books,
+				structure : termsModel.structure
 			});
 		}
 	});
 
 	terms.get('/:type/:subtype', function(req, res){
-		if(req.query.book){
-			db.view('terms/usedTagsByBook', {
-				group_level : 4,
-				startkey    : [ req.query.book ],
-				endkey      : [ req.query.book  , {}]
-			},function (err, docs) {
-				if(err){
-					console.log(err);
-					res.send('err');
-					return;
-				}
+		var flattenIndexes;
 
-				res.show('terms/list',{
-					type      : req.params.type,
-					usedTerms : usedTermsByBook(docs),
-					terms     : filterBySubtype(req.params.type, req.params.subtype, docs),
-					books     : books
-				});
-			});
-		}else{
-			var flattenIndexes = flatSubtype(termsModel.indexes[req.params.type][[req.params.subtype]]);
+		if(req.query.book){
+			flattenIndexes = flatSubtype(termsModel.indexesByBook[req.query.book][req.params.type][[req.params.subtype]]);
 
 			res.show('terms/list',{
 				type      : req.params.type,
 				subtype   : req.params.subtype,
 				usedTerms : termsModel.indexes,
 				terms     : flattenIndexes,
-				books     : books
+				books     : books,
+				structure : termsModel.structure
+			});
+		}else{
+			flattenIndexes = flatSubtype(termsModel.indexes[req.params.type][[req.params.subtype]]);
+
+			res.show('terms/list',{
+				type      : req.params.type,
+				subtype   : req.params.subtype,
+				usedTerms : termsModel.indexes,
+				terms     : flattenIndexes,
+				books     : books,
+				structure : termsModel.structure
 			});
 		}
 	});
@@ -210,7 +198,8 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 			term : req.params.term,
 			terms : termsWithFolios,
 			books : books,
-			usedTerms : termsModel.indexes
+			usedTerms : termsModel.indexes,
+			structure : termsModel.structure
 		});
 	});
 
@@ -219,7 +208,8 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 			reviews : termsModel.reviews,
 			type : req.params.type,
 			subtype : req.params.subtype,
-			content : req.params.term
+			content : req.params.term,
+			structure : termsModel.structure
 		});
 
 		res.show('terms/single',{
@@ -228,7 +218,8 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 			term : req.params.term,
 			terms : termsWithFolios,
 			books : books,
-			usedTerms : termsModel.indexes
+			usedTerms : termsModel.indexes,
+			structure : termsModel.structure
 		});
 	});
 

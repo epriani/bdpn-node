@@ -596,7 +596,7 @@ div#colright p.indices {
 }
 
 div#colright img.indices {
-	margin: 24px 0 12px 160px;;
+	margin: 24px 0 12px 160px;
 }
 
 h1#indices {
@@ -1093,6 +1093,49 @@ form#session input#entrar:hover, form#contacto input#enviar:hover {
 
 /***************************************************************/
 /***************** End revision selector css *******************/
+/***************************************************************/
+
+
+/***************************************************************/
+/****************** Terms admin selector css *******************/
+/***************************************************************/
+.tagAdmin{
+	border: 1px solid black;
+	padding: 5px;
+	margin: 15px 0 5px; 
+	background: url("../images/unam_bdpn_bgd_footer.png");
+	position: relative;
+}
+
+.tagAdmin .menu{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+}
+
+.tagAdmin .typeAdmin{
+	border: 1px solid black;
+	margin: 15px 0 5px; 
+	padding: 5px;
+	background: #FFF;
+	position: relative;
+}
+
+.tagAdmin .typeAdmin input[type=text]{
+	width: 500px;
+}
+
+.tagAdmin.colapse .typeAdmin{
+	display: none;
+}
+
+.tagAdmin .typeAdmin .delete{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+}
+/***************************************************************/
+/***************** End Terms admin selector css ****************/
 /***************************************************************/
 
 

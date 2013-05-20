@@ -91,7 +91,7 @@ define(['db'], function (db) {
 							terms.indexesByBook[review.bookId][item.tag][type][item.reg || item.content] = 0;
 						}
 
-						terms.indexesByBook[review.bookId][item.tag][type][item.reg || item.content] ++;						
+						terms.indexesByBook[review.bookId][item.tag][type][item.reg || item.content] ++;
 
 					});
 				});
@@ -105,7 +105,53 @@ define(['db'], function (db) {
 		});
 	};
 
+	Terms.prototype.storeStructure = function(structure){
+		this.structure = structure;
+
+		db.get('termsStructure', function(err, doc){
+			console.log(err, doc);
+			if(err && (err.reason !== "missing" && err.reason !== "deleted") ){
+				console.log('Something went wrong', err);
+				return;
+			}
+
+			if(err && (err.reason === "missing" || err.reason === "deleted") ){
+				console.log('create terms structure');
+
+				db.save('termsStructure', {
+					structure : structure
+				}, function(err, doc){
+					console.log('structure create', err, doc);
+				});
+				return;
+			}
+
+			doc.structure = structure;
+
+			db.save(doc, function(err, doc){
+				console.log('structure updated', err, doc);
+			});
+
+			console.log('update terms structure');
+		});
+	};
+
+	Terms.prototype.fetchStructure = function(structure){
+		var self = this;
+		db.get('termsStructure', function(err, doc){
+			if(err){
+				console.log('Cant fetch structure', err);
+				return;
+			}
+
+			console.log('fetchStructure', doc);
+
+			self.structure = doc.structure;
+		});
+	};
+
 	var terms = new Terms();
+	terms.fetchStructure();
 
 	return terms;
 });

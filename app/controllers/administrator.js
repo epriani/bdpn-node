@@ -1,4 +1,4 @@
-define(['lib/controllers', 'db', 'models/collection'], function (Controller, db, Collection) {
+define(['lib/controllers', 'db', 'models/collection', 'models/terms'], function (Controller, db, Collection, termsModel) {
 	var admin = Controller({prefix : '/admin'}),
 		books = {},
 		collections = [];
@@ -485,7 +485,10 @@ define(['lib/controllers', 'db', 'models/collection'], function (Controller, db,
 	});
 
 	admin.post('/collections/:id/update-books', function (req, res) {
-		console.log(Collection);
+		if (!req.user) { 
+			res.redirect('/login');
+			return;
+		}
 
 		Collection.get(req.params.id, function (err, doc) {
 			if(err){
@@ -511,6 +514,29 @@ define(['lib/controllers', 'db', 'models/collection'], function (Controller, db,
 		res.send('lolz');
 	});
 
+	admin.get('/terms', function(req, res) {
+		if (!req.user) { 
+			res.redirect('/login');
+			return;
+		}
+
+		res.show('admin/terms',{
+			user : req.user,
+			tags : ['name','term','abbr','cit','q','foreign','date'],
+			structure : termsModel.structure
+		});
+	});
+
+	admin.post('/terms', function(req, res) {
+		if (!req.user) { 
+			res.redirect('/login');
+			return;
+		}
+
+		termsModel.storeStructure(req.body.terms);
+		
+		res.send('foo');
+	});
 
 	return admin;
 });
