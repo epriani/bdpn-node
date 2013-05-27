@@ -35,11 +35,21 @@
 			}
 						
 			var li = capitalItem.clone(),
+				url;
+
+			if(term.subtype === "plain"){
+				url = encodeURI(
+					'/terms/single/'+window.data.type+'/'+ term.label
+					.replace('?','%3F')
+					.replace('?','%26') 
+				);
+			}else{
 				url = encodeURI(
 					'/terms/single/'+window.data.type+'/'+ (window.data.subtype || term.subtype) +'/' + term.label
 					.replace('?','%3F')
 					.replace('?','%26') 
-				);
+				);	
+			}
 
 			li.find('a').attr('href', url )
 			 .html(term.label+'('+term.count+')');

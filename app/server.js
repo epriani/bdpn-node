@@ -2,7 +2,8 @@ define(['express','db','conf','dictionaries','models/terms', 'models/collection'
 	function (express, db, conf, dictionaries, terms, Collections, passport, twitterStrategy) {
 	var app        = express.createServer(),
 		RedisStore = require('connect-redis')(express),
-		_          = require('underscore');
+		_          = require('underscore'),
+		url        = require('url');
 
 	//Add services to passports
 	passport.use(twitterStrategy);
@@ -55,6 +56,22 @@ define(['express','db','conf','dictionaries','models/terms', 'models/collection'
 
 
 	//Router
+
+	//Ensure host is http://www.bdpn.unam.mx/ on production
+	console.log('envirement', process.env.NODE_ENV);
+	if( process.env.NODE_ENV === 'production' ){
+		console.log("Ensure host is http://www.bdpn.unam.mx/ on production");
+		app.get('*', function(req, res, next){
+			console.log('host:', req.headers.host !== "www.bdpn.unam.mx", req.headers.host, req.url);
+			if(req.headers.host !== "www.bdpn.unam.mx"){
+				console.log('redirecting', "http://www.bdpn.unam.mx" + req.url, 301);
+				res.redirect("http://www.bdpn.unam.mx" + req.url, 301);
+			}else{
+				next();
+			}
+		});
+	}
+
 	app.get('/', function(req, res){
 		db.view('books/publishedList', function (err, books) {
 			if(err){

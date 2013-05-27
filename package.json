@@ -1,6 +1,10 @@
 {
   "name": "bdpn",
   "subdomain": "bdpn",
+  "domains": [
+    "bdpn.unam.mx",
+    "www.bdpn.unam.mx"
+  ],
   "scripts": {
     "start": "app.js"
   },
@@ -25,7 +29,7 @@
     "passport-twitter": ">= 0.0.0",
     "teiparser": "0.0.x"
   },
-  "version": "0.1.0-47",
+  "version": "0.1.0-63",
   "engines": {
     "node": "0.6.x"
   }

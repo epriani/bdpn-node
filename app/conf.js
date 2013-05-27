@@ -37,7 +37,7 @@ define( function () {
 			db   : 'bdpn'
 		},
 		twitter : {
-			callbackUrl : "http://bdpn.nodejitsu.com/auth/twitter/callback"
+			callbackUrl : "http://www.bdpn.unam.mx/auth/twitter/callback"
 		}
 	};
 
