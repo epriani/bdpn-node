@@ -19,18 +19,25 @@
 
 	<script type="text/javascript">
 	$(document).ready(function(){
-		window.terms = _.sortBy(window.data.terms, function(term){return term.label})
+		window.terms = _.chain(window.data.terms).map(function(term){
+			term.label = term.label.trim()
+			term.capitalCode = term.label[0].charCodeAt();
+			term.capitalLetter = term.label[0].toUpperCase();
+
+			return term;
+		}).sortBy(function(term){
+			return term.label
+		});
 		
 		var capital     = $('<ul class="capital"><span class="label"></span></ul>'),
 			capitalItem = $('<li><a href=""></a></li>'),
 			clear		= $('<div class="clear"></div>');
 
-		_.each(terms, function (term) {
-			var capitalLetter = term.label[0].toUpperCase();
-			if( !$('#capital-'+ capitalLetter).length ){
+		window.terms.each(function (term) {
+			if( !$('#capital-'+ term.capitalCode).length ){
 				var ul = capital.clone();
-				ul.find('.label').html(capitalLetter+'.');
-				ul.attr('id','capital-'+ capitalLetter);
+				ul.find('.label').html(term.capitalLetter+'.');
+				ul.attr('id','capital-'+ term.capitalCode);
 				ul.appendTo('#colright');
 			}
 						
@@ -54,7 +61,7 @@
 			li.find('a').attr('href', url )
 			 .html(term.label+'('+term.count+')');
 
-			li.appendTo( $('#capital-'+ capitalLetter) );
+			li.appendTo( $('#capital-'+ term.capitalCode) );
 		});
 
 		$('.capital').each(function(i,item){

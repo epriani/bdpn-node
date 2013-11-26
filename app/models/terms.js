@@ -150,6 +150,22 @@ define(['db'], function (db) {
 		});
 	};
 
+	Terms.prototype.structureAsJson = function(){
+		var json = {};
+
+		this.structure.forEach(function(item){
+			if( !json[item.tagName] ){
+				json[item.tagName] = {plain : true};
+			}
+
+			item.types && item.types.forEach(function(type){
+				json[item.tagName][type.name] = true;
+			});
+		});
+
+		return json;
+	};
+
 	var terms = new Terms();
 	terms.fetchStructure();
 

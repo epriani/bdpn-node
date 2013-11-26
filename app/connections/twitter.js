@@ -1,8 +1,8 @@
 define(['passport-twitter', 'models/user', 'conf'], function (passportTwitter, User, conf) {
 	TwitterStrategy = passportTwitter.Strategy;
 
-	var TWITTER_CONSUMER_KEY = "ipO3vaFSrRGJA1MSmU8A";
-	var TWITTER_CONSUMER_SECRET = "oKeqJDg3O9YMK4MUQq88Smouh7NgPZKTwMLM1PmMMM";
+	var TWITTER_CONSUMER_KEY = "o2Ujit8oVTqAffU6P9TsKw";
+	var TWITTER_CONSUMER_SECRET = "9KKJPYQvjFwhZBqu6wgbBKZVebq5wFa8c8OiBj2Ek";
 
 	var twitterStrategy = new TwitterStrategy({
 	    consumerKey: TWITTER_CONSUMER_KEY,

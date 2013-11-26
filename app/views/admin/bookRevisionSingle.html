@@ -12,10 +12,11 @@
 <script type="text/template" id="folio-template">
 	<div class="folio">
 		<h2><%= pb %></h2>
+		<div class="warnings"></div>
 		<div class="content"><%= content %></div>
 		<ul class="tags">
 			<% for(var i=0; i< tags.length; i++) {%>
-				<li><%= tags[i].reg || tags[i].content %>(<%= tags[i].tag %><%= tags[i].type ? ' - '+tags[i].type : '' %>)</li>
+				<li class="<%= tags[i].tag %>" type="<%= tags[i].type || 'plain' %>"><%= tags[i].reg || tags[i].content %>(<%= tags[i].tag %><%= tags[i].type ? ' - '+tags[i].type : '' %>)</li>
 			<% } %>
 		</ul>
 	</div>
@@ -56,7 +57,12 @@
 	</div>
 </script>
 
-
+<script type="text/template" id="warning-template">
+	<div class="warning">
+		<h4><%= message %></h4>
+		<p><%= content %></p>
+	</div>
+</script>
 
 <script type="text/javascript" src="/js/ejs.js"></script>
 <script type="text/javascript" src="/js/revision.js"></script>
@@ -65,6 +71,7 @@ window.schemaTemplate = new EJS({text: $("#schema-template").html() });
 window.headerTemplate = new EJS({text: $("#header-template").html() });
 window.frontTemplate  = new EJS({text: $("#front-template").html()  });
 window.folioTemplate  = new EJS({text: $("#folio-template").html()  });
+window.warningTemplate  = new EJS({text: $("#warning-template").html()  });
 
 window.revision.render(window.data.revision, $('#revision-container'));
 $('.button-container .save').click(function (e) {

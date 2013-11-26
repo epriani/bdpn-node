@@ -17,6 +17,7 @@
 <script type="text/template" id="folio-template">
 	<div class="folio">
 		<h2><%= pb %></h2>
+		<div class="warnings"></div>		
 		<div class="content"><%= content %></div>
 		<ul class="tags">
 			<% for(var i=0; i< tags.length; i++) {%>
@@ -61,6 +62,13 @@
 	</div>
 </script>
 
+<script type="text/template" id="warning-template">
+	<div class="warning">
+		<h4><%= message %></h4>
+		<p><%= content %></p>
+	</div>
+</script>
+
 <script type="text/javascript" src="/js/parser.js"></script>
 <script type="text/javascript" src="/js/sha1.js"></script>
 <script type="text/javascript" src="/js/ejs.js"></script>
@@ -70,6 +78,7 @@ window.schemaTemplate = new EJS({text: $("#schema-template").html() });
 window.headerTemplate = new EJS({text: $("#header-template").html() });
 window.frontTemplate  = new EJS({text: $("#front-template").html()  });
 window.folioTemplate  = new EJS({text: $("#folio-template").html()  });
+window.warningTemplate  = new EJS({text: $("#warning-template").html()  });
 
 window.sha1 = SHA1;
 

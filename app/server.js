@@ -59,7 +59,7 @@ define(['express','db','conf','dictionaries','models/terms', 'models/collection'
 
 	//Ensure host is http://www.bdpn.unam.mx/ on production
 	console.log('envirement', process.env.NODE_ENV);
-	if( process.env.NODE_ENV === 'production' ){
+	if( process.env.NODE_ENV === 'production' && false){
 		console.log("Ensure host is http://www.bdpn.unam.mx/ on production");
 		app.get('*', function(req, res, next){
 			console.log('host:', req.headers.host !== "www.bdpn.unam.mx", req.headers.host, req.url);

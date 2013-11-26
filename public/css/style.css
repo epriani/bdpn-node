@@ -1029,7 +1029,18 @@ form#session input#entrar:hover, form#contacto input#enviar:hover {
 /******************** Revision selector css ****************** */
 /***************************************************************/
 #revision-container{}
-
+#revision-container .warning{
+	border: 1px solid black;
+	background: red;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#revision-container .warning p{
+	margin-bottom: 0px;	
+	color: white;
+}
 #revision-container .schema{
 	margin-top: 10px;
 	padding-top: 10px;
@@ -1078,10 +1089,6 @@ form#session input#entrar:hover, form#contacto input#enviar:hover {
 
 #revision-container .header .tags{
 	font-size: 14px;
-}
-
-#revision-container .header .tags li, #revision-container .folio .tags li{
-	text-transform: capitalize;
 }
 
 #uploader {

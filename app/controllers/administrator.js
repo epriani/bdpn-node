@@ -185,25 +185,26 @@ define(['lib/controllers', 'db', 'models/collection', 'models/terms'], function 
 
 		book = book[0];
 
-		db.view('books/info', { 
+		db.view('books/revisions', {
 			startkey     : [book.id],
-			endkey       : [book.id, 1],
-			include_docs : true
+			endkey       : [book.id, 1]
 		}, function (err, docs) {
 			if(err){
 				res.send(503);
-				return
+				return;
 			}
 
-			var revisions = docs.map(function(item){
-				return {
-					humanDate : item.parseDate ? new Date([item.parseDate] * 1000) : 'N/A',
-					date : item.parseDate || 'old',
-					id   : item._id
+			var revisions = docs.map(function(key, item){
+				if(key[1]){
+					return {
+						humanDate : item[1] ? new Date([item[1]] * 1000) : 'N/A',
+						date : item[1] || 'old',
+						id   : item[0]
+					};
 				}
-			});
+			}).filter(function(item){return item;});
 
-			revisions.sort(function(a,b){return a.date === 'old' ? 1 : b.date - a.date})
+			revisions.sort(function(a,b){return a.date === 'old' ? 1 : b.date - a.date;});
 
 			res.show('admin/bookRevisions',{book: book, revisions : revisions});
 		});
@@ -246,7 +247,10 @@ define(['lib/controllers', 'db', 'models/collection', 'models/terms'], function 
 		book = book[0];
 
 		// res.send(book);
-		res.show('admin/bookRevisionNew',{book: book});
+		res.show('admin/bookRevisionNew',{
+			book: book,
+			structure : termsModel.structureAsJson()
+		});
 	});
 
 	admin.post('/books/:bookId/revisions/single/:revisionId/publish', function(req, res){
@@ -304,17 +308,17 @@ define(['lib/controllers', 'db', 'models/collection', 'models/terms'], function 
 	});
 
 	admin.get('/books/:bookId/revisions/single/:revisionId', function(req, res){
-		if (!req.user) { 
+		if (!req.user) {
 			res.redirect('/login');
 			return;
 		}
 
 		if (req.user === "waiting" || req.user === "bloqued"){
 			res.redirect('/admin');
-			return;			
+			return;
 		}
 
-		var book = books.filter(function(book){return book.id === req.params.bookId});
+		var book = books.filter(function(book){return book.id === req.params.bookId;});
 
 		if(!book.length){
 			res.send(404);
@@ -326,16 +330,20 @@ define(['lib/controllers', 'db', 'models/collection', 'models/terms'], function 
 		db.get(req.params.revisionId, function (err, revision) {
 			if(err){
 				res.send(503);
-				return
+				return;
 			}
 
 			if(!revision){
 				res.send(404);
-				return
+				return;
 			}
 
-			res.show('admin/bookRevisionSingle',{book: book, revision : revision});
-		});		
+			res.show('admin/bookRevisionSingle',{
+				book: book,
+				revision : revision,
+				structure : termsModel.structureAsJson()
+			});
+		});
 	});
 
 	admin.get('/books/:bookId/images', function(req, res){
