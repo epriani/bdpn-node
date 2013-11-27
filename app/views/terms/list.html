@@ -24,6 +24,7 @@
 			term.capitalCode = term.label[0].charCodeAt();
 			term.capitalLetter = term.label[0].toUpperCase();
 
+			console.log(term);
 			return term;
 		}).sortBy(function(term){
 			return term.label
@@ -46,15 +47,13 @@
 
 			if(term.subtype === "plain"){
 				url = encodeURI(
-					'/terms/single/'+window.data.type+'/'+ term.label
-					.replace('?','%3F')
-					.replace('?','%26') 
+					'/terms/single/'+window.data.type+'/'+ term.id
 				);
 			}else{
 				url = encodeURI(
-					'/terms/single/'+window.data.type+'/'+ (window.data.subtype || term.subtype) +'/' + term.label
-					.replace('?','%3F')
-					.replace('?','%26') 
+					'/terms/single/'+window.data.type
+					+ '/'+ (window.data.subtype || term.subtype) 
+					+ '/' + term.id
 				);	
 			}
 

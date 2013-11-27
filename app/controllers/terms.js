@@ -73,10 +73,11 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 		var flattenIndexes = [];
 
 		_(indexes).each(function(terms, subtype){
-			_(terms).each(function(count, term){
+			_(terms).each(function(item, term){
 				flattenIndexes.push({
 					label : term,
-					count : count,
+					count : item.count,
+					id : item.id,
 					subtype : subtype
 				});
 			});
@@ -88,10 +89,11 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 	var flatSubtype = function(indexes){
 		var flattenIndexes = [];
 
-		_(indexes).each(function(count, term){
+		_(indexes).each(function(item, term){
 			flattenIndexes.push({
 				label : term,
-				count : count
+				count : item.count,
+				id    : item.id
 			});
 		});
 
@@ -101,14 +103,24 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 	var flatTermsWithFolios = function(data){
 		var flatTermsWithFolios = [];
 
-		_(data.reviews).each(function(review){
+		console.log('flatTermsWithFolios', data);
+
+		_(data.indexes).each(function(terms, subtype){
+			console.log('***********************');
+			console.log(subtype);
+		});
+
+		/*
+		_(data.indexes).each(function(index){
 			_(review.doc.folios).each(function(folio){
 				_(folio.tags).forEach(function(item){
+					console.log(item.id, data.id);
 					if(
-						item.tag === data.type &&
-						(!data.subtype || item.type === data.subtype) &&
-						(item.reg === data.content || item.content === data.content)
+						// item.tag === data.type &&
+						// (!data.subtype || item.type === data.subtype) &&
+						item.id === data.id
 					){
+						console.log('found', data.id);
 						item.bookId = review.doc.bookId;
 						item.folioId = folio.hash;
 						item.folioContent = folio.raw;
@@ -118,6 +130,7 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 				});
 			});
 		});
+		*/
 
 		return flatTermsWithFolios;
 	};
@@ -185,17 +198,35 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 		}
 	});
 
-	terms.get('/single/:type/:term', function(req, res){
-		var termsWithFolios = flatTermsWithFolios({
-			reviews : termsModel.reviews,
-			type : req.params.type,
-			content : req.params.term
+	terms.get('/single/:type/:termId', function(req, res){
+		console.log('Fetching single term with type', req.params.termId);
+
+		var termsWithFolios = [];
+
+		_.each(termsModel.reviews, function(review){
+			_.each(review.doc.folios, function(folio){
+				_.each(folio.tags, function(item){
+					if(
+						req.params.termId  === item.id &&
+						req.params.type    === item.tag
+					){
+						item.bookId       = review.doc.bookId;
+						item.revisionId   = review.doc._id;
+						item.folioId      = folio.hash;
+						item.folioContent = folio.raw;
+						item.folioTitle   = folio.pb;
+
+						termsWithFolios.push(item);
+						console.log('Found:',item, review);
+					}
+				});
+			});
 		});
 
 		res.show('terms/single',{
 			type : req.params.type,
 			subtype : req.params.subtype,
-			term : req.params.term,
+			termId : req.params.termId,
 			terms : termsWithFolios,
 			books : books,
 			usedTerms : termsModel.indexes,
@@ -203,19 +234,35 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 		});
 	});
 
-	terms.get('/single/:type/:subtype/:term', function(req, res){
-		var termsWithFolios = flatTermsWithFolios({
-			reviews : termsModel.reviews,
-			type : req.params.type,
-			subtype : req.params.subtype,
-			content : req.params.term,
-			structure : termsModel.structure
+	terms.get('/single/:type/:subtype/:termId', function(req, res){
+		console.log('Fetching single term with subtype', req.params.type, req.params.subtype ,req.params.termId);
+
+		var termsWithFolios = [];
+
+		_.each(termsModel.reviews, function(review){
+			_.each(review.doc.folios, function(folio){
+				_.each(folio.tags, function(item){
+					if(
+						req.params.termId  === item.id &&
+						req.params.type    === item.tag &&
+						req.params.subtype === item.type
+					){
+						item.bookId       = review.doc.bookId;
+						item.revisionId   = review.doc._id;
+						item.folioId      = folio.hash;
+						item.folioContent = folio.raw;
+						item.folioTitle   = folio.pb;
+
+						termsWithFolios.push(item);
+					}
+				});
+			});
 		});
 
 		res.show('terms/single',{
 			type : req.params.type,
 			subtype : req.params.subtype,
-			term : req.params.term,
+			termId : req.params.termId,
 			terms : termsWithFolios,
 			books : books,
 			usedTerms : termsModel.indexes,

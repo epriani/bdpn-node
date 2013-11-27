@@ -69,7 +69,7 @@ define(['db'], function (db) {
 							terms.indexesByBook[review.bookId][item.tag] = {};
 						}
 
-						var type = item.type || "plain";
+						var type = item.type || 'plain';
 
 						if(!indexes[item.tag][type]){
 							indexes[item.tag][type] = {};
@@ -81,17 +81,23 @@ define(['db'], function (db) {
 						}
 
 						if(!indexes[item.tag][type][item.reg || item.content]){
-							indexes[item.tag][type][item.reg || item.content] = 0;
+							indexes[item.tag][type][item.reg || item.content] = {
+								count : 0,
+								id : item.id
+							};
 						}
 
-						indexes[item.tag][type][item.reg || item.content] ++;
+						indexes[item.tag][type][item.reg || item.content].count ++;
 
 						// By book
 						if(!terms.indexesByBook[review.bookId][item.tag][type][item.reg || item.content]){
-							terms.indexesByBook[review.bookId][item.tag][type][item.reg || item.content] = 0;
+							terms.indexesByBook[review.bookId][item.tag][type][item.reg || item.content] = {
+								count : 0,
+								id : item.id
+							};
 						}
 
-						terms.indexesByBook[review.bookId][item.tag][type][item.reg || item.content] ++;
+						terms.indexesByBook[review.bookId][item.tag][type][item.reg || item.content].count ++;
 
 					});
 				});
@@ -136,7 +142,7 @@ define(['db'], function (db) {
 		});
 	};
 
-	Terms.prototype.fetchStructure = function(structure){
+	Terms.prototype.fetchStructure = function(){
 		var self = this;
 		db.get('termsStructure', function(err, doc){
 			if(err){

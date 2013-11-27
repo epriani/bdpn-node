@@ -6,8 +6,8 @@
 			{{if subtype}}
 				${ dictionary[subtype] || subtype } 
 			{{/if}}
-			{{if term}}
-				${ term } 
+			{{if data.terms[0] }}
+				${ data.terms[0].reg || data.terms[0].content } 
 			{{/if}}			
 		</span>
 	</h1>

@@ -17,7 +17,7 @@ define( function () {
 			db   : 'bdpn'
 		},
 		twitter : {
-			callbackUrl : "http://127.0.0.1:8080/auth/twitter/callback"
+			callbackUrl : 'http://127.0.0.1:8080/auth/twitter/callback'
 		}
 	};
 
@@ -37,7 +37,7 @@ define( function () {
 			db   : 'bdpn'
 		},
 		twitter : {
-			callbackUrl : "http://www.bdpn.unam.mx/auth/twitter/callback"
+			callbackUrl : 'http://www.bdpn.unam.mx/auth/twitter/callback'
 		}
 	};
 
