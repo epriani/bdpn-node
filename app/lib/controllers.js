@@ -15,31 +15,32 @@ define(function () {
 				console.log('got request to ', method, route);
 				if(req.query.asJson){
 					res.show = function(view, data){
+						var viewData;
 						if(req.query.callback){
-							var viewData = req.query.callback + '(' + JSON.stringify(data) + ');'
+							viewData = req.query.callback + '(' + JSON.stringify(data) + ');';
 						}else{
-							var viewData = JSON.stringify(data);
+							viewData = JSON.stringify(data);
 						}
 
 						res.send(viewData);
-					}
+					};
 				}else{
 					res.show = function (view, data) {
 						data = data || {};
 						data.viewData = JSON.stringify(data)  || '{}';
 
 						res.render(view, data);
-					}
+					};
 				}
 
 				callback(req, res);
-			}
+			};
 
 			routes[prefix + route + method] = {
 				path     : prefix + route,
 				method   : method,
 				callback : routeHandler
-			}
+			};
 		};
 
 		controller.get = function(route, callback){

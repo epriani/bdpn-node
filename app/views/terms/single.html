@@ -6,8 +6,8 @@
 			{{if subtype}}
 				${ dictionary[subtype] || subtype } 
 			{{/if}}
-			{{if data.terms[0] }}
-				${ data.terms[0].reg || data.terms[0].content } 
+			{{if terms[0] }}
+				${ terms[0].reg || terms[0].content } 
 			{{/if}}			
 		</span>
 	</h1>
@@ -25,7 +25,6 @@
 		window.terms = window.data.terms;
 		window.books = {};
 		window.currentTerm = window.data.term;
-
 
 		var bookTemplate  = $('<dl class="accordion"><dt><a href="#"></a></dt><dd><ul></ul></dd><dl>'),
 			folioTemplate = $('<li/>');

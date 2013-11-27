@@ -217,7 +217,6 @@ define(['lib/controllers', 'db', 'models/terms'], function (Controller, db, term
 						item.folioTitle   = folio.pb;
 
 						termsWithFolios.push(item);
-						console.log('Found:',item, review);
 					}
 				});
 			});
