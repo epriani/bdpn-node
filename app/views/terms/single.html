@@ -24,7 +24,10 @@
 	$(document).ready(function(){
 		window.terms = window.data.terms;
 		window.books = {};
-		window.currentTerm = window.data.term;
+
+		if(window.data.terms.length){
+			window.currentTerm = window.data.terms[0].reg || window.data.terms[0].content;
+		}
 
 		var bookTemplate  = $('<dl class="accordion"><dt><a href="#"></a></dt><dd><ul></ul></dd><dl>'),
 			folioTemplate = $('<li/>');
@@ -49,9 +52,12 @@
 
 				folio.appendTo( $('#book'+term.bookId).find('ul') );
 
-				folio.find('p *').each(function(i,item){
+				folio.find(term.tag).each(function(i,item){
 					var $item= $(item);
-					if( item.textContent == currentTerm || $item.attr('reg') == currentTerm ){ 
+					if( 
+						item.textContent == currentTerm || 
+						(window.data.terms.length && $item.attr('reg') == currentTerm ) 
+					){
 						$item.addClass('highlight');
 					}
 				});
