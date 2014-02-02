@@ -347,39 +347,23 @@ define(['lib/controllers', 'db', 'models/collection', 'models/terms'], function 
 	});
 
 	admin.get('/books/:bookId/images', function(req, res){
-		if (!req.user) { 
-			res.redirect('/login');
-			return;
-		}
+		if (!req.user) { return res.redirect('/login');}
+		if (req.user === 'waiting' || req.user === 'bloqued'){ return res.redirect('/admin');}
 
-		if (req.user === "waiting" || req.user === "bloqued"){
-			res.redirect('/admin');
-			return;			
-		}
+		var book = books.filter(function(book){return book.id === req.params.bookId;});
 
-		var book = books.filter(function(book){return book.id === req.params.bookId});
-
-		if(!book.length){
-			res.send(404);
-			return;
-		}
+		if(!book.length){ return res.send(404);}
 
 		book = book[0];
 
-		db.get(book.value.revisionId, function (err, revision) {
-			if(err){
-				res.send(503);
-				return
-			}
+		if(!book.value.revisionId){return res.show('admin/bookImages',{ book: book, revision : {} });}
 
-			if(!revision){
-				res.send(404);
-				return
-			}
+		db.get(book.value.revisionId, function (err, revision) {
+			if(err){ return res.send(503); }
+			if(!revision){ return res.send(404); }
 
 			book.value.images = book.value.images || {};
-
-			res.show('admin/bookImages',{book: book, revision : revision});	
+			res.show('admin/bookImages',{book: book, revision : revision});
 		});
 	});
 
