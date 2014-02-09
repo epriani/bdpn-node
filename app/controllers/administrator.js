@@ -254,24 +254,12 @@ define(['lib/controllers', 'db', 'models/collection', 'models/terms'], function 
 	});
 
 	admin.post('/books/:bookId/revisions/single/:revisionId/publish', function(req, res){
-		if (!req.user) {
-			res.redirect('/login');
-			return;
-		}
-
-		if (req.user === "waiting" || req.user === "bloqued"){
-			res.redirect('/admin');
-			return;
-		}
-
-		debugger;
+		if (!req.user) { return res.redirect('/login');}
+		if (req.user === "waiting" || req.user === "bloqued"){ return res.redirect('/admin');}
 
 		var book = books.filter(function(book){return book.id === req.params.bookId;});
 
-		if(!book.length){
-			res.send(404);
-			return;
-		}
+		if(!book.length){return res.send(404);}
 
 		book = book[0];
 
@@ -292,7 +280,6 @@ define(['lib/controllers', 'db', 'models/collection', 'models/terms'], function 
 		delete book.value.id;
 		delete book.value.rev;
 
-
 		db.save(book.value, function (err, doc) {
 			if(err){
 				res.send(500);
@@ -303,6 +290,7 @@ define(['lib/controllers', 'db', 'models/collection', 'models/terms'], function 
 			db.view('books/list', function (err, docs) {
 				console.log('refetch books');
 				books = docs;
+				termsModel.generateIndexes();
 			});
 		});
 	});
