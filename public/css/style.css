@@ -1018,9 +1018,31 @@ form#session input#entrar:hover, form#contacto input#enviar:hover {
 	text-shadow: 0px -1px 0px rgba(000,000,000,0.7), 0px 1px 0px rgba(255,255,255,0.3);
 }
 
+.button-container button.delete{
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(top, red, darkred);
+	background: -webkit-gradient(linear, left top, left bottom, from(red), to(darkred));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px; border-radius: 10px;
+	border: 1px solid darkred;
+	-moz-box-shadow: 0px 1px 3px rgba(000,000,000,0.5), inset 0px 0px 1px rgba(255,255,255,0.5);
+	-webkit-box-shadow: 0px 1px 3px rgba(000,000,000,0.5), inset 0px 0px 1px rgba(255,255,255,0.5);
+	box-shadow:0px 1px 3px rgba(000,000,000,0.5), inset 0px 0px 1px rgba(255,255,255,0.5);
+	text-shadow: 0px -1px 0px rgba(000,000,000,0.7), 0px 1px 0px rgba(255,255,255,0.3);
+}
+
 .button-container button.save:hover{
 	background: -moz-linear-gradient(bottom, #42aaff 0%, #003366);
 	background: -webkit-gradient(linear, left bottom, left top, from(#42aaff), to(#003366));	
+}
+
+.button-container button.delete:hover{
+	background: -moz-linear-gradient(bottom, red, darkred);
+	background: -webkit-gradient(linear, left bottom, left top, from(red), to(darkred));	
 }
 /***************************************************************/
 /******************** End Image selector css *******************/

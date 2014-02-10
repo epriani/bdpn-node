@@ -8,4 +8,12 @@
 		<li><a href="/admin/books/${book.id}/revisions">Revisiones</a></li>
 		<li><a href="/admin/books/${book.id}/edit">Editar Información</a></li>
 	</ul>
+
+	{{if user.username == "siedrix" || user.username == "epriani"}}
+	<form action="/admin/books/${book.id}/delete" method="POST">
+		<div class="button-container">
+			<button class="delete">Borrar libro</button>
+		</div>
+	</form>
+	{{/if}}
 </div>

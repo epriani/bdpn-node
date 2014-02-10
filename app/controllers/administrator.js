@@ -1,4 +1,4 @@
-define(['lib/controllers', 'db', 'models/collection', 'models/terms'], function (Controller, db, Collection, termsModel) {
+define(['lib/controllers', 'db', 'models/collection', 'models/terms', 'async'], function (Controller, db, Collection, termsModel, async) {
 	var admin = Controller({prefix : '/admin'}),
 		books = {},
 		collections = [];
@@ -159,40 +159,82 @@ define(['lib/controllers', 'db', 'models/collection', 'models/terms'], function 
 			db.view('books/list', function (err, docs) {
 				console.log('refetch books');
 				books = docs;
-			});			
-		});		
+			});
+		});
 
-		res.send(book);		
+		res.send(book);
 	});
 
-	admin.get('/books/:bookId/revisions', function(req, res){
-		if (!req.user) { 
-			res.redirect('/login');
-			return;
-		}
+	admin.post('/books/:bookId/delete', function(req, res) {
+		if( !req.params.bookId ){req.send(400, 'invalid request');}
+		if( !(req.user.username === 'siedrix' || req.user.username === 'epriani') ){return res.send(403, 'not enough permits');}
 
-		if (req.user === "waiting" || req.user === "bloqued"){
-			res.redirect('/admin');
-			return;			
-		}
+		var book = books.filter(function(book){return book.id === req.params.bookId;});
 
-		var book = books.filter(function(book){return book.id === req.params.bookId});
-
-		if(!book.length){
-			res.send(404);
-			return;
-		}
-
+		if(!book.length){ return res.send(404); }
 		book = book[0];
 
 		db.view('books/revisions', {
 			startkey     : [book.id],
 			endkey       : [book.id, 1]
 		}, function (err, docs) {
-			if(err){
-				res.send(503);
-				return;
-			}
+			if(err){return res.send(503);}
+
+			var revisions = docs.map(function(key, item){
+				if(key[1]){
+					return {
+						rev : item[2],
+						id  : item[0]
+					};
+				}
+			}).filter(function(item){return item;});
+
+			var fns = [];
+
+			revisions.forEach(function(revision){
+				fns.push(function(done){
+					console.log('deleting', revision.id, revision.rev);
+					db.remove(revision.id, revision.rev, done);
+				});
+			});
+
+			fns.push(function(done){
+				console.log('deleting', book.id, book.value._rev);
+				db.remove(book.id, book.value._rev, done);
+			});
+
+			console.log('**********************************************');
+			console.log('About to delete', fns.length, 'documents');
+
+			async.series(fns, function(err){
+				if(err){return res.send(500, err);}
+				console.log('**********************************************');
+				console.log('Book', book.id, 'deleted');
+				console.log('**********************************************');
+
+				db.view('books/list', function (err, docs) {
+					books = docs;
+					termsModel.generateIndexes();
+					res.redirect('/admin/books/');
+				});
+			});
+		});
+	});
+
+	admin.get('/books/:bookId/revisions', function(req, res){
+		if (!req.user) { return res.redirect('/login'); }
+		if (req.user === 'waiting' || req.user === 'bloqued'){ return res.redirect('/admin');}
+
+		var book = books.filter(function(book){return book.id === req.params.bookId;});
+
+		if(!book.length){ return res.send(404);}
+		book = book[0];
+
+		db.view('books/revisions', {
+			startkey     : [book.id],
+			endkey       : [book.id, 1]
+		}, function (err, docs) {
+			if(err){ return res.send(503); }
 
 			var revisions = docs.map(function(key, item){
 				if(key[1]){
