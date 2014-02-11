@@ -312,10 +312,12 @@ define(['lib/controllers', 'db', 'models/collection', 'models/terms', 'async'], 
 				db.save(rev);
 			});
 
-			db.get(book.value.revisionId, function(err, rev){
-				rev.publish = false;
-				db.save(rev);
-			});
+			if(book.value.revisionId){			
+				db.get(book.value.revisionId, function(err, rev){
+					rev.publish = false;
+					db.save(rev);
+				});
+			}
 		}
 
 		book.value.revisionId = req.params.revisionId;

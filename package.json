@@ -30,7 +30,7 @@
     "teiparser": "0.0.x",
     "async": "~0.2.10"
   },
-  "version": "0.1.0-88",
+  "version": "0.2.0",
   "engines": {
     "node": "0.6.x"
   }
