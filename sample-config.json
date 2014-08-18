@@ -1,0 +1,15 @@
+{
+	"redis"   : {},
+	"couchDb" : {
+		"user" : "",
+		"pass" : "",
+		"host" : "",
+		"port" : 5984,
+		"db"   : "bdpn"
+	},
+	"twitter" : {
+		"callbackUrl" : "http://127.0.0.1:8080/auth/twitter/callback",
+		"twitterConsumerKey" : "",
+		"twitterConsumerSecret" : ""
+	}
+}
