@@ -1,6 +1,6 @@
 ## BDPN
 
-This is a proyect for UNAM Filosofy School, located at [http://www.bdpn.unam.mx/](http://www.bdpn.unam.mx/)
+This is a project for UNAM Philosophy School, located at [http://www.bdpn.unam.mx/](http://www.bdpn.unam.mx/)
 
 Contact [@epriani](http://www.bdpn.unam.mx/) for more information
 
