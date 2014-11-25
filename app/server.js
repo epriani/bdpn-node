@@ -186,10 +186,12 @@ define(['express','db','conf','dictionaries','models/terms', 'models/collection'
 
 	//Dictionary change
 	app.get('/lang',function(req, res){
-		if (req.session.lang === 'en') {
-			req.session.lang = 'sp';
-		}else{
-			req.session.lang = 'en';
+		switch(req.query.lang) {
+			case 'en':
+				req.session.lang = 'en';
+			break;
+			default:
+				req.session.lang = 'sp';
 		}
 
 		res.redirect(req.query.path);

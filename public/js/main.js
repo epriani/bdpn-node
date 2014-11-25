@@ -15,13 +15,14 @@ window.location.searchToObject = function () {
 }
 
 $(document).ready(function () {
-	$('#language').click(function(e){
+	$('[id^="language-"]').click(function(e){
 		var path   = location.pathname,
-			origin = location.origin;
+			origin = location.origin,
+			lang   = $(e.currentTarget).attr('id').substr(-2, 2);
 
 		e.preventDefault();
 
-		location = origin + '/lang?path=' + path;
+		location = origin + '/lang?path=' + path + '&lang=' + lang;
 	});
 
 	$('#contacto').submit(function(){

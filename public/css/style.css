@@ -116,7 +116,26 @@ div#header {
 	text-align: left;
 }
 
+div.language {
+	position: absolute;
+	top: 15px;
+	right: 180px;
+	font-size: 14px;
+}
+
+div.language a {
+	display: inline-block;
+	padding: 0 6px;
+	text-decoration: none;
+}
+
+div.language a.active {
+	background: #8e121c;
+	color: #fff;
+}
+
 div.headerint {
+	position: relative;
 	background-image: url('../images/unam_bdpn_unam.png');
 	background-repeat: no-repeat;
 	background-position: 960px 6px;
