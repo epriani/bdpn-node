@@ -20,7 +20,7 @@ define(['express','db','conf','dictionaries','models/terms', 'models/collection'
 	}else{
 		app.use(express.session({
 			secret : 'K7D2AoR6Oqr5NeLJMcC0',
-			store  : new RedisStore({})
+			store  : new RedisStore(conf.redis || {})
 		}));
 	}
 
