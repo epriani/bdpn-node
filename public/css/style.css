@@ -116,7 +116,26 @@ div#header {
 	text-align: left;
 }
 
+div.language {
+	position: absolute;
+	top: 15px;
+	right: 180px;
+	font-size: 14px;
+}
+
+div.language a {
+	display: inline-block;
+	padding: 0 6px;
+	text-decoration: none;
+}
+
+div.language a.active {
+	background: #8e121c;
+	color: #fff;
+}
+
 div.headerint {
+	position: relative;
 	background-image: url('../images/unam_bdpn_unam.png');
 	background-repeat: no-repeat;
 	background-position: 960px 6px;
@@ -293,7 +312,8 @@ ul#main li a:link, ul#main li a:visited, ul#main li a:active {
 	background-repeat: no-repeat;
 }
 
-ul#main li.ob a:link, ul#main li.ob a:visited, ul#main li.ob a:active {
+ul#main li.ob a:link, ul#main li.ob a:visited, ul#main li.ob a:active,
+ul#main li.re a:link, ul#main li.re a:visited, ul#main li.re a:active {
 	background-position: 0  0;
 }
 
@@ -310,13 +330,15 @@ ul#main li.in a:link, ul#main li.in a:visited, ul#main li.in a:active {
 }
 
 ul#main li.ob a:hover,
+ul#main li.re a:hover,
 ul#main li.au a:hover,
 ul#main li.co a:hover,
 ul#main li.in a:hover {
 	background-color: transparent;
 }
 
-ul#main li.ob a:hover {
+ul#main li.ob a:hover,
+ul#main li.re a:hover {
 	background-position: 0 -120px;
 }
 

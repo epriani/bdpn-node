@@ -1,6 +1,10 @@
-<a id="language" href="#">${ dictionary.changeLanguaje }</a>
 <div id="header">
 	<div class="headerint">
+		<div class="language">
+			<a id="language-sp" href="#" title="${ dictionary.changeLanguaje }" {{if currentDictionary == "sp"}} class="active"{{/if}}>ES</a>
+			<a id="language-en" href="#" title="${ dictionary.changeLanguaje }" {{if currentDictionary == "en"}} class="active"{{/if}}>EN</a>
+		</div>
+
 		<a href="/" target="_self"><img src="/images/unam_bdpn_bgd_logo.png" alt="BDPN" class="logo float" /></a>
 		<h1 id="title"><a href="/" target="_self">${ dictionary.title }</a></h1>
 		<h2 id="unam">${ dictionary.faculty }</h2>
@@ -9,7 +13,8 @@
 			<li class="au"><a href="/authors"     target="_self">${ dictionary.authors }</a></li>
 			<li class="co"><a href="/collections" target="_self">${ dictionary.collections }</a></li>
 			<li class="in"><a href="/terms"       target="_self">${ dictionary.indexes }</a></li>
-		</ul>	
+			<li class="re"><a href="http://blog.bdpn.unam.mx">${ dictionary.research }</a></li>
+		</ul>
 		<div class="clear"></div>
 	</div>
 </div>
